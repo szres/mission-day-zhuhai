@@ -102,7 +102,7 @@ bounds = dict(minLat=min(p['lat'] for p in points), maxLat=max(p['lat'] for p in
               minLng=min(p['lng'] for p in points), maxLng=max(p['lng'] for p in points))
 write('missions.json', dict(setName='MD 2026: Zhuhai · 珠海', setDescription='珠海MD2026 · Google My Maps',
     bannerLength=len(missions), sourceUrl=SOURCE, sourceCoordinateSystem='GCJ-02', coordinateSystem='WGS-84',
-    dataNote='Route vertices from Google My Maps; portal names and IDs are not supplied. Source route numbers are preserved; this is not a confirmed complete banner.',
+    dataNote=('Reviewed IITC proximity candidates applied to source routes; not a verified mission objective list.' if overrides_path.exists() else 'Route vertices from Google My Maps; portal names and IDs are not supplied. Source route numbers are preserved; this is not a confirmed complete banner.'),
     missions=missions, bounds=bounds, center=dict(lat=(bounds['minLat']+bounds['maxLat'])/2, lng=(bounds['minLng']+bounds['maxLng'])/2)))
 write('mission-pictures.json', pictures)
 print(f'Imported {len(missions)} missions, {len(points)} route stops; original numbering retained.')
