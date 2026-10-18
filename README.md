@@ -11,7 +11,7 @@ npm run build
 npm run dev
 ```
 
-Before opening the site, copy `public/mapkit-token.example.js` to `public/mapkit-token.js` and set `window.MAPKIT_TOKEN` to your token. That file is gitignored. Generate the token in your Apple Developer Maps account with an origin matching the serving domain. The local token is intentionally excluded from Git; configure it separately on any new checkout.
+The site loads the existing public FSMD token from `https://fsmd.szres.org/mapkit-token.js`. Its `*.szres.org` origin includes `zhmd.szres.org`. Git deployments need no token file or build secret. Token rotation is managed by the FSMD site; this site depends on that endpoint remaining available. To host elsewhere, replace the token script URL in `public/index.html` with your own origin-restricted token configuration. Local token files remain gitignored.
 
 The site uses Apple MapKit JS for the basemap, route overlays, and numbered annotations. The original `public/proxy-shim.js` and `functions/api/mk-proxy/[[path]].js` proxy are retained. `npm run dev` serves the site and Pages Functions locally. MapKit also requires an origin allowed by your token; the existing `*.szres.org` token requires a matching domain. Internet access is required for MapKit and mission images.
 
