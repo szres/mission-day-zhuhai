@@ -1,0 +1,3 @@
+// Public Apple MapKit JS token, restricted to *.szres.org.
+// Reuses the FSMD frontend token; contains no signing key.
+window.MAPKIT_TOKEN = "eyJraWQiOiI5QlpGTjZXRlU5IiwidHlwIjoiSldUIiwiYWxnIjoiRVMyNTYifQ.eyJpc3MiOiJBNkQ2Tjg1UEc1IiwiaWF0IjoxNzc5MTU4MDU4LCJvcmlnaW4iOiIqLnN6cmVzLm9yZyIsInNjb3BlIjoibWFwa2l0X2pzIiwiZXhwIjoxODAxNDY4ODAwfQ.v3g_fEOS2e38o7i2rkxaShjqT_tkvY3Mv6wCtBRBzz2BWA5wt-XXb7XQqyX3ne2BfK3PuRkNH2hhgNkepUlHZA";

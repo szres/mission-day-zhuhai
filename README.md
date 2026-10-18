@@ -11,7 +11,7 @@ npm run build
 npm run dev
 ```
 
-The site loads the existing public FSMD token from `https://fsmd.szres.org/mapkit-token.js`. Its `*.szres.org` origin includes `zhmd.szres.org`. Git deployments need no token file or build secret. Token rotation is managed by the FSMD site; this site depends on that endpoint remaining available. To host elsewhere, replace the token script URL in `public/index.html` with your own origin-restricted token configuration. Local token files remain gitignored.
+`public/mapkit-config.js` contains the existing public FSMD frontend token, restricted to `*.szres.org`, which includes `zhmd.szres.org`. It is served by Zhuhai itself so visitors never need to load the token from the FSMD domain. The public token is intentionally versioned; it contains no signing key. Rotate this configuration when the FSMD token expires or is revoked. Private signing keys and local token overrides remain excluded from Git.
 
 The site uses Apple MapKit JS for the basemap, route overlays, and numbered annotations. The original `public/proxy-shim.js` and `functions/api/mk-proxy/[[path]].js` proxy are retained. `npm run dev` serves the site and Pages Functions locally. MapKit also requires an origin allowed by your token; the existing `*.szres.org` token requires a matching domain. Internet access is required for MapKit and mission images.
 

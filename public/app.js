@@ -237,7 +237,7 @@ if (document.readyState === 'loading') {
 // MapKit calls this once its script has loaded.
 window.initMapKit = () => {
   if (!window.MAPKIT_TOKEN || window.MAPKIT_TOKEN.startsWith('PASTE_')) {
-    showFatal('Could not load the shared FSMD MapKit token. Check your connection and reload.');
+    showFatal('Could not load the MapKit configuration. Reload the page to retry.');
     return;
   }
 

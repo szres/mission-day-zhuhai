@@ -28,8 +28,8 @@
   <link rel="stylesheet" href="/style.css">
   <!-- Load the proxy before MapKit; app.js registers its callback and loads the SDK. -->
   <script src="/proxy-shim.js"></script>
-  <!-- Shared public, origin-restricted token; maintained by the FSMD site. -->
-  <script src="https://fsmd.szres.org/mapkit-token.js"></script>
+  <!-- Public origin-restricted FSMD token, served locally to avoid cross-site 403s. -->
+  <script src="/mapkit-config.js"></script>
 </head>
 <body>
   <aside id="sidebar">
