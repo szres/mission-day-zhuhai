@@ -1,1940 +1,1388 @@
 {
-  "setName": "MD 2026: Foshan",
-  "setDescription": "MD 2026: Foshan",
-  "bannerLength": 24,
-  "fileFormatVersion": 2,
-  "generatedAt": "2026-06-05T06:42:31.324Z",
+  "setName": "MD 2026: Zhuhai · 珠海",
+  "setDescription": "珠海MD2026 · Google My Maps",
+  "bannerLength": 18,
+  "sourceUrl": "https://www.google.com/maps/d/viewer?mid=1BAjsSWdPTIntEWA9bBxv_xc7ftd2tAg",
+  "coordinateSystem": "WGS-84",
+  "dataNote": "Route vertices from Google My Maps; portal names and IDs are not supplied. Source route numbers are preserved; this is not a confirmed complete banner.",
   "missions": [
     {
       "order": 1,
-      "title": "MD 2026: Foshan",
-      "description": "MD 2026: Foshan",
-      "firstPortal": "中山公園正門",
-      "displayName": "秀丽湖畔",
+      "title": "MD 2026: Zhuhai, 白莲洞公园",
+      "displayName": "白莲洞公园",
+      "description": "白莲洞又称“鲤鱼嘴”，是一处集奇石、古树与幽洞于一体的山水胜景。相传古时山泉潺潺，洞前常有白莲盛开，因此得名“白莲洞”。园内不仅保留了摩崖石刻等历史文化遗迹，也流传着“僧尼对弈”等民间传说，为景区增添了几分古朴而神秘的韵味。漫步其间，山林静谧、古意盎然，是珠海难得的城市山水文化空间。",
+      "sourceRoute": "路线-01",
+      "markerDistanceMeters": 0.0,
       "portals": [
         {
           "order": 1,
-          "guid": "6e76d03dacf144278d4c4cc6925a6fc2.16",
-          "title": "中山公園正門",
-          "lat": 23.044774,
-          "lng": 113.112614,
-          "imageUrl": "https://lh3.googleusercontent.com/BhkZQaRO_AmtPjcjp1tcQgirMoirh0BUJcVzSyV6xZO39rv5GDlXYSf-9AAtN_Sx2_7d0auC0UneaKfBBQlSHP3w4Hs-73SmFOUkXdlBd8xlWw",
-          "isStartPoint": false,
+          "title": "白莲洞公园 · 路线点 1",
+          "lat": 22.24267,
+          "lng": 113.562151,
+          "guid": null,
+          "imageUrl": null,
+          "isStartPoint": true,
           "isOrnamented": false,
-          "objective": "HACK_PORTAL"
+          "objective": null
         },
         {
           "order": 2,
-          "guid": "7affcb62405c3a639dc1e94ab7cd342d.16",
-          "title": "传承",
-          "lat": 23.045948,
-          "lng": 113.113563,
-          "imageUrl": "https://lh3.googleusercontent.com/jiHgUWzlB3VO1tF-jJp5a87glMAJXqzy3oEngd6wQjfUx29VtCOy9NJ3BUVRIplZkbj6ONIg6umDCuHLzq5g9JUAR6XG-NHs7Iunf7vqILJ5",
+          "title": "白莲洞公园 · 路线点 2",
+          "lat": 22.243076,
+          "lng": 113.561958,
+          "guid": null,
+          "imageUrl": null,
           "isStartPoint": false,
           "isOrnamented": false,
-          "objective": "HACK_PORTAL"
+          "objective": null
         },
         {
           "order": 3,
-          "guid": "621e433271d544fa95c56f13563d966e.16",
-          "title": "中山公园牌坊",
-          "lat": 23.04608,
-          "lng": 113.112977,
-          "imageUrl": "https://lh3.googleusercontent.com/3Kyf2s39vInJ__1ToRVsKVcXcs9pCQR4ssmsaz48ODBZ1z4gBqHpwiXsz9vQ24gHdTDctQxiO7GKFZrwzbzZtx5ssTb_UqX55mvVEMpttCv5",
+          "title": "白莲洞公园 · 路线点 3",
+          "lat": 22.243883,
+          "lng": 113.561975,
+          "guid": null,
+          "imageUrl": null,
           "isStartPoint": false,
           "isOrnamented": false,
-          "objective": "HACK_PORTAL"
+          "objective": null
         },
         {
           "order": 4,
-          "guid": "f68ea0d51780460abbe09adfeded8ecd.16",
-          "title": "秀麗湖牌坊",
-          "lat": 23.047171,
-          "lng": 113.111809,
-          "imageUrl": "https://lh3.googleusercontent.com/nRqftatEcWgRdj9XK4PmgkRTFzpXCgZCcTKA6LKimSY0-BfTxIfiUD_l8dY6dvUCE0j-JQwG5MhzyNPsfukz32ALBEzeX7IxqL6MYmYBy87jhw",
+          "title": "白莲洞公园 · 路线点 4",
+          "lat": 22.244758,
+          "lng": 113.562216,
+          "guid": null,
+          "imageUrl": null,
           "isStartPoint": false,
           "isOrnamented": false,
-          "objective": "HACK_PORTAL"
+          "objective": null
         },
         {
           "order": 5,
-          "guid": "ea6d83ac7e6a458aaf6485d832eca143.16",
-          "title": "佛山精武九十年志",
-          "lat": 23.047213,
-          "lng": 113.112878,
-          "imageUrl": "https://lh3.googleusercontent.com/X_z1g-2E_JIQabbh3W_9UvBA8ivn_ZgHsm82vjCDpkqKU13ZvYIygEMP8_wL7LgCAx9KeUZH5zw63q6DLrfzMPodYixQywkPNg_x1iF4yCsT",
+          "title": "白莲洞公园 · 路线点 5",
+          "lat": 22.244791,
+          "lng": 113.562916,
+          "guid": null,
+          "imageUrl": null,
           "isStartPoint": false,
           "isOrnamented": false,
-          "objective": "HACK_PORTAL"
+          "objective": null
         },
         {
           "order": 6,
-          "guid": "5a1ed4f58c6f42dfb9dd27d72c1fef80.16",
-          "title": "佛山精武體育會",
-          "lat": 23.047458,
-          "lng": 113.113031,
-          "imageUrl": "https://lh3.googleusercontent.com/mcz9m44ERden_27UDYHJU41b9S4cyeCMaV-j_USuKFCcKD3Rjwx7F2SJvEJQF0Ojh3QaxUMVqJNumdUmrZaFs2f9MEtl79XkcarTbns9JF8xHg",
+          "title": "白莲洞公园 · 路线点 6",
+          "lat": 22.244704,
+          "lng": 113.563349,
+          "guid": null,
+          "imageUrl": null,
           "isStartPoint": false,
           "isOrnamented": false,
-          "objective": "HACK_PORTAL"
-        }
-      ]
-    },
-    {
-      "order": 2,
-      "title": "MD 2026: Foshan",
-      "description": "MD 2026: Foshan",
-      "firstPortal": "禅城区博物馆正门",
-      "displayName": "梁园",
-      "portals": [
-        {
-          "order": 1,
-          "guid": "521cf74f04d33f5d9c60e4c42537cfb9.16",
-          "title": "禅城区博物馆正门",
-          "lat": 23.041294,
-          "lng": 113.108062,
-          "imageUrl": "https://lh3.googleusercontent.com/MN3e1F829NPHw5MHpi0RAqXm9P20Up9fKlCYz75EUwmorZeGMXgQW8TaEPGtEJYlpzTg2DyWEPpH1ekFqE_26M4bZYK2B-Rhn5h1Odssn9mA",
-          "isStartPoint": false,
-          "isOrnamented": false,
-          "objective": "HACK_PORTAL"
-        },
-        {
-          "order": 2,
-          "guid": "5a1f367ec1213a5fa9324a9a8cf69679.16",
-          "title": "岭南非遗天地体验区",
-          "lat": 23.041234,
-          "lng": 113.108741,
-          "imageUrl": "https://lh3.googleusercontent.com/6k4ROwmwIrrMd2gTnlbraL0POO-UtYQHRyb3H0vSgCyx1xK2Hnm7ZYFgjAi_TpkrzBoIJMXXkmzufj_pTWPCUjX-ZHN3K7GDywa4nmHLW4yR",
-          "isStartPoint": false,
-          "isOrnamented": false,
-          "objective": "HACK_PORTAL"
-        },
-        {
-          "order": 3,
-          "guid": "e6368288bfeb4805856c3adb79fe060d.16",
-          "title": "梁园",
-          "lat": 23.040884,
-          "lng": 113.108852,
-          "imageUrl": "https://lh3.googleusercontent.com/YQpXmsmZilvNXt8no29Ig695BOc_nso7OksjykUoY5Cgnu4dD68nn056800sKovlYLApAHq1y_xtiQwQ4z5_Kg2Y8WXW2WeZVVv1IRsXesE",
-          "isStartPoint": false,
-          "isOrnamented": false,
-          "objective": "HACK_PORTAL"
-        },
-        {
-          "order": 4,
-          "guid": "17687cd9fa6f476ba730213cf5096a86.16",
-          "title": "梁园石碑",
-          "lat": 23.040882,
-          "lng": 113.10858,
-          "imageUrl": "https://lh3.googleusercontent.com/91kirOMUr5F92DaQUk3EmJ5Vg2_0X1ckdW9IiPb0DvU70oGgKdgGeVeglGlwbpxDdYgai8ODBWakAqu2S8xgnc2zi8SuY3Ic6iRRKC4yQvBR",
-          "isStartPoint": false,
-          "isOrnamented": false,
-          "objective": "HACK_PORTAL"
-        },
-        {
-          "order": 5,
-          "guid": "9fa8ac382e6d3a21b7a64383e5d708a4.16",
-          "title": "佛山梁园片区全景导览地图",
-          "lat": 23.041029,
-          "lng": 113.108448,
-          "imageUrl": "https://lh3.googleusercontent.com/ux9-D5ySfrts91xYLrKLelgelNNFS4wDBzH7F-e5Ewqg4CIYSyzSr-Ce_IStXO3Lga73gdZM99sA9mY0Lg520OcgqTZwQbL4XIavOawS6kM-_Q",
-          "isStartPoint": false,
-          "isOrnamented": false,
-          "objective": "HACK_PORTAL"
-        },
-        {
-          "order": 6,
-          "guid": "8aee204cae473cef94006a00d98d9b2b.16",
-          "title": "富華坊",
-          "lat": 23.040323,
-          "lng": 113.108673,
-          "imageUrl": "https://lh3.googleusercontent.com/_l9lIxj8YxsScKhb4SSRfLOB3WWfx5U3vSbEqFfHiydNHY2m4mIqaCEl60FoNGlY0-njrZenk32iLCbJKUv_V8T0L5FPTEdRP7yGTACZBy7g",
-          "isStartPoint": false,
-          "isOrnamented": false,
-          "objective": "HACK_PORTAL"
+          "objective": null
         }
       ]
     },
     {
       "order": 3,
-      "title": "MD 2026: Foshan",
-      "description": "MD 2026: Foshan",
-      "firstPortal": "天海酒家",
-      "displayName": "快子挥春",
+      "title": "MD 2026: Zhuhai, 九洲城",
+      "displayName": "九洲城",
+      "description": "九洲城是一座极具特色的仿古建筑群，坐落于珠海市中心繁华地带。建筑以传统宫殿式风格为基调，红墙绿瓦、飞檐翘角，与周围现代都市景观形成鲜明对比，展现出独特的城市文化气质。这里曾是珠海博物馆旧址，承载着珠海早期城市文化记忆，也见证了这座海滨城市的发展变迁。在车水马龙之间，九洲城依然保留着一份古朴与庄重。",
+      "sourceRoute": "路线-03",
+      "markerDistanceMeters": 0.3,
       "portals": [
         {
           "order": 1,
-          "guid": "c819b716db2a3daa9dd7f4c3f21e5a07.16",
-          "title": "天海酒家",
-          "lat": 23.040123,
-          "lng": 113.110794,
-          "imageUrl": "https://lh3.googleusercontent.com/QzMqviAvUX-32SRQ9_cmYoDaf2JU2o06voemQ4uzGvZub8DA2XG0dfJiDVX0p3KdXJJp9Czbls03Y3OzSwczfXWMp-LxhWll3LdwjRv9DD0-",
-          "isStartPoint": false,
+          "title": "九洲城 · 路线点 1",
+          "lat": 22.256486,
+          "lng": 113.578436,
+          "guid": null,
+          "imageUrl": null,
+          "isStartPoint": true,
           "isOrnamented": false,
-          "objective": "HACK_PORTAL"
+          "objective": null
         },
         {
           "order": 2,
-          "guid": "c18eca49c8a034b5aeef760a92f44c5f.16",
-          "title": "快子路骑楼群",
-          "lat": 23.039482,
-          "lng": 113.110102,
-          "imageUrl": "https://lh3.googleusercontent.com/rBUhGqHoeasghoq3qj3_xyEh-zqscsv7WVgz06DJMMf01Aefq5MTQ4SEQAcJJylN23xeDat5zskKTXE3YtF_RTId3beeKUEHasq0kRgssqcD",
+          "title": "九洲城 · 路线点 2",
+          "lat": 22.256668,
+          "lng": 113.578673,
+          "guid": null,
+          "imageUrl": null,
           "isStartPoint": false,
           "isOrnamented": false,
-          "objective": "HACK_PORTAL"
+          "objective": null
         },
         {
           "order": 3,
-          "guid": "5dfcc8df67c14362855d717e5d1a0178.16",
-          "title": "莘葵里门口",
-          "lat": 23.03946,
-          "lng": 113.109884,
-          "imageUrl": "https://lh3.googleusercontent.com/ohxzUrRfFwOT_t7NAuGWNYfa7J0S6VH_0-9tcfvSN0DJSafxGodNUXY8F8tdL1PkF6DOi1uX5qcFYYQgni1fz6CkR3kDzlztgTNi1dhEDy3s",
+          "title": "九洲城 · 路线点 3",
+          "lat": 22.256777,
+          "lng": 113.57907,
+          "guid": null,
+          "imageUrl": null,
           "isStartPoint": false,
           "isOrnamented": false,
-          "objective": "HACK_PORTAL"
+          "objective": null
         },
         {
           "order": 4,
-          "guid": "3d09609e3bc136208ccee64d2d10ddb3.16",
-          "title": "茂隆酒庄旧址",
-          "lat": 23.039287,
-          "lng": 113.109802,
-          "imageUrl": "https://lh3.googleusercontent.com/L0OaGHuuUPGeM9fm8i7HgNarQgzuaqOkAsevLQgoIY_eLh91htm8ENzUFYHGiv9AvXtW8g2uoc1TmVV5YO0p5of4HrzE1yWknFyQPpw8iBEO0A",
+          "title": "九洲城 · 路线点 4",
+          "lat": 22.256746,
+          "lng": 113.579214,
+          "guid": null,
+          "imageUrl": null,
           "isStartPoint": false,
           "isOrnamented": false,
-          "objective": "HACK_PORTAL"
+          "objective": null
         },
         {
           "order": 5,
-          "guid": "754a841effe7315d95d215682bf60bd4.16",
-          "title": "众义国术体育馆旧址",
-          "lat": 23.039128,
-          "lng": 113.109491,
-          "imageUrl": "https://lh3.googleusercontent.com/spUnrorPjLCIUFcGCelQZjL9_oUaLzhId-6lZ4To8z8wT1AKJAjb97anSPVwL1ngZyssvepjhdB_CQRA-EeG6XPf3RD9JNmle8cgSMqz1at9yQ",
+          "title": "九洲城 · 路线点 5",
+          "lat": 22.257175,
+          "lng": 113.579509,
+          "guid": null,
+          "imageUrl": null,
           "isStartPoint": false,
           "isOrnamented": false,
-          "objective": "HACK_PORTAL"
+          "objective": null
         },
         {
           "order": 6,
-          "guid": "b641d9ecfe7433d1b44fcb2b59e3596c.16",
-          "title": "挥春印象",
-          "lat": 23.038856,
-          "lng": 113.109466,
-          "imageUrl": "https://lh3.googleusercontent.com/4qILQ2maleupN-Qu4wB8eEEG0G9IUbYlpT2GUYWZsSfLqHbMLPGVm7IN69qP3Nvb-BmXnsH2EYrytqr8gC7cHfWbMv7_YWoGAx7R4THcj4Z6Xg",
+          "title": "九洲城 · 路线点 6",
+          "lat": 22.257313,
+          "lng": 113.579457,
+          "guid": null,
+          "imageUrl": null,
           "isStartPoint": false,
           "isOrnamented": false,
-          "objective": "HACK_PORTAL"
-        },
-        {
-          "order": 7,
-          "guid": "b436ea765f6e356cbc6b760e8544a172.16",
-          "title": "佛山品字街历史文化街区——快子路",
-          "lat": 23.038746,
-          "lng": 113.108916,
-          "imageUrl": "https://lh3.googleusercontent.com/sAdtmzaWqniZtPeiyGZwxP95xYWUoWShw8ShTes6OYCjWvCngV2s02inzUuouM8jUtKKCMQA1ttqPf-TvumM97O1mZZeCedbhriGtyIFUa0",
-          "isStartPoint": false,
-          "isOrnamented": false,
-          "objective": "HACK_PORTAL"
-        }
-      ]
-    },
-    {
-      "order": 4,
-      "title": "MD 2026: Foshan",
-      "description": "MD 2026: Foshan",
-      "firstPortal": "佛山石头",
-      "displayName": "洛水流芳",
-      "portals": [
-        {
-          "order": 1,
-          "guid": "e1eda559819f4d3792db6b6093f85bfe.16",
-          "title": "佛山石头",
-          "lat": 23.037971,
-          "lng": 113.106573,
-          "imageUrl": "https://lh3.googleusercontent.com/OgnGvyHj-VzvlPIp44hOKscYfNRf0RFTofFvC7VW19v0k-t9y7cT9ATS5_drQWX9L5Agrye_16-BQ2A8bQVUeqrdOf0bmWLRFXZPxdjUlB8T",
-          "isStartPoint": false,
-          "isOrnamented": false,
-          "objective": "HACK_PORTAL"
-        },
-        {
-          "order": 2,
-          "guid": "08ede3200bcd49838dcb2bea374bf58b.16",
-          "title": "旋宫酒店左狮子",
-          "lat": 23.037708,
-          "lng": 113.107103,
-          "imageUrl": "https://lh3.googleusercontent.com/Yz9eMfbLz0niXMugNLTKtUoY3gfdDf_Q9MLoF_Z01DMIUCDU8p1lWHq-OwAxxyYQFjW1KKTgJVeazLOl2Yyj-8kYFYinI9-fbF2W9s0w0__h",
-          "isStartPoint": false,
-          "isOrnamented": false,
-          "objective": "HACK_PORTAL"
-        },
-        {
-          "order": 3,
-          "guid": "776f74125119433fb45829406475cc78.16",
-          "title": "噴水鱼",
-          "lat": 23.036481,
-          "lng": 113.106852,
-          "imageUrl": "https://lh3.googleusercontent.com/6n4xNu9t2U5SjlobcqEcdL5F0sa97PVz7pxQQs6fgmieq7ejOlkEktCHCfvm09FtV2pBm2Vysy4P23lv9dGL67hkpLN0Wo37hLUZvsd84jHlFQ",
-          "isStartPoint": false,
-          "isOrnamented": false,
-          "objective": "HACK_PORTAL"
-        },
-        {
-          "order": 4,
-          "guid": "8d72349c3ec74ee8b779dd0b84a98015.16",
-          "title": "仁寿寺",
-          "lat": 23.035944,
-          "lng": 113.10723,
-          "imageUrl": "https://lh3.googleusercontent.com/U_-EkS3jl0ZEkdgJZpzbUmZtdD_JcdTHyGtKko9VzSMlp3ZZPN3q4BZR2l1dzs1IaBX4l8Grxdmatj_fE66aD7WaJkespqgOF1zzrzROmJLk",
-          "isStartPoint": false,
-          "isOrnamented": false,
-          "objective": "HACK_PORTAL"
-        },
-        {
-          "order": 5,
-          "guid": "5a5d8f93bf82457d9e4fd39216002059.11",
-          "title": "佛山琼花大剧院",
-          "lat": 23.034366,
-          "lng": 113.106322,
-          "imageUrl": "https://lh3.googleusercontent.com/sE9G4_SF1D0nK-qvlxxBec-Q5Gmv4gP7SNMno7J4TN8LgpIo6NQQI6_lEGRcc7K4faJpJzXcetS1nnZCFRuHNGGmMNlU3SKe-zBP78fQBoh0Fw",
-          "isStartPoint": false,
-          "isOrnamented": false,
-          "objective": "HACK_PORTAL"
-        },
-        {
-          "order": 6,
-          "guid": "3639017f942640aeac3c04d1440a028d.16",
-          "title": "SHUI ON New Plaza",
-          "lat": 23.033815,
-          "lng": 113.107278,
-          "imageUrl": "https://lh3.googleusercontent.com/2p3Iw3iT3HVlqg-FNKmrBpAnHQqA3Ucp2rayjd52YIF7L4WdSd-jerW8sq21hTqyRioibw8k6LwpKh1Dwi2AQ0Bc2lmFnNwcGsmtdUbo63WM",
-          "isStartPoint": false,
-          "isOrnamented": false,
-          "objective": "HACK_PORTAL"
-        }
-      ]
-    },
-    {
-      "order": 5,
-      "title": "MD 2026: Foshan",
-      "description": "MD 2026: Foshan",
-      "firstPortal": "手信街",
-      "displayName": "祖庙圣域",
-      "portals": [
-        {
-          "order": 1,
-          "guid": "6984abc1ade9468b903243a959980d19.16",
-          "title": "手信街",
-          "lat": 23.032939,
-          "lng": 113.107231,
-          "imageUrl": "https://lh3.googleusercontent.com/usXjBZoDXZa3-MNtLgoZ7nX5-ptkhzp8msMRL10XGIORDqxivDH0nXNIuGBCrggNC7UZEwaqsfZth6TEc8b3Yf_Db6OndSisvWumGYKf3dqQ",
-          "isStartPoint": false,
-          "isOrnamented": false,
-          "objective": "HACK_PORTAL"
-        },
-        {
-          "order": 2,
-          "guid": "fba9ae583f91446385c3f1f295158304.16",
-          "title": "佛山市祖庙博物馆",
-          "lat": 23.032232,
-          "lng": 113.107261,
-          "imageUrl": "https://lh3.googleusercontent.com/BsPOz6XHbHZKbdfoiEhYyofOHJjPflj9ItP6eFCNpVOh0eSDrTJvoIErMmpkozKtpIMNNdDUKw0s_bnNGtKTSzB1HYwFcCYr0wSjM89tOAE",
-          "isStartPoint": false,
-          "isOrnamented": false,
-          "objective": "HACK_PORTAL"
-        },
-        {
-          "order": 3,
-          "guid": "657e774447dd42879bf9a81691940702.11",
-          "title": "佛山祖庙",
-          "lat": 23.031556,
-          "lng": 113.10749,
-          "imageUrl": "https://lh3.googleusercontent.com/dbjDAWBTwMLp8-EbGa6cC1JalgdiO-cSq_dvfqJ1CxqupU0Vztcx13pWjyWus3VPpUUuIGNr-vePiIOvJ3zMV-SP5YBd9jJCe1A7_v-Pr2yYiQ",
-          "isStartPoint": false,
-          "isOrnamented": false,
-          "objective": "HACK_PORTAL"
-        },
-        {
-          "order": 4,
-          "guid": "122cf25d34934ac68d3ccf30fa5c5a79.11",
-          "title": "百年好合铜像",
-          "lat": 23.031491,
-          "lng": 113.10719,
-          "imageUrl": "https://lh3.googleusercontent.com/5CtJcgDsCEF9XADYIyvkJFxyOf-j2CulmYNE10BLVtinu62KMml1TSqHgHgf3jvrlLLUucaYIk02WxI7sr4KIycCyjpEBFhlO7cuELMsdNi_",
-          "isStartPoint": false,
-          "isOrnamented": false,
-          "objective": "HACK_PORTAL"
-        },
-        {
-          "order": 5,
-          "guid": "75c6038e091a34019c0569b67a88e431.16",
-          "title": "泥模岗历史沿革",
-          "lat": 23.030669,
-          "lng": 113.106735,
-          "imageUrl": "https://lh3.googleusercontent.com/_0h8St36eRfYsZt3WY2yWMP8SQoOQE_buHQrxobvjv74H7MxS9F4fw-I6fc0ZZ0HLXmCJhiWMryt8wJb1Vxo1E44BcP2A8FGYuvtKcpl_uBQIw",
-          "isStartPoint": false,
-          "isOrnamented": false,
-          "objective": "HACK_PORTAL"
-        },
-        {
-          "order": 6,
-          "guid": "ca559ece695641db870fd5a8ea352d77.16",
-          "title": "百花",
-          "lat": 23.029366,
-          "lng": 113.105954,
-          "imageUrl": "https://lh3.googleusercontent.com/CEXV37maobugv2ma-6s7AeQOUu2oWwyaG5ZdRLqOlvVVKCMslBU393L9a7Q6SxfKg3OCtNnegCBnL-A8yAA7VPLg-bwYXki06HGNzbhSzQR_cg",
-          "isStartPoint": false,
-          "isOrnamented": false,
-          "objective": "HACK_PORTAL"
+          "objective": null
         }
       ]
     },
     {
       "order": 6,
-      "title": "MD 2026: Foshan",
-      "description": "MD 2026: Foshan",
-      "firstPortal": "酒行会馆",
-      "displayName": "岭南天地",
+      "title": "MD 2026: Zhuhai, 海滨泳场",
+      "displayName": "海滨泳场",
+      "description": "海滨泳场是珠海最具代表性的城市沙滩之一，也是情侣路上的浪漫地标。这里拥有细腻柔软的沙滩、开阔的海景与悠闲的滨海氛围，标志性的“爱情邮局”与海边灯塔相映成景，成为众多游客拍照打卡的热门地点。无论是清晨漫步海岸迎接晨曦，还是夜晚在海畔咖啡厅感受海风与灯火，这里都展现着珠海作为海滨旅游城市最惬意而迷人的一面。",
+      "sourceRoute": "路线-06",
+      "markerDistanceMeters": 0.56,
       "portals": [
         {
           "order": 1,
-          "guid": "7147e66e14fb4b5d910eef91a1c3ed28.16",
-          "title": "酒行会馆",
-          "lat": 23.031681,
-          "lng": 113.109476,
-          "imageUrl": "https://lh3.googleusercontent.com/CiE6XL9LjnPivusFYfb_DPWKhsz84I1mRUBQdl0_59JfBCh11ISHDjWao7OAkYtN0YTWBIIbrfrunyvcFjqIc1mcTjsEpyYz-Zi0tLlk94k",
-          "isStartPoint": false,
+          "title": "海滨泳场 · 路线点 1",
+          "lat": 22.255385,
+          "lng": 113.589784,
+          "guid": null,
+          "imageUrl": null,
+          "isStartPoint": true,
           "isOrnamented": false,
-          "objective": "HACK_PORTAL"
+          "objective": null
         },
         {
           "order": 2,
-          "guid": "159403b0da424978903f6970ab41c8bf.16",
-          "title": "李众胜堂祖铺",
-          "lat": 23.031716,
-          "lng": 113.109954,
-          "imageUrl": "https://lh3.googleusercontent.com/oruUg5FWZRdqzkGULJoQmOGRc4I3cEtujRpP5TUmEthFpd1yyxLBRaDf8kKK7olDpghZ74pI67URhpMutwuPwEKSOHmBJGxSjStAmDJlaWAZ8g",
+          "title": "海滨泳场 · 路线点 2",
+          "lat": 22.255159,
+          "lng": 113.589965,
+          "guid": null,
+          "imageUrl": null,
           "isStartPoint": false,
           "isOrnamented": false,
-          "objective": "HACK_PORTAL"
+          "objective": null
         },
         {
           "order": 3,
-          "guid": "78b4e547a29a4513a2ac60b1f79ce185.16",
-          "title": "龙塘诗社",
-          "lat": 23.032159,
-          "lng": 113.109933,
-          "imageUrl": "https://lh3.googleusercontent.com/rgGB1XYdYpfSwhSB6iHkO6Cz7g80P8G5xg-ndD7Y4Wbl-1bx0PUMJjBy16l519OcCujuq9XhhvzJ8WGETRBNKFXLARhGqKTc0y6XSeIsc-Q7",
+          "title": "海滨泳场 · 路线点 3",
+          "lat": 22.254993,
+          "lng": 113.589789,
+          "guid": null,
+          "imageUrl": null,
           "isStartPoint": false,
           "isOrnamented": false,
-          "objective": "HACK_PORTAL"
+          "objective": null
         },
         {
           "order": 4,
-          "guid": "f6b64a214d44498aa75b66310d6f35c2.16",
-          "title": "简氏别墅",
-          "lat": 23.032577,
-          "lng": 113.109894,
-          "imageUrl": "https://lh3.googleusercontent.com/WB0MHNBgEiAi0Y33bbIhdxBKAkvorZXn1OMMzvl6ePzh54ijUNekHiwdLjCxF-1lETBVGV1CuB1oEKDc0jR7on0InGHmN2C6FMrd28urkUtkUQ",
+          "title": "海滨泳场 · 路线点 4",
+          "lat": 22.254691,
+          "lng": 113.589988,
+          "guid": null,
+          "imageUrl": null,
           "isStartPoint": false,
           "isOrnamented": false,
-          "objective": "HACK_PORTAL"
+          "objective": null
         },
         {
           "order": 5,
-          "guid": "7f0a801d8fc14761a4a3820881589fd3.16",
-          "title": "黄祥华如意油祖铺",
-          "lat": 23.032635,
-          "lng": 113.110521,
-          "imageUrl": "https://lh3.googleusercontent.com/Eqo92fhdrOQPGBgvqohWqjNDaicqfmaCGcjHQ52aSMJ35bxpotuWNW4jqVZZwTv_bl4awCA4aUCh1Djfqmi5jIyS946Hr27krUFGj-5CtHw",
+          "title": "海滨泳场 · 路线点 5",
+          "lat": 22.254437,
+          "lng": 113.590203,
+          "guid": null,
+          "imageUrl": null,
           "isStartPoint": false,
           "isOrnamented": false,
-          "objective": "HACK_PORTAL"
+          "objective": null
         },
         {
           "order": 6,
-          "guid": "a04b50da67fc4d9e86fec89546c826d4.16",
-          "title": "简照南佛堂",
-          "lat": 23.0328,
-          "lng": 113.110359,
-          "imageUrl": "https://lh3.googleusercontent.com/OEJRJaDB_D0g7cqljwFWmCUZ6HM8Nia11GOd8YAQ87e1Qcdmu4jSgC_qgI5Heav4e8Um3wYkAwxPkSkQVkeZghsAmf6GkI_DiCG91hsMFhU",
+          "title": "海滨泳场 · 路线点 6",
+          "lat": 22.253726,
+          "lng": 113.590778,
+          "guid": null,
+          "imageUrl": null,
           "isStartPoint": false,
           "isOrnamented": false,
-          "objective": "HACK_PORTAL"
-        },
-        {
-          "order": 7,
-          "guid": "e09b4c35d7da4fd68df9a1dd52f3ed5e.16",
-          "title": "文会里嫁娶屋",
-          "lat": 23.032925,
-          "lng": 113.111115,
-          "imageUrl": "https://lh3.googleusercontent.com/QzlTVSvDR2a6UJfhh8Gre3khR-pvz6uNudfTRbBVaMsVqhSR89fLo0qKSQG2r3dOO4foKfoGOvzIJuyRDX1pTpxRWxn_YRV6u1qKnoCQZyER",
-          "isStartPoint": false,
-          "isOrnamented": false,
-          "objective": "HACK_PORTAL"
-        },
-        {
-          "order": 8,
-          "guid": "de9da8dab17940edba80d7562af42b4c.16",
-          "title": "钟楼",
-          "lat": 23.032609,
-          "lng": 113.1114,
-          "imageUrl": "https://lh3.googleusercontent.com/Vrxuz23BH-y0NoIqJVs1v97LQPFgcy0nmKAEMcr8fvqRpnipMdrxLfwTgOKAnbhU5PHXf5Btws4tGuptgNr4h_3TREiLy_ezHDD5VeT-W10",
-          "isStartPoint": false,
-          "isOrnamented": false,
-          "objective": "HACK_PORTAL"
-        },
-        {
-          "order": 9,
-          "guid": "d8df00b657384a1b8dd7b3fa148dad48.16",
-          "title": "元吉黃公祠",
-          "lat": 23.033042,
-          "lng": 113.112153,
-          "imageUrl": "https://lh3.googleusercontent.com/4jSdVLKN4FmswB-w5H4qAj2QGJQV_Z3NqxHJ6x0PA8wQvH0-XVfWMnvdgUZFctJ943vJSKjm_mlOxqPIDqO1S3kMhhMH7yeusC3knk8jpMc",
-          "isStartPoint": false,
-          "isOrnamented": false,
-          "objective": "HACK_PORTAL"
+          "objective": null
         }
       ]
     },
     {
       "order": 7,
-      "title": "MD 2026: Foshan",
-      "description": "MD 2026: Foshan",
-      "firstPortal": "兆祥黃公祠",
-      "displayName": "佛山初地",
+      "title": "MD 2026: Zhuhai, 爱情邮局",
+      "displayName": "爱情邮局",
+      "description": "爱情邮局坐落于情侣路海滨泳场旁，是珠海极具浪漫氛围的地标之一。纯白色建筑与蔚蓝海岸相映成景，旁边矗立的灯塔也为这里增添了独特的海滨浪漫气息。这里不仅是游客拍照打卡的热门地点，更承载着许多人关于爱情与远方的美好寄托。你可以挑选一张明信片，盖上专属邮戳，让这一份来自珠海海岸的浪漫心意，随着海风寄向远方。",
+      "sourceRoute": "路线-07",
+      "markerDistanceMeters": 0.93,
       "portals": [
         {
           "order": 1,
-          "guid": "e40b861f5a38438f85cb35acf3f74ace.16",
-          "title": "兆祥黃公祠",
-          "lat": 23.029827,
-          "lng": 113.114822,
-          "imageUrl": "https://lh3.googleusercontent.com/jtQoR30vh-y-4kA_oBSsJeiI-rWS7hcUx9XOUWK0y-QVqFT5BqK-T4U8HqYNnTseL5y2WmLbV9yqJWXF3jd5liKxit1pL4aGqTnBzQnw4vqL",
-          "isStartPoint": false,
+          "title": "爱情邮局 · 路线点 1",
+          "lat": 22.256359,
+          "lng": 113.590412,
+          "guid": null,
+          "imageUrl": null,
+          "isStartPoint": true,
           "isOrnamented": false,
-          "objective": "HACK_PORTAL"
+          "objective": null
         },
         {
           "order": 2,
-          "guid": "1936c28162f8430bb920a9e3e013c9ed.16",
-          "title": "天主教聖母無原罪堂",
-          "lat": 23.028447,
-          "lng": 113.115146,
-          "imageUrl": "https://lh3.googleusercontent.com/YSkOrzJCiPUhOjLaA-zuDkJP_uTRS8BsvRLcPNx484ZmVcOhvvpzFgpLq3dRu0u5JffijDudC5CjpjuRudoEYKPh8drxgg4DhVEVpp1cFx0b",
+          "title": "爱情邮局 · 路线点 2",
+          "lat": 22.256739,
+          "lng": 113.590673,
+          "guid": null,
+          "imageUrl": null,
           "isStartPoint": false,
           "isOrnamented": false,
-          "objective": "HACK_PORTAL"
+          "objective": null
         },
         {
           "order": 3,
-          "guid": "b61c650e4f5f40118c1755dc724c7ec6.16",
-          "title": "太上廟",
-          "lat": 23.028385,
-          "lng": 113.116311,
-          "imageUrl": "https://lh3.googleusercontent.com/tP0r5x_RXeGxRCNb_Gjed2MHE8KzVG9VVURtVJD8CWNaX1R4rdxfIlLFW4SrUKlKR3-LqC_JLn0NUYNNZHXYKILFs1JiU8JpYiRuUQc-WF5mig",
+          "title": "爱情邮局 · 路线点 3",
+          "lat": 22.257056,
+          "lng": 113.59082,
+          "guid": null,
+          "imageUrl": null,
           "isStartPoint": false,
           "isOrnamented": false,
-          "objective": "HACK_PORTAL"
+          "objective": null
         },
         {
           "order": 4,
-          "guid": "60bd0693a51e4889baf1ca8cbe4238c3.16",
-          "title": "鸿胜纪念馆",
-          "lat": 23.028101,
-          "lng": 113.115781,
-          "imageUrl": "https://lh3.googleusercontent.com/7Mv2x_bVFRYvwH6YuKXkIWJYoOei_tPJyERfuBV4y8ENMuURddTOUxXKXeBwxEL1mlVhD4mKcJFHO336mmZiGOTWVtUs4PZHXquAnNlQfrnI",
+          "title": "爱情邮局 · 路线点 4",
+          "lat": 22.257155,
+          "lng": 113.591941,
+          "guid": null,
+          "imageUrl": null,
           "isStartPoint": false,
           "isOrnamented": false,
-          "objective": "HACK_PORTAL"
+          "objective": null
         },
         {
           "order": 5,
-          "guid": "057b59c99f404ff691577631711e4333.16",
-          "title": "塔坡庙",
-          "lat": 23.027891,
-          "lng": 113.116281,
-          "imageUrl": "https://lh3.googleusercontent.com/Cs2z3SQj1aA8MT3LZW55cmLVCzoy2hHzACnx1D8biYEB_5onPThe9dF4j2qdoC1bhXDgYYEACQ2Uucy-Qxx3NZXjqjS46kfnsSERk1xNDvBENw",
+          "title": "爱情邮局 · 路线点 5",
+          "lat": 22.257616,
+          "lng": 113.590599,
+          "guid": null,
+          "imageUrl": null,
           "isStartPoint": false,
           "isOrnamented": false,
-          "objective": "HACK_PORTAL"
+          "objective": null
         },
         {
           "order": 6,
-          "guid": "e64d9237174f413688ae5b89a39150aa.16",
-          "title": "塔坡廟和井",
-          "lat": 23.027591,
-          "lng": 113.116219,
-          "imageUrl": "https://lh3.googleusercontent.com/RoQus3_oxUbG5LI_yAnlUOQMh83Xpg_iz6JDPD5DnxqSXJ4B03uFw3nQJ9Ofyoq9GOYP8FArtZZKAVS0cGd73LNmzQ4l-C0HEilEKJ1Bq7Eg",
+          "title": "爱情邮局 · 路线点 6",
+          "lat": 22.257963,
+          "lng": 113.590654,
+          "guid": null,
+          "imageUrl": null,
           "isStartPoint": false,
           "isOrnamented": false,
-          "objective": "HACK_PORTAL"
-        },
-        {
-          "order": 7,
-          "guid": "601b0cee4695468792bde7dcec575499.16",
-          "title": "佛山初地",
-          "lat": 23.027082,
-          "lng": 113.116215,
-          "imageUrl": "https://lh3.googleusercontent.com/UKg5dLAd1pdPYRSzZ72PdNoBdg35eqWMjn0DOOhvFc9P9XeK5BbvQlk6W-QCMy7m_olVZEOybccFj8FfTR_JIMzv_47QAfTueHJ6wMjIEp2x",
-          "isStartPoint": false,
-          "isOrnamented": false,
-          "objective": "HACK_PORTAL"
-        }
-      ]
-    },
-    {
-      "order": 8,
-      "title": "MD 2026: Foshan",
-      "description": "MD 2026: Foshan",
-      "firstPortal": "佛山乐园西门",
-      "displayName": "垂虹寻乐",
-      "portals": [
-        {
-          "order": 1,
-          "guid": "ecd3edf92a3c32ce9d18f2175ae4cdd5.16",
-          "title": "佛山乐园西门",
-          "lat": 23.023801,
-          "lng": 113.103224,
-          "imageUrl": "https://lh3.googleusercontent.com/tBTfaZkeCj1EMHd-MkBpxS2dn0lFJqjz6gdogQspR65_sjNhypq1Iy9M7zRQ3q15QGftyXjtYQ4zkfCyaStsy1qMPDE8MAg-vw85LJ46NZGh",
-          "isStartPoint": false,
-          "isOrnamented": false,
-          "objective": "HACK_PORTAL"
-        },
-        {
-          "order": 2,
-          "guid": "cdb6ef61adc34204b79216197894e0cc.16",
-          "title": "佛山乐园",
-          "lat": 23.024198,
-          "lng": 113.10544,
-          "imageUrl": "https://lh3.googleusercontent.com/xdfYpiZpqg4V4qPZ5KTDc-pt5qeo7e5MwdtZbkE2Naw9BnNC3dCDl3n2eZxjAMqEJCQ5HmyEj1-ZnJ2RYc8_XYPBA4Inwt95dcj0KqqqRiEY",
-          "isStartPoint": false,
-          "isOrnamented": false,
-          "objective": "HACK_PORTAL"
-        },
-        {
-          "order": 3,
-          "guid": "41a58b46efc93c208108d27e7fada13c.16",
-          "title": "垂虹公园建设记事",
-          "lat": 23.023023,
-          "lng": 113.105461,
-          "imageUrl": "https://lh3.googleusercontent.com/AAR5b3px1JEY22bS90iFNUYEbw7Jf3aiq9MMN3mSoEimMHwmLFKq5519lADsuyO0KljXZOoDdsfVCTqifVUapCLRNTUg4eS6IOlaf2Y2RJmU",
-          "isStartPoint": false,
-          "isOrnamented": false,
-          "objective": "HACK_PORTAL"
-        },
-        {
-          "order": 4,
-          "guid": "174adf41d4e83e8fb087573643c474c2.16",
-          "title": "垂虹公园名字起源探索",
-          "lat": 23.022493,
-          "lng": 113.105497,
-          "imageUrl": "https://lh3.googleusercontent.com/xmVP3gul8S6aDLEGmCrDSZmlVwXOc3DsKqCTSHjZrcyldn1akLAH2kFKo6kKg6q7yxz8E4-NJokWJ9T7VX-86qN7k9Pcf6Dm3w-yTiIbGBQw",
-          "isStartPoint": false,
-          "isOrnamented": false,
-          "objective": "HACK_PORTAL"
-        },
-        {
-          "order": 5,
-          "guid": "557da698b5e53286a62ef56861abaaf3.16",
-          "title": "虹影",
-          "lat": 23.022874,
-          "lng": 113.107738,
-          "imageUrl": "https://lh3.googleusercontent.com/yF3gxVwIjk3Q871NF3kPzf5PBB_YdbqFQlNXiN2HM_NErHVXCAGqviPGvlrokagUSsfi4A26xFR1ThL4mI0TCExMh71xEHkQgHtY3M7oOjKSQw",
-          "isStartPoint": false,
-          "isOrnamented": false,
-          "objective": "HACK_PORTAL"
-        },
-        {
-          "order": 6,
-          "guid": "7339a710521f33f8b61f02917ab037a7.16",
-          "title": "先行書店",
-          "lat": 23.022676,
-          "lng": 113.107742,
-          "imageUrl": "https://lh3.googleusercontent.com/qceBWqOtRPugT-RI0vhh0lwpEnKiltlwEFSnoqFso22iHyyy4mbzvtpWMwL4lvpJ5B2tJpEJNsE-SzwF_OEFUngbOEaHAgk-SQ_esQZ_Qmnu",
-          "isStartPoint": false,
-          "isOrnamented": false,
-          "objective": "HACK_PORTAL"
+          "objective": null
         }
       ]
     },
     {
       "order": 9,
-      "title": "MD 2026: Foshan",
-      "description": "MD 2026: Foshan",
-      "firstPortal": "重建通济桥记",
-      "displayName": "行通济",
+      "title": "MD 2026: Zhuhai, 珠海渔女",
+      "displayName": "珠海渔女",
+      "description": "珠海渔女矗立在香炉湾畔，是珠海城市精神的永恒象征。这座高 8.7 米的花岗岩雕像，刻画了一位双手高举璀璨明珠的龙女，象征着向世界奉献光明与财富。作为珠海最古老的地标之一，她不仅见证了这座城市从渔村到现代化特区的华丽蜕变，也守护着南海边无数关于爱与勇气的传说。",
+      "sourceRoute": "路线-09",
+      "markerDistanceMeters": 1.68,
       "portals": [
         {
           "order": 1,
-          "guid": "503bbb9a59b1356c8f7bf47585d0d625.16",
-          "title": "重建通济桥记",
-          "lat": 23.02033,
-          "lng": 113.111412,
-          "imageUrl": "https://lh3.googleusercontent.com/vZd-HYcWpCigmRISERnCRhukguOZh7XIgbqCNDHPzt6iLU7GwZKmyeE_CHzeU9OHjPXYQZDKLDmLXOurerMIiKo6r0K79uF5Toae5Gyiyo8",
-          "isStartPoint": false,
+          "title": "珠海渔女 · 路线点 1",
+          "lat": 22.260937,
+          "lng": 113.593851,
+          "guid": null,
+          "imageUrl": null,
+          "isStartPoint": true,
           "isOrnamented": false,
-          "objective": "HACK_PORTAL"
+          "objective": null
         },
         {
           "order": 2,
-          "guid": "6df901ab449e425bb4961fbf2bf862ba.11",
-          "title": "通济牌坊",
-          "lat": 23.020348,
-          "lng": 113.111066,
-          "imageUrl": "https://lh3.googleusercontent.com/Nty0sK3t_iEx4xGa5BEK1TdspiFXZXWxktGNETlaEcjPKLz7NT0imabnOoOZdkDp_pnCP9y3slnioIQ5dc1iZiHRt7QDcZwwKfRZbCvwn1hfAw",
+          "title": "珠海渔女 · 路线点 2",
+          "lat": 22.261334,
+          "lng": 113.593858,
+          "guid": null,
+          "imageUrl": null,
           "isStartPoint": false,
           "isOrnamented": false,
-          "objective": "HACK_PORTAL"
+          "objective": null
         },
         {
           "order": 3,
-          "guid": "4e4d6f4e1d4932ff8572a7cff06b2b91.16",
-          "title": "佛山市历史建筑信息牌匾",
-          "lat": 23.020233,
-          "lng": 113.1109,
-          "imageUrl": "https://lh3.googleusercontent.com/nDa7GruyfxpemK3Gpwgve7gP1EhCUM9OSMGkMyjbu-aTpzEumO2gfGqGwyVTD58-O9cdf0-nzow5qzk88d00XoiTtKhPV1lexjiDln1lDg5X",
+          "title": "珠海渔女 · 路线点 3",
+          "lat": 22.261558,
+          "lng": 113.588336,
+          "guid": null,
+          "imageUrl": null,
           "isStartPoint": false,
           "isOrnamented": false,
-          "objective": "HACK_PORTAL"
+          "objective": null
         },
         {
           "order": 4,
-          "guid": "a765352c260239d2bdc7e05b9727f471.16",
-          "title": "通济桥",
-          "lat": 23.020034,
-          "lng": 113.110712,
-          "imageUrl": "https://lh3.googleusercontent.com/x2qQSCb-ypyosZyjOVbpNf-fMgpwfyCSyccmznXFTQwRHHSfM_dKx8iXoVCk6VO8601gUKqZyYAKeAMECc-8QkiVhsJCit6z0_rz5rj7f69F",
+          "title": "珠海渔女 · 路线点 4",
+          "lat": 22.262373,
+          "lng": 113.588247,
+          "guid": null,
+          "imageUrl": null,
           "isStartPoint": false,
           "isOrnamented": false,
-          "objective": "HACK_PORTAL"
+          "objective": null
         },
         {
           "order": 5,
-          "guid": "883b5a4767eb3447b6c1bc3c838f50bc.16",
-          "title": "通济风车",
-          "lat": 23.019662,
-          "lng": 113.110761,
-          "imageUrl": "https://lh3.googleusercontent.com/6w_9so1VaEK-LNN_3x3b2bhgzkGSDK7mAVC6DKiu0iASL8Jpu-zsbQ812gf0xSngNO59ja-JAyhrnk34SJV0Sy0nhlWMt0UIzokSXXElCYpI",
+          "title": "珠海渔女 · 路线点 5",
+          "lat": 22.261464,
+          "lng": 113.588127,
+          "guid": null,
+          "imageUrl": null,
           "isStartPoint": false,
           "isOrnamented": false,
-          "objective": "HACK_PORTAL"
+          "objective": null
         },
         {
           "order": 6,
-          "guid": "9dd2320fe8d44f408f165abf2e68f306.11",
-          "title": "生菜王",
-          "lat": 23.019563,
-          "lng": 113.110266,
-          "imageUrl": "https://lh3.googleusercontent.com/TxZqcMX3lt4awbTZskxRnAYeEK_Oz0-MO0dUfC3TedEW4KJoztX7_wmA7bbqe9pB9XjaaqAMogXWAA9x-bUI2GJrEfwBzjzp2VDxWdKKj2AL",
+          "title": "珠海渔女 · 路线点 6",
+          "lat": 22.260899,
+          "lng": 113.588076,
+          "guid": null,
+          "imageUrl": null,
           "isStartPoint": false,
           "isOrnamented": false,
-          "objective": "HACK_PORTAL"
-        }
-      ]
-    },
-    {
-      "order": 10,
-      "title": "MD 2026: Foshan",
-      "description": "MD 2026: Foshan",
-      "firstPortal": "红布维纳斯 The Venus with red cloth",
-      "displayName": "不夜城",
-      "portals": [
-        {
-          "order": 1,
-          "guid": "1e791e55ecaf3c6d80147ad0ad79fade.16",
-          "title": "红布维纳斯 The Venus with red cloth",
-          "lat": 23.016315,
-          "lng": 113.094125,
-          "imageUrl": "https://lh3.googleusercontent.com/FsUOSq449GPE01ap4h4q1KcN0BTTj-ABBxjiz9SGPfmABXr3Lm-TSFVh-T1tnGZ9MJ1TGVg_du489klrruJ0OIcD8aAeNkeJVN0LHWnDlOAX",
-          "isStartPoint": false,
-          "isOrnamented": false,
-          "objective": "HACK_PORTAL"
-        },
-        {
-          "order": 2,
-          "guid": "1d47b6c37be343af99d426fbd84cdff3.11",
-          "title": "李小龙",
-          "lat": 23.014655,
-          "lng": 113.092818,
-          "imageUrl": "https://lh3.googleusercontent.com/p936_0NF_qoE9Vrbxo-DKIf7bkAyW563n2H-BEgX03jqPIbU7kKEcqPR1JZEVmhLTIT7ZQtCvpQkDsV13xD8bnAcC6y-locRGzw6Q_Dt9tzs",
-          "isStartPoint": false,
-          "isOrnamented": false,
-          "objective": "HACK_PORTAL"
-        },
-        {
-          "order": 3,
-          "guid": "f694a0c448694eb3b48fce5c2887525c.16",
-          "title": "火车头",
-          "lat": 23.014792,
-          "lng": 113.092262,
-          "imageUrl": "https://lh3.googleusercontent.com/cmIdm8MjYBwCWMsX8_5WV0uaK2e3dm70RtsUVWBfs1WGpu7uNst17e2XabBCYeGds_1So-ZHe1Qmg_rqVUxjSGEubVc5EFMuHAIEuk27THTb",
-          "isStartPoint": false,
-          "isOrnamented": false,
-          "objective": "HACK_PORTAL"
-        },
-        {
-          "order": 4,
-          "guid": "af798cc3fc9d4e56928e7a45ad1f1e6b.11",
-          "title": "Fountain of Creative Park",
-          "lat": 23.01637,
-          "lng": 113.092062,
-          "imageUrl": "https://lh3.googleusercontent.com/YbyfSgAFQlIypQTznc-zkduqcpEQES_hbRZqXLdcshuOoSFcE5Gizq2uyg6zHpcGgJifmS-p3nsNHIQfPKyWHCH1Cd0_6Ax_mZYhDuXGjls",
-          "isStartPoint": false,
-          "isOrnamented": false,
-          "objective": "HACK_PORTAL"
-        },
-        {
-          "order": 5,
-          "guid": "e2afdb0dc79141a781be27110f6151c8.16",
-          "title": "正午钟楼",
-          "lat": 23.017404,
-          "lng": 113.091353,
-          "imageUrl": "https://lh3.googleusercontent.com/13rTQxx9ZKCTrdrtOMSGLjtGKybMIbIKMSfD-2yWJcyzYXOmpUq78ALF2-0WJo15xObYU0jqTJgSfxyIjus1E5CwWneYSWwijCPP4Uz7lZY",
-          "isStartPoint": false,
-          "isOrnamented": false,
-          "objective": "HACK_PORTAL"
-        },
-        {
-          "order": 6,
-          "guid": "c561dfec3bbb3869b74e5ae99d05d296.16",
-          "title": "空鸟笼",
-          "lat": 23.017052,
-          "lng": 113.091074,
-          "imageUrl": "https://lh3.googleusercontent.com/kkQLWtr8N1QvGREXlslnb68nBn4IKlJ1OSauEXt3Ip0i39J3mwGoDyRKo2UVh7wIYXnJuI9Phf5cbtkgDbJ8GAcJ5jPtGrt3ILxupmimKRn1Vg",
-          "isStartPoint": false,
-          "isOrnamented": false,
-          "objective": "HACK_PORTAL"
-        }
-      ]
-    },
-    {
-      "order": 11,
-      "title": "MD 2026: Foshan",
-      "description": "MD 2026: Foshan",
-      "firstPortal": "Flower Fountain",
-      "displayName": "岭南明珠",
-      "portals": [
-        {
-          "order": 1,
-          "guid": "9774fa5007224ea8a387e9949d9e5ad0.16",
-          "title": "Flower Fountain",
-          "lat": 23.014595,
-          "lng": 113.11804,
-          "imageUrl": "https://lh3.googleusercontent.com/hNVGjZLZf12B-A4MiZQevGKuFVISQ4PZLNpTKugjo9zjwStsLA3-zJfBK5FyPleNiN6_gfV_7E-B7i5qp4hhm0ejKV8t0Z5zrSmwIqVSkqM",
-          "isStartPoint": false,
-          "isOrnamented": false,
-          "objective": "HACK_PORTAL"
-        },
-        {
-          "order": 2,
-          "guid": "c6824beed3b54e5fad4aa954e05c50b5.16",
-          "title": "欢乐武狮",
-          "lat": 23.014846,
-          "lng": 113.120895,
-          "imageUrl": "https://lh3.googleusercontent.com/O60C_iTLtmWhQ_-yglU9GO68cEkdVnDvA1d5Cln-7Cpldg1oY4FzH_8ps-E13PZDi3vCfvcQDPvxjx6TWEftqoXgXDTal1SULd0jpAzNZmE",
-          "isStartPoint": false,
-          "isOrnamented": false,
-          "objective": "HACK_PORTAL"
-        },
-        {
-          "order": 3,
-          "guid": "77e8aada73d74e7fb228c0117c04f745.11",
-          "title": "Asia Art Garden 2",
-          "lat": 23.015536,
-          "lng": 113.121421,
-          "imageUrl": "https://lh3.googleusercontent.com/IC0kUTMh02BvntBaqFXtQwAKZNW99yHn5WJTDthMN7usRt9I4o5CZP7-H_Pxn3GTbtcPJpIKhAwH6spsloArAvAgU4VpVra01rArYpiF--9D",
-          "isStartPoint": false,
-          "isOrnamented": false,
-          "objective": "HACK_PORTAL"
-        },
-        {
-          "order": 4,
-          "guid": "8e27dbcce0fc310db304f5d2fcd8e930.16",
-          "title": "我爱运动",
-          "lat": 23.015571,
-          "lng": 113.121223,
-          "imageUrl": "https://lh3.googleusercontent.com/5SX5K0eSa5nlS2_U6D_mKS7YUUul5_br4r9RDNWpCCDwNaYessfLyZPKsiYzLNXe4QYL0ypRXPDXCo94L-H0JfalEQ0zF3eCGEqsR0rk9nBd",
-          "isStartPoint": false,
-          "isOrnamented": false,
-          "objective": "HACK_PORTAL"
-        },
-        {
-          "order": 5,
-          "guid": "9071754a2fb24f979839182d660acb17.16",
-          "title": "打羽毛球",
-          "lat": 23.016247,
-          "lng": 113.120577,
-          "imageUrl": "https://lh3.googleusercontent.com/U4_4i82nEKP_UKycHnktVkpGn8bSjZNWUPwh9NlIkyeOh73uQYp9xNagQR2wBZG3hGpgElEAlBh-dgRIkxzSFARU-JCsTiPnh6OVSdNmFc8H",
-          "isStartPoint": false,
-          "isOrnamented": false,
-          "objective": "HACK_PORTAL"
-        },
-        {
-          "order": 6,
-          "guid": "51939015e334378ca01ad24848e0f538.16",
-          "title": "练武功",
-          "lat": 23.016345,
-          "lng": 113.120285,
-          "imageUrl": "https://lh3.googleusercontent.com/q_Xly7M_-kfnpTS5DzGWhpeILvYtYzh8l9ffR1ceqqBed5m0uPOzhtt0RDVZQVzHK-7PLGygnFTAeolWefhQosQU8FRi3e-QT9WY0C_brVv3",
-          "isStartPoint": false,
-          "isOrnamented": false,
-          "objective": "HACK_PORTAL"
+          "objective": null
         }
       ]
     },
     {
       "order": 12,
-      "title": "MD 2026: Foshan",
-      "description": "MD 2026: Foshan",
-      "firstPortal": "佛山醒狮鼓",
-      "displayName": "文华公园",
+      "title": "MD 2026: Zhuhai, 海滨公园",
+      "displayName": "海滨公园",
+      "description": "海滨公园坐落于情侣路与石景山之间，是城市中心的一片天然绿肺。这里林木葱郁，开阔的草坪正对着碧波万顷的香炉湾。无论是放飞风筝、在树荫下野餐，还是漫步至湖边观赏黑天鹅，海滨公园以其静谧的自然景观，完美连接了繁华市区与浪漫海岸，是珠海慢生活的最佳注脚。",
+      "sourceRoute": "路线-12",
+      "markerDistanceMeters": 0.0,
       "portals": [
         {
           "order": 1,
-          "guid": "d583cb9f12933216ab5ef022069f62b5.16",
-          "title": "佛山醒狮鼓",
-          "lat": 23.014613,
-          "lng": 113.123549,
-          "imageUrl": "https://lh3.googleusercontent.com/WNugu8rInW-Ihuj4EYnRWrQoESZLCNuxOGr9vAMQI814V044FurhjQGZOp9wXKXAlJOhAiy_FIYgNdjEoStoEe9TKrptWRXi7MYSr6FQSSVu",
-          "isStartPoint": false,
+          "title": "海滨公园 · 路线点 1",
+          "lat": 22.259111,
+          "lng": 113.58211,
+          "guid": null,
+          "imageUrl": null,
+          "isStartPoint": true,
           "isOrnamented": false,
-          "objective": "HACK_PORTAL"
+          "objective": null
         },
         {
           "order": 2,
-          "guid": "d107c87f93ee4bafb373deb0f1008a2e.16",
-          "title": "徒步衝呀",
-          "lat": 23.014879,
-          "lng": 113.121978,
-          "imageUrl": "https://lh3.googleusercontent.com/pf7FjZJmSqkEYg8U7Xt7uOY6k0dRLHnP_Qwv39dEwiLwKSNr72JA9KkuLQfDBXq6fgrtJGynlGQkqArHfVbu2TI561ttutk-MmjxXu6O7NF5lw",
+          "title": "海滨公园 · 路线点 2",
+          "lat": 22.259063,
+          "lng": 113.582919,
+          "guid": null,
+          "imageUrl": null,
           "isStartPoint": false,
           "isOrnamented": false,
-          "objective": "HACK_PORTAL"
+          "objective": null
         },
         {
           "order": 3,
-          "guid": "4b6bff5292ba383ab8d8f851c436941e.16",
-          "title": "50km徒步路線圖",
-          "lat": 23.014425,
-          "lng": 113.121589,
-          "imageUrl": "https://lh3.googleusercontent.com/ThzUniJxCFa4JKrNeLLWbM690rw8-eXsr5OTlC7mPgjQs7WYrIDZra6dmhfwF1rIdJMkEfjAtja5YucU8nPJKbLS_Nb_FlYpj5z325IiCGbT",
+          "title": "海滨公园 · 路线点 3",
+          "lat": 22.258648,
+          "lng": 113.583588,
+          "guid": null,
+          "imageUrl": null,
           "isStartPoint": false,
           "isOrnamented": false,
-          "objective": "HACK_PORTAL"
+          "objective": null
         },
         {
           "order": 4,
-          "guid": "c0f1e4d38b0b4d45b223992719b7f4b5.16",
-          "title": "飞飞",
-          "lat": 23.01412,
-          "lng": 113.122326,
-          "imageUrl": "https://lh3.googleusercontent.com/pdDRIYbHQeE2GOn_gnqvXiEqmsmirgeH0i8mY-3c76tOkYLWWjExx5oyi9w80ZvehOxauGmio7CwafWmS0I9fy2Tfy0ER7Ix0Gy2LG8ChTUs",
+          "title": "海滨公园 · 路线点 4",
+          "lat": 22.258704,
+          "lng": 113.58437,
+          "guid": null,
+          "imageUrl": null,
           "isStartPoint": false,
           "isOrnamented": false,
-          "objective": "HACK_PORTAL"
+          "objective": null
         },
         {
           "order": 5,
-          "guid": "b867245dfd54463ebd5fb5d6df55b0dc.16",
-          "title": "佛山电视塔",
-          "lat": 23.01354,
-          "lng": 113.12165,
-          "imageUrl": "https://lh3.googleusercontent.com/PFpqnaDCo4_oC90-p2alBLTn2RMsmmor-Sf7BZvob0ZJi1zXhe3B9yUfgHx4QIatrK9Opiq9mjn3T2v1453l-sYhneLsQ2AAvvoF5_nyiHO1yw",
+          "title": "海滨公园 · 路线点 5",
+          "lat": 22.258781,
+          "lng": 113.58503,
+          "guid": null,
+          "imageUrl": null,
           "isStartPoint": false,
           "isOrnamented": false,
-          "objective": "HACK_PORTAL"
+          "objective": null
         },
         {
           "order": 6,
-          "guid": "9bed7ebc5388389990d8421fe17c3c67.16",
-          "title": "文華公園導覽牌",
-          "lat": 23.013175,
-          "lng": 113.121467,
-          "imageUrl": "https://lh3.googleusercontent.com/oXm0DiaJTofb9yPslafSv86E1TKQx1xi_mAk9RemFoyMiKGMUSrSchuPoEUA0w9yVgRvHVgrH962Z6vv6DEaEAcBZp2BhApyEfDvnsYOszIi",
+          "title": "海滨公园 · 路线点 6",
+          "lat": 22.260034,
+          "lng": 113.585374,
+          "guid": null,
+          "imageUrl": null,
           "isStartPoint": false,
           "isOrnamented": false,
-          "objective": "HACK_PORTAL"
-        }
-      ]
-    },
-    {
-      "order": 13,
-      "title": "MD 2026: Foshan",
-      "description": "MD 2026: Foshan",
-      "firstPortal": "亚艺入口",
-      "displayName": "亚洲艺术之门",
-      "portals": [
-        {
-          "order": 1,
-          "guid": "914f0c1110384521a8b046eb0f4efbde.16",
-          "title": "亚艺入口",
-          "lat": 23.006109,
-          "lng": 113.124281,
-          "imageUrl": "https://lh3.googleusercontent.com/HQVySnfBWHlanC3fzTUbhrSrrA7f13guNzXQX8nHKuLSFtQc_OE0-TzbVncxZoHPixA1XqDx2ic4qUTEFVWPAVMhemV4B-DKRGnAP_FMu0s",
-          "isStartPoint": false,
-          "isOrnamented": false,
-          "objective": "HACK_PORTAL"
-        },
-        {
-          "order": 2,
-          "guid": "7c4d8d4588b64a1d869db1aef50b3a5a.16",
-          "title": "亚艺巨石碑",
-          "lat": 23.006095,
-          "lng": 113.12552,
-          "imageUrl": "https://lh3.googleusercontent.com/uMKeL3PLhTVdjbzzrHVWyvGhPhOG9OQXRGiu7PQiI6RdhIaN-lz--lk9U1S8LaDuyhLJQr9IjiiK4kun-CfwreKTK5ONvpuWctNpRPsscwbo",
-          "isStartPoint": false,
-          "isOrnamented": false,
-          "objective": "HACK_PORTAL"
-        },
-        {
-          "order": 3,
-          "guid": "7ec15e074c1e332ba607433a8a334e98.16",
-          "title": "亞洲藝術之門碑記",
-          "lat": 23.005891,
-          "lng": 113.125579,
-          "imageUrl": "https://lh3.googleusercontent.com/az4xyJDRzupWHkIvF5g69K0KFASHwA7Pa0fR9yR3O3BQBaEx9gkv2OPjoCuEMzAVC-4M6NnH4xEWjOM3GBRArmht6LTmH-0ix4S5TI8UowL8",
-          "isStartPoint": false,
-          "isOrnamented": false,
-          "objective": "HACK_PORTAL"
-        },
-        {
-          "order": 4,
-          "guid": "ddfa5ba6cbf0466aa7e90782a5999fad.16",
-          "title": "亚艺生肖柱之鼠",
-          "lat": 23.005961,
-          "lng": 113.124525,
-          "imageUrl": "https://lh3.googleusercontent.com/LvtkB_hdqXMyBQ0VXkAjKTGmJmgcZzcB3uZWittJe95lEkXfma_dchIs5dnViX3cmwcC3xKTXhKebXN_XrJn1wjYR77JlHG4hTWcwYyInuQH",
-          "isStartPoint": false,
-          "isOrnamented": false,
-          "objective": "HACK_PORTAL"
-        },
-        {
-          "order": 5,
-          "guid": "b831823af59d47ea89533f588306119e.16",
-          "title": "亚艺石狮",
-          "lat": 23.005301,
-          "lng": 113.125057,
-          "imageUrl": "https://lh3.googleusercontent.com/8nB67dqghed2rWaG5KXdkyJItpcvEnhXov1A4ZnBC9uCo_D2qfXmJXMAwtkYfsda_Mb80W5i8ltWhqa6t3c5p-QT7j5QRQlvionQXwfLu9s",
-          "isStartPoint": false,
-          "isOrnamented": false,
-          "objective": "HACK_PORTAL"
-        },
-        {
-          "order": 6,
-          "guid": "925ff4e27f3e32ddbc391e0833028e54.16",
-          "title": "佛山地標",
-          "lat": 23.005167,
-          "lng": 113.124649,
-          "imageUrl": "https://lh3.googleusercontent.com/Buq7WRgk48mUdZnKx0cDviz7ssKihowCK00y2JAYDMBf5ISjHpPINGpJpy8h6ulkHzW0fWGlkKvEVbGTvlcIv1q0R6OZoRMWMA39I5LwEUZ-",
-          "isStartPoint": false,
-          "isOrnamented": false,
-          "objective": "HACK_PORTAL"
-        },
-        {
-          "order": 7,
-          "guid": "2e933c55c56d4693901d6c3ab5e73179.16",
-          "title": "艺术林",
-          "lat": 23.00489,
-          "lng": 113.125052,
-          "imageUrl": "https://lh3.googleusercontent.com/5RSdMcZSL9KS87IVFtEj4c1GstGjzNMfucSSkg9EGbnzwbDZsr8xjBPrhBVRgA1kfOv0URzqcjXEajm_eJGp0F1NaY81g7tTjz9m4bF4LmFtCA",
-          "isStartPoint": false,
-          "isOrnamented": false,
-          "objective": "HACK_PORTAL"
+          "objective": null
         }
       ]
     },
     {
       "order": 14,
-      "title": "MD 2026: Foshan",
-      "description": "MD 2026: Foshan",
-      "firstPortal": "三菇灯柱",
-      "displayName": "灯影鎏金",
+      "title": "MD 2026: Zhuhai, 城市阳台",
+      "displayName": "城市阳台",
+      "description": "城市阳台是情侣路上的时尚新地标，通过巧妙的空中连廊将翠绿的石景山与蔚蓝的香炉湾沙滩缝合在一起。它打破了传统建筑的边界，构建出一个错落有致的多维公共空间。站在这里，你可以凭栏远眺日月贝与港珠澳大桥，在山海之间俯瞰这座滨海城市的繁华与浪漫。",
+      "sourceRoute": "路线-14",
+      "markerDistanceMeters": 1.52,
       "portals": [
         {
           "order": 1,
-          "guid": "77b2332cff47452b97fc59cb067ae36a.16",
-          "title": "三菇灯柱",
-          "lat": 23.049963,
-          "lng": 113.149419,
-          "imageUrl": "https://lh3.googleusercontent.com/WPsRULDAvCop6hUVVxgcYF2p1yAnZV2BeEsTzD7A1fM_TT77BLM6wHGOt28b7jZs4597HIADHt87zI6UYKpXRnaKcZ1cTVnmvAKqWK3DA31O",
-          "isStartPoint": false,
+          "title": "城市阳台 · 路线点 1",
+          "lat": 22.262418,
+          "lng": 113.581919,
+          "guid": null,
+          "imageUrl": null,
+          "isStartPoint": true,
           "isOrnamented": false,
-          "objective": "HACK_PORTAL"
+          "objective": null
         },
         {
           "order": 2,
-          "guid": "b469d5cf0f494dbbb0ac146bb706f2e8.16",
-          "title": "活水公园",
-          "lat": 23.049536,
-          "lng": 113.148445,
-          "imageUrl": "https://lh3.googleusercontent.com/OEeSURUT3cg1nlIowtGHUddf03M-BrhxeB2CBA0KYf5AkiT_p0r24kiizLyKCcgvELLf_GrYhBWoOXj4txo_Z26eopfNqLuddpuA8121CvxHjw",
+          "title": "城市阳台 · 路线点 2",
+          "lat": 22.262576,
+          "lng": 113.582544,
+          "guid": null,
+          "imageUrl": null,
           "isStartPoint": false,
           "isOrnamented": false,
-          "objective": "HACK_PORTAL"
+          "objective": null
         },
         {
           "order": 3,
-          "guid": "635995143551358f831d69697c2e8d36.16",
-          "title": "如来神掌",
-          "lat": 23.049535,
-          "lng": 113.146934,
-          "imageUrl": "https://lh3.googleusercontent.com/dfiqlcJPcH3u4o74WoMAZrsY7dO7Hm4jXjdtjrL-xtTgG3zrbVif0zPinFN2Tcl8r-IGjxZXN4LsYUZdFL879s9YWyFbtsSNCwD_WElIz4rcag",
+          "title": "城市阳台 · 路线点 3",
+          "lat": 22.263133,
+          "lng": 113.582115,
+          "guid": null,
+          "imageUrl": null,
           "isStartPoint": false,
           "isOrnamented": false,
-          "objective": "HACK_PORTAL"
+          "objective": null
         },
         {
           "order": 4,
-          "guid": "7f1ad8a0f7fd43fe8cde9582554bb2b4.16",
-          "title": "橋頭燈",
-          "lat": 23.048583,
-          "lng": 113.147161,
-          "imageUrl": "https://lh3.googleusercontent.com/OwTsFXqkxwbTu-wTHJv3HLgDbS-R66YRs815hQeca70mHjbWRtWlLeHSZz1KP7nbABQmr4hAQq4d0RxQB77dihdtsA8S4Bs8Nzdyl7fA26AD",
+          "title": "城市阳台 · 路线点 4",
+          "lat": 22.263956,
+          "lng": 113.582164,
+          "guid": null,
+          "imageUrl": null,
           "isStartPoint": false,
           "isOrnamented": false,
-          "objective": "HACK_PORTAL"
+          "objective": null
         },
         {
           "order": 5,
-          "guid": "9fd98e775f4f3744949e64287ded6d0b.16",
-          "title": "抽象滑梯",
-          "lat": 23.049216,
-          "lng": 113.145991,
-          "imageUrl": "https://lh3.googleusercontent.com/hvKOmz3C3ODGKLR5Y82FlB09JPyribkoLNgBdsNvWMHQp4ARm6HOWHQyszIprCEHAYY0bi4X78d46MXkGUPdZ2XVOUSW8qQvqgz1cs4AENFZDg",
+          "title": "城市阳台 · 路线点 5",
+          "lat": 22.263548,
+          "lng": 113.58268,
+          "guid": null,
+          "imageUrl": null,
           "isStartPoint": false,
           "isOrnamented": false,
-          "objective": "HACK_PORTAL"
+          "objective": null
         },
         {
           "order": 6,
-          "guid": "bcea06e9b93441b28286d0ed912b8b36.16",
-          "title": "斗重",
-          "lat": 23.049103,
-          "lng": 113.145177,
-          "imageUrl": "https://lh3.googleusercontent.com/tT9EIdB-vydmEwvgvJZBdynvmjNLMkZQGGWQW4ILkBNY1E4Kqo1jcREUgotkdAjVxxWHPN5iMzM5f6rgX6u7PdLKv5StA-YgCinppxha1Bck",
+          "title": "城市阳台 · 路线点 6",
+          "lat": 22.263822,
+          "lng": 113.582588,
+          "guid": null,
+          "imageUrl": null,
           "isStartPoint": false,
           "isOrnamented": false,
-          "objective": "HACK_PORTAL"
-        },
-        {
-          "order": 7,
-          "guid": "a9be99eb2a084da98d0522b06e443069.16",
-          "title": "写生",
-          "lat": 23.04879,
-          "lng": 113.144137,
-          "imageUrl": "https://lh3.googleusercontent.com/SYceMFUjjtGLAIo8uKiXRfwNKH4g7JsksiKE-vJJR4U4zXqaif_CdFrJ6VdP-8y8GsQRbDC7ocDkRi_sroJ-xAN2i4kwIT6kDYI_8C9ijy67dg",
-          "isStartPoint": false,
-          "isOrnamented": false,
-          "objective": "HACK_PORTAL"
-        }
-      ]
-    },
-    {
-      "order": 15,
-      "title": "MD 2026: Foshan",
-      "description": "MD 2026: Foshan",
-      "firstPortal": "千灯湖镇邪",
-      "displayName": "水映魁星",
-      "portals": [
-        {
-          "order": 1,
-          "guid": "b74c34980aac4b7a958bf28e9a468f96.11",
-          "title": "千灯湖镇邪",
-          "lat": 23.047851,
-          "lng": 113.143356,
-          "imageUrl": "https://lh3.googleusercontent.com/sHaFOt65sw-Y8VmiU8xQyEvGJrn0pe46yKE1IkqsksbeJVnYmMwU9eSxixPGYWRQitY0gO0oCA3Npc8sVYhczb8_5JGEWXOUYTvtE2rGXjH-",
-          "isStartPoint": false,
-          "isOrnamented": false,
-          "objective": "HACK_PORTAL"
-        },
-        {
-          "order": 2,
-          "guid": "25c991d931fa4127a29363a0e2d92b02.16",
-          "title": "小橋湖水亭",
-          "lat": 23.047051,
-          "lng": 113.142144,
-          "imageUrl": "https://lh3.googleusercontent.com/fQfuMQJYq-IfQIcB0N8DUdsT-nKblslM-XfAEgxqaNtX88mc2QR1M8-TnB2VggdQTw3yEHYQWidpXXTUsA43Torhaapw_wqHLK-FQgk4An1V",
-          "isStartPoint": false,
-          "isOrnamented": false,
-          "objective": "HACK_PORTAL"
-        },
-        {
-          "order": 3,
-          "guid": "8d6cae97b4fe41979cab3bc3be24d83f.11",
-          "title": "沁园春",
-          "lat": 23.047349,
-          "lng": 113.141326,
-          "imageUrl": "https://lh3.googleusercontent.com/2PkRJJ1xuY2u0UIxZ7yWqyPFf5ICP9esPrDT7n9tW3JQbDu9L74LuhlcKHuRW4Dc9ujZ-0vOOk3IUFVetb45HHhcIwMlAKXt48xUmbbjFbB2",
-          "isStartPoint": false,
-          "isOrnamented": false,
-          "objective": "HACK_PORTAL"
-        },
-        {
-          "order": 4,
-          "guid": "468a3b4336004e1fac6c76c00a69dc4f.16",
-          "title": "影相",
-          "lat": 23.048921,
-          "lng": 113.142935,
-          "imageUrl": "https://lh3.googleusercontent.com/ENvXv3BsSRDAFej4QieoENVj_MAJpXAvsNTle1A43JFq1tFCRdS2ubiznaZRuGLg_Rbo0zHlaWoYoMX9hNNcfy6VPDt4l4GmWIqrhoNShKDP",
-          "isStartPoint": false,
-          "isOrnamented": false,
-          "objective": "HACK_PORTAL"
-        },
-        {
-          "order": 5,
-          "guid": "63779005afed4fc2ab9d2a19b23a8b7e.16",
-          "title": "奔跑吧，童年",
-          "lat": 23.049538,
-          "lng": 113.142578,
-          "imageUrl": "https://lh3.googleusercontent.com/e1T9fZcgjPd5i7h9Lcy13I8i69L4Z4ThGiFW_iWmp3gyTklbQbR3vY4zl8Grpr4K0oCLFjfRK-Aki11y5zuYMhm3xcL-MnQM23sYKe--Uze5",
-          "isStartPoint": false,
-          "isOrnamented": false,
-          "objective": "HACK_PORTAL"
-        },
-        {
-          "order": 6,
-          "guid": "64929736af4f4f98afeeca96118bb991.16",
-          "title": "唔好嘈住我温书",
-          "lat": 23.049712,
-          "lng": 113.142757,
-          "imageUrl": "https://lh3.googleusercontent.com/giY_KBh0ZxC9lnkYY39ZccIwlPdZPyXFifrQFe1yzbnkotZxaKFkaJ1F0bQnz62xBBH17gFRMy7cV3QLcE4RGuFto9O167ki6qRRbPDSeEvU",
-          "isStartPoint": false,
-          "isOrnamented": false,
-          "objective": "HACK_PORTAL"
-        },
-        {
-          "order": 7,
-          "guid": "f7f82aaceb094e23917c7bb214482ee9.16",
-          "title": "活水公园",
-          "lat": 23.049877,
-          "lng": 113.142979,
-          "imageUrl": "https://lh3.googleusercontent.com/ocCs8ekJc3FNHbyHYYN-j2i4F2-WRAKBAniwGAYJm6vve95bliKSxP2PP_Gdbg70YH44Ne3ymTQadEDUViajN35BwZmxHANXIj8BIhiwUZMeFA",
-          "isStartPoint": false,
-          "isOrnamented": false,
-          "objective": "HACK_PORTAL"
+          "objective": null
         }
       ]
     },
     {
       "order": 16,
-      "title": "MD 2026: Foshan",
-      "description": "MD 2026: Foshan",
-      "firstPortal": "西瓜路原址",
-      "displayName": "陶都艺苑",
+      "title": "MD 2026: Zhuhai, 野狸岛",
+      "displayName": "野狸岛",
+      "description": "野狸岛是距离珠海市区最近的海岛，通过新海燕桥与情侣路相连。作为珠海大剧院的所在地，它完美融合了自然景观与现代艺术。漫步在环岛路，你可以一边领略壮阔的南中国海景，一边近距离感受“日月贝”的建筑之美，它是这座花园城市忙碌生活中的一片静谧绿洲。",
+      "sourceRoute": "路线-16",
+      "markerDistanceMeters": 3.2,
       "portals": [
         {
           "order": 1,
-          "guid": "ecd5cc059fc43bcf8eb94effe0facde0.16",
-          "title": "西瓜路原址",
-          "lat": 23.008415,
-          "lng": 113.076759,
-          "imageUrl": "https://lh3.googleusercontent.com/PDrk1yMg3YEEYQ6q3FbT9c8QL2tJ8P7yhxO1-7PSf3bKbNg8olEcgOgUeRf-bEUDKfw1cvUF0kGOWrHnz7dxLKLHLu2MB-XbDmYnxDI4rFM",
-          "isStartPoint": false,
+          "title": "野狸岛 · 路线点 1",
+          "lat": 22.274994,
+          "lng": 113.582086,
+          "guid": null,
+          "imageUrl": null,
+          "isStartPoint": true,
           "isOrnamented": false,
-          "objective": "HACK_PORTAL"
+          "objective": null
         },
         {
           "order": 2,
-          "guid": "aebc4836cf9d36908372d17e3d6141c5.16",
-          "title": "石灣公園",
-          "lat": 23.008681,
-          "lng": 113.07676,
-          "imageUrl": "https://lh3.googleusercontent.com/SpWG9u4krvDIj_UJ3uqbER0W_FhAJg4LTRspYpOz8ObreVY5XZcqI1hgjKQysRdBNd4HPbxCm5Evij45Adf1fgkTaScAehYXs-1UAgLbbGCT",
+          "title": "野狸岛 · 路线点 2",
+          "lat": 22.275218,
+          "lng": 113.583215,
+          "guid": null,
+          "imageUrl": null,
           "isStartPoint": false,
           "isOrnamented": false,
-          "objective": "HACK_PORTAL"
+          "objective": null
         },
         {
           "order": 3,
-          "guid": "a0537abb3a1d3a7b877281d20e4cacd7.16",
-          "title": "石灣公園簡介導覽",
-          "lat": 23.008935,
-          "lng": 113.076126,
-          "imageUrl": "https://lh3.googleusercontent.com/eOH41eY1is7jv5kQFnXRCkzpCCvcJPqImxnkSahLZ7WLZyyfKf77Q6w_odXKSSUhgUC47AIGuWs0z_6wOcWeJ1xyqw84yY5sY08wWJux_j7D",
+          "title": "野狸岛 · 路线点 3",
+          "lat": 22.27567,
+          "lng": 113.585468,
+          "guid": null,
+          "imageUrl": null,
           "isStartPoint": false,
           "isOrnamented": false,
-          "objective": "HACK_PORTAL"
+          "objective": null
         },
         {
           "order": 4,
-          "guid": "e567da6dc7644a32a52dd332bf28ab78.16",
-          "title": "飞天",
-          "lat": 23.009621,
-          "lng": 113.075048,
-          "imageUrl": "https://lh3.googleusercontent.com/gcAaUBWgdEILCsjBKVB5hriou9osDImnrXq9isPLUHA1nXRZLMX0o0POgqXpSF6rmG1bSAQ0k1NGKrcHnn90A57oxv_29UEHujxWOd-f5vaX",
+          "title": "野狸岛 · 路线点 4",
+          "lat": 22.27593,
+          "lng": 113.585548,
+          "guid": null,
+          "imageUrl": null,
           "isStartPoint": false,
           "isOrnamented": false,
-          "objective": "HACK_PORTAL"
+          "objective": null
         },
         {
           "order": 5,
-          "guid": "3db800700f653018af72a1497612d5aa.16",
-          "title": "花裙陶姊妹",
-          "lat": 23.009814,
-          "lng": 113.075074,
-          "imageUrl": "https://lh3.googleusercontent.com/Kyd0ddvEun4NM-_R4eDyWmOJzEvuWifC4Stt0H8-Mqd0RZ_4KHymnKCaTXGPKn5LRouYSWNyq4rObPmrQxzjcnwnTuIMIBeOxX8y0uv6rmbs",
+          "title": "野狸岛 · 路线点 5",
+          "lat": 22.276737,
+          "lng": 113.586126,
+          "guid": null,
+          "imageUrl": null,
           "isStartPoint": false,
           "isOrnamented": false,
-          "objective": "HACK_PORTAL"
+          "objective": null
         },
         {
           "order": 6,
-          "guid": "e328408435c243638b9b75717fd421d6.16",
-          "title": "陶师祖庙",
-          "lat": 23.010381,
-          "lng": 113.074539,
-          "imageUrl": "https://lh3.googleusercontent.com/H2DcjLVN9NTaNyEljRz-MXJNivWuxzw_DDbuJemJvHDbIH254AWTFIfnuXxZM2Wt3XMyvpNBPiW8I27_wVDSF59Ct3EeGDPEP8Z2lEl23jrK",
+          "title": "野狸岛 · 路线点 6",
+          "lat": 22.277019,
+          "lng": 113.586633,
+          "guid": null,
+          "imageUrl": null,
           "isStartPoint": false,
           "isOrnamented": false,
-          "objective": "HACK_PORTAL"
-        }
-      ]
-    },
-    {
-      "order": 17,
-      "title": "MD 2026: Foshan",
-      "description": "MD 2026: Foshan",
-      "firstPortal": "茶壶",
-      "displayName": "古灶薪传",
-      "portals": [
-        {
-          "order": 1,
-          "guid": "d6ae090a01e64686b5d371746d8e98fc.16",
-          "title": "茶壶",
-          "lat": 23.009027,
-          "lng": 113.073807,
-          "imageUrl": "https://lh3.googleusercontent.com/36wPwS8rAaK_SOfrYPFvn3YBvZTSIZG4gZBKCPYfzeL29_pHBsPm6CFfWLUzVT5u1knPnQOzNnCfoSuRjCiEB3G_J34027Z-LYi96CQAXWtAQQ",
-          "isStartPoint": false,
-          "isOrnamented": false,
-          "objective": "HACK_PORTAL"
-        },
-        {
-          "order": 2,
-          "guid": "4537a7517e7f32619cc5f4cc19a65895.16",
-          "title": "公仔街墙塑",
-          "lat": 23.007583,
-          "lng": 113.07386,
-          "imageUrl": "https://lh3.googleusercontent.com/JpNP_r1jN-s2Bl1FA3jGbA2q-CkI4A2m24gFUgJUmrVsxF_8e3roFI7T_6dSNh6GLsRUUqsCHV7YN2Ms7C4B2CH70fFD4ueeNX_ISFCvhDQ7",
-          "isStartPoint": false,
-          "isOrnamented": false,
-          "objective": "HACK_PORTAL"
-        },
-        {
-          "order": 3,
-          "guid": "92fb18ed331a3eeca4bc3b3f56f117a1.16",
-          "title": "石湾陶瓷博物馆导览牌",
-          "lat": 23.007301,
-          "lng": 113.073577,
-          "imageUrl": "https://lh3.googleusercontent.com/gzVLL8ut0miTMxQFe_efB6UstotKvKQLOTFXL6zl5pDtHn2Rr_1zXW70N-CRrjHbxg271fgigJduyO6ggBVPJAiZn9Hnc5M_1dO-WbEyyvUslg",
-          "isStartPoint": false,
-          "isOrnamented": false,
-          "objective": "HACK_PORTAL"
-        },
-        {
-          "order": 4,
-          "guid": "2555b29146654019b93bc187541cf1be.16",
-          "title": "暗中观察",
-          "lat": 23.006794,
-          "lng": 113.073202,
-          "imageUrl": "https://lh3.googleusercontent.com/qMUcgzA8P25AMflw2KHFdRh1bv1EhD76dPK6VA-tEi3est6m9OMD2rduBIv5ws-phIGvnsdb53jm6CvW8uTaKLNQzPaOXGpYyjZ9K33gIv3F5g",
-          "isStartPoint": false,
-          "isOrnamented": false,
-          "objective": "HACK_PORTAL"
-        },
-        {
-          "order": 5,
-          "guid": "bf55729fe8d13c69b999bfe28f561f8e.16",
-          "title": "南风古灶导览 X4",
-          "lat": 23.006904,
-          "lng": 113.072308,
-          "imageUrl": "https://lh3.googleusercontent.com/EyV2_fZHpvVzHwL3_mFQUriTmO-qZnD86ZDSmmHqG_yEpgMHsQK3PxXiECcoN0EiFnB2Oq6KqsckSPxR0FRnVwn9nwS9BhkAn9uwssm_veMB1g",
-          "isStartPoint": false,
-          "isOrnamented": false,
-          "objective": "HACK_PORTAL"
-        },
-        {
-          "order": 6,
-          "guid": "80f7fd1efb9e4e4abab8e1a6543f8eaf.16",
-          "title": "佛山南风古灶大門",
-          "lat": 23.006921,
-          "lng": 113.071758,
-          "imageUrl": "https://lh3.googleusercontent.com/cZXznC54_YYRUR_VSM-OhCucMb---1Nl7vv1PKSfDLTQYstIVs1aEdQ7tyupNljHhlmf4Xw-AJde22wcmqWp6E3rAS3UfFXfncQaWUv9Ug7t",
-          "isStartPoint": false,
-          "isOrnamented": false,
-          "objective": "HACK_PORTAL"
+          "objective": null
         }
       ]
     },
     {
       "order": 18,
-      "title": "MD 2026: Foshan",
-      "description": "MD 2026: Foshan",
-      "firstPortal": "天荒地老流连在摩天轮",
-      "displayName": "东平河畔",
+      "title": "MD 2026: Zhuhai, Zhuhai 珠海大剧院",
+      "displayName": "珠海大剧院",
+      "description": "珠海大剧院是中国唯一建设在海岛上的大剧院，其独特的“日月贝”造型灵感源自名画《维纳斯的诞生》。一大一小两组建筑宛如从蓝色大海中升起的贝壳，不仅象征着珠海作为浪漫之城的艺术底蕴，也记录了这座特区向海而生的历史篇章。",
+      "sourceRoute": "路线-18",
+      "markerDistanceMeters": 0.0,
       "portals": [
         {
           "order": 1,
-          "guid": "432440f784bb3b138456349a45c46aa7.16",
-          "title": "天荒地老流连在摩天轮",
-          "lat": 22.974802,
-          "lng": 113.114583,
-          "imageUrl": "https://lh3.googleusercontent.com/_uAkf_0E_GEnJntH_8DtuJA9OTMa9J_dgIEEvyoo4ftZ3EdisAh6Rs1Oz12NxycRqP5CTfTvRAtWAyUiLcrbN0QfttxSkL3Z3jYECKckOm2Q",
-          "isStartPoint": false,
+          "title": "珠海大剧院 · 路线点 1",
+          "lat": 22.281922,
+          "lng": 113.591042,
+          "guid": null,
+          "imageUrl": null,
+          "isStartPoint": true,
           "isOrnamented": false,
-          "objective": "HACK_PORTAL"
+          "objective": null
         },
         {
           "order": 2,
-          "guid": "134648921f1f467b994689c7a47fc17a.16",
-          "title": "圓環套圓環",
-          "lat": 22.97533,
-          "lng": 113.113915,
-          "imageUrl": "https://lh3.googleusercontent.com/bXhjNpSLOdmmJEyjROwkhsoVm8aqi5RkSLOmuq5REo5JR0fLVrNdpw9VRQUr-rjLYYo5HgIjngvUQbronk0aErFminOn_qf9GlEozIMwEDFJKg",
+          "title": "珠海大剧院 · 路线点 2",
+          "lat": 22.283395,
+          "lng": 113.589477,
+          "guid": null,
+          "imageUrl": null,
           "isStartPoint": false,
           "isOrnamented": false,
-          "objective": "HACK_PORTAL"
+          "objective": null
         },
         {
           "order": 3,
-          "guid": "0d774ef4ae7343839a55ab5f90bb458a.16",
-          "title": "四個三角形",
-          "lat": 22.974688,
-          "lng": 113.113703,
-          "imageUrl": "https://lh3.googleusercontent.com/7YmJyevWCpm1kzRDFabdiEzpDvpiIM4ywy5yQ-irAKDFpEUF_ltJYJYjtxg0xEQGNrfcQQUBwDFXtesFssTnL180HTznyvjwhxmoH1_XtbJZ",
+          "title": "珠海大剧院 · 路线点 3",
+          "lat": 22.283656,
+          "lng": 113.58908,
+          "guid": null,
+          "imageUrl": null,
           "isStartPoint": false,
           "isOrnamented": false,
-          "objective": "HACK_PORTAL"
+          "objective": null
         },
         {
           "order": 4,
-          "guid": "62b5041cdc5235128644bd6a0501b825.16",
-          "title": "世纪莲献血屋",
-          "lat": 22.974974,
-          "lng": 113.113514,
-          "imageUrl": "https://lh3.googleusercontent.com/89TvNQ-XlZyomMlx5P927cahZ_9lexY_ws2mLoLZ5MGi40pWCWmmUrRb5X2xPTej9bbC1VCT3eAzyKXaC2SmMJP8cJRjj6vaHJ4nDHT77Vs",
+          "title": "珠海大剧院 · 路线点 4",
+          "lat": 22.282987,
+          "lng": 113.589418,
+          "guid": null,
+          "imageUrl": null,
           "isStartPoint": false,
           "isOrnamented": false,
-          "objective": "HACK_PORTAL"
+          "objective": null
         },
         {
           "order": 5,
-          "guid": "b4f3c50492614f608aae6e399c24e229.16",
-          "title": "夢佛山",
-          "lat": 22.975028,
-          "lng": 113.112898,
-          "imageUrl": "https://lh3.googleusercontent.com/hNkiYyjzlMbLnvaIhxot_t3mPsKpsvJ_2Kfa7Ih8MBYZsjM-TR4jaBtK3I5drW4L0PcJcaHghpcpd-w4K42LzbnRrhw0Oz-QolNLidGOiiFC",
+          "title": "珠海大剧院 · 路线点 5",
+          "lat": 22.281948,
+          "lng": 113.589587,
+          "guid": null,
+          "imageUrl": null,
           "isStartPoint": false,
           "isOrnamented": false,
-          "objective": "HACK_PORTAL"
+          "objective": null
         },
         {
           "order": 6,
-          "guid": "95fba0dd58de48d9bef27669f39085be.16",
-          "title": "welco",
-          "lat": 22.973214,
-          "lng": 113.111539,
-          "imageUrl": "https://lh3.googleusercontent.com/Wz0kXCwlmCtQfR4ZY7gcT4DBkyY7CsFDOTgCMTJECRBJW6ZcPGqObUT_2QgKJZlgS4lbrkGVNh3pT6G5waupmBDsAxSYlm2AznW9MYaZcz0",
+          "title": "珠海大剧院 · 路线点 6",
+          "lat": 22.281071,
+          "lng": 113.589403,
+          "guid": null,
+          "imageUrl": null,
           "isStartPoint": false,
           "isOrnamented": false,
-          "objective": "HACK_PORTAL"
-        },
-        {
-          "order": 7,
-          "guid": "bcd0b2ffc3e54787ab05f48984bcc70b.16",
-          "title": "木板画廊",
-          "lat": 22.972816,
-          "lng": 113.110133,
-          "imageUrl": "https://lh3.googleusercontent.com/3a_QQucNpAPIAfJfD1vLAOEji8z53-LYrYY2g5MPplpOpfe4f8AALfCsFbJ0qIUJeOuPKzcwjVfB6NFYn5ZRTTLggcNc-1c80otEwbtnhr0MAQ",
-          "isStartPoint": false,
-          "isOrnamented": false,
-          "objective": "HACK_PORTAL"
-        }
-      ]
-    },
-    {
-      "order": 19,
-      "title": "MD 2026: Foshan",
-      "description": "MD 2026: Foshan",
-      "firstPortal": "涂鸦楼梯",
-      "displayName": "世纪莲",
-      "portals": [
-        {
-          "order": 1,
-          "guid": "1f7800fae4f93e6fa24c748eb54544da.16",
-          "title": "涂鸦楼梯",
-          "lat": 22.968184,
-          "lng": 113.110248,
-          "imageUrl": "https://lh3.googleusercontent.com/GX_fZMLpGa4NNA6RA1zQ1PQsudIpg9YBVwIiESaQL2lZxGfxtJXSN3Sl2Vr51p_QIbEhvtSf2Wd6rOApirUsZsZrRUq4Kh1H4rFJRfokA6zu",
-          "isStartPoint": false,
-          "isOrnamented": false,
-          "objective": "HACK_PORTAL"
-        },
-        {
-          "order": 2,
-          "guid": "94795947567949b9b1e42a1110783ea7.16",
-          "title": "怪异雕像",
-          "lat": 22.968189,
-          "lng": 113.111313,
-          "imageUrl": "https://lh3.googleusercontent.com/aPqvgWW8OX4H-sjNgwlbhAxh31PM6YPmMjRwg9Yy4IZc0uILhy6ePEfPbJRCIxsA551kQdXEo8oFdz2OuTafU2Rw3-6Lw_Sz6i-sR2sqRA4",
-          "isStartPoint": false,
-          "isOrnamented": false,
-          "objective": "HACK_PORTAL"
-        },
-        {
-          "order": 3,
-          "guid": "83e47e8737874446927e31245d8ef005.16",
-          "title": "一条老坑",
-          "lat": 22.968939,
-          "lng": 113.111488,
-          "imageUrl": "https://lh3.googleusercontent.com/HwQKFs-V9vhZYhw4ATfEKe2pqbMtRNjKlM2afPa_oq5SSH5R9fisC8BKWpMabmYRy3wgK-aK4lUEIZT_4XryjxeZ6N5aX6S-TuKZCdX64J4d",
-          "isStartPoint": false,
-          "isOrnamented": false,
-          "objective": "HACK_PORTAL"
-        },
-        {
-          "order": 4,
-          "guid": "d3e65b3a2e2c4fe189cea979a444887c.16",
-          "title": "飘逸的女子",
-          "lat": 22.969169,
-          "lng": 113.111374,
-          "imageUrl": "https://lh3.googleusercontent.com/mGUeJPXAo6m5zkco3rp9PC6jGldM30JX7mu5-nhurTM2LhtEtPN8_rnMi8OBANnZsWNza5UFW_31_lJ8RTLHIZQyWMID89-bBY2HivxHS7TQ",
-          "isStartPoint": false,
-          "isOrnamented": false,
-          "objective": "HACK_PORTAL"
-        },
-        {
-          "order": 5,
-          "guid": "6047f8dedb4d39bba798611f444393a5.16",
-          "title": "世纪莲西门指示牌",
-          "lat": 22.969522,
-          "lng": 113.112143,
-          "imageUrl": "https://lh3.googleusercontent.com/Lqshi5oUqWfDuF9EA1xCfQ4HxJVmFphDHK8W1mggp2mqCACeOJVsZopY4K0e5Z1KCENqyvDLByn1C_GJ6Xm16TJjUPaEbthY30Z9Eks6JHLI",
-          "isStartPoint": false,
-          "isOrnamented": false,
-          "objective": "HACK_PORTAL"
+          "objective": null
         }
       ]
     },
     {
       "order": 20,
-      "title": "MD 2026: Foshan",
-      "description": "MD 2026: Foshan",
-      "firstPortal": "佛山大剧院",
-      "displayName": "新城文化走廊",
+      "title": "D 2026: Zhuhai,珠海博物馆与城市规划展览馆",
+      "displayName": "珠海博物馆与城市规划展览馆",
+      "description": "珠海博物馆与城市规划展览馆展示了珠海丰富的历史文化与城市发展蓝图。场馆位于情侣路附近，以现代化建筑和多媒体展览闻名，涵盖海洋文化、本地民俗以及城市建设等内容，让游客深入了解珠海的过去、现在与未来。",
+      "sourceRoute": "路线-20",
+      "markerDistanceMeters": 1.13,
       "portals": [
         {
           "order": 1,
-          "guid": "6511c49b411740be805ead7bd5a845a2.16",
-          "title": "佛山大剧院",
-          "lat": 22.971941,
-          "lng": 113.11022,
-          "imageUrl": "https://lh3.googleusercontent.com/LFAiEsIpSrpQRBaowJlymqq20RheXW-0UTRQCvhIWBYURvjbs2I67tD39U_z2FT1Y-FnShHI9CrFGWcE5QqUIrgLBQBDTvlpZVIyOzl5GikhUw",
-          "isStartPoint": false,
+          "title": "珠海博物馆与城市规划展览馆 · 路线点 1",
+          "lat": 22.292571,
+          "lng": 113.577687,
+          "guid": null,
+          "imageUrl": null,
+          "isStartPoint": true,
           "isOrnamented": false,
-          "objective": "HACK_PORTAL"
+          "objective": null
         },
         {
           "order": 2,
-          "guid": "c5fb588e2ffb4379883890c77d5797c6.16",
-          "title": "佛山市城市展览馆",
-          "lat": 22.970658,
-          "lng": 113.109566,
-          "imageUrl": "https://lh3.googleusercontent.com/6KX-fisln06s6XljmckS3hVaVbrvspl_0NNfr6OVKIidLHFEcCYpP5umZS9WNlwAzdOS48tvZXfRHJQsSZWtNseYUWVyJ95WujMrYL2hHLJO",
+          "title": "珠海博物馆与城市规划展览馆 · 路线点 2",
+          "lat": 22.29307,
+          "lng": 113.577115,
+          "guid": null,
+          "imageUrl": null,
           "isStartPoint": false,
           "isOrnamented": false,
-          "objective": "HACK_PORTAL"
+          "objective": null
         },
         {
           "order": 3,
-          "guid": "8c7da08f09ff4511b21a50be80f35e49.16",
-          "title": "佛山科学馆",
-          "lat": 22.970938,
-          "lng": 113.110672,
-          "imageUrl": "https://lh3.googleusercontent.com/H7e7wD46IQ5WXqhIQsSDY7UuTUSpENZv2DpeLAccfqhi_xfhTfdT8lvIyrnXH4PK386YmddJAaaCXXe4zm4jhSDP63bFkHouLQtCF8j3SRxe",
+          "title": "珠海博物馆与城市规划展览馆 · 路线点 3",
+          "lat": 22.293506,
+          "lng": 113.577815,
+          "guid": null,
+          "imageUrl": null,
           "isStartPoint": false,
           "isOrnamented": false,
-          "objective": "HACK_PORTAL"
+          "objective": null
         },
         {
           "order": 4,
-          "guid": "927d6b0aa0a24b83b7d633d4e28f54ca.16",
-          "title": "佛山市青少年文化宫",
-          "lat": 22.97035,
-          "lng": 113.110471,
-          "imageUrl": "https://lh3.googleusercontent.com/CjVbPxT2-MwuwPq_mFueBrCO1B3LTPNmjRvtbG8Iy49IeIcBrEWNsQfTuPilvOU3XUNgymokVF-tvO33mgJZ8dUKKSpyZSCmCzOxL3tiJbc",
+          "title": "珠海博物馆与城市规划展览馆 · 路线点 4",
+          "lat": 22.294464,
+          "lng": 113.577922,
+          "guid": null,
+          "imageUrl": null,
           "isStartPoint": false,
           "isOrnamented": false,
-          "objective": "HACK_PORTAL"
+          "objective": null
         },
         {
           "order": 5,
-          "guid": "28e7434e8fc449458c5881ac1141cd35.16",
-          "title": "圖書館",
-          "lat": 22.966179,
-          "lng": 113.109963,
-          "imageUrl": "https://lh3.googleusercontent.com/2Abvlr20vHp7uCn1rv4c0UlOCNy00GLBWzisFdrwLGxNlbJcpKMidkFf2SUPbxRRpQJF63Liqy7PYA0CJ3BRaQi35qQRiNzhkOcU5XQplpIUiw",
+          "title": "珠海博物馆与城市规划展览馆 · 路线点 5",
+          "lat": 22.294268,
+          "lng": 113.576703,
+          "guid": null,
+          "imageUrl": null,
           "isStartPoint": false,
           "isOrnamented": false,
-          "objective": "HACK_PORTAL"
+          "objective": null
         },
         {
           "order": 6,
-          "guid": "2f0b6fac34fa4930940fcb90bac021e1.16",
-          "title": "佛山檔案館",
-          "lat": 22.965773,
-          "lng": 113.110247,
-          "imageUrl": "https://lh3.googleusercontent.com/EfgGYw5DFUH2u13Nut-TUxZx5zIxj1J-tBDW5VjjkKK7pr2nrTqCeWK7UMoi0Ebe-nIeCDihAocCgymrZR5EqvulCHvEh18U7PwMLBpAmBVO",
+          "title": "珠海博物馆与城市规划展览馆 · 路线点 6",
+          "lat": 22.293608,
+          "lng": 113.576338,
+          "guid": null,
+          "imageUrl": null,
           "isStartPoint": false,
           "isOrnamented": false,
-          "objective": "HACK_PORTAL"
-        },
-        {
-          "order": 7,
-          "guid": "e686c7f669ff311a93ff090cf9179053.16",
-          "title": "佛山市博物馆西门",
-          "lat": 22.964642,
-          "lng": 113.110481,
-          "imageUrl": "https://lh3.googleusercontent.com/ZaF6NmuAnA5unaNtM8IUtiaN0WLEsegpJycQ6PpHnmI4Rqa_WhB9kNMMlQTDAIkBFkwy1XHTEmVUayugeg1BdZBaxhUQ1M63J1PbpXEh38BknA",
-          "isStartPoint": false,
-          "isOrnamented": false,
-          "objective": "HACK_PORTAL"
-        },
-        {
-          "order": 8,
-          "guid": "8c1b07475fb23161bfeec66b737f56b7.16",
-          "title": "佛山市文化馆西门",
-          "lat": 22.963285,
-          "lng": 113.110489,
-          "imageUrl": "https://lh3.googleusercontent.com/zC6i7ZEL9s1gRKObDsgoVcOPCEzaQ4ReHkLG5I19007vdJ8DLGhjjomzPcU7AFbakL0nHQPtjiuogatSZo8k2tbCHZyDbBGct3VZXYHYNwLB",
-          "isStartPoint": false,
-          "isOrnamented": false,
-          "objective": "HACK_PORTAL"
-        }
-      ]
-    },
-    {
-      "order": 21,
-      "title": "MD 2026: Foshan",
-      "description": "MD 2026: Foshan",
-      "firstPortal": "西山庙导游全景图",
-      "displayName": "西山庙",
-      "portals": [
-        {
-          "order": 1,
-          "guid": "7121babe94e73373866d06076fb39744.16",
-          "title": "西山庙导游全景图",
-          "lat": 22.843224,
-          "lng": 113.246947,
-          "imageUrl": "https://lh3.googleusercontent.com/K1KwUsjHEWUfkWtxXb3nbB58YMFvTlkWgSK8JCjfZLNBSou3iVMOfec10DkFc3CUCWrtQyZARAYdclTkUKHgQKC5mNe3XzCgFhWfwk62Mevy",
-          "isStartPoint": false,
-          "isOrnamented": false,
-          "objective": "HACK_PORTAL"
-        },
-        {
-          "order": 2,
-          "guid": "723affc6ba494699abd7b3b6b9396243.11",
-          "title": "Xishan Temple",
-          "lat": 22.843084,
-          "lng": 113.246507,
-          "imageUrl": "https://lh3.googleusercontent.com/hliGxPOoBhcQFVIkAVUJR0NfGCAvKm42YnYugdGi02_ssfFez_R7AgKgARuvklZC-zhAazIa6x0Cz6dD0SALs_mM2oR9DWjwMWhMXTD1RGHg",
-          "isStartPoint": false,
-          "isOrnamented": false,
-          "objective": "HACK_PORTAL"
-        },
-        {
-          "order": 3,
-          "guid": "5707d5309859482ea425b4da570553f0.16",
-          "title": "西山庙石狮",
-          "lat": 22.843137,
-          "lng": 113.24652,
-          "imageUrl": "https://lh3.googleusercontent.com/3Xsm-H0OeZpD5qWNXxbiN4Ly6L8H-LIP60rEDblEADjeicpa684SMvACHPIVFQAHbHA_ZaQR8Jb5tJJt2ymOQkiWe6zDF7vhN8-GwBB5_1Q",
-          "isStartPoint": false,
-          "isOrnamented": false,
-          "objective": "HACK_PORTAL"
-        },
-        {
-          "order": 4,
-          "guid": "dbc4a5e56d70381cbef81237a2fb6b18.16",
-          "title": "順德梁銶琚圖書館",
-          "lat": 22.842972,
-          "lng": 113.246772,
-          "imageUrl": "https://lh3.googleusercontent.com/RJxFhcN4EYeB7VS8pRuVjxYThNLfISWJNkSxTSdUPi9qG34TPQrPY-fTMP4eDEZMI8fSgIzKoqO9hd2D-Y99biPj595sxaMi1MImn0Ly1vGJPw",
-          "isStartPoint": false,
-          "isOrnamented": false,
-          "objective": "HACK_PORTAL"
-        },
-        {
-          "order": 5,
-          "guid": "1e3b276408ce3f0fb32f0f752244d62d.16",
-          "title": "梁銶琚博士像",
-          "lat": 22.842944,
-          "lng": 113.247118,
-          "imageUrl": "https://lh3.googleusercontent.com/zkvq-Kda93lsYcNjHMXv2zCnRGQ1m7wPopKK90aIS1yfYmFje356OAq16nd_AsESNcTs5JrQTi5FgdRTy1KZrG8AbGGa0p_OCqw0tplDoCfdEg",
-          "isStartPoint": false,
-          "isOrnamented": false,
-          "objective": "HACK_PORTAL"
-        },
-        {
-          "order": 6,
-          "guid": "7a55e6079f2c3b3982722846263d4c09.16",
-          "title": "梁銶琚图书馆右侧浮雕",
-          "lat": 22.843081,
-          "lng": 113.247117,
-          "imageUrl": "https://lh3.googleusercontent.com/5troEXfY3cocfHyXQfRCkrASI9M5yGCuahMnvd8BB2Snl8OSuKa_6S7wBdbhdJWq9L8NhtsxXkG5pEjHSJkUDajCc6s6xkJqJE38YFRPDwc",
-          "isStartPoint": false,
-          "isOrnamented": false,
-          "objective": "HACK_PORTAL"
+          "objective": null
         }
       ]
     },
     {
       "order": 22,
-      "title": "MD 2026: Foshan",
-      "description": "MD 2026: Foshan",
-      "firstPortal": "大良步行街噴泉",
-      "displayName": "华盖清晖",
+      "title": "MD 2026: Zhuhai, 海天公园",
+      "displayName": "海天公园",
+      "description": "海天公园坐落于情侣北路与梅华东路的交汇处，是珠海拥抱山海的又一张绿色名片。公园内最引人瞩目的是那片广阔的中央大草坪与倾泻而下的华南最大人造瀑布。温室植物馆、古树园散落其间，与不远处的海天驿站、日月贝隔海相望。在这里，城市繁华与山海景观达成了完美的和解，是市民周末露营、亲近自然的绝佳去处。",
+      "sourceRoute": "路线-22",
+      "markerDistanceMeters": 0.78,
       "portals": [
         {
           "order": 1,
-          "guid": "623a9f811b4b498295c6b41474a0dfd1.16",
-          "title": "大良步行街噴泉",
-          "lat": 22.839412,
-          "lng": 113.246768,
-          "imageUrl": "https://lh3.googleusercontent.com/wEvOfEmAqQi47n67RAj9-zKyrzCadd2NOPNorwca1ed2pYfHpv5iWwlTQmtDKCzBGkmOL9hUHGhZGKOhZOKMVW5oilehVU9u8U4A08LMFExcKg",
-          "isStartPoint": false,
+          "title": "海天公园 · 路线点 1",
+          "lat": 22.297688,
+          "lng": 113.578379,
+          "guid": null,
+          "imageUrl": null,
+          "isStartPoint": true,
           "isOrnamented": false,
-          "objective": "HACK_PORTAL"
+          "objective": null
         },
         {
           "order": 2,
-          "guid": "aaef0c839af53074ba4e778c918fec09.16",
-          "title": "麗都歌舞廳",
-          "lat": 22.839061,
-          "lng": 113.247177,
-          "imageUrl": "https://lh3.googleusercontent.com/sqdxBpXOd-fkWwvoZ-epUweYPHdjYIfGetIpzXqCst8Kpbjf1u1f1eE1OY842eAy4k0_V75z-v8-DrvE0E0Je6X5MTgnlhvJRYLouXo_TrS8",
+          "title": "海天公园 · 路线点 2",
+          "lat": 22.2983,
+          "lng": 113.578691,
+          "guid": null,
+          "imageUrl": null,
           "isStartPoint": false,
           "isOrnamented": false,
-          "objective": "HACK_PORTAL"
+          "objective": null
         },
         {
           "order": 3,
-          "guid": "f846d7611e423fc8b7afe23d0174b23c.16",
-          "title": "华盖山栈道",
-          "lat": 22.83838,
-          "lng": 113.247535,
-          "imageUrl": "https://lh3.googleusercontent.com/FD66HXVW_NGW6i6UcL9JC0mza8O-Ps0UPcHgLB9jsuQBZPi4HGQUg0snL6ohNf3RtYv6ClTwBcHRstoO3zybzNjLQx5FMauw7kKT7GeiVyk",
+          "title": "海天公园 · 路线点 3",
+          "lat": 22.298598,
+          "lng": 113.578219,
+          "guid": null,
+          "imageUrl": null,
           "isStartPoint": false,
           "isOrnamented": false,
-          "objective": "HACK_PORTAL"
+          "objective": null
         },
         {
           "order": 4,
-          "guid": "f66d0de66d1f3e8da7abb12789ae39e0.16",
-          "title": "华风古道",
-          "lat": 22.838129,
-          "lng": 113.247711,
-          "imageUrl": "https://lh3.googleusercontent.com/-19EgytBq460K5kNVg9ArYJeTC4oIDsNrIfHVFp45HrPoKi6COItmgAZqGrnmK_d-tevwNx_CGC1j-MAr-KTor85rgrDQZeT8bYRSuWR_cVr",
+          "title": "海天公园 · 路线点 4",
+          "lat": 22.298688,
+          "lng": 113.578687,
+          "guid": null,
+          "imageUrl": null,
           "isStartPoint": false,
           "isOrnamented": false,
-          "objective": "HACK_PORTAL"
+          "objective": null
         },
         {
           "order": 5,
-          "guid": "1909a4abf8953df8b3a337234c08ada9.16",
-          "title": "清暉書院",
-          "lat": 22.838122,
-          "lng": 113.250394,
-          "imageUrl": "https://lh3.googleusercontent.com/G8d3ZnIC9l920u6mt2BWuFyaEad6AAIxButBIzygUEmGklh4AB4XGOyC1iikyV6aed5vneCX4xPu8Xx2UyIcLMHzF_7ZUxeb4ZF2tFyC7Jc",
+          "title": "海天公园 · 路线点 5",
+          "lat": 22.299113,
+          "lng": 113.578698,
+          "guid": null,
+          "imageUrl": null,
           "isStartPoint": false,
           "isOrnamented": false,
-          "objective": "HACK_PORTAL"
+          "objective": null
         },
         {
           "order": 6,
-          "guid": "1a60c8eeb5d9425390108abf335bd136.12",
-          "title": "清暉園 正門",
-          "lat": 22.838491,
-          "lng": 113.250546,
-          "imageUrl": "https://lh3.googleusercontent.com/p5rnRM5KvwAk3K3dLCbg5MsU1BdIT0KTnwO4sXnwnKabz1K066MyHClsyUHicalquORAUqvVmBmPSRpCEqUbIvaSiKmHEm1KBmJck2uOOY99",
+          "title": "海天公园 · 路线点 6",
+          "lat": 22.299321,
+          "lng": 113.578988,
+          "guid": null,
+          "imageUrl": null,
           "isStartPoint": false,
           "isOrnamented": false,
-          "objective": "HACK_PORTAL"
-        }
-      ]
-    },
-    {
-      "order": 23,
-      "title": "MD 2026: Foshan",
-      "description": "MD 2026: Foshan",
-      "firstPortal": "顺德半马起点标",
-      "displayName": "顺峰青云",
-      "portals": [
-        {
-          "order": 1,
-          "guid": "ff6f738d264e3482b901fefd192b9d3c.16",
-          "title": "顺德半马起点标",
-          "lat": 22.827748,
-          "lng": 113.271476,
-          "imageUrl": "https://lh3.googleusercontent.com/-l7I5_zDLzRBmBzqG3iLw8XweOGBy9h6oQrbj9qWqTF4g7ke4KPYB85gd2cDWRu-EZOxkVzGJY9qrMhh1usiSqbN5WQ7dfIpdIclGrQqMUkB",
-          "isStartPoint": false,
-          "isOrnamented": false,
-          "objective": "HACK_PORTAL"
-        },
-        {
-          "order": 2,
-          "guid": "39387adacfc94835b2870e883b7816e7.11",
-          "title": "顺峰山公园",
-          "lat": 22.827588,
-          "lng": 113.271988,
-          "imageUrl": "https://lh3.googleusercontent.com/qHinMsu6B3w6d63r6yh8K-jaqOA3rUr2ZcNWN0Tp97irBTXfHJHGcGrmO-pKDLzKpdZwj8hbHjNZlfzlDbk4Kcu3mVsNOM3D5vE57nsZowvSgQ",
-          "isStartPoint": false,
-          "isOrnamented": false,
-          "objective": "HACK_PORTAL"
-        },
-        {
-          "order": 3,
-          "guid": "e1f9f13587474e4fa6a4b5e5ba554846.11",
-          "title": "顺峰山门楼",
-          "lat": 22.827672,
-          "lng": 113.27203,
-          "imageUrl": "https://lh3.googleusercontent.com/fYJma8X4hziVb2IgmzcSOMM5HnTYUcupf73NFSfwxK_DMrH193JVBnQmvqM7urdRO5bawUcYdvqhC4y9VU8hNUyo9zEYtsvQVlAr6YsWWgyr",
-          "isStartPoint": false,
-          "isOrnamented": false,
-          "objective": "HACK_PORTAL"
-        },
-        {
-          "order": 4,
-          "guid": "a34707230c884685a6bb5039ee2dd80c.16",
-          "title": "家·圆",
-          "lat": 22.82779,
-          "lng": 113.272843,
-          "imageUrl": "https://lh3.googleusercontent.com/CqT85b6ukELTUfJA5JRtr3nfRSoIRYyEH484lWpN44hty4CRu5HXMI-sISGYGo6WGlvo-cscA9LrwigwQrlJp0ac97-3V5yBJw5UfJZwT1yW",
-          "isStartPoint": false,
-          "isOrnamented": false,
-          "objective": "HACK_PORTAL"
-        },
-        {
-          "order": 5,
-          "guid": "155464985c8a43119fd16d10c0ba79e8.16",
-          "title": "Heart of Swans",
-          "lat": 22.827406,
-          "lng": 113.272994,
-          "imageUrl": "https://lh3.googleusercontent.com/F98DvQHaozjBKPjrv9r4hpIhIAwokTxILp7WLs8xLffBYCsdwwCZM1SZkSofcvezceTkpOLo8KdnTye-vZ0-xekuX8dIwOmblt4xR4jpd_ko",
-          "isStartPoint": false,
-          "isOrnamented": false,
-          "objective": "HACK_PORTAL"
-        },
-        {
-          "order": 6,
-          "guid": "91c88c9e7fd14fd1841728c5c2a8749c.16",
-          "title": "青雲公園",
-          "lat": 22.827601,
-          "lng": 113.273703,
-          "imageUrl": "https://lh3.googleusercontent.com/GyyHTobhCViekp6q3g-mDowgJxBtmV-bhPjVyUSz3DK_3iW2rkkyjFfY8pMfH292926_0uADAr4-oUQKNnu_wACLjJ1mVQSmpJ-T-MaxJ1o",
-          "isStartPoint": false,
-          "isOrnamented": false,
-          "objective": "HACK_PORTAL"
+          "objective": null
         }
       ]
     },
     {
       "order": 24,
-      "title": "MD 2026: Foshan",
-      "description": "MD 2026: Foshan",
-      "firstPortal": "顺德欢乐海岸站",
-      "displayName": "顺德之眼",
+      "title": "MD 2026: Zhuhai, 淇澳岛",
+      "displayName": "淇澳岛",
+      "description": "淇澳岛位于珠海市东北部，通过淇澳大桥与市区相连，是一座兼具深厚历史底蕴与迷人海岛风光的生态之岛。岛上拥有大片茂密的红树林湿地保护区，白鹭飞掠，生机盎然。漫步在古朴的白石街上，两旁的青砖老屋诉说着当年岛上居民奋勇抵抗外敌的英雄历史。这里远离城市喧嚣，将自然生态与人文历史完美交融，是探寻珠海古村落文化与享受慢活时光的绝佳去处。",
+      "sourceRoute": "路线-24",
+      "markerDistanceMeters": 0.0,
       "portals": [
         {
           "order": 1,
-          "guid": "0731264f39bf3e56afdc330f3fb3a538.16",
-          "title": "顺德欢乐海岸站",
-          "lat": 22.820974,
-          "lng": 113.302688,
-          "imageUrl": "https://lh3.googleusercontent.com/MqeBd2OQteKRTnIon0wlehDWdSEj8Wr-8PSIYExmA5c7X0zyp54mb1VBoRHyGuUPGd5b2Urr1M8-BO_hvVI7KCkB9P9pdGU39p8MJI8kBya-",
-          "isStartPoint": false,
+          "title": "淇澳岛 · 路线点 1",
+          "lat": 22.395814,
+          "lng": 113.649492,
+          "guid": null,
+          "imageUrl": null,
+          "isStartPoint": true,
           "isOrnamented": false,
-          "objective": "HACK_PORTAL"
+          "objective": null
         },
         {
           "order": 2,
-          "guid": "6de93d96170635a9ae1c2b8e54dca868.16",
-          "title": "勇立潮头",
-          "lat": 22.820877,
-          "lng": 113.302314,
-          "imageUrl": "https://lh3.googleusercontent.com/4xSz7_xFZlanbyFfT9EL3i7ewzXKvEgCju0ZQA9tLRKtPsbf-e_aasD3QChDw3R2fDi5SmYrHHF50F-SWvYUJ7kIgK4-GpcDY86bmwfyi-0L8w",
+          "title": "淇澳岛 · 路线点 2",
+          "lat": 22.396684,
+          "lng": 113.649294,
+          "guid": null,
+          "imageUrl": null,
           "isStartPoint": false,
           "isOrnamented": false,
-          "objective": "HACK_PORTAL"
+          "objective": null
         },
         {
           "order": 3,
-          "guid": "0425af0ca60c3d4c9cfae5ee938ddac1.16",
-          "title": "顺峰街",
-          "lat": 22.820251,
-          "lng": 113.301563,
-          "imageUrl": "https://lh3.googleusercontent.com/C5CUyr8pqhXH8KiD32ozgjTK4NtODPQkrL5bGrFUE2oJIFePoErrqNmtgpBs63KnNFiIwBsUT_0yQoFhl6ZLSO4QjHGEqilp3b-0UZrnXTE",
+          "title": "淇澳岛 · 路线点 3",
+          "lat": 22.397817,
+          "lng": 113.651206,
+          "guid": null,
+          "imageUrl": null,
           "isStartPoint": false,
           "isOrnamented": false,
-          "objective": "HACK_PORTAL"
+          "objective": null
         },
         {
           "order": 4,
-          "guid": "3e4a12b461803f11b778b8da4f08f1a7.16",
-          "title": "戏剧舞台",
-          "lat": 22.820081,
-          "lng": 113.301124,
-          "imageUrl": "https://lh3.googleusercontent.com/eQVhJqIz_dW2WeupFkyZBpbj01HKslSNOyVhXuMtPcqgEFnkJc9EkAxXy1r80VyEbcTATx63PcxhCDyyjnfeVORliFQ174OeDbLpqM5vg-k8QA",
+          "title": "淇澳岛 · 路线点 4",
+          "lat": 22.398301,
+          "lng": 113.651489,
+          "guid": null,
+          "imageUrl": null,
           "isStartPoint": false,
           "isOrnamented": false,
-          "objective": "HACK_PORTAL"
+          "objective": null
         },
         {
           "order": 5,
-          "guid": "f4821708d4fa31149882c3501e29750b.16",
-          "title": "石狮群喷泉",
-          "lat": 22.820747,
-          "lng": 113.300643,
-          "imageUrl": "https://lh3.googleusercontent.com/cYb6YxGB8HH6hCHqMLAHrRO7-FUxqgWGAfTpSSqBakmL-9pE2vkZ_WLGjMFu98nJtlGFSzknryJo9LtPr077QpwnSf_LRrS26dudAe3SVHY",
+          "title": "淇澳岛 · 路线点 5",
+          "lat": 22.397977,
+          "lng": 113.651571,
+          "guid": null,
+          "imageUrl": null,
           "isStartPoint": false,
           "isOrnamented": false,
-          "objective": "HACK_PORTAL"
+          "objective": null
         },
         {
           "order": 6,
-          "guid": "4aa3ebe0a5eb3a828d5c5d28c6ee52b5.16",
-          "title": "磚雕鳳城大觀",
-          "lat": 22.820398,
-          "lng": 113.300827,
-          "imageUrl": "https://lh3.googleusercontent.com/1bkpVE5CLe9NJSvhUHbWUv9Unzsi1qPjK5IyhA8tg7TKLy84Pm-L9GiieKXjkujKqqznuVUX_N7zovT_6hr9_aTDV4E0tcpEFQvlJMh3_fuwJw",
+          "title": "淇澳岛 · 路线点 6",
+          "lat": 22.397702,
+          "lng": 113.651812,
+          "guid": null,
+          "imageUrl": null,
           "isStartPoint": false,
           "isOrnamented": false,
-          "objective": "HACK_PORTAL"
+          "objective": null
+        }
+      ]
+    },
+    {
+      "order": 26,
+      "title": "MD 2026: Zhuhai, 情侣路",
+      "displayName": "情侣路",
+      "description": "情侣路是珠海最具代表性的海滨大道，全长28公里，沿着南海海岸线延伸，拥有迷人的海景、成排的棕榈树步道，以及轻松惬意的滨海氛围。这里因浪漫的景色与珠海渔女等地标而闻名，是珠海最受欢迎的城市名片之一。",
+      "sourceRoute": "路线-26",
+      "markerDistanceMeters": 5.2,
+      "portals": [
+        {
+          "order": 1,
+          "title": "情侣路 · 路线点 1",
+          "lat": 22.269863,
+          "lng": 113.581859,
+          "guid": null,
+          "imageUrl": null,
+          "isStartPoint": true,
+          "isOrnamented": false,
+          "objective": null
         },
         {
-          "order": 7,
-          "guid": "ce3f5b06f8f44d129ec7731a13b3d0f6.16",
-          "title": "顺天明德",
-          "lat": 22.820238,
-          "lng": 113.300443,
-          "imageUrl": "https://lh3.googleusercontent.com/g6Lk0OtXgJdu-NuGBp6B8zSZIms5u1uCfp3Gtz94-W1bxwBxesit8Yv0woCuj1p2r-zul3E5eqJZkYZfO8HAmIPAdbFgQVtfhicbuxpM9jK4",
+          "order": 2,
+          "title": "情侣路 · 路线点 2",
+          "lat": 22.27092,
+          "lng": 113.581929,
+          "guid": null,
+          "imageUrl": null,
           "isStartPoint": false,
           "isOrnamented": false,
-          "objective": "HACK_PORTAL"
+          "objective": null
+        },
+        {
+          "order": 3,
+          "title": "情侣路 · 路线点 3",
+          "lat": 22.272509,
+          "lng": 113.581886,
+          "guid": null,
+          "imageUrl": null,
+          "isStartPoint": false,
+          "isOrnamented": false,
+          "objective": null
+        },
+        {
+          "order": 4,
+          "title": "情侣路 · 路线点 4",
+          "lat": 22.273007,
+          "lng": 113.581911,
+          "guid": null,
+          "imageUrl": null,
+          "isStartPoint": false,
+          "isOrnamented": false,
+          "objective": null
+        },
+        {
+          "order": 5,
+          "title": "情侣路 · 路线点 5",
+          "lat": 22.273426,
+          "lng": 113.58197,
+          "guid": null,
+          "imageUrl": null,
+          "isStartPoint": false,
+          "isOrnamented": false,
+          "objective": null
+        },
+        {
+          "order": 6,
+          "title": "情侣路 · 路线点 6",
+          "lat": 22.273722,
+          "lng": 113.581998,
+          "guid": null,
+          "imageUrl": null,
+          "isStartPoint": false,
+          "isOrnamented": false,
+          "objective": null
+        }
+      ]
+    },
+    {
+      "order": 28,
+      "title": "MD 2026: Zhuhai, 拱北口岸",
+      "displayName": "拱北口岸",
+      "description": "拱北口岸位于珠海的最南端，是连接珠海与澳门最重要的陆路通道，也是中国出入境客流量最大的口岸之一。巨大的岭南风格建筑群与繁华的口岸广场交织，见证了每天数以万计的人流在双城之间往来穿梭。这里不仅是地理上的分界线，更是粤澳深度融合、文化交流与商贸往来的繁荣见证。",
+      "sourceRoute": "路线-28",
+      "markerDistanceMeters": 0.0,
+      "portals": [
+        {
+          "order": 1,
+          "title": "拱北口岸 · 路线点 1",
+          "lat": 22.218513,
+          "lng": 113.553204,
+          "guid": null,
+          "imageUrl": null,
+          "isStartPoint": true,
+          "isOrnamented": false,
+          "objective": null
+        },
+        {
+          "order": 2,
+          "title": "拱北口岸 · 路线点 2",
+          "lat": 22.21763,
+          "lng": 113.553284,
+          "guid": null,
+          "imageUrl": null,
+          "isStartPoint": false,
+          "isOrnamented": false,
+          "objective": null
+        },
+        {
+          "order": 3,
+          "title": "拱北口岸 · 路线点 3",
+          "lat": 22.217675,
+          "lng": 113.553634,
+          "guid": null,
+          "imageUrl": null,
+          "isStartPoint": false,
+          "isOrnamented": false,
+          "objective": null
+        },
+        {
+          "order": 4,
+          "title": "拱北口岸 · 路线点 4",
+          "lat": 22.216676,
+          "lng": 113.55385,
+          "guid": null,
+          "imageUrl": null,
+          "isStartPoint": false,
+          "isOrnamented": false,
+          "objective": null
+        },
+        {
+          "order": 5,
+          "title": "拱北口岸 · 路线点 5",
+          "lat": 22.216526,
+          "lng": 113.553539,
+          "guid": null,
+          "imageUrl": null,
+          "isStartPoint": false,
+          "isOrnamented": false,
+          "objective": null
+        },
+        {
+          "order": 6,
+          "title": "拱北口岸 · 路线点 6",
+          "lat": 22.216246,
+          "lng": 113.553984,
+          "guid": null,
+          "imageUrl": null,
+          "isStartPoint": false,
+          "isOrnamented": false,
+          "objective": null
+        }
+      ]
+    },
+    {
+      "order": 29,
+      "title": "MD 2026: Zhuhai, 湾仔旅游码头",
+      "displayName": "湾仔旅游码头",
+      "description": "湾仔旅游码头是珠海最具特色的海上旅游门户，与澳门隔海相望，近在咫尺。作为“澳门环岛游”的起航点，这里见证了双城融合的独特视角。从这里登船出发，你可以近距离观赏澳门塔、大三巴及葡京酒店等标志性建筑，在海浪的起伏中，领略珠澳两地交相辉映的繁华胜景与别样风情。",
+      "sourceRoute": "路线-29",
+      "markerDistanceMeters": 0.0,
+      "portals": [
+        {
+          "order": 1,
+          "title": "湾仔旅游码头 · 路线点 1",
+          "lat": 22.191721,
+          "lng": 113.532947,
+          "guid": null,
+          "imageUrl": null,
+          "isStartPoint": true,
+          "isOrnamented": false,
+          "objective": null
+        },
+        {
+          "order": 2,
+          "title": "湾仔旅游码头 · 路线点 2",
+          "lat": 22.191637,
+          "lng": 113.532404,
+          "guid": null,
+          "imageUrl": null,
+          "isStartPoint": false,
+          "isOrnamented": false,
+          "objective": null
+        },
+        {
+          "order": 3,
+          "title": "湾仔旅游码头 · 路线点 3",
+          "lat": 22.190233,
+          "lng": 113.532171,
+          "guid": null,
+          "imageUrl": null,
+          "isStartPoint": false,
+          "isOrnamented": false,
+          "objective": null
+        },
+        {
+          "order": 4,
+          "title": "湾仔旅游码头 · 路线点 4",
+          "lat": 22.189665,
+          "lng": 113.532059,
+          "guid": null,
+          "imageUrl": null,
+          "isStartPoint": false,
+          "isOrnamented": false,
+          "objective": null
+        },
+        {
+          "order": 5,
+          "title": "湾仔旅游码头 · 路线点 5",
+          "lat": 22.190341,
+          "lng": 113.53335,
+          "guid": null,
+          "imageUrl": null,
+          "isStartPoint": false,
+          "isOrnamented": false,
+          "objective": null
+        },
+        {
+          "order": 6,
+          "title": "湾仔旅游码头 · 路线点 6",
+          "lat": 22.190816,
+          "lng": 113.533449,
+          "guid": null,
+          "imageUrl": null,
+          "isStartPoint": false,
+          "isOrnamented": false,
+          "objective": null
+        }
+      ]
+    },
+    {
+      "order": 32,
+      "title": "MD 2026: Zhuhai, 励骏庞都广场",
+      "displayName": "励骏庞都广场",
+      "description": "励骏庞都广场坐落于横琴口岸正对面，是一座充满异国情调的葡式风格建筑群。它由大师手笔设计，完美复刻了17世纪葡萄牙曼努埃尔风格的细腻与宏大。米黄色的外墙、精致的雕刻与雄伟的拱门，在夜幕低垂、华灯初上时，仿佛让人一瞬间穿越到了欧洲古堡。作为横琴的潮流地标，它不仅是极具张力的“出片圣地”，更是中西文化在粤澳深度合作区交融共生的华丽缩影。",
+      "sourceRoute": "路线-32",
+      "markerDistanceMeters": 0.52,
+      "portals": [
+        {
+          "order": 1,
+          "title": "励骏庞都广场 · 路线点 1",
+          "lat": 22.13754,
+          "lng": 113.543756,
+          "guid": null,
+          "imageUrl": null,
+          "isStartPoint": true,
+          "isOrnamented": false,
+          "objective": null
+        },
+        {
+          "order": 2,
+          "title": "励骏庞都广场 · 路线点 2",
+          "lat": 22.137596,
+          "lng": 113.543255,
+          "guid": null,
+          "imageUrl": null,
+          "isStartPoint": false,
+          "isOrnamented": false,
+          "objective": null
+        },
+        {
+          "order": 3,
+          "title": "励骏庞都广场 · 路线点 3",
+          "lat": 22.137828,
+          "lng": 113.542775,
+          "guid": null,
+          "imageUrl": null,
+          "isStartPoint": false,
+          "isOrnamented": false,
+          "objective": null
+        },
+        {
+          "order": 4,
+          "title": "励骏庞都广场 · 路线点 4",
+          "lat": 22.13865,
+          "lng": 113.542507,
+          "guid": null,
+          "imageUrl": null,
+          "isStartPoint": false,
+          "isOrnamented": false,
+          "objective": null
+        },
+        {
+          "order": 5,
+          "title": "励骏庞都广场 · 路线点 5",
+          "lat": 22.137853,
+          "lng": 113.541969,
+          "guid": null,
+          "imageUrl": null,
+          "isStartPoint": false,
+          "isOrnamented": false,
+          "objective": null
+        },
+        {
+          "order": 6,
+          "title": "励骏庞都广场 · 路线点 6",
+          "lat": 22.136964,
+          "lng": 113.541701,
+          "guid": null,
+          "imageUrl": null,
+          "isStartPoint": false,
+          "isOrnamented": false,
+          "objective": null
+        }
+      ]
+    },
+    {
+      "order": 35,
+      "title": "MD 2026: Zhuhai, 圆明新园",
+      "displayName": "圆明新园",
+      "description": "圆明新园以北京圆明园被焚毁前的建筑为蓝本，按 1:1 比例精选复建了四十景中的十八景。它将古典皇家建筑群、江南园林景观与西洋建筑风格完美融合。在这里，你可以漫步于红墙金瓦间，沉浸式感受清朝鼎盛时期的辉煌气象与历史余晖。",
+      "sourceRoute": "路线-35",
+      "markerDistanceMeters": 0.91,
+      "portals": [
+        {
+          "order": 1,
+          "title": "圆明新园 · 路线点 1",
+          "lat": 22.239674,
+          "lng": 113.537693,
+          "guid": null,
+          "imageUrl": null,
+          "isStartPoint": true,
+          "isOrnamented": false,
+          "objective": null
+        },
+        {
+          "order": 2,
+          "title": "圆明新园 · 路线点 2",
+          "lat": 22.239634,
+          "lng": 113.53802,
+          "guid": null,
+          "imageUrl": null,
+          "isStartPoint": false,
+          "isOrnamented": false,
+          "objective": null
+        },
+        {
+          "order": 3,
+          "title": "圆明新园 · 路线点 3",
+          "lat": 22.239484,
+          "lng": 113.537624,
+          "guid": null,
+          "imageUrl": null,
+          "isStartPoint": false,
+          "isOrnamented": false,
+          "objective": null
+        },
+        {
+          "order": 4,
+          "title": "圆明新园 · 路线点 4",
+          "lat": 22.239371,
+          "lng": 113.537881,
+          "guid": null,
+          "imageUrl": null,
+          "isStartPoint": false,
+          "isOrnamented": false,
+          "objective": null
+        },
+        {
+          "order": 5,
+          "title": "圆明新园 · 路线点 5",
+          "lat": 22.239363,
+          "lng": 113.538167,
+          "guid": null,
+          "imageUrl": null,
+          "isStartPoint": false,
+          "isOrnamented": false,
+          "objective": null
+        },
+        {
+          "order": 6,
+          "title": "圆明新园 · 路线点 6",
+          "lat": 22.239078,
+          "lng": 113.538276,
+          "guid": null,
+          "imageUrl": null,
+          "isStartPoint": false,
+          "isOrnamented": false,
+          "objective": null
+        }
+      ]
+    },
+    {
+      "order": 36,
+      "title": "MD 2026: Zhuhai, 横琴芒洲湿地公园",
+      "displayName": "横琴芒洲湿地公园",
+      "description": "芒洲湿地公园坐落于横琴岛西北角，是喧嚣都市边缘的一片纯净原野。这里通过红树林修复与生态栖息地的营造，筑起了一座候鸟迁徙的“中转站”。漫步于蜿蜒的水上栈道，穿行在随风摇曳的芦苇荡间，你能近距离观察湿地生态的勃勃生机，在落日余晖中感受横琴岛人与自然和谐共生的宁静之美。",
+      "sourceRoute": "路线-36",
+      "markerDistanceMeters": 28.58,
+      "portals": [
+        {
+          "order": 1,
+          "title": "横琴芒洲湿地公园 · 路线点 1",
+          "lat": 22.157741,
+          "lng": 113.4425,
+          "guid": null,
+          "imageUrl": null,
+          "isStartPoint": true,
+          "isOrnamented": false,
+          "objective": null
+        },
+        {
+          "order": 2,
+          "title": "横琴芒洲湿地公园 · 路线点 2",
+          "lat": 22.158024,
+          "lng": 113.442229,
+          "guid": null,
+          "imageUrl": null,
+          "isStartPoint": false,
+          "isOrnamented": false,
+          "objective": null
+        },
+        {
+          "order": 3,
+          "title": "横琴芒洲湿地公园 · 路线点 3",
+          "lat": 22.158245,
+          "lng": 113.442927,
+          "guid": null,
+          "imageUrl": null,
+          "isStartPoint": false,
+          "isOrnamented": false,
+          "objective": null
+        },
+        {
+          "order": 4,
+          "title": "横琴芒洲湿地公园 · 路线点 4",
+          "lat": 22.158976,
+          "lng": 113.443124,
+          "guid": null,
+          "imageUrl": null,
+          "isStartPoint": false,
+          "isOrnamented": false,
+          "objective": null
+        },
+        {
+          "order": 5,
+          "title": "横琴芒洲湿地公园 · 路线点 5",
+          "lat": 22.159169,
+          "lng": 113.444583,
+          "guid": null,
+          "imageUrl": null,
+          "isStartPoint": false,
+          "isOrnamented": false,
+          "objective": null
+        },
+        {
+          "order": 6,
+          "title": "横琴芒洲湿地公园 · 路线点 6",
+          "lat": 22.157981,
+          "lng": 113.443797,
+          "guid": null,
+          "imageUrl": null,
+          "isStartPoint": false,
+          "isOrnamented": false,
+          "objective": null
         }
       ]
     }
   ],
   "bounds": {
-    "minLat": 22.820081,
-    "maxLat": 23.049963,
-    "minLng": 113.071758,
-    "maxLng": 113.302688
+    "minLat": 22.136964,
+    "maxLat": 22.398301,
+    "minLng": 113.442229,
+    "maxLng": 113.651812
   },
   "center": {
-    "lat": 22.935022,
-    "lng": 113.187223
+    "lat": 22.267632499999998,
+    "lng": 113.5470205
   }
 }

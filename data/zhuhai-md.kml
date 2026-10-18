@@ -1,0 +1,1393 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>珠海MD2026</name>
+    <description/>
+    <Style id="icon-1899-0288D1-normal">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1899-0288D1-highlight">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1899-0288D1">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-0288D1-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-0288D1-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1899-AFB42B-normal">
+      <IconStyle>
+        <color>ff2bb4af</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1899-AFB42B-highlight">
+      <IconStyle>
+        <color>ff2bb4af</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1899-AFB42B">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-AFB42B-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-AFB42B-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1899-FF5252-normal">
+      <IconStyle>
+        <color>ff5252ff</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1899-FF5252-highlight">
+      <IconStyle>
+        <color>ff5252ff</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1899-FF5252">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-FF5252-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-FF5252-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-A24AC3-4000-normal">
+      <LineStyle>
+        <color>ffc34aa2</color>
+        <width>4</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-A24AC3-4000-highlight">
+      <LineStyle>
+        <color>ffc34aa2</color>
+        <width>6</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-A24AC3-4000">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-A24AC3-4000-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-A24AC3-4000-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-A24AC3-6000-normal">
+      <LineStyle>
+        <color>ffc34aa2</color>
+        <width>6</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-A24AC3-6000-highlight">
+      <LineStyle>
+        <color>ffc34aa2</color>
+        <width>9</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-A24AC3-6000">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-A24AC3-6000-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-A24AC3-6000-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-C34A74-4000-normal">
+      <LineStyle>
+        <color>ff744ac3</color>
+        <width>4</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-C34A74-4000-highlight">
+      <LineStyle>
+        <color>ff744ac3</color>
+        <width>6</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-C34A74-4000">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-C34A74-4000-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-C34A74-4000-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Zhuhai MD 2026</name>
+      <Placemark>
+        <name>MD 2026: Zhuhai, 九洲城</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/AN6v0v5_32uHglUkJ68JqAzB3HrO6PX4MsVBQOfsFSOGk0YwGqfePTgUBpqjOueccLaOE61LhHQX1v72ftc_BYOcykkbNRqO5Fq2TQK6SvNHh0Unvd-rGc-Cil_mClMWLWIT9gqOfpcsnel617b4IJXdB11uGXqTNg20_LNB3vSxxMWIInvfEU4tBcivNVdEnFsvBN5a5dE33r11TQh640KWfDzGEmw8Pqyc7jZB0Eersj1Mdwz2_HOqeEFQlL8WfuwI91rSBOPvDvKY16aUIeYr6Ja97BqMD5XFpL84N1fGuOhYWbNDp5LgxNKFFhxUMDim25kBBDuxl4Reskpk0dfOHUsJJlwR1AzazLwSbuF-zwUN1YexXNdSet5L_x_8jiXTfWtv88xp7AroGeykYxjOLwAUd0zpcx3YbRGcKvob2JtjsAX4PdzRcjyJqPfyTO1TYTs-inBm8q9JbKZZLQ1pSBayCqgXC3pgnO9J6eaYOaKORNhhFSFJrtAEwLoQ6QfsLdDIc8Y4fY4CqTP9SZ1qlvseTxqDwFupdZ5ySzeIulvcwOTpZZV4VVRpXXZWlxps5Qd-3srWhv-94UbWgM7lcQphMkC-x8Sw7e8DMyzhFkFNLPmRCsYNEKp4IXagWki7PJr7JsYlp9TKa1wJeN0eT1257Amw4pcjn_EvRFJ6kOaNQmEHpuesztHbSKUGJrCEUm5Z_MuzdaZdIc8lr0AB7dXAf4jfzg" height="200" width="auto" /><br><br>说明: <br><br>九洲城是一座极具特色的仿古建筑群，坐落于珠海市中心繁华地带。建筑以传统宫殿式风格为基调，红墙绿瓦、飞檐翘角，与周围现代都市景观形成鲜明对比，展现出独特的城市文化气质。这里曾是珠海博物馆旧址，承载着珠海早期城市文化记忆，也见证了这座海滨城市的发展变迁。在车水马龙之间，九洲城依然保留着一份古朴与庄重。<br><br>type: marker<br>id: 4ff209f5-8634-419b-9890-3502a38b38fb<br>original_color: #c34a74<br>type: marker<br>id: 4ff209f5-8634-419b-9890-3502a38b38fb<br>original_color: #c34a74]]></description>
+        <styleUrl>#icon-1899-AFB42B</styleUrl>
+        <ExtendedData>
+          <Data name="说明">
+            <value>
+
+九洲城是一座极具特色的仿古建筑群，坐落于珠海市中心繁华地带。建筑以传统宫殿式风格为基调，红墙绿瓦、飞檐翘角，与周围现代都市景观形成鲜明对比，展现出独特的城市文化气质。这里曾是珠海博物馆旧址，承载着珠海早期城市文化记忆，也见证了这座海滨城市的发展变迁。在车水马龙之间，九洲城依然保留着一份古朴与庄重。
+
+type: marker
+id: 4ff209f5-8634-419b-9890-3502a38b38fb
+original_color: #c34a74</value>
+          </Data>
+          <Data name="type">
+            <value>marker</value>
+          </Data>
+          <Data name="id">
+            <value>4ff209f5-8634-419b-9890-3502a38b38fb</value>
+          </Data>
+          <Data name="original_color">
+            <value>#c34a74</value>
+          </Data>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/umsh/AN6v0v5_32uHglUkJ68JqAzB3HrO6PX4MsVBQOfsFSOGk0YwGqfePTgUBpqjOueccLaOE61LhHQX1v72ftc_BYOcykkbNRqO5Fq2TQK6SvNHh0Unvd-rGc-Cil_mClMWLWIT9gqOfpcsnel617b4IJXdB11uGXqTNg20_LNB3vSxxMWIInvfEU4tBcivNVdEnFsvBN5a5dE33r11TQh640KWfDzGEmw8Pqyc7jZB0Eersj1Mdwz2_HOqeEFQlL8WfuwI91rSBOPvDvKY16aUIeYr6Ja97BqMD5XFpL84N1fGuOhYWbNDp5LgxNKFFhxUMDim25kBBDuxl4Reskpk0dfOHUsJJlwR1AzazLwSbuF-zwUN1YexXNdSet5L_x_8jiXTfWtv88xp7AroGeykYxjOLwAUd0zpcx3YbRGcKvob2JtjsAX4PdzRcjyJqPfyTO1TYTs-inBm8q9JbKZZLQ1pSBayCqgXC3pgnO9J6eaYOaKORNhhFSFJrtAEwLoQ6QfsLdDIc8Y4fY4CqTP9SZ1qlvseTxqDwFupdZ5ySzeIulvcwOTpZZV4VVRpXXZWlxps5Qd-3srWhv-94UbWgM7lcQphMkC-x8Sw7e8DMyzhFkFNLPmRCsYNEKp4IXagWki7PJr7JsYlp9TKa1wJeN0eT1257Amw4pcjn_EvRFJ6kOaNQmEHpuesztHbSKUGJrCEUm5Z_MuzdaZdIc8lr0AB7dXAf4jfzg</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            113.579455,22.257315,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>MD 2026: Zhuhai, 海滨泳场</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/AN6v0v7CnY0GOrY0s0sgwEYvMbMOPPQBwmC5WHWDXLXQhpC58dP1VZSV4rIdV5ydUhljJG0glqiZTWEOo3t9_UpTnKe-C3LLP-3ryzLbg_EKStM9F7BsF8z_P5L4OuKLzPd-iKX4jj-8UPvg0udnOFf_yi10GVKn3YID4MtZ61hOZTSKRcnsyXjcCQX6CdVtOejvJ6ABSIYVlubeFeLo_P6ExWsNHnT1LM21EQYP6BDR9XBniuUob__i0gjDl2Zsat0Xs1z4Mk6WOBeVVhoqcikbt7ccU7YvuRiG4fPno4OP5yIRMHjuwPZCHlbsaKDfEzUs2gRQmatwJEhdwAQkjj8YyaPIdl9rZ0_4rSxQoeYA-spLR-gANSKLhwqk4I72zFoNjTeW53BA4qRv6ZMS7qKTsYxQ6wTFwtMizMdmUnM9xckKPqBs_pCzfavolNdch6HCR3BvkrRG0fdurPL2oln8LZYwk_B-1WSixEBnGfbTCBjQf_eiL64nfeGwDANAFStGlrGIYatQGGm-9BOSdiFkYlOwqyxXAZASITNREMeUZ5u7jc_JpyxvbrwPvF-AwSTkz5g0MOamF0kajbdEpL4Ul44dy-vy99LBAn-tQMLHIUe4B4E5KWXoBqh_zR0hkgIidiDyyVcEsFGlkyKcV3JfQxsZ3yB1z3T3EQOYwQWNhqAICs1NkYToE--IlvFFgo5bvPubZ8mlWxV9uuyZ6KTAiijWxqwJlQ" height="200" width="auto" /><br><br>说明: <br><br>海滨泳场是珠海最具代表性的城市沙滩之一，也是情侣路上的浪漫地标。这里拥有细腻柔软的沙滩、开阔的海景与悠闲的滨海氛围，标志性的“爱情邮局”与海边灯塔相映成景，成为众多游客拍照打卡的热门地点。无论是清晨漫步海岸迎接晨曦，还是夜晚在海畔咖啡厅感受海风与灯火，这里都展现着珠海作为海滨旅游城市最惬意而迷人的一面。<br><br>type: marker<br>id: 4bfd1683-e4e0-4ab1-a0c4-c1dfa019914b<br>original_color: #a24ac3<br>type: marker<br>id: 4bfd1683-e4e0-4ab1-a0c4-c1dfa019914b<br>original_color: #a24ac3]]></description>
+        <styleUrl>#icon-1899-AFB42B</styleUrl>
+        <ExtendedData>
+          <Data name="说明">
+            <value>
+
+海滨泳场是珠海最具代表性的城市沙滩之一，也是情侣路上的浪漫地标。这里拥有细腻柔软的沙滩、开阔的海景与悠闲的滨海氛围，标志性的“爱情邮局”与海边灯塔相映成景，成为众多游客拍照打卡的热门地点。无论是清晨漫步海岸迎接晨曦，还是夜晚在海畔咖啡厅感受海风与灯火，这里都展现着珠海作为海滨旅游城市最惬意而迷人的一面。
+
+type: marker
+id: 4bfd1683-e4e0-4ab1-a0c4-c1dfa019914b
+original_color: #a24ac3</value>
+          </Data>
+          <Data name="type">
+            <value>marker</value>
+          </Data>
+          <Data name="id">
+            <value>4bfd1683-e4e0-4ab1-a0c4-c1dfa019914b</value>
+          </Data>
+          <Data name="original_color">
+            <value>#a24ac3</value>
+          </Data>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/umsh/AN6v0v7CnY0GOrY0s0sgwEYvMbMOPPQBwmC5WHWDXLXQhpC58dP1VZSV4rIdV5ydUhljJG0glqiZTWEOo3t9_UpTnKe-C3LLP-3ryzLbg_EKStM9F7BsF8z_P5L4OuKLzPd-iKX4jj-8UPvg0udnOFf_yi10GVKn3YID4MtZ61hOZTSKRcnsyXjcCQX6CdVtOejvJ6ABSIYVlubeFeLo_P6ExWsNHnT1LM21EQYP6BDR9XBniuUob__i0gjDl2Zsat0Xs1z4Mk6WOBeVVhoqcikbt7ccU7YvuRiG4fPno4OP5yIRMHjuwPZCHlbsaKDfEzUs2gRQmatwJEhdwAQkjj8YyaPIdl9rZ0_4rSxQoeYA-spLR-gANSKLhwqk4I72zFoNjTeW53BA4qRv6ZMS7qKTsYxQ6wTFwtMizMdmUnM9xckKPqBs_pCzfavolNdch6HCR3BvkrRG0fdurPL2oln8LZYwk_B-1WSixEBnGfbTCBjQf_eiL64nfeGwDANAFStGlrGIYatQGGm-9BOSdiFkYlOwqyxXAZASITNREMeUZ5u7jc_JpyxvbrwPvF-AwSTkz5g0MOamF0kajbdEpL4Ul44dy-vy99LBAn-tQMLHIUe4B4E5KWXoBqh_zR0hkgIidiDyyVcEsFGlkyKcV3JfQxsZ3yB1z3T3EQOYwQWNhqAICs1NkYToE--IlvFFgo5bvPubZ8mlWxV9uuyZ6KTAiijWxqwJlQ</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            113.589789,22.254988,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>MD 2026: Zhuhai, 爱情邮局</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/AN6v0v4rZAgiQ8vE3nJcKzmrbRJO5i5OL18tSQI1lxZv4uF0XQKPdkkUT7GwqKSyEHflSypRsiucPPXK_cLXNo2EEgXO3S4VFEq9_YZYZtigKPqhs27gKWX1CISIif44dZ-yfibkrdaW466IIY7Iem58fGiAGlY-DTzvj7-dAcYbWDb27Jrqu4fJajDvazRD9s5BKIqRaQOf5kqk7dpabpYmOMhXowxbfqinS42OA30wJy4mYva2mYqxGqDXgrhaowQnwge1OCUKEpmtvAyGxkRr_8M9KpSNASlFDvEz8RE1iHUT6l6yVyJvmNKvfiJiGsPJISR8tMIQp8AFZbC_r7akqrOxo1B8UhNMlM6nZ861fgRyTXhXdynS3G5le4dtaSOEuBrRno0UXxA6KxhwV8ZsC1owp_9Pl1wQynaIxEN3lRN2GzB6tX1X8jRGSnZgTj-L1rHzzHSRkkARg6dT8voV-4FLomheJjv2savF0gxnso3OvETR7Dyjxs1rGGcsZ_RW_jjAhG7kgfJqNDdy7sWv_qb4WcALgu4HGKZd2JQY4VnNtQbScANrMf_ge-TDKDGU4KvNH-x9pWs-Ic1B3zuC5PBmoNq_Wjff6LWau15cfIzpNXNNTgmvmV3ATaOWq-S6AG21yijJuFmdJtQ3v7LHflVx1ezUzfzj2wmsUCEHRKqyY072Ie1D3uUdHxFg4FfaaSqUzqKtHWQ14lO3zr5ppw6jvzKEOg" height="200" width="auto" /><br><br>说明: <br><br>爱情邮局坐落于情侣路海滨泳场旁，是珠海极具浪漫氛围的地标之一。纯白色建筑与蔚蓝海岸相映成景，旁边矗立的灯塔也为这里增添了独特的海滨浪漫气息。这里不仅是游客拍照打卡的热门地点，更承载着许多人关于爱情与远方的美好寄托。你可以挑选一张明信片，盖上专属邮戳，让这一份来自珠海海岸的浪漫心意，随着海风寄向远方。<br><br>type: marker<br>id: f655e4dc-0c5a-4611-ba8e-9b685b9adddf<br>original_color: #a24ac3<br>type: marker<br>id: f655e4dc-0c5a-4611-ba8e-9b685b9adddf<br>original_color: #a24ac3]]></description>
+        <styleUrl>#icon-1899-AFB42B</styleUrl>
+        <ExtendedData>
+          <Data name="说明">
+            <value>
+
+爱情邮局坐落于情侣路海滨泳场旁，是珠海极具浪漫氛围的地标之一。纯白色建筑与蔚蓝海岸相映成景，旁边矗立的灯塔也为这里增添了独特的海滨浪漫气息。这里不仅是游客拍照打卡的热门地点，更承载着许多人关于爱情与远方的美好寄托。你可以挑选一张明信片，盖上专属邮戳，让这一份来自珠海海岸的浪漫心意，随着海风寄向远方。
+
+type: marker
+id: f655e4dc-0c5a-4611-ba8e-9b685b9adddf
+original_color: #a24ac3</value>
+          </Data>
+          <Data name="type">
+            <value>marker</value>
+          </Data>
+          <Data name="id">
+            <value>f655e4dc-0c5a-4611-ba8e-9b685b9adddf</value>
+          </Data>
+          <Data name="original_color">
+            <value>#a24ac3</value>
+          </Data>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/umsh/AN6v0v4rZAgiQ8vE3nJcKzmrbRJO5i5OL18tSQI1lxZv4uF0XQKPdkkUT7GwqKSyEHflSypRsiucPPXK_cLXNo2EEgXO3S4VFEq9_YZYZtigKPqhs27gKWX1CISIif44dZ-yfibkrdaW466IIY7Iem58fGiAGlY-DTzvj7-dAcYbWDb27Jrqu4fJajDvazRD9s5BKIqRaQOf5kqk7dpabpYmOMhXowxbfqinS42OA30wJy4mYva2mYqxGqDXgrhaowQnwge1OCUKEpmtvAyGxkRr_8M9KpSNASlFDvEz8RE1iHUT6l6yVyJvmNKvfiJiGsPJISR8tMIQp8AFZbC_r7akqrOxo1B8UhNMlM6nZ861fgRyTXhXdynS3G5le4dtaSOEuBrRno0UXxA6KxhwV8ZsC1owp_9Pl1wQynaIxEN3lRN2GzB6tX1X8jRGSnZgTj-L1rHzzHSRkkARg6dT8voV-4FLomheJjv2savF0gxnso3OvETR7Dyjxs1rGGcsZ_RW_jjAhG7kgfJqNDdy7sWv_qb4WcALgu4HGKZd2JQY4VnNtQbScANrMf_ge-TDKDGU4KvNH-x9pWs-Ic1B3zuC5PBmoNq_Wjff6LWau15cfIzpNXNNTgmvmV3ATaOWq-S6AG21yijJuFmdJtQ3v7LHflVx1ezUzfzj2wmsUCEHRKqyY072Ie1D3uUdHxFg4FfaaSqUzqKtHWQ14lO3zr5ppw6jvzKEOg</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            113.591946,22.257148,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>MD 2026: Zhuhai, 珠海渔女</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/AN6v0v7NuD5ZZnGABR2R3iymc2J3m4DWvUmRiSF114Rgsr0ZI3i6x4xxg7bn74m60EDYPVFfHqtYxPa_FTZNdxRmmr-z4PRnjwVBftUdv5Ia_nv3fG5oTYz1PCjAVE_RCdDp_wp4lomEas4eJ_yeGI87QLhzkx5OZMduRYRvuRrn9vgYj8AbB4BSNt0I8qirvDgkqAoAXaezTaO8pCLVSIHMGuaN4BqnpFV9IBZLq-RQ4PbBK7Hq0_djm7vvTfrQbV-MHS5LAVP6QXbGIloO89ZLmC7Vj6zY5U_uHYBPRv43IXec0_6wWqi8YsYkHGhTSP6_-KcSytKYI8O8KQGLeeoZ_JIXT3tOEYMpxgc-arem3y5KAaZejo5lBqdw5Txb2xgMfxNAPSdZ9NG7ZJ0XymuDXzBqSSegOxtUwW8hXXWul1aypOv1rOjmbBonLRx52JsB5aLgsUQhco-CTb0VynUxcUIlwEWOWkEJLhLynWTlnq_7snMK8mz5iFCOOda8nXcXW4iYhD5CePQAK3NNZ-qDCMeOPYXLhXxcX3nre3dgxr9Vq8f3um-_xdtpPudd1BXIZzfyrGq-IGOJVbEwgNF5eiYcyJE6x6eezx8mhFz045nepZSUkZ3H2JhYaMODmZBECG-PD3bKQhJFbxJhfwc5om0sU4JSqG8bKT8mfUj9SiMHAcjeg_7is82TbEMiFhWU5A4EPPcYAqrD3ZN-vEITliwMGDN1" height="200" width="auto" /><br><br>说明: <br><br>珠海渔女矗立在香炉湾畔，是珠海城市精神的永恒象征。这座高 8.7 米的花岗岩雕像，刻画了一位双手高举璀璨明珠的龙女，象征着向世界奉献光明与财富。作为珠海最古老的地标之一，她不仅见证了这座城市从渔村到现代化特区的华丽蜕变，也守护着南海边无数关于爱与勇气的传说。<br><br>type: marker<br>id: d9eb7f05-4738-42ac-99fd-2786460fd2c0<br>original_color: #a24ac3<br>type: marker<br>id: d9eb7f05-4738-42ac-99fd-2786460fd2c0<br>original_color: #a24ac3]]></description>
+        <styleUrl>#icon-1899-AFB42B</styleUrl>
+        <ExtendedData>
+          <Data name="说明">
+            <value>
+
+珠海渔女矗立在香炉湾畔，是珠海城市精神的永恒象征。这座高 8.7 米的花岗岩雕像，刻画了一位双手高举璀璨明珠的龙女，象征着向世界奉献光明与财富。作为珠海最古老的地标之一，她不仅见证了这座城市从渔村到现代化特区的华丽蜕变，也守护着南海边无数关于爱与勇气的传说。
+
+type: marker
+id: d9eb7f05-4738-42ac-99fd-2786460fd2c0
+original_color: #a24ac3</value>
+          </Data>
+          <Data name="type">
+            <value>marker</value>
+          </Data>
+          <Data name="id">
+            <value>d9eb7f05-4738-42ac-99fd-2786460fd2c0</value>
+          </Data>
+          <Data name="original_color">
+            <value>#a24ac3</value>
+          </Data>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/umsh/AN6v0v7NuD5ZZnGABR2R3iymc2J3m4DWvUmRiSF114Rgsr0ZI3i6x4xxg7bn74m60EDYPVFfHqtYxPa_FTZNdxRmmr-z4PRnjwVBftUdv5Ia_nv3fG5oTYz1PCjAVE_RCdDp_wp4lomEas4eJ_yeGI87QLhzkx5OZMduRYRvuRrn9vgYj8AbB4BSNt0I8qirvDgkqAoAXaezTaO8pCLVSIHMGuaN4BqnpFV9IBZLq-RQ4PbBK7Hq0_djm7vvTfrQbV-MHS5LAVP6QXbGIloO89ZLmC7Vj6zY5U_uHYBPRv43IXec0_6wWqi8YsYkHGhTSP6_-KcSytKYI8O8KQGLeeoZ_JIXT3tOEYMpxgc-arem3y5KAaZejo5lBqdw5Txb2xgMfxNAPSdZ9NG7ZJ0XymuDXzBqSSegOxtUwW8hXXWul1aypOv1rOjmbBonLRx52JsB5aLgsUQhco-CTb0VynUxcUIlwEWOWkEJLhLynWTlnq_7snMK8mz5iFCOOda8nXcXW4iYhD5CePQAK3NNZ-qDCMeOPYXLhXxcX3nre3dgxr9Vq8f3um-_xdtpPudd1BXIZzfyrGq-IGOJVbEwgNF5eiYcyJE6x6eezx8mhFz045nepZSUkZ3H2JhYaMODmZBECG-PD3bKQhJFbxJhfwc5om0sU4JSqG8bKT8mfUj9SiMHAcjeg_7is82TbEMiFhWU5A4EPPcYAqrD3ZN-vEITliwMGDN1</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            113.588245,22.262358,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>MD 2026: Zhuhai, 海滨公园</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/AN6v0v6QPA10qjclL4s6ujG-KtsqkckzoGt_os81K6IB4zl80HHnq7XvZ9JqMzH7H9wSNYlC4J9kW71jaIn9w9kyspLksuzp5TravotHS7l9BVpa_TR4qgcQJpixKy0EE30BVrr4QwCfAz_TXtB_F68D9EZyxjrxIzBn5EI09j8RPjCdjLsQGIgmB1fy6t5rXuqWS9QslgVBal20qP8E65xfJU4wW4Y7bIuziNccIMgNfURqLELhSejRNt7TVHrJlGpjlpOtKwvppCQGl1OXigQImTZ6M0pPMf26LS-ooZbIdURQJ-A_H3e2hjoGaQ26k38VT84WDgk-k7YVD3iD4l0XlMx9grj8IQP4iJz2Vk3sdl9DcHRf6Dfi7wUOkHA9nc8qxChh7R1jqMZ6p4mbj-ZdXd3sLxnzDCJo5oeZdesuRS4rC9x5jnv5iy6zRo0BIkorokbJc1QhtCCnQVPAyYSfP1PFUBJOoSuZqjuqkrOzBljeCgbPzkZG4HvoYZkfeCKWv7h4WugP1XnoJMHuegXpG5wLyTSLThYOzc0hAIJHUsjpw1Ci8RQweum-nsUngWTjN6bwGyBvN4OnQUDFg5FYh2s3lViUlTNydliO61BCU_oKqto8RPFOi8MiwJFv8iZaS8txMy62ZB7oKI8uNF5s8lTXIrWTfu1QC1ps88d1ATddmEp6z0NyoZ8A3iobh9KcsFL-9vlwXqJnb_pxnKqyEFP97tVGpQ" height="200" width="auto" /><br><br>说明: <br><br>海滨公园坐落于情侣路与石景山之间，是城市中心的一片天然绿肺。这里林木葱郁，开阔的草坪正对着碧波万顷的香炉湾。无论是放飞风筝、在树荫下野餐，还是漫步至湖边观赏黑天鹅，海滨公园以其静谧的自然景观，完美连接了繁华市区与浪漫海岸，是珠海慢生活的最佳注脚。<br><br>type: marker<br>id: eb60d954-4829-4903-beca-7a900095b820<br>original_color: #a24ac3<br>type: marker<br>id: eb60d954-4829-4903-beca-7a900095b820<br>original_color: #a24ac3]]></description>
+        <styleUrl>#icon-1899-AFB42B</styleUrl>
+        <ExtendedData>
+          <Data name="说明">
+            <value>
+
+海滨公园坐落于情侣路与石景山之间，是城市中心的一片天然绿肺。这里林木葱郁，开阔的草坪正对着碧波万顷的香炉湾。无论是放飞风筝、在树荫下野餐，还是漫步至湖边观赏黑天鹅，海滨公园以其静谧的自然景观，完美连接了繁华市区与浪漫海岸，是珠海慢生活的最佳注脚。
+
+type: marker
+id: eb60d954-4829-4903-beca-7a900095b820
+original_color: #a24ac3</value>
+          </Data>
+          <Data name="type">
+            <value>marker</value>
+          </Data>
+          <Data name="id">
+            <value>eb60d954-4829-4903-beca-7a900095b820</value>
+          </Data>
+          <Data name="original_color">
+            <value>#a24ac3</value>
+          </Data>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/umsh/AN6v0v6QPA10qjclL4s6ujG-KtsqkckzoGt_os81K6IB4zl80HHnq7XvZ9JqMzH7H9wSNYlC4J9kW71jaIn9w9kyspLksuzp5TravotHS7l9BVpa_TR4qgcQJpixKy0EE30BVrr4QwCfAz_TXtB_F68D9EZyxjrxIzBn5EI09j8RPjCdjLsQGIgmB1fy6t5rXuqWS9QslgVBal20qP8E65xfJU4wW4Y7bIuziNccIMgNfURqLELhSejRNt7TVHrJlGpjlpOtKwvppCQGl1OXigQImTZ6M0pPMf26LS-ooZbIdURQJ-A_H3e2hjoGaQ26k38VT84WDgk-k7YVD3iD4l0XlMx9grj8IQP4iJz2Vk3sdl9DcHRf6Dfi7wUOkHA9nc8qxChh7R1jqMZ6p4mbj-ZdXd3sLxnzDCJo5oeZdesuRS4rC9x5jnv5iy6zRo0BIkorokbJc1QhtCCnQVPAyYSfP1PFUBJOoSuZqjuqkrOzBljeCgbPzkZG4HvoYZkfeCKWv7h4WugP1XnoJMHuegXpG5wLyTSLThYOzc0hAIJHUsjpw1Ci8RQweum-nsUngWTjN6bwGyBvN4OnQUDFg5FYh2s3lViUlTNydliO61BCU_oKqto8RPFOi8MiwJFv8iZaS8txMy62ZB7oKI8uNF5s8lTXIrWTfu1QC1ps88d1ATddmEp6z0NyoZ8A3iobh9KcsFL-9vlwXqJnb_pxnKqyEFP97tVGpQ</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            113.58211,22.259111,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>MD 2026: Zhuhai, 城市阳台</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/AN6v0v5SP9Tf6cSj7Q55EnM31oslihsoG_vj9RWiUjfWV-ubaKS--hfEAG8ThkIftaRqLV7-7TNq165dSNxdvBw5l5ZnBOuJZN4MifJ_ZnR05rPfkfcmhUM4xCM9bwfqkQ-Sab5JyrQ8ZIziK6U6EXBEn2Q-Br8orp2HIgdNk9-viU6883Bcgasr3LDNXINuecG0xP3cvIOIqUbb8hAUjiMTlz2W4eEUke4tXYy13ns3sbatBD6vHdaiZkVF-wOla5nwCFGY_8A6P6bZJF18A2f5d4elVRh0Eu3Y7RQpSOD0QqWmo_apCSkknYTz1KInMkDH8D36eCf7136w98WIH9RSk8JO9zX-84DKyw6oyRFyFbtCsJN9zDDIa-cMTjLViGtks6LT5M20My5lDAaYIgbSWz7aIFbctQPttsibZ_i7FFbLLPKgTLqDXcvlngl1WOFn4dIIv1rjEY_RE8eNFQCfdLqNy5bS9R08ohFN1ap0QvhSxbduH67WaCT6gSRBpXLLIBA7ttU98z4nZdoVAWgbovbbYqOhUn3cLLhoBMTYG9AV_at6VybEpO_79OfBpK6CNxkZ6GMTiVBV1_ixfArAqwlLOB_-JwRXQ2OSgYcXbl8iDeCaXse_7j1BeS3hKs8vuDunHJm864VLp1Xzwf_gCXERUWo3S0-tzKv539DS215DRRCS3nsoQAoY8ASxOJQfVpQFQqxtsNsPXBV-doht1hXHCJVlqQ" height="200" width="auto" /><br><br>说明: <br><br>城市阳台是情侣路上的时尚新地标，通过巧妙的空中连廊将翠绿的石景山与蔚蓝的香炉湾沙滩缝合在一起。它打破了传统建筑的边界，构建出一个错落有致的多维公共空间。站在这里，你可以凭栏远眺日月贝与港珠澳大桥，在山海之间俯瞰这座滨海城市的繁华与浪漫。<br><br>type: marker<br>id: da2df5d6-f1b6-4850-a022-e507b91aab12<br>original_color: #a24ac3<br>type: marker<br>id: da2df5d6-f1b6-4850-a022-e507b91aab12<br>original_color: #a24ac3]]></description>
+        <styleUrl>#icon-1899-AFB42B</styleUrl>
+        <ExtendedData>
+          <Data name="说明">
+            <value>
+
+城市阳台是情侣路上的时尚新地标，通过巧妙的空中连廊将翠绿的石景山与蔚蓝的香炉湾沙滩缝合在一起。它打破了传统建筑的边界，构建出一个错落有致的多维公共空间。站在这里，你可以凭栏远眺日月贝与港珠澳大桥，在山海之间俯瞰这座滨海城市的繁华与浪漫。
+
+type: marker
+id: da2df5d6-f1b6-4850-a022-e507b91aab12
+original_color: #a24ac3</value>
+          </Data>
+          <Data name="type">
+            <value>marker</value>
+          </Data>
+          <Data name="id">
+            <value>da2df5d6-f1b6-4850-a022-e507b91aab12</value>
+          </Data>
+          <Data name="original_color">
+            <value>#a24ac3</value>
+          </Data>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/umsh/AN6v0v5SP9Tf6cSj7Q55EnM31oslihsoG_vj9RWiUjfWV-ubaKS--hfEAG8ThkIftaRqLV7-7TNq165dSNxdvBw5l5ZnBOuJZN4MifJ_ZnR05rPfkfcmhUM4xCM9bwfqkQ-Sab5JyrQ8ZIziK6U6EXBEn2Q-Br8orp2HIgdNk9-viU6883Bcgasr3LDNXINuecG0xP3cvIOIqUbb8hAUjiMTlz2W4eEUke4tXYy13ns3sbatBD6vHdaiZkVF-wOla5nwCFGY_8A6P6bZJF18A2f5d4elVRh0Eu3Y7RQpSOD0QqWmo_apCSkknYTz1KInMkDH8D36eCf7136w98WIH9RSk8JO9zX-84DKyw6oyRFyFbtCsJN9zDDIa-cMTjLViGtks6LT5M20My5lDAaYIgbSWz7aIFbctQPttsibZ_i7FFbLLPKgTLqDXcvlngl1WOFn4dIIv1rjEY_RE8eNFQCfdLqNy5bS9R08ohFN1ap0QvhSxbduH67WaCT6gSRBpXLLIBA7ttU98z4nZdoVAWgbovbbYqOhUn3cLLhoBMTYG9AV_at6VybEpO_79OfBpK6CNxkZ6GMTiVBV1_ixfArAqwlLOB_-JwRXQ2OSgYcXbl8iDeCaXse_7j1BeS3hKs8vuDunHJm864VLp1Xzwf_gCXERUWo3S0-tzKv539DS215DRRCS3nsoQAoY8ASxOJQfVpQFQqxtsNsPXBV-doht1hXHCJVlqQ</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            113.582122,22.263121,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>MD 2026: Zhuhai, 白莲洞公园</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/AN6v0v5ergMuqpxkdKdSaGVGXlIhj_BUWY9_Pufcmmw4nTreJHdW8eVyIqQn4ziD3vzvM36S-cg05vKFfqzckDm5U2X2vT0twCDW1HUp0rx0qbhPB2f_74NPKfgeA6fGEOCb-fXkzVh8wzwoLWQTCaQD1tDdf_zkJNJFKQU2ShB8NwD6KjRaaYlKQ1Up1yu5dZdCtkn0bwgh65yWfcQ5BZAqwOGLiIezUEzXF3QeusKwNaETT_bX0st66q9opygydNTOjmG1t9JpBryCZmugyaTgrKxNynLGBmC04bmacq6W-v-HAEFgpzAAucwJVD6zupKSykux1aXLZXFOMHZW2Dj8obCs0v-F8twYY6ilNBUKwQZnSvxCHow4b6Dv3pZ3IT8LC0-AW5pnhAe93renBrhTScGK84hHqSuOQuA2L4pLv20xQyK6p0JAx9P1Qjm-LvctGJ_c47u5ruHEOPFszLXcnmqNXKubffFZ4g6Of4l-IsMUriLup-Vfk96HhK2Z0QfMG5uDochEn8REqQZfUAbJy8RVYsGGZqFGIU4QfXTK9gIvpZfdJcrqE_CqqXLjVarc99tsoqZsVuwbhKR7AIUSQUR9-WIzfW2ZZzkHTKNlqK0GE-zSp-bfBha2hTJLjbioHLpCNiAuxisXlhhDaZedj7MO7acLDjELVuJwLVw0r6LQDJArzuUqY0DBVCL88lrDJ0mgxsOmLjBR6cJQvlZ6AgNwdpzTWg" height="200" width="auto" /><br><br>说明: <br><br>白莲洞又称“鲤鱼嘴”，是一处集奇石、古树与幽洞于一体的山水胜景。相传古时山泉潺潺，洞前常有白莲盛开，因此得名“白莲洞”。园内不仅保留了摩崖石刻等历史文化遗迹，也流传着“僧尼对弈”等民间传说，为景区增添了几分古朴而神秘的韵味。漫步其间，山林静谧、古意盎然，是珠海难得的城市山水文化空间。<br><br>type: marker<br>id: 22bab3ab-1ea1-402e-ab34-a5c56c9b60fa<br>original_color: #c34a74<br>type: marker<br>id: 22bab3ab-1ea1-402e-ab34-a5c56c9b60fa<br>original_color: #c34a74]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="说明">
+            <value>
+
+白莲洞又称“鲤鱼嘴”，是一处集奇石、古树与幽洞于一体的山水胜景。相传古时山泉潺潺，洞前常有白莲盛开，因此得名“白莲洞”。园内不仅保留了摩崖石刻等历史文化遗迹，也流传着“僧尼对弈”等民间传说，为景区增添了几分古朴而神秘的韵味。漫步其间，山林静谧、古意盎然，是珠海难得的城市山水文化空间。
+
+type: marker
+id: 22bab3ab-1ea1-402e-ab34-a5c56c9b60fa
+original_color: #c34a74</value>
+          </Data>
+          <Data name="type">
+            <value>marker</value>
+          </Data>
+          <Data name="id">
+            <value>22bab3ab-1ea1-402e-ab34-a5c56c9b60fa</value>
+          </Data>
+          <Data name="original_color">
+            <value>#c34a74</value>
+          </Data>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/umsh/AN6v0v5ergMuqpxkdKdSaGVGXlIhj_BUWY9_Pufcmmw4nTreJHdW8eVyIqQn4ziD3vzvM36S-cg05vKFfqzckDm5U2X2vT0twCDW1HUp0rx0qbhPB2f_74NPKfgeA6fGEOCb-fXkzVh8wzwoLWQTCaQD1tDdf_zkJNJFKQU2ShB8NwD6KjRaaYlKQ1Up1yu5dZdCtkn0bwgh65yWfcQ5BZAqwOGLiIezUEzXF3QeusKwNaETT_bX0st66q9opygydNTOjmG1t9JpBryCZmugyaTgrKxNynLGBmC04bmacq6W-v-HAEFgpzAAucwJVD6zupKSykux1aXLZXFOMHZW2Dj8obCs0v-F8twYY6ilNBUKwQZnSvxCHow4b6Dv3pZ3IT8LC0-AW5pnhAe93renBrhTScGK84hHqSuOQuA2L4pLv20xQyK6p0JAx9P1Qjm-LvctGJ_c47u5ruHEOPFszLXcnmqNXKubffFZ4g6Of4l-IsMUriLup-Vfk96HhK2Z0QfMG5uDochEn8REqQZfUAbJy8RVYsGGZqFGIU4QfXTK9gIvpZfdJcrqE_CqqXLjVarc99tsoqZsVuwbhKR7AIUSQUR9-WIzfW2ZZzkHTKNlqK0GE-zSp-bfBha2hTJLjbioHLpCNiAuxisXlhhDaZedj7MO7acLDjELVuJwLVw0r6LQDJArzuUqY0DBVCL88lrDJ0mgxsOmLjBR6cJQvlZ6AgNwdpzTWg</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            113.562151,22.24267,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>MD 2026: Zhuhai, 野狸岛</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/AN6v0v7GCXETfVGMirgnM6w9dlgACsVAR6z99PbS-psH1pek3x1CUgl2uSNpv3S-TL4eTLjPG0VXcV6g2VObFNIXDPD2gwvIYKbea1vfO4t-2_XMPIIg_MOH-YZ2TQ83TNaMJWTpEW2HU8wRyvoR2SSBN8dSLNxwzuYIduqCqT5fyKH5m_wf_dRbVsHU6UNA-GgFr3osFXXpc2njyWT8gH7_bZkaRkL49H-zXpzPI__Ix_En0C90lgXrHzX8W9VePfxtwb0Mosl7G3VYTytrvxunmGzWhntD0VtBu54FuZZW56ycs46io5yICxVxazi3kq7TX42aI3Ne4mAkAF5vXo2vm442JxOQII1AFR2_cBjojm9LqBOFzNdJG-mV9FP7YIdpQ8UaJPcX65fNuxLkmJbK_zUiN2U5k-Kk9bzSpcDwJqNfljKF4-IZI1X55Jjjst0mDHmz29wb8W6XnAkJNISu850m9UuOX270-s_QKqNjglnI8sWeqvVSjRvrbRvEbMhXEWBJ1Er2j_NryaUwcTVLb3dCSyYyhhBSzKpZwXrFyKPvHi4n2uYA8Gg86qzNWbypYG--FpPC5asygbP8R-5i7aENPGokqq-X92_SJDAMTzw1FNOQHEXrtyHP3VWnQu4sL2UPf9EU8jEKBaZuZnxZMKXNVUTpYxFkcHwphenrr1q3-AVo1HNZVTKnSTonz3vX0bZsjEtxr-kG4PbzIDG6w4VOWFf45w" height="200" width="auto" /><br><br>说明: <br><br>野狸岛是距离珠海市区最近的海岛，通过新海燕桥与情侣路相连。作为珠海大剧院的所在地，它完美融合了自然景观与现代艺术。漫步在环岛路，你可以一边领略壮阔的南中国海景，一边近距离感受“日月贝”的建筑之美，它是这座花园城市忙碌生活中的一片静谧绿洲。<br><br>type: marker<br>id: f0133eb3-e674-4d62-b017-8e1953c5dbe3<br>original_color: #a24ac3<br>type: marker<br>id: f0133eb3-e674-4d62-b017-8e1953c5dbe3<br>original_color: #a24ac3]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="说明">
+            <value>
+
+野狸岛是距离珠海市区最近的海岛，通过新海燕桥与情侣路相连。作为珠海大剧院的所在地，它完美融合了自然景观与现代艺术。漫步在环岛路，你可以一边领略壮阔的南中国海景，一边近距离感受“日月贝”的建筑之美，它是这座花园城市忙碌生活中的一片静谧绿洲。
+
+type: marker
+id: f0133eb3-e674-4d62-b017-8e1953c5dbe3
+original_color: #a24ac3</value>
+          </Data>
+          <Data name="type">
+            <value>marker</value>
+          </Data>
+          <Data name="id">
+            <value>f0133eb3-e674-4d62-b017-8e1953c5dbe3</value>
+          </Data>
+          <Data name="original_color">
+            <value>#a24ac3</value>
+          </Data>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/umsh/AN6v0v7GCXETfVGMirgnM6w9dlgACsVAR6z99PbS-psH1pek3x1CUgl2uSNpv3S-TL4eTLjPG0VXcV6g2VObFNIXDPD2gwvIYKbea1vfO4t-2_XMPIIg_MOH-YZ2TQ83TNaMJWTpEW2HU8wRyvoR2SSBN8dSLNxwzuYIduqCqT5fyKH5m_wf_dRbVsHU6UNA-GgFr3osFXXpc2njyWT8gH7_bZkaRkL49H-zXpzPI__Ix_En0C90lgXrHzX8W9VePfxtwb0Mosl7G3VYTytrvxunmGzWhntD0VtBu54FuZZW56ycs46io5yICxVxazi3kq7TX42aI3Ne4mAkAF5vXo2vm442JxOQII1AFR2_cBjojm9LqBOFzNdJG-mV9FP7YIdpQ8UaJPcX65fNuxLkmJbK_zUiN2U5k-Kk9bzSpcDwJqNfljKF4-IZI1X55Jjjst0mDHmz29wb8W6XnAkJNISu850m9UuOX270-s_QKqNjglnI8sWeqvVSjRvrbRvEbMhXEWBJ1Er2j_NryaUwcTVLb3dCSyYyhhBSzKpZwXrFyKPvHi4n2uYA8Gg86qzNWbypYG--FpPC5asygbP8R-5i7aENPGokqq-X92_SJDAMTzw1FNOQHEXrtyHP3VWnQu4sL2UPf9EU8jEKBaZuZnxZMKXNVUTpYxFkcHwphenrr1q3-AVo1HNZVTKnSTonz3vX0bZsjEtxr-kG4PbzIDG6w4VOWFf45w</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            113.585461,22.275642,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>MD 2026: Zhuhai, Zhuhai 珠海大剧院</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/AN6v0v6eusG80s9xdkSbfXRCwK5DFfodGJ_6v-biLeH5CwFF7DlH1AmSOVp8ABERKLBDCb_XkEN6Ep035vVl_wYYfhQHrNiX5MOw7g253Ua3IxgjqG-HrNVt1QD8Jg7nlfb8l2M4IVQzUWxeuN4VqDzQZ5RYFxi0hu62rY1IwYMCW17fqQyMGktv5x7DMOOfqfcXHSrZ0ngo2bQi2iO7Io_3MPB-Lr8N1iIcqzt3SFTyOpf1s1m0icepe6SDqb0ssfG_Z1SJL2HHBI9aiBdhBRyWYU9VTmWobY7OvbMWMITO9GYr6uMqT08l3_fgrDohG67X9cRXQ5M1Xe5b4nsazD6fPGt8VnjlWlNelbQLOD-ox_npprTX2Zai48el3BUX0Pn9p4KeTdnHimsGKx9ng5mGBPgpinySd_nRC1BRo1t8YRE5BhP2U0lFuOOGPs1Trn9IJsly3reA6_92ISU1FKC3jop8tIjb3vkk_wne9VnWCysw9mG6mG6ilG4ijWtjfCp9gL1vbdx8MSAworbG0ie4eLWt3G7WzuVgMEDFa5-cKO0MNuPlSCzxPEE64vTFZUsqIFnpGULLQIBo51tBb0qlvYZJW2m-QEwra5svcmYHlkxHx1IEAjRTijSe683wusNjFYb4H_ugB7Wf6rA0WDh65XkX7mgjBcdDhyoehY_jksM8G1xhTjZOX0W3ggcY6RB6FYx0hO0oW1IWEdrY39w1g-NgfExySw" height="200" width="auto" /><br><br>说明: <br><br>珠海大剧院是中国唯一建设在海岛上的大剧院，其独特的“日月贝”造型灵感源自名画《维纳斯的诞生》。一大一小两组建筑宛如从蓝色大海中升起的贝壳，不仅象征着珠海作为浪漫之城的艺术底蕴，也记录了这座特区向海而生的历史篇章。<br><br>type: marker<br>id: 55f1a263-6e77-4f67-abda-a98893b0ba23<br>original_color: #a24ac3<br>type: marker<br>id: 55f1a263-6e77-4f67-abda-a98893b0ba23<br>original_color: #a24ac3]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="说明">
+            <value>
+
+珠海大剧院是中国唯一建设在海岛上的大剧院，其独特的“日月贝”造型灵感源自名画《维纳斯的诞生》。一大一小两组建筑宛如从蓝色大海中升起的贝壳，不仅象征着珠海作为浪漫之城的艺术底蕴，也记录了这座特区向海而生的历史篇章。
+
+type: marker
+id: 55f1a263-6e77-4f67-abda-a98893b0ba23
+original_color: #a24ac3</value>
+          </Data>
+          <Data name="type">
+            <value>marker</value>
+          </Data>
+          <Data name="id">
+            <value>55f1a263-6e77-4f67-abda-a98893b0ba23</value>
+          </Data>
+          <Data name="original_color">
+            <value>#a24ac3</value>
+          </Data>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/umsh/AN6v0v6eusG80s9xdkSbfXRCwK5DFfodGJ_6v-biLeH5CwFF7DlH1AmSOVp8ABERKLBDCb_XkEN6Ep035vVl_wYYfhQHrNiX5MOw7g253Ua3IxgjqG-HrNVt1QD8Jg7nlfb8l2M4IVQzUWxeuN4VqDzQZ5RYFxi0hu62rY1IwYMCW17fqQyMGktv5x7DMOOfqfcXHSrZ0ngo2bQi2iO7Io_3MPB-Lr8N1iIcqzt3SFTyOpf1s1m0icepe6SDqb0ssfG_Z1SJL2HHBI9aiBdhBRyWYU9VTmWobY7OvbMWMITO9GYr6uMqT08l3_fgrDohG67X9cRXQ5M1Xe5b4nsazD6fPGt8VnjlWlNelbQLOD-ox_npprTX2Zai48el3BUX0Pn9p4KeTdnHimsGKx9ng5mGBPgpinySd_nRC1BRo1t8YRE5BhP2U0lFuOOGPs1Trn9IJsly3reA6_92ISU1FKC3jop8tIjb3vkk_wne9VnWCysw9mG6mG6ilG4ijWtjfCp9gL1vbdx8MSAworbG0ie4eLWt3G7WzuVgMEDFa5-cKO0MNuPlSCzxPEE64vTFZUsqIFnpGULLQIBo51tBb0qlvYZJW2m-QEwra5svcmYHlkxHx1IEAjRTijSe683wusNjFYb4H_ugB7Wf6rA0WDh65XkX7mgjBcdDhyoehY_jksM8G1xhTjZOX0W3ggcY6RB6FYx0hO0oW1IWEdrY39w1g-NgfExySw</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            113.58908,22.283656,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>D 2026: Zhuhai,珠海博物馆与城市规划展览馆</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/AN6v0v6hKxTf6ceGtpqdI4cgeJAbH4qgdmDvXvOE0Sw8jpm74RzhsCjdRnMb_5K1iKLLHG7eRuZmPXj3bIt3JY1Asr-oLapsU3lfCih2RMwMip_GmZW3HfamTV1gPdjQRDfXkWdNgFGdfR4iAeUQjN1DZtORt7o_DtwAkeYzVc2OZ0S1dOyPHe9GjgpPqXHu8O5vpPIY5OG9zlbBl3vcoa5HXYGvqcE39DmTrKPAsLGNS8rQd80H99gQEmaAbM7pkyIyCBIZkJ9nfwvimXzZBvfMSLax4jfdupZDZ5MqgRa4PyreH5LCijVxV1lfB4C9YH3QaweZ4Xsn8gF7oJ8wHZIHcoO9cfKB9Peqoc3px2TfmETh57-m9WVFwUso9yIwaTxBEIaRnAgHw5M6Z7bg6uvibcTCwMAyYwJc7Cudz6IZ2a8IYOf2a0EuKgc-JkhPPMiD18X2QOXiJDtoDqwGxP5QJgxaSumrD01wna3GBcpZoDuekvTDT3WSyW18WDL0jDuS3zmGiT2XG7uHNDqezdt6pO6imdcoT94PKDncBpDMNRtBrtmk9b0HutNsbin7X6ZkD61FCbN7vOzoF4Tp3QR1qn-IPHD5r5nE3lPL90IAIQ8v_ftlVn47fo49_cCvS0CJH12ZOxUf_B38qCnvge04815suumGtDmZ75mK0N-loaG1cvcRnt8RO0Ik9-x8JgpWJXU59Up_-M8nGp9xbCHlhMdkaokftA" height="200" width="auto" /><br><br>说明: <br><br>珠海博物馆与城市规划展览馆展示了珠海丰富的历史文化与城市发展蓝图。场馆位于情侣路附近，以现代化建筑和多媒体展览闻名，涵盖海洋文化、本地民俗以及城市建设等内容，让游客深入了解珠海的过去、现在与未来。<br><br>type: marker<br>id: 56d73aae-0c30-4053-a5ba-c85a792d008b<br>original_color: #a24ac3<br>type: marker<br>id: 56d73aae-0c30-4053-a5ba-c85a792d008b<br>original_color: #a24ac3]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="说明">
+            <value>
+
+珠海博物馆与城市规划展览馆展示了珠海丰富的历史文化与城市发展蓝图。场馆位于情侣路附近，以现代化建筑和多媒体展览闻名，涵盖海洋文化、本地民俗以及城市建设等内容，让游客深入了解珠海的过去、现在与未来。
+
+type: marker
+id: 56d73aae-0c30-4053-a5ba-c85a792d008b
+original_color: #a24ac3</value>
+          </Data>
+          <Data name="type">
+            <value>marker</value>
+          </Data>
+          <Data name="id">
+            <value>56d73aae-0c30-4053-a5ba-c85a792d008b</value>
+          </Data>
+          <Data name="original_color">
+            <value>#a24ac3</value>
+          </Data>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/umsh/AN6v0v6hKxTf6ceGtpqdI4cgeJAbH4qgdmDvXvOE0Sw8jpm74RzhsCjdRnMb_5K1iKLLHG7eRuZmPXj3bIt3JY1Asr-oLapsU3lfCih2RMwMip_GmZW3HfamTV1gPdjQRDfXkWdNgFGdfR4iAeUQjN1DZtORt7o_DtwAkeYzVc2OZ0S1dOyPHe9GjgpPqXHu8O5vpPIY5OG9zlbBl3vcoa5HXYGvqcE39DmTrKPAsLGNS8rQd80H99gQEmaAbM7pkyIyCBIZkJ9nfwvimXzZBvfMSLax4jfdupZDZ5MqgRa4PyreH5LCijVxV1lfB4C9YH3QaweZ4Xsn8gF7oJ8wHZIHcoO9cfKB9Peqoc3px2TfmETh57-m9WVFwUso9yIwaTxBEIaRnAgHw5M6Z7bg6uvibcTCwMAyYwJc7Cudz6IZ2a8IYOf2a0EuKgc-JkhPPMiD18X2QOXiJDtoDqwGxP5QJgxaSumrD01wna3GBcpZoDuekvTDT3WSyW18WDL0jDuS3zmGiT2XG7uHNDqezdt6pO6imdcoT94PKDncBpDMNRtBrtmk9b0HutNsbin7X6ZkD61FCbN7vOzoF4Tp3QR1qn-IPHD5r5nE3lPL90IAIQ8v_ftlVn47fo49_cCvS0CJH12ZOxUf_B38qCnvge04815suumGtDmZ75mK0N-loaG1cvcRnt8RO0Ik9-x8JgpWJXU59Up_-M8nGp9xbCHlhMdkaokftA</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            113.577126,22.29307,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>MD 2026: Zhuhai, 海天公园</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/AN6v0v6L4vnoLFtfHs6VL7VEXhF8d69AxEKOdeikjlrzI0oYTdato4DX6a5n5wo32qNfLxIoRfjaIHd_9niHzmX6Ev469z5QztOjRu1Gw-fiHZBHwCrMLY2tV9m88KXm3bjpTcUZbYraqEAOlat-fmWTnWnqJRkvYUVbv6XdmDlZZ48Vph0UeCZZFNzkZ24Saed4YbZ86k8czGe05m-EF4TPiIG-SU7n1u6nT3m3GSOgkyTzq2neKzqYAqg55faaQzG61BBU17Orz6Fv_4ZOrurKmgAdj0IN_EZJiZnAxMoq01EIiiT3ksX1S3RrDBTageatoBb_kBhs8_CMT6lOcg-xtwUpA1_xye5jNwD8BBkB5OaNbLKPAZTQEKH3ujhHrXT0ZUnNJbq-Lnm6cZLf85mIWYP7Rmmo_IULpQYA4lOWv0Qro65ciGOgpXhx9h8YO6VsuWuz9PF9i0X-J2EKluIZfTSpToIDDkV3W3upeb0tNI4Grz2QCi8ko8s4AM-h0lkghW3sniNntO3qzP8zhqOZj3qDZgsDkcY13REe7G-ot81uO1iRE2ulJ8V5rUPkXRSEVm9INEyKmwXx_YyAnjGVi7PDzCh2u8D1NCWoSm57a8cPjMfAg3WrbIYht1h1YlLCMi7IKHtsdrPnUYr2jKwxtDOrBSD05wWFFCzMqUmltit7xziSwIuVd2o_OxNwG-nDcqO09xRcau1RAEkz6sPk6L1OKI2gFA" height="200" width="auto" /><br><br>说明: <br><br>海天公园坐落于情侣北路与梅华东路的交汇处，是珠海拥抱山海的又一张绿色名片。公园内最引人瞩目的是那片广阔的中央大草坪与倾泻而下的华南最大人造瀑布。温室植物馆、古树园散落其间，与不远处的海天驿站、日月贝隔海相望。在这里，城市繁华与山海景观达成了完美的和解，是市民周末露营、亲近自然的绝佳去处。<br><br>type: marker<br>id: 0256ed8a-7eb5-4475-9879-3400685dd7f0<br>original_color: #a24ac3<br>type: marker<br>id: 0256ed8a-7eb5-4475-9879-3400685dd7f0<br>original_color: #a24ac3]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="说明">
+            <value>
+
+海天公园坐落于情侣北路与梅华东路的交汇处，是珠海拥抱山海的又一张绿色名片。公园内最引人瞩目的是那片广阔的中央大草坪与倾泻而下的华南最大人造瀑布。温室植物馆、古树园散落其间，与不远处的海天驿站、日月贝隔海相望。在这里，城市繁华与山海景观达成了完美的和解，是市民周末露营、亲近自然的绝佳去处。
+
+type: marker
+id: 0256ed8a-7eb5-4475-9879-3400685dd7f0
+original_color: #a24ac3</value>
+          </Data>
+          <Data name="type">
+            <value>marker</value>
+          </Data>
+          <Data name="id">
+            <value>0256ed8a-7eb5-4475-9879-3400685dd7f0</value>
+          </Data>
+          <Data name="original_color">
+            <value>#a24ac3</value>
+          </Data>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/umsh/AN6v0v6L4vnoLFtfHs6VL7VEXhF8d69AxEKOdeikjlrzI0oYTdato4DX6a5n5wo32qNfLxIoRfjaIHd_9niHzmX6Ev469z5QztOjRu1Gw-fiHZBHwCrMLY2tV9m88KXm3bjpTcUZbYraqEAOlat-fmWTnWnqJRkvYUVbv6XdmDlZZ48Vph0UeCZZFNzkZ24Saed4YbZ86k8czGe05m-EF4TPiIG-SU7n1u6nT3m3GSOgkyTzq2neKzqYAqg55faaQzG61BBU17Orz6Fv_4ZOrurKmgAdj0IN_EZJiZnAxMoq01EIiiT3ksX1S3RrDBTageatoBb_kBhs8_CMT6lOcg-xtwUpA1_xye5jNwD8BBkB5OaNbLKPAZTQEKH3ujhHrXT0ZUnNJbq-Lnm6cZLf85mIWYP7Rmmo_IULpQYA4lOWv0Qro65ciGOgpXhx9h8YO6VsuWuz9PF9i0X-J2EKluIZfTSpToIDDkV3W3upeb0tNI4Grz2QCi8ko8s4AM-h0lkghW3sniNntO3qzP8zhqOZj3qDZgsDkcY13REe7G-ot81uO1iRE2ulJ8V5rUPkXRSEVm9INEyKmwXx_YyAnjGVi7PDzCh2u8D1NCWoSm57a8cPjMfAg3WrbIYht1h1YlLCMi7IKHtsdrPnUYr2jKwxtDOrBSD05wWFFCzMqUmltit7xziSwIuVd2o_OxNwG-nDcqO09xRcau1RAEkz6sPk6L1OKI2gFA</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            113.578698,22.29912,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>MD 2026: Zhuhai, 情侣路</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/AN6v0v5plWcAv1XqjnwwxoyBZ2NwHicR8yj4cKdc_RrP4ujDPa1_FzaOadNqOcs-SK7VtjiQLyDwfltsm8RLCT5MQkPgseEgY4NL3PmztcUTMXqHuhCnVTdHOuDEczEVciBtuL-F_JIognusWIo33IRj9ATnfqFkDwkVBEPFmOkyQVgFLxG4UMk1vtzXNypNhPOsg_4_MIOeGMy8xOwmqlqDTJLTZAqlQJU1OuShs6PpRvVjZkdfbJ3Xs190Q3cE1FUnSCa1dNZs0CWPR6iHDbO5ZyOc-ZtS27Aox0VbTE5KYb9_0qOXoWEGh3v3sQJjlhT1rYj01ZvAnUrRnMd31atze9lOdt_MVmq4FYZxNVrnbm5xoGgXvYaNTT2Cpx3gxDskE2U0iZPuX6pFYb2cVEeDzu6sJsmlSvU5YK-7L4nVEDhktH-pdJlvf15SvqXgHzUQha2tnwkTKLJhlX1sOW9hXBhbiNc9V2xTkWPMcpeNJqQNKds0d7FkKaVCdNjjsFBWNENXDtdTGo0YobtoZACkIZTIvv0V_DcQNHZDFWMkaBfUKQU4gI1xcQYnDlkUNw6NdmvcA-I18CFcfVG0N2kkvi_FzDuTJMLUor_2brgHCCqCCjocOr4QZJu03tmgIvL3G3G2HPflJXjS8gX4PDwo20Q3c7ra7Ak8Ck3de7McCX9Td8DkgOndG9aUeuLdKxMspNWsoH1m50rQkCHrHkiQGnEjit-8PQ" height="200" width="auto" /><br><br>说明: <br><br>情侣路是珠海最具代表性的海滨大道，全长28公里，沿着南海海岸线延伸，拥有迷人的海景、成排的棕榈树步道，以及轻松惬意的滨海氛围。这里因浪漫的景色与珠海渔女等地标而闻名，是珠海最受欢迎的城市名片之一。<br><br>type: marker<br>id: dd944beb-c5bb-4684-8801-b81fefd75d7b<br>original_color: #a24ac3<br>type: marker<br>id: dd944beb-c5bb-4684-8801-b81fefd75d7b<br>original_color: #a24ac3]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="说明">
+            <value>
+
+情侣路是珠海最具代表性的海滨大道，全长28公里，沿着南海海岸线延伸，拥有迷人的海景、成排的棕榈树步道，以及轻松惬意的滨海氛围。这里因浪漫的景色与珠海渔女等地标而闻名，是珠海最受欢迎的城市名片之一。
+
+type: marker
+id: dd944beb-c5bb-4684-8801-b81fefd75d7b
+original_color: #a24ac3</value>
+          </Data>
+          <Data name="type">
+            <value>marker</value>
+          </Data>
+          <Data name="id">
+            <value>dd944beb-c5bb-4684-8801-b81fefd75d7b</value>
+          </Data>
+          <Data name="original_color">
+            <value>#a24ac3</value>
+          </Data>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/umsh/AN6v0v5plWcAv1XqjnwwxoyBZ2NwHicR8yj4cKdc_RrP4ujDPa1_FzaOadNqOcs-SK7VtjiQLyDwfltsm8RLCT5MQkPgseEgY4NL3PmztcUTMXqHuhCnVTdHOuDEczEVciBtuL-F_JIognusWIo33IRj9ATnfqFkDwkVBEPFmOkyQVgFLxG4UMk1vtzXNypNhPOsg_4_MIOeGMy8xOwmqlqDTJLTZAqlQJU1OuShs6PpRvVjZkdfbJ3Xs190Q3cE1FUnSCa1dNZs0CWPR6iHDbO5ZyOc-ZtS27Aox0VbTE5KYb9_0qOXoWEGh3v3sQJjlhT1rYj01ZvAnUrRnMd31atze9lOdt_MVmq4FYZxNVrnbm5xoGgXvYaNTT2Cpx3gxDskE2U0iZPuX6pFYb2cVEeDzu6sJsmlSvU5YK-7L4nVEDhktH-pdJlvf15SvqXgHzUQha2tnwkTKLJhlX1sOW9hXBhbiNc9V2xTkWPMcpeNJqQNKds0d7FkKaVCdNjjsFBWNENXDtdTGo0YobtoZACkIZTIvv0V_DcQNHZDFWMkaBfUKQU4gI1xcQYnDlkUNw6NdmvcA-I18CFcfVG0N2kkvi_FzDuTJMLUor_2brgHCCqCCjocOr4QZJu03tmgIvL3G3G2HPflJXjS8gX4PDwo20Q3c7ra7Ak8Ck3de7McCX9Td8DkgOndG9aUeuLdKxMspNWsoH1m50rQkCHrHkiQGnEjit-8PQ</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            113.581902,22.272961,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>MD 2026: Zhuhai, 淇澳岛</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/AN6v0v6HwUPdeKBURka0XOFuP1U4bVymjNOhVzjqxtrU9tTPhcYAhP1DEDmlfo4rZu_Z7UZx2hS2W2-60mD78RMbZiGVT1uZKWV549t9fi5aKcvdD98xuKkhy7KSmjx3QxtQDGaqGs1KC66_SDoo3gxxDEv02CHHMS2ptzfLSE9_gqqSPVcEJGf8EH76MM0vZKFrCP7EZT3tQZ41JjedvK_WtJWVPszAxBE-7OLCyLPrBqUPtwWmy9nwqlVB8uJpqjLtJQ9pf4bsmI9DjR81V9P3zgZVA7sHKNTmtBgYZrHdb2gxRc--iua_NvNwdFSZyyRyGzqd1sFk0nvn-Q2dCvCV9VOKdoCNNHVXspbVNzOoAWNSAd8PNKq2a0Z76OQ89VlMV4CZS6f99pW6ZXDsbuzJ9LPnxvEX2Ef3KhKNX86xB5PWgdP7dH8Vp6heBMu1WlIqI5WOBccoeJJAZqhfB29A8bbV64HALhADl7b2rBG4Bczd3v-NQiB8ndBjzsLE9AABaQjXJduIoPP6NhVzK3QPk7PqWZq2GFys3a65CGhkL-g-ic4v4583Bx-AdFvUjWPOFQ7sIcx3R1lAHJaJtR1AX7Cr6AefDsMj7paUmsXLzGq6C5HEJac0UXezm2tvvgd5MGwI6amDm00X3kkXHqTlEmlfRV8YoZ5m4qRqeZbRMTkQaR3gwN_UDZh3T0WpyMx7d5sfMHVvVJJkp3COVKvioVSarD23Dw" height="200" width="auto" /><br><br>说明: <br><br>淇澳岛位于珠海市东北部，通过淇澳大桥与市区相连，是一座兼具深厚历史底蕴与迷人海岛风光的生态之岛。岛上拥有大片茂密的红树林湿地保护区，白鹭飞掠，生机盎然。漫步在古朴的白石街上，两旁的青砖老屋诉说着当年岛上居民奋勇抵抗外敌的英雄历史。这里远离城市喧嚣，将自然生态与人文历史完美交融，是探寻珠海古村落文化与享受慢活时光的绝佳去处。<br><br>type: marker<br>id: 896b1290-a6dc-4c9f-9433-0d5c1a3c2e68<br>original_color: #a24ac3<br>type: marker<br>id: 896b1290-a6dc-4c9f-9433-0d5c1a3c2e68<br>original_color: #a24ac3]]></description>
+        <styleUrl>#icon-1899-FF5252</styleUrl>
+        <ExtendedData>
+          <Data name="说明">
+            <value>
+
+淇澳岛位于珠海市东北部，通过淇澳大桥与市区相连，是一座兼具深厚历史底蕴与迷人海岛风光的生态之岛。岛上拥有大片茂密的红树林湿地保护区，白鹭飞掠，生机盎然。漫步在古朴的白石街上，两旁的青砖老屋诉说着当年岛上居民奋勇抵抗外敌的英雄历史。这里远离城市喧嚣，将自然生态与人文历史完美交融，是探寻珠海古村落文化与享受慢活时光的绝佳去处。
+
+type: marker
+id: 896b1290-a6dc-4c9f-9433-0d5c1a3c2e68
+original_color: #a24ac3</value>
+          </Data>
+          <Data name="type">
+            <value>marker</value>
+          </Data>
+          <Data name="id">
+            <value>896b1290-a6dc-4c9f-9433-0d5c1a3c2e68</value>
+          </Data>
+          <Data name="original_color">
+            <value>#a24ac3</value>
+          </Data>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/umsh/AN6v0v6HwUPdeKBURka0XOFuP1U4bVymjNOhVzjqxtrU9tTPhcYAhP1DEDmlfo4rZu_Z7UZx2hS2W2-60mD78RMbZiGVT1uZKWV549t9fi5aKcvdD98xuKkhy7KSmjx3QxtQDGaqGs1KC66_SDoo3gxxDEv02CHHMS2ptzfLSE9_gqqSPVcEJGf8EH76MM0vZKFrCP7EZT3tQZ41JjedvK_WtJWVPszAxBE-7OLCyLPrBqUPtwWmy9nwqlVB8uJpqjLtJQ9pf4bsmI9DjR81V9P3zgZVA7sHKNTmtBgYZrHdb2gxRc--iua_NvNwdFSZyyRyGzqd1sFk0nvn-Q2dCvCV9VOKdoCNNHVXspbVNzOoAWNSAd8PNKq2a0Z76OQ89VlMV4CZS6f99pW6ZXDsbuzJ9LPnxvEX2Ef3KhKNX86xB5PWgdP7dH8Vp6heBMu1WlIqI5WOBccoeJJAZqhfB29A8bbV64HALhADl7b2rBG4Bczd3v-NQiB8ndBjzsLE9AABaQjXJduIoPP6NhVzK3QPk7PqWZq2GFys3a65CGhkL-g-ic4v4583Bx-AdFvUjWPOFQ7sIcx3R1lAHJaJtR1AX7Cr6AefDsMj7paUmsXLzGq6C5HEJac0UXezm2tvvgd5MGwI6amDm00X3kkXHqTlEmlfRV8YoZ5m4qRqeZbRMTkQaR3gwN_UDZh3T0WpyMx7d5sfMHVvVJJkp3COVKvioVSarD23Dw</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            113.651812,22.397702,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>MD 2026: Zhuhai, 拱北口岸</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/AN6v0v6xbte1ciw-MKc5Dg--3aaa0NMaTVtBVyabC1AWmnjI070ggwveUJ_fdLHVf7Tp8EWhqnAaMSkkGLQxnXIzFps-gw1HJHZeguc6ZT4TV-w3F6ZDRh-uRXy_MaCR4K2XhUxItTpGeaGYPlVb0IZ0pfSAc2NbM76gZ7a_a0gItQcC7dBNwU4yxKpIg1cJzNoTMcqw_YZv1lqG25ZLi4Yt7AAza0Im0Fi8glwJuM0WX3Sn2mmUgKTKldXRuSOfm-rZu6NHKsWvgzGBduMOjVYcdNVCAx2ZYQA7vPKQ3A34VEDkur5btgjAgtldWcFxwtqUZKxXzIz84YFib9z_yTHXmdWdqrjXp7qp0d4BS37JZ2yM6U15zBPeWKww0DiligPrwuOa4TW_wjlMxtW-ZPJ8CRJPtyl2dYRRG_JvU7HZ-9aaF6SZmr4O2s_v-O3hPkdCETvdDOS8Ptr2T2h_w05hSpzrt1WibB7vyeq7k863KdpdUGwUKwHaiAs92DmEultao9KjSziLiMnpsvJFD0G07ubszy_gKOgfrvSTjfVfo9UV8yMgs52shv_4PPnCq0zglSEDMsiSdAEU7aqwnfBf5di6fvRK6mCp8JMlwfEihiwqC34jW01uVDof7YaMNCdZDgKwkNUwwPQlExt52zjj34jICO7p4can8RzW9y9W12_wjkd_PdnJRQTao8Z9QqN8Gouul42nPrTSljoqoqx3e9xuA_4aRw" height="200" width="auto" /><br><br>说明: <br><br>拱北口岸位于珠海的最南端，是连接珠海与澳门最重要的陆路通道，也是中国出入境客流量最大的口岸之一。巨大的岭南风格建筑群与繁华的口岸广场交织，见证了每天数以万计的人流在双城之间往来穿梭。这里不仅是地理上的分界线，更是粤澳深度融合、文化交流与商贸往来的繁荣见证。<br><br>type: marker<br>id: f2874870-df9e-461d-b506-642d4da3752e<br>original_color: #a24ac3<br>type: marker<br>id: f2874870-df9e-461d-b506-642d4da3752e<br>original_color: #a24ac3]]></description>
+        <styleUrl>#icon-1899-FF5252</styleUrl>
+        <ExtendedData>
+          <Data name="说明">
+            <value>
+
+拱北口岸位于珠海的最南端，是连接珠海与澳门最重要的陆路通道，也是中国出入境客流量最大的口岸之一。巨大的岭南风格建筑群与繁华的口岸广场交织，见证了每天数以万计的人流在双城之间往来穿梭。这里不仅是地理上的分界线，更是粤澳深度融合、文化交流与商贸往来的繁荣见证。
+
+type: marker
+id: f2874870-df9e-461d-b506-642d4da3752e
+original_color: #a24ac3</value>
+          </Data>
+          <Data name="type">
+            <value>marker</value>
+          </Data>
+          <Data name="id">
+            <value>f2874870-df9e-461d-b506-642d4da3752e</value>
+          </Data>
+          <Data name="original_color">
+            <value>#a24ac3</value>
+          </Data>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/umsh/AN6v0v6xbte1ciw-MKc5Dg--3aaa0NMaTVtBVyabC1AWmnjI070ggwveUJ_fdLHVf7Tp8EWhqnAaMSkkGLQxnXIzFps-gw1HJHZeguc6ZT4TV-w3F6ZDRh-uRXy_MaCR4K2XhUxItTpGeaGYPlVb0IZ0pfSAc2NbM76gZ7a_a0gItQcC7dBNwU4yxKpIg1cJzNoTMcqw_YZv1lqG25ZLi4Yt7AAza0Im0Fi8glwJuM0WX3Sn2mmUgKTKldXRuSOfm-rZu6NHKsWvgzGBduMOjVYcdNVCAx2ZYQA7vPKQ3A34VEDkur5btgjAgtldWcFxwtqUZKxXzIz84YFib9z_yTHXmdWdqrjXp7qp0d4BS37JZ2yM6U15zBPeWKww0DiligPrwuOa4TW_wjlMxtW-ZPJ8CRJPtyl2dYRRG_JvU7HZ-9aaF6SZmr4O2s_v-O3hPkdCETvdDOS8Ptr2T2h_w05hSpzrt1WibB7vyeq7k863KdpdUGwUKwHaiAs92DmEultao9KjSziLiMnpsvJFD0G07ubszy_gKOgfrvSTjfVfo9UV8yMgs52shv_4PPnCq0zglSEDMsiSdAEU7aqwnfBf5di6fvRK6mCp8JMlwfEihiwqC34jW01uVDof7YaMNCdZDgKwkNUwwPQlExt52zjj34jICO7p4can8RzW9y9W12_wjkd_PdnJRQTao8Z9QqN8Gouul42nPrTSljoqoqx3e9xuA_4aRw</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            113.553984,22.216246,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>MD 2026: Zhuhai, 湾仔旅游码头</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/AN6v0v7rmJ3le7UBrGUSniGSK43RbAAuDCFts222--6V1svJg7fEVUKDDvCE8P7O422N1lgECHdTwQtIMGxFIvfofQJsRyymTTSUMn2DolsD4G43sMcRlhyIsTjgLKOm_3gbQPgM6OhlRYUObwPqphskCluYjMAnhFrNedBfBT7_iwsZB5AM1nYmES-9pHy0qQLuhvk4SP0rUY0lnXbpJdJNQTXbpDEStN2jvTaMEviZIMdKNBIwvx-N5KTOHgHqrVXSWp4zbB--a_so3Zg5BQhNLjVJJHPNPuwZCzEB7F_aNurnB3n_HNRvw3jl4IK-CLIwbJpDXnDUlPcaQb2NsYq_2Y1NFK_qarmM1iIVXfv1ElB7RelnewPL4vrokC_kURRN5ymHnoNLLGeopQcxcDOnjXbI7e-T25KyXusoBmYZZi27MvriwyES_CzQwID666jTH-kVVyxBxEpj9vpEKX-7qUeVMZ3kN8K18KarVjygUjd4WUUwM0hzKHGaTJyETp7k48TboyQL81x3Ru5_2_lIPyOa7YixdYkCwJQUlKtnmm_GD1nhe_3gtAGXRmrawBlWvNg2iU-nnYlognpRPjRK7bTPCEG9lalEygzr5YYWqw3_LnrAMWWDRvzHYeFUT5IDEdnVVKVbsWqi61Ram8l9Vj7stY2IspeazpNZnyC8DZuaiBKebna9z7ox37kSVnzWUm8EhFZyV8N0USjsVDSWw4i8CoKSIA" height="200" width="auto" /><br><br>说明: <br><br>湾仔旅游码头是珠海最具特色的海上旅游门户，与澳门隔海相望，近在咫尺。作为“澳门环岛游”的起航点，这里见证了双城融合的独特视角。从这里登船出发，你可以近距离观赏澳门塔、大三巴及葡京酒店等标志性建筑，在海浪的起伏中，领略珠澳两地交相辉映的繁华胜景与别样风情。<br><br>type: marker<br>id: 869fa0bb-216d-4915-819e-2a8f224d84c5<br>original_color: #a24ac3<br>type: marker<br>id: 869fa0bb-216d-4915-819e-2a8f224d84c5<br>original_color: #a24ac3]]></description>
+        <styleUrl>#icon-1899-FF5252</styleUrl>
+        <ExtendedData>
+          <Data name="说明">
+            <value>
+
+湾仔旅游码头是珠海最具特色的海上旅游门户，与澳门隔海相望，近在咫尺。作为“澳门环岛游”的起航点，这里见证了双城融合的独特视角。从这里登船出发，你可以近距离观赏澳门塔、大三巴及葡京酒店等标志性建筑，在海浪的起伏中，领略珠澳两地交相辉映的繁华胜景与别样风情。
+
+type: marker
+id: 869fa0bb-216d-4915-819e-2a8f224d84c5
+original_color: #a24ac3</value>
+          </Data>
+          <Data name="type">
+            <value>marker</value>
+          </Data>
+          <Data name="id">
+            <value>869fa0bb-216d-4915-819e-2a8f224d84c5</value>
+          </Data>
+          <Data name="original_color">
+            <value>#a24ac3</value>
+          </Data>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/umsh/AN6v0v7rmJ3le7UBrGUSniGSK43RbAAuDCFts222--6V1svJg7fEVUKDDvCE8P7O422N1lgECHdTwQtIMGxFIvfofQJsRyymTTSUMn2DolsD4G43sMcRlhyIsTjgLKOm_3gbQPgM6OhlRYUObwPqphskCluYjMAnhFrNedBfBT7_iwsZB5AM1nYmES-9pHy0qQLuhvk4SP0rUY0lnXbpJdJNQTXbpDEStN2jvTaMEviZIMdKNBIwvx-N5KTOHgHqrVXSWp4zbB--a_so3Zg5BQhNLjVJJHPNPuwZCzEB7F_aNurnB3n_HNRvw3jl4IK-CLIwbJpDXnDUlPcaQb2NsYq_2Y1NFK_qarmM1iIVXfv1ElB7RelnewPL4vrokC_kURRN5ymHnoNLLGeopQcxcDOnjXbI7e-T25KyXusoBmYZZi27MvriwyES_CzQwID666jTH-kVVyxBxEpj9vpEKX-7qUeVMZ3kN8K18KarVjygUjd4WUUwM0hzKHGaTJyETp7k48TboyQL81x3Ru5_2_lIPyOa7YixdYkCwJQUlKtnmm_GD1nhe_3gtAGXRmrawBlWvNg2iU-nnYlognpRPjRK7bTPCEG9lalEygzr5YYWqw3_LnrAMWWDRvzHYeFUT5IDEdnVVKVbsWqi61Ram8l9Vj7stY2IspeazpNZnyC8DZuaiBKebna9z7ox37kSVnzWUm8EhFZyV8N0USjsVDSWw4i8CoKSIA</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            113.53335,22.190341,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>MD 2026: Zhuhai, 励骏庞都广场</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/AN6v0v5Zad0Wf1SBTdRaTLsaBiFa6HdxUoEhKSDAsFeK87_l1S77HE2L02c6BbGNtdu2FG9LkJzz87uWTCjqKxR0KhsUqnQs_uDX1rQ1jWPMlrC07Q1YaFB0aUkcJ9rrIFpOTiTBw5GD07zXvnZmjT9DjvbdE-BIThQKvJCDi8lIoW-SHOoRISQfy97qh4gX6DN7dkna081DFu0ANFkfFC6tXGUWCOlUUA6UkCYW2tuDXADEVCJqE1cw4vYADiRj2F2cRVa4wh8kE0AcVAWc0QjhblahOu4DsG-hcTE7pxtp67dGRkXEC6PL48w7sFudHv2m-PxzZGkuI_E8-IfBes4u_13zDW43p-jOe3dkDe5WllL2r1PgHT6o9o1BtjkOtywvCLmYSvC6hYDwVVXWAqoHGwef-4mnhGogcAdtFR24Bw7-4vc6SQzGmFkxyoHJZWbsFxLXsy0U3YUKgZcUlFWPq6BK2fgkt62xCYQ3IGfp--8bzt2Nxgp8v69s0SuON6hYrkycEQrJc1J4H9QfMA_EPe1kQkI4EZi1KfC0aYaoI_aGYWrrxWhGhAisBEJCECjoxQvIbgahyIO34OBkypIUCz6W26zt1xfBm8maYUNLUfMEmKE9pMdIPFTfj2yBDUEMgESUvLtnDuRqrtQF-ujhzTMM8mpsXND22tdxDfl1xt1QlZdZwPOnR68Ye3W09UbjhjgFmJTz991HDHPmILKGsIfR-1s8" height="200" width="auto" /><br><br>说明: <br><br>励骏庞都广场坐落于横琴口岸正对面，是一座充满异国情调的葡式风格建筑群。它由大师手笔设计，完美复刻了17世纪葡萄牙曼努埃尔风格的细腻与宏大。米黄色的外墙、精致的雕刻与雄伟的拱门，在夜幕低垂、华灯初上时，仿佛让人一瞬间穿越到了欧洲古堡。作为横琴的潮流地标，它不仅是极具张力的“出片圣地”，更是中西文化在粤澳深度合作区交融共生的华丽缩影。<br><br>type: marker<br>id: 2cd71b5a-8eea-4ecf-a7e1-9d71d707d569<br>original_color: #a24ac3<br>type: marker<br>id: 2cd71b5a-8eea-4ecf-a7e1-9d71d707d569<br>original_color: #a24ac3]]></description>
+        <styleUrl>#icon-1899-FF5252</styleUrl>
+        <ExtendedData>
+          <Data name="说明">
+            <value>
+
+励骏庞都广场坐落于横琴口岸正对面，是一座充满异国情调的葡式风格建筑群。它由大师手笔设计，完美复刻了17世纪葡萄牙曼努埃尔风格的细腻与宏大。米黄色的外墙、精致的雕刻与雄伟的拱门，在夜幕低垂、华灯初上时，仿佛让人一瞬间穿越到了欧洲古堡。作为横琴的潮流地标，它不仅是极具张力的“出片圣地”，更是中西文化在粤澳深度合作区交融共生的华丽缩影。
+
+type: marker
+id: 2cd71b5a-8eea-4ecf-a7e1-9d71d707d569
+original_color: #a24ac3</value>
+          </Data>
+          <Data name="type">
+            <value>marker</value>
+          </Data>
+          <Data name="id">
+            <value>2cd71b5a-8eea-4ecf-a7e1-9d71d707d569</value>
+          </Data>
+          <Data name="original_color">
+            <value>#a24ac3</value>
+          </Data>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/umsh/AN6v0v5Zad0Wf1SBTdRaTLsaBiFa6HdxUoEhKSDAsFeK87_l1S77HE2L02c6BbGNtdu2FG9LkJzz87uWTCjqKxR0KhsUqnQs_uDX1rQ1jWPMlrC07Q1YaFB0aUkcJ9rrIFpOTiTBw5GD07zXvnZmjT9DjvbdE-BIThQKvJCDi8lIoW-SHOoRISQfy97qh4gX6DN7dkna081DFu0ANFkfFC6tXGUWCOlUUA6UkCYW2tuDXADEVCJqE1cw4vYADiRj2F2cRVa4wh8kE0AcVAWc0QjhblahOu4DsG-hcTE7pxtp67dGRkXEC6PL48w7sFudHv2m-PxzZGkuI_E8-IfBes4u_13zDW43p-jOe3dkDe5WllL2r1PgHT6o9o1BtjkOtywvCLmYSvC6hYDwVVXWAqoHGwef-4mnhGogcAdtFR24Bw7-4vc6SQzGmFkxyoHJZWbsFxLXsy0U3YUKgZcUlFWPq6BK2fgkt62xCYQ3IGfp--8bzt2Nxgp8v69s0SuON6hYrkycEQrJc1J4H9QfMA_EPe1kQkI4EZi1KfC0aYaoI_aGYWrrxWhGhAisBEJCECjoxQvIbgahyIO34OBkypIUCz6W26zt1xfBm8maYUNLUfMEmKE9pMdIPFTfj2yBDUEMgESUvLtnDuRqrtQF-ujhzTMM8mpsXND22tdxDfl1xt1QlZdZwPOnR68Ye3W09UbjhjgFmJTz991HDHPmILKGsIfR-1s8</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            113.54278,22.137828,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>MD 2026: Zhuhai, 横琴芒洲湿地公园</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/AN6v0v4xTKdltwygRQ97Lm8ieDVkCPf0jL7OnELfkHE0x-qa8o0h9GLkYz2G-I6OirnpOQUJKit1IJ6tXcYmsfW2NUTJkPlA8iy1dPEUbjoYf9MNnCrzvuAK3Pop2mpKs4IZQcYrkYcx4mHD2b8KvmnSiP00TG4WaqGMEFqGvDhnu8BQN0wX-oZvo57gCS8k9lrRVGWIoWHML1OiVTfGonTc-Iz5-4E-jeVHn3CgkTYXFU3EHzcqq2Gvn9l_hlleXpGrpr5V6NKiyKRxC6KjToak2yd0kS52ibqbMuF2hsf2f146EnlGzNjVnmUV5QFVvDTfpkV5-yHC8AL3vckfw9TzQGWsrmoTEMWvmsLB9m5fty2OsyV7b3_zcB4h1haMdp8p-AlLrBHQj1xuDbNRSzlf5ndLG_cy9dNVqkhP65YIgp8sJvymJeEe0L5CakVmxzJOOgnNK8nHiYzWClY2WMbMPkhlrNFqdj-TcNz3rSKDMHj-PaXuV2Ro6Qz404W4jbHNo_EFuyUeLcrH7OOEw-5p-nI9ykZ6fMsBpHmaYi2zzMw9RhVRaXDiSG1nCz-OVfVofiR2Jquocz6L2P4BjGTK1WEtvS6JCdwDo6tgh6fjngDIJBTZGNlEKjD7kQucutz8SwKx9-5bwxYyoo05UT919IT-_d_XssgA7eADFXeB-_5gant7ZqQqQilSHJGMrVZgmwaqT3OOPDD-BlSBvCNlota38wQk" height="200" width="auto" /><br><br>说明: <br><br>芒洲湿地公园坐落于横琴岛西北角，是喧嚣都市边缘的一片纯净原野。这里通过红树林修复与生态栖息地的营造，筑起了一座候鸟迁徙的“中转站”。漫步于蜿蜒的水上栈道，穿行在随风摇曳的芦苇荡间，你能近距离观察湿地生态的勃勃生机，在落日余晖中感受横琴岛人与自然和谐共生的宁静之美。<br><br>type: marker<br>id: e1a1f390-a4bc-4b56-9e69-d4c7308b7f29<br>original_color: #a24ac3<br>type: marker<br>id: e1a1f390-a4bc-4b56-9e69-d4c7308b7f29<br>original_color: #a24ac3]]></description>
+        <styleUrl>#icon-1899-FF5252</styleUrl>
+        <ExtendedData>
+          <Data name="说明">
+            <value>
+
+芒洲湿地公园坐落于横琴岛西北角，是喧嚣都市边缘的一片纯净原野。这里通过红树林修复与生态栖息地的营造，筑起了一座候鸟迁徙的“中转站”。漫步于蜿蜒的水上栈道，穿行在随风摇曳的芦苇荡间，你能近距离观察湿地生态的勃勃生机，在落日余晖中感受横琴岛人与自然和谐共生的宁静之美。
+
+type: marker
+id: e1a1f390-a4bc-4b56-9e69-d4c7308b7f29
+original_color: #a24ac3</value>
+          </Data>
+          <Data name="type">
+            <value>marker</value>
+          </Data>
+          <Data name="id">
+            <value>e1a1f390-a4bc-4b56-9e69-d4c7308b7f29</value>
+          </Data>
+          <Data name="original_color">
+            <value>#a24ac3</value>
+          </Data>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/umsh/AN6v0v4xTKdltwygRQ97Lm8ieDVkCPf0jL7OnELfkHE0x-qa8o0h9GLkYz2G-I6OirnpOQUJKit1IJ6tXcYmsfW2NUTJkPlA8iy1dPEUbjoYf9MNnCrzvuAK3Pop2mpKs4IZQcYrkYcx4mHD2b8KvmnSiP00TG4WaqGMEFqGvDhnu8BQN0wX-oZvo57gCS8k9lrRVGWIoWHML1OiVTfGonTc-Iz5-4E-jeVHn3CgkTYXFU3EHzcqq2Gvn9l_hlleXpGrpr5V6NKiyKRxC6KjToak2yd0kS52ibqbMuF2hsf2f146EnlGzNjVnmUV5QFVvDTfpkV5-yHC8AL3vckfw9TzQGWsrmoTEMWvmsLB9m5fty2OsyV7b3_zcB4h1haMdp8p-AlLrBHQj1xuDbNRSzlf5ndLG_cy9dNVqkhP65YIgp8sJvymJeEe0L5CakVmxzJOOgnNK8nHiYzWClY2WMbMPkhlrNFqdj-TcNz3rSKDMHj-PaXuV2Ro6Qz404W4jbHNo_EFuyUeLcrH7OOEw-5p-nI9ykZ6fMsBpHmaYi2zzMw9RhVRaXDiSG1nCz-OVfVofiR2Jquocz6L2P4BjGTK1WEtvS6JCdwDo6tgh6fjngDIJBTZGNlEKjD7kQucutz8SwKx9-5bwxYyoo05UT919IT-_d_XssgA7eADFXeB-_5gant7ZqQqQilSHJGMrVZgmwaqT3OOPDD-BlSBvCNlota38wQk</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            113.442563,22.157991,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>MD 2026: Zhuhai, 圆明新园</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/AN6v0v7K5RKn1pJ5n6s6fpVIBHI5EAmiWrptzCV3IwTXz5cz8MIQVVE4ZvZBRVgxSVVoOquM9JWE-5QzEgmDGBmTCu23NjfwMTuX2uZqikvYSGh6zrSMtSzmXnQRuNp482oD_gaoBuGaum4NfIYvS7A7hEfgca861OpN7l3KSe-n_hyzH8vZ61sl0H52wgpjnpz9dF9GxrIoN8RmZV4g7SkAk3sWHVRrLkFpkVNdECGzat5l61K42lzfnagiOLURfvNVEMum9VqtH10Y4H-qDgpC0oZuCgCyGqHnh8roHO-0PfGC4FRtXhnrIwTBHuK-bvfw9qx9vWK0GuTqRJJNhb4MtE4iiHd1gttsyboTGObRL984-Uz3oBzuuAu-9LTQSQ6do95zBx6TNx9TJCmxVNp1eyPwCRYAHOkr3A5FPdBXISd92KlHe9_CY6osgd3snReGW_XHgzpsZbCbCTPmGmWgdvnHikTZwm8qNx8Cbrth0ohMrjvFmxv76WSxW_o9URFfg3zVJ-NQJ5sjQnk4vqgV2P4RctwMzBFQBwQpSZFGyjhEeuFkHPXSfkQfqA6L2oGp3wkkltctCQiu7_0SpSPMmHyBgFPYzKxoTNy67RT9IyilhRLPbyilIdhuqjMIRllPhjbYd1dx5OojjV7nJ0f1gt1Y6qP-EElOWMiBcA_7FRuSrQhXy0sFsfjkzyu27NWcs8eWQnWctgxut1FjKaJEgBhEulbVCg" height="200" width="auto" /><br><br>说明: <br><br>圆明新园以北京圆明园被焚毁前的建筑为蓝本，按 1:1 比例精选复建了四十景中的十八景。它将古典皇家建筑群、江南园林景观与西洋建筑风格完美融合。在这里，你可以漫步于红墙金瓦间，沉浸式感受清朝鼎盛时期的辉煌气象与历史余晖。<br><br>type: marker<br>id: 500ea847-9cc3-43d8-b095-4b9411283913<br>original_color: #a24ac3<br>type: marker<br>id: 500ea847-9cc3-43d8-b095-4b9411283913<br>original_color: #a24ac3]]></description>
+        <styleUrl>#icon-1899-FF5252</styleUrl>
+        <ExtendedData>
+          <Data name="说明">
+            <value>
+
+圆明新园以北京圆明园被焚毁前的建筑为蓝本，按 1:1 比例精选复建了四十景中的十八景。它将古典皇家建筑群、江南园林景观与西洋建筑风格完美融合。在这里，你可以漫步于红墙金瓦间，沉浸式感受清朝鼎盛时期的辉煌气象与历史余晖。
+
+type: marker
+id: 500ea847-9cc3-43d8-b095-4b9411283913
+original_color: #a24ac3</value>
+          </Data>
+          <Data name="type">
+            <value>marker</value>
+          </Data>
+          <Data name="id">
+            <value>500ea847-9cc3-43d8-b095-4b9411283913</value>
+          </Data>
+          <Data name="original_color">
+            <value>#a24ac3</value>
+          </Data>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/umsh/AN6v0v7K5RKn1pJ5n6s6fpVIBHI5EAmiWrptzCV3IwTXz5cz8MIQVVE4ZvZBRVgxSVVoOquM9JWE-5QzEgmDGBmTCu23NjfwMTuX2uZqikvYSGh6zrSMtSzmXnQRuNp482oD_gaoBuGaum4NfIYvS7A7hEfgca861OpN7l3KSe-n_hyzH8vZ61sl0H52wgpjnpz9dF9GxrIoN8RmZV4g7SkAk3sWHVRrLkFpkVNdECGzat5l61K42lzfnagiOLURfvNVEMum9VqtH10Y4H-qDgpC0oZuCgCyGqHnh8roHO-0PfGC4FRtXhnrIwTBHuK-bvfw9qx9vWK0GuTqRJJNhb4MtE4iiHd1gttsyboTGObRL984-Uz3oBzuuAu-9LTQSQ6do95zBx6TNx9TJCmxVNp1eyPwCRYAHOkr3A5FPdBXISd92KlHe9_CY6osgd3snReGW_XHgzpsZbCbCTPmGmWgdvnHikTZwm8qNx8Cbrth0ohMrjvFmxv76WSxW_o9URFfg3zVJ-NQJ5sjQnk4vqgV2P4RctwMzBFQBwQpSZFGyjhEeuFkHPXSfkQfqA6L2oGp3wkkltctCQiu7_0SpSPMmHyBgFPYzKxoTNy67RT9IyilhRLPbyilIdhuqjMIRllPhjbYd1dx5OojjV7nJ0f1gt1Y6qP-EElOWMiBcA_7FRuSrQhXy0sFsfjkzyu27NWcs8eWQnWctgxut1FjKaJEgBhEulbVCg</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            113.538018,22.239642,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>路线</name>
+      <Placemark>
+        <name>路线-01</name>
+        <description><![CDATA[说明: <br><br>type: polyline<br>id: 4d3bbd7d-5d0d-42e5-aa9d-4c98952bbc22<br>original_color: #c34a74<br>type: polyline<br>id: 4d3bbd7d-5d0d-42e5-aa9d-4c98952bbc22<br>original_color: #c34a74]]></description>
+        <styleUrl>#line-C34A74-4000</styleUrl>
+        <ExtendedData>
+          <Data name="说明">
+            <value>
+
+type: polyline
+id: 4d3bbd7d-5d0d-42e5-aa9d-4c98952bbc22
+original_color: #c34a74</value>
+          </Data>
+          <Data name="type">
+            <value>polyline</value>
+          </Data>
+          <Data name="id">
+            <value>4d3bbd7d-5d0d-42e5-aa9d-4c98952bbc22</value>
+          </Data>
+          <Data name="original_color">
+            <value>#c34a74</value>
+          </Data>
+        </ExtendedData>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            113.562151,22.24267,0
+            113.561958,22.243076,0
+            113.561975,22.243883,0
+            113.562216,22.244758,0
+            113.562916,22.244791,0
+            113.563349,22.244704,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>路线-14</name>
+        <description><![CDATA[说明: <br><br>type: polyline<br>id: b965e996-2a32-4b39-b467-e56e74c8bff5<br>original_color: #a24ac3<br>type: polyline<br>id: b965e996-2a32-4b39-b467-e56e74c8bff5<br>original_color: #a24ac3]]></description>
+        <styleUrl>#line-A24AC3-4000</styleUrl>
+        <ExtendedData>
+          <Data name="说明">
+            <value>
+
+type: polyline
+id: b965e996-2a32-4b39-b467-e56e74c8bff5
+original_color: #a24ac3</value>
+          </Data>
+          <Data name="type">
+            <value>polyline</value>
+          </Data>
+          <Data name="id">
+            <value>b965e996-2a32-4b39-b467-e56e74c8bff5</value>
+          </Data>
+          <Data name="original_color">
+            <value>#a24ac3</value>
+          </Data>
+        </ExtendedData>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            113.581919,22.262418,0
+            113.582544,22.262576,0
+            113.582115,22.263133,0
+            113.582164,22.263956,0
+            113.58268,22.263548,0
+            113.582588,22.263822,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>路线-18</name>
+        <description><![CDATA[说明: <br><br>type: polyline<br>id: 3f26bb6a-dadc-49ea-afe5-d07346ccdc27<br>original_color: #a24ac3<br>type: polyline<br>id: 3f26bb6a-dadc-49ea-afe5-d07346ccdc27<br>original_color: #a24ac3]]></description>
+        <styleUrl>#line-A24AC3-4000</styleUrl>
+        <ExtendedData>
+          <Data name="说明">
+            <value>
+
+type: polyline
+id: 3f26bb6a-dadc-49ea-afe5-d07346ccdc27
+original_color: #a24ac3</value>
+          </Data>
+          <Data name="type">
+            <value>polyline</value>
+          </Data>
+          <Data name="id">
+            <value>3f26bb6a-dadc-49ea-afe5-d07346ccdc27</value>
+          </Data>
+          <Data name="original_color">
+            <value>#a24ac3</value>
+          </Data>
+        </ExtendedData>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            113.591042,22.281922,0
+            113.589477,22.283395,0
+            113.58908,22.283656,0
+            113.589418,22.282987,0
+            113.589587,22.281948,0
+            113.589403,22.281071,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>路线-16</name>
+        <description><![CDATA[说明: <br><br>type: polyline<br>id: 1f43fa1f-eb78-4e15-992a-17b9098313f0<br>original_color: #a24ac3<br>type: polyline<br>id: 1f43fa1f-eb78-4e15-992a-17b9098313f0<br>original_color: #a24ac3]]></description>
+        <styleUrl>#line-A24AC3-4000</styleUrl>
+        <ExtendedData>
+          <Data name="说明">
+            <value>
+
+type: polyline
+id: 1f43fa1f-eb78-4e15-992a-17b9098313f0
+original_color: #a24ac3</value>
+          </Data>
+          <Data name="type">
+            <value>polyline</value>
+          </Data>
+          <Data name="id">
+            <value>1f43fa1f-eb78-4e15-992a-17b9098313f0</value>
+          </Data>
+          <Data name="original_color">
+            <value>#a24ac3</value>
+          </Data>
+        </ExtendedData>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            113.582086,22.274994,0
+            113.583215,22.275218,0
+            113.585468,22.27567,0
+            113.585548,22.27593,0
+            113.586126,22.276737,0
+            113.586633,22.277019,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>路线-36</name>
+        <description><![CDATA[说明: <br><br>type: polyline<br>id: a1b08744-a446-4c4d-94e2-992f8d038727<br>original_color: #a24ac3<br>type: polyline<br>id: a1b08744-a446-4c4d-94e2-992f8d038727<br>original_color: #a24ac3]]></description>
+        <styleUrl>#line-A24AC3-4000</styleUrl>
+        <ExtendedData>
+          <Data name="说明">
+            <value>
+
+type: polyline
+id: a1b08744-a446-4c4d-94e2-992f8d038727
+original_color: #a24ac3</value>
+          </Data>
+          <Data name="type">
+            <value>polyline</value>
+          </Data>
+          <Data name="id">
+            <value>a1b08744-a446-4c4d-94e2-992f8d038727</value>
+          </Data>
+          <Data name="original_color">
+            <value>#a24ac3</value>
+          </Data>
+        </ExtendedData>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            113.4425,22.157741,0
+            113.442229,22.158024,0
+            113.442927,22.158245,0
+            113.443124,22.158976,0
+            113.444583,22.159169,0
+            113.443797,22.157981,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>路线-22</name>
+        <description><![CDATA[说明: <br><br>type: polyline<br>id: 8b88989b-a1cc-4070-b5fc-a151e32bfb38<br>original_color: #a24ac3<br>type: polyline<br>id: 8b88989b-a1cc-4070-b5fc-a151e32bfb38<br>original_color: #a24ac3]]></description>
+        <styleUrl>#line-A24AC3-4000</styleUrl>
+        <ExtendedData>
+          <Data name="说明">
+            <value>
+
+type: polyline
+id: 8b88989b-a1cc-4070-b5fc-a151e32bfb38
+original_color: #a24ac3</value>
+          </Data>
+          <Data name="type">
+            <value>polyline</value>
+          </Data>
+          <Data name="id">
+            <value>8b88989b-a1cc-4070-b5fc-a151e32bfb38</value>
+          </Data>
+          <Data name="original_color">
+            <value>#a24ac3</value>
+          </Data>
+        </ExtendedData>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            113.578379,22.297688,0
+            113.578691,22.2983,0
+            113.578219,22.298598,0
+            113.578687,22.298688,0
+            113.578698,22.299113,0
+            113.578988,22.299321,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>路线-09</name>
+        <description><![CDATA[说明: <br><br>type: polyline<br>id: 5611eab5-68e3-418f-88e1-c7b690efd9a2<br>original_color: #a24ac3<br>type: polyline<br>id: 5611eab5-68e3-418f-88e1-c7b690efd9a2<br>original_color: #a24ac3]]></description>
+        <styleUrl>#line-A24AC3-4000</styleUrl>
+        <ExtendedData>
+          <Data name="说明">
+            <value>
+
+type: polyline
+id: 5611eab5-68e3-418f-88e1-c7b690efd9a2
+original_color: #a24ac3</value>
+          </Data>
+          <Data name="type">
+            <value>polyline</value>
+          </Data>
+          <Data name="id">
+            <value>5611eab5-68e3-418f-88e1-c7b690efd9a2</value>
+          </Data>
+          <Data name="original_color">
+            <value>#a24ac3</value>
+          </Data>
+        </ExtendedData>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            113.593851,22.260937,0
+            113.593858,22.261334,0
+            113.588336,22.261558,0
+            113.588247,22.262373,0
+            113.588127,22.261464,0
+            113.588076,22.260899,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>路线-07</name>
+        <description><![CDATA[说明: <br><br>type: polyline<br>id: 97b56aea-d28f-4bf1-a903-b5a399135e93<br>original_color: #a24ac3<br>type: polyline<br>id: 97b56aea-d28f-4bf1-a903-b5a399135e93<br>original_color: #a24ac3]]></description>
+        <styleUrl>#line-A24AC3-6000</styleUrl>
+        <ExtendedData>
+          <Data name="说明">
+            <value>
+
+type: polyline
+id: 97b56aea-d28f-4bf1-a903-b5a399135e93
+original_color: #a24ac3</value>
+          </Data>
+          <Data name="type">
+            <value>polyline</value>
+          </Data>
+          <Data name="id">
+            <value>97b56aea-d28f-4bf1-a903-b5a399135e93</value>
+          </Data>
+          <Data name="original_color">
+            <value>#a24ac3</value>
+          </Data>
+        </ExtendedData>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            113.590412,22.256359,0
+            113.590673,22.256739,0
+            113.59082,22.257056,0
+            113.591941,22.257155,0
+            113.590599,22.257616,0
+            113.590654,22.257963,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>路线-03</name>
+        <description><![CDATA[说明: <br><br>type: polyline<br>id: 55b4eccb-5d3e-4dfb-bbdd-21ef54f4ea35<br>original_color: #c34a74<br>type: polyline<br>id: 55b4eccb-5d3e-4dfb-bbdd-21ef54f4ea35<br>original_color: #c34a74]]></description>
+        <styleUrl>#line-C34A74-4000</styleUrl>
+        <ExtendedData>
+          <Data name="说明">
+            <value>
+
+type: polyline
+id: 55b4eccb-5d3e-4dfb-bbdd-21ef54f4ea35
+original_color: #c34a74</value>
+          </Data>
+          <Data name="type">
+            <value>polyline</value>
+          </Data>
+          <Data name="id">
+            <value>55b4eccb-5d3e-4dfb-bbdd-21ef54f4ea35</value>
+          </Data>
+          <Data name="original_color">
+            <value>#c34a74</value>
+          </Data>
+        </ExtendedData>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            113.578436,22.256486,0
+            113.578673,22.256668,0
+            113.57907,22.256777,0
+            113.579214,22.256746,0
+            113.579509,22.257175,0
+            113.579457,22.257313,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>路线-06</name>
+        <description><![CDATA[说明: <br><br>type: polyline<br>id: 16cdbb21-7be2-4ca9-a4b4-42d57e743838<br>original_color: #a24ac3<br>type: polyline<br>id: 16cdbb21-7be2-4ca9-a4b4-42d57e743838<br>original_color: #a24ac3]]></description>
+        <styleUrl>#line-A24AC3-4000</styleUrl>
+        <ExtendedData>
+          <Data name="说明">
+            <value>
+
+type: polyline
+id: 16cdbb21-7be2-4ca9-a4b4-42d57e743838
+original_color: #a24ac3</value>
+          </Data>
+          <Data name="type">
+            <value>polyline</value>
+          </Data>
+          <Data name="id">
+            <value>16cdbb21-7be2-4ca9-a4b4-42d57e743838</value>
+          </Data>
+          <Data name="original_color">
+            <value>#a24ac3</value>
+          </Data>
+        </ExtendedData>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            113.589784,22.255385,0
+            113.589965,22.255159,0
+            113.589789,22.254993,0
+            113.589988,22.254691,0
+            113.590203,22.254437,0
+            113.590778,22.253726,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>路线-24</name>
+        <description><![CDATA[说明: <br><br>type: polyline<br>id: 7bd6e8ce-60ec-4381-88ea-6f8b25542ef1<br>original_color: #a24ac3<br>type: polyline<br>id: 7bd6e8ce-60ec-4381-88ea-6f8b25542ef1<br>original_color: #a24ac3]]></description>
+        <styleUrl>#line-A24AC3-4000</styleUrl>
+        <ExtendedData>
+          <Data name="说明">
+            <value>
+
+type: polyline
+id: 7bd6e8ce-60ec-4381-88ea-6f8b25542ef1
+original_color: #a24ac3</value>
+          </Data>
+          <Data name="type">
+            <value>polyline</value>
+          </Data>
+          <Data name="id">
+            <value>7bd6e8ce-60ec-4381-88ea-6f8b25542ef1</value>
+          </Data>
+          <Data name="original_color">
+            <value>#a24ac3</value>
+          </Data>
+        </ExtendedData>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            113.649492,22.395814,0
+            113.649294,22.396684,0
+            113.651206,22.397817,0
+            113.651489,22.398301,0
+            113.651571,22.397977,0
+            113.651812,22.397702,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>路线-26</name>
+        <description><![CDATA[说明: <br><br>type: polyline<br>id: 1fe9a709-56a1-49d1-a155-eda3be519208<br>original_color: #a24ac3<br>type: polyline<br>id: 1fe9a709-56a1-49d1-a155-eda3be519208<br>original_color: #a24ac3]]></description>
+        <styleUrl>#line-A24AC3-4000</styleUrl>
+        <ExtendedData>
+          <Data name="说明">
+            <value>
+
+type: polyline
+id: 1fe9a709-56a1-49d1-a155-eda3be519208
+original_color: #a24ac3</value>
+          </Data>
+          <Data name="type">
+            <value>polyline</value>
+          </Data>
+          <Data name="id">
+            <value>1fe9a709-56a1-49d1-a155-eda3be519208</value>
+          </Data>
+          <Data name="original_color">
+            <value>#a24ac3</value>
+          </Data>
+        </ExtendedData>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            113.581859,22.269863,0
+            113.581929,22.27092,0
+            113.581886,22.272509,0
+            113.581911,22.273007,0
+            113.58197,22.273426,0
+            113.581998,22.273722,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>路线-28</name>
+        <description><![CDATA[说明: <br><br>type: polyline<br>id: a828a235-a313-4a63-bdfc-35d00039121c<br>original_color: #a24ac3<br>type: polyline<br>id: a828a235-a313-4a63-bdfc-35d00039121c<br>original_color: #a24ac3]]></description>
+        <styleUrl>#line-A24AC3-4000</styleUrl>
+        <ExtendedData>
+          <Data name="说明">
+            <value>
+
+type: polyline
+id: a828a235-a313-4a63-bdfc-35d00039121c
+original_color: #a24ac3</value>
+          </Data>
+          <Data name="type">
+            <value>polyline</value>
+          </Data>
+          <Data name="id">
+            <value>a828a235-a313-4a63-bdfc-35d00039121c</value>
+          </Data>
+          <Data name="original_color">
+            <value>#a24ac3</value>
+          </Data>
+        </ExtendedData>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            113.553204,22.218513,0
+            113.553284,22.21763,0
+            113.553634,22.217675,0
+            113.55385,22.216676,0
+            113.553539,22.216526,0
+            113.553984,22.216246,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>路线-12</name>
+        <description><![CDATA[说明: <br><br>type: polyline<br>id: 94e60ac4-65e5-42ed-93c0-9507a9cf05cc<br>original_color: #a24ac3<br>type: polyline<br>id: 94e60ac4-65e5-42ed-93c0-9507a9cf05cc<br>original_color: #a24ac3]]></description>
+        <styleUrl>#line-A24AC3-4000</styleUrl>
+        <ExtendedData>
+          <Data name="说明">
+            <value>
+
+type: polyline
+id: 94e60ac4-65e5-42ed-93c0-9507a9cf05cc
+original_color: #a24ac3</value>
+          </Data>
+          <Data name="type">
+            <value>polyline</value>
+          </Data>
+          <Data name="id">
+            <value>94e60ac4-65e5-42ed-93c0-9507a9cf05cc</value>
+          </Data>
+          <Data name="original_color">
+            <value>#a24ac3</value>
+          </Data>
+        </ExtendedData>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            113.58211,22.259111,0
+            113.582919,22.259063,0
+            113.583588,22.258648,0
+            113.58437,22.258704,0
+            113.58503,22.258781,0
+            113.585374,22.260034,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>路线-29</name>
+        <description><![CDATA[说明: <br><br>type: polyline<br>id: e4bfb6e3-7875-423b-941b-b26437828e46<br>original_color: #a24ac3<br>type: polyline<br>id: e4bfb6e3-7875-423b-941b-b26437828e46<br>original_color: #a24ac3]]></description>
+        <styleUrl>#line-A24AC3-4000</styleUrl>
+        <ExtendedData>
+          <Data name="说明">
+            <value>
+
+type: polyline
+id: e4bfb6e3-7875-423b-941b-b26437828e46
+original_color: #a24ac3</value>
+          </Data>
+          <Data name="type">
+            <value>polyline</value>
+          </Data>
+          <Data name="id">
+            <value>e4bfb6e3-7875-423b-941b-b26437828e46</value>
+          </Data>
+          <Data name="original_color">
+            <value>#a24ac3</value>
+          </Data>
+        </ExtendedData>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            113.532947,22.191721,0
+            113.532404,22.191637,0
+            113.532171,22.190233,0
+            113.532059,22.189665,0
+            113.53335,22.190341,0
+            113.533449,22.190816,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>路线-32</name>
+        <description><![CDATA[说明: <br><br>type: polyline<br>id: eac3896e-7ba7-4503-bc93-f0148413be80<br>original_color: #a24ac3<br>type: polyline<br>id: eac3896e-7ba7-4503-bc93-f0148413be80<br>original_color: #a24ac3]]></description>
+        <styleUrl>#line-A24AC3-4000</styleUrl>
+        <ExtendedData>
+          <Data name="说明">
+            <value>
+
+type: polyline
+id: eac3896e-7ba7-4503-bc93-f0148413be80
+original_color: #a24ac3</value>
+          </Data>
+          <Data name="type">
+            <value>polyline</value>
+          </Data>
+          <Data name="id">
+            <value>eac3896e-7ba7-4503-bc93-f0148413be80</value>
+          </Data>
+          <Data name="original_color">
+            <value>#a24ac3</value>
+          </Data>
+        </ExtendedData>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            113.543756,22.13754,0
+            113.543255,22.137596,0
+            113.542775,22.137828,0
+            113.542507,22.13865,0
+            113.541969,22.137853,0
+            113.541701,22.136964,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>路线-35</name>
+        <description><![CDATA[说明: <br><br>type: polyline<br>id: 646e7b22-a2d6-488a-9fb5-52cedcdda933<br>original_color: #a24ac3<br>type: polyline<br>id: 646e7b22-a2d6-488a-9fb5-52cedcdda933<br>original_color: #a24ac3]]></description>
+        <styleUrl>#line-A24AC3-4000</styleUrl>
+        <ExtendedData>
+          <Data name="说明">
+            <value>
+
+type: polyline
+id: 646e7b22-a2d6-488a-9fb5-52cedcdda933
+original_color: #a24ac3</value>
+          </Data>
+          <Data name="type">
+            <value>polyline</value>
+          </Data>
+          <Data name="id">
+            <value>646e7b22-a2d6-488a-9fb5-52cedcdda933</value>
+          </Data>
+          <Data name="original_color">
+            <value>#a24ac3</value>
+          </Data>
+        </ExtendedData>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            113.537693,22.239674,0
+            113.53802,22.239634,0
+            113.537624,22.239484,0
+            113.537881,22.239371,0
+            113.538167,22.239363,0
+            113.538276,22.239078,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>路线-20</name>
+        <description><![CDATA[说明: <br><br>type: polyline<br>id: e4ab30b6-727c-4c00-b6b1-ab06b279627f<br>original_color: #a24ac3<br>type: polyline<br>id: e4ab30b6-727c-4c00-b6b1-ab06b279627f<br>original_color: #a24ac3]]></description>
+        <styleUrl>#line-A24AC3-4000</styleUrl>
+        <ExtendedData>
+          <Data name="说明">
+            <value>
+
+type: polyline
+id: e4ab30b6-727c-4c00-b6b1-ab06b279627f
+original_color: #a24ac3</value>
+          </Data>
+          <Data name="type">
+            <value>polyline</value>
+          </Data>
+          <Data name="id">
+            <value>e4ab30b6-727c-4c00-b6b1-ab06b279627f</value>
+          </Data>
+          <Data name="original_color">
+            <value>#a24ac3</value>
+          </Data>
+        </ExtendedData>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            113.577687,22.292571,0
+            113.577115,22.29307,0
+            113.577815,22.293506,0
+            113.577922,22.294464,0
+            113.576703,22.294268,0
+            113.576338,22.293608,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

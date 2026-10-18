@@ -1,4 +1,1 @@
-{
-  "_doc": "Map from mission order (1-24) → maps.apple/ug/<id> share URL. Create each guide in Apple Maps app on iPhone (+ → New Guide → add portals → Share → copy URL) and paste below. Missions without an entry fall back to the generic area-view link.",
-  "_example": "1: \"https://maps.apple/ug/VrzfFtxEDoERIXRnT7.wIC\""
-}
+{}

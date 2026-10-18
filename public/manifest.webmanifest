@@ -1,7 +1,7 @@
 {
-  "name": "Foshan Mission Day 2026",
-  "short_name": "FSMD 2026",
-  "description": "Interactive map for Ingress Mission Day 2026 in Foshan — 24 missions, 155 portals, walking routes.",
+  "name": "Zhuhai Mission Day 2026",
+  "short_name": "ZHMD 2026",
+  "description": "18 mapped missions and 108 route stops in Zhuhai.",
   "start_url": "/",
   "scope": "/",
   "display": "standalone",
@@ -15,18 +15,6 @@
       "type": "image/svg+xml",
       "sizes": "any",
       "purpose": "any"
-    },
-    {
-      "src": "/icons/icon-192.png",
-      "type": "image/png",
-      "sizes": "192x192",
-      "purpose": "any"
-    },
-    {
-      "src": "/icons/icon-512.png",
-      "type": "image/png",
-      "sizes": "512x512",
-      "purpose": "any maskable"
     }
   ]
 }

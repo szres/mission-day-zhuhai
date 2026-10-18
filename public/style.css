@@ -376,7 +376,7 @@ body {
 #detail-portals .portal-nav--ingress:hover  { background: rgba(27,214,164,0.22); }
 #detail-portals .portal-nav--ingress:active { background: rgba(27,214,164,0.35); }
 
-/* Custom MapKit annotations */
+/* Numbered map markers */
 .portal-pin {
   display: grid;
   place-items: center;
@@ -850,3 +850,9 @@ body.modal-open { overflow: hidden; }
 @media (max-width: 820px) and (max-height: 480px) {
   body { grid-template-rows: 60vh 1fr; }
 }
+
+/* Zhuhai routes */
+.grid-label { display: block; padding: 6px; color: white; background: #073346; font-size: 12px; }
+.mission-description { padding: 0 16px; line-height: 1.7; font-size: 14px; }
+
+#detail-portals .portal-nav--maps { grid-column: 5; }

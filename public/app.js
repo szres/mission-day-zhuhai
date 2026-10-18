@@ -1,9 +1,5 @@
-// Frontend bootstrap for MD 2026: Foshan mission map.
-// Loads missions.json, initialises MapKit JS with the static JWT defined in
-// mapkit-token.js, and renders one mission at a time (polyline + numbered
-// portal annotations) or the full banner overview.
+// Zhuhai Mission Day map: source KML routes rendered with Apple MapKit JS.
 
-const IMAGE_PROXY = '/api/portal-image?u=';
 
 // ---------------------------------------------------------------------------
 // i18n. Only UI chrome is translated; mission and portal names render exactly
@@ -22,37 +18,35 @@ const I18N = {
     closeAria: 'Close',
     collapseAria: 'Collapse panel to see the map',
     expandAria: 'Expand panel to see the mission details',
-    showAll: 'Show full banner',
+    showAll: 'Show all routes',
     showWelcome: 'ℹ︎ About this event',
     showWelcomeAria: 'About this event',
     welcomeAria: 'Welcome',
-    welcomeTitle: 'Welcome to Foshan Mission Day 2026',
-    welcomeLede: '24 missions across two zones, walkable as a full banner. Tap any mission on the map to see its portals and start navigating.',
-    bannerCaption: 'Official banner map · Operation Foshan · Ingress Mission Day 2026',
+    welcomeTitle: 'Welcome to Zhuhai Mission Day 2026',
+    welcomeLede: '18 mapped missions · 108 route stops. Original route numbers are preserved. Stops come from the source route geometry; portal names and IDs are unavailable.',
+    bannerCaption: 'Official banner map · Operation Zhuhai · Ingress Mission Day 2026',
     contactSection: 'Channels & contact',
     blogsSection: 'Mission stories',
     travelSection: 'Travel & accommodation',
     enterMap: 'Enter the map →',
     readBlog: '📖 Read mission blog ↗',
     openMissionIngress: '⬢ Open mission in Ingress ↗',
-    detailHint: 'Tap any portal to plan walking directions in Apple Maps.',
+    detailHint: 'Tap any route stop to plan walking directions in Apple Maps.',
     viewArea: 'View Area in Apple Maps ↗',
     openGuide: 'Open Mission Guide ↗',
-    footerHint: 'Tap any mission to see details, then open multi-point walking navigation in Apple Maps.',
+    footerHint: 'Tap any mission to see its route and get Apple Maps directions to individual stops.',
     missionPrefix: 'Mission',
     portalCountAbbr: n => `${n}p`,
-    portalCountFull: n => `${n} portal${n === 1 ? '' : 's'}`,
-    portalOf: (cur, total) => `Portal ${cur} of ${total}`,
+    portalCountFull: n => `${n} stop${n === 1 ? '' : 's'}`,
+    portalOf: (cur, total) => `Stop ${cur} of ${total}`,
     openInIngressAria: name => `Open ${name} in Ingress`,
     walkingAria: name => `Walking directions to ${name} in Apple Maps`,
     openInIngressTitle: 'Open in Ingress',
     walkingTitle: 'Walking directions in Apple Maps',
     toastOpeningIngress: 'Opening in Ingress…',
-    fatalNoToken: 'No MapKit token configured. Copy public/mapkit-token.example.js → public/mapkit-token.js and paste your JWT.',
-    fatalAuth: 'Could not authenticate with MapKit.',
-    missionMeta: (n, p, b) => `${n} missions · ${p} portals · banner ${b}`,
-    disclaimer: 'Built by Shenzhen RES (Resistance) agents as a third-party companion to Mission Day Foshan. Not an official site — not affiliated with or endorsed by Niantic Spatial or the FSMD organisers. Credits: mission set design, titles and descriptions © 佛山 MD 筹划组 (Foshan MD Organizing Committee); mission banner artwork and event imagery by Agent HTMSK; portal data © Niantic Spatial Inc., used under the Ingress Terms of Service.',
-    disclaimerShort: 'Unofficial · made by Shenzhen RES · mission © 佛山 MD 筹划组 · art © Agent HTMSK · portals © Niantic Spatial.',
+    missionMeta: (n, p, b) => `${n} mapped missions · ${p} route stops`,
+    disclaimer: 'Unofficial Zhuhai Mission Day map, adapted from the Shenzhen RES Foshan project. Locations, routes, descriptions and images come from the linked Google My Maps. No affiliation with Niantic or event organisers.',
+    disclaimerShort: 'Unofficial · adapted from Shenzhen RES · data: Zhuhai MD Google My Maps',
     coordChooserAria: 'Choose coordinate system',
     coordChooserTitle: 'Open in Apple Maps',
     coordChooserNote: "Apple Maps in mainland China renders against GCJ-02. Opening WGS-84 coordinates there shifts the pin by ~50–500 m. Choose GCJ-02 if you're in China, WGS-84 elsewhere.",
@@ -76,33 +70,31 @@ const I18N = {
     showWelcome: 'ℹ︎ 活动信息',
     showWelcomeAria: '查看活动信息',
     welcomeAria: '欢迎页',
-    welcomeTitle: '欢迎来到佛山任务日 2026',
-    welcomeLede: '两个任务区共 24 项任务,可拼为完整拼图。点击地图上的任务可查看据点并开始步行导航。',
-    bannerCaption: '官方拼图地图 · Operation Foshan · Ingress 任务日 2026',
+    welcomeTitle: '欢迎来到珠海任务日 2026',
+    welcomeLede: '18 项已收录任务 · 108 个路线点。保留原始路线编号；路线点来自源地图，未提供据点名称及 Ingress ID。',
+    bannerCaption: '官方拼图地图 · Operation Zhuhai · Ingress 任务日 2026',
     contactSection: '通讯与联系',
     blogsSection: '任务故事',
     travelSection: '交通与住宿',
     enterMap: '进入地图 →',
     readBlog: '📖 阅读任务介绍 ↗',
     openMissionIngress: '⬢ 在 Ingress 中打开任务 ↗',
-    footerHint: '点击任一任务查看详情,可在 Apple 地图中打开多点步行导航。',
-    detailHint: '点击任一据点可在 Apple 地图中规划步行路线。',
+    footerHint: '点击任务查看路线，并在 Apple 地图中导航至单个路线点。',
+    detailHint: '点击任一路线点可在 Apple 地图中规划步行路线。',
     viewArea: '在 Apple 地图中查看任务区域 ↗',
     openGuide: '在 Apple 地图中打开路线指南 ↗',
     missionPrefix: '任务',
     portalCountAbbr: n => `${n}个`,
-    portalCountFull: n => `${n} 个据点`,
-    portalOf: (cur, total) => `第 ${cur} 个据点,共 ${total} 个`,
+    portalCountFull: n => `${n} 个路线点`,
+    portalOf: (cur, total) => `第 ${cur} 个路线点,共 ${total} 个`,
     openInIngressAria: name => `在 Ingress 中打开 ${name}`,
     walkingAria: name => `在 Apple 地图中导航到 ${name}`,
     openInIngressTitle: '在 Ingress 中打开',
     walkingTitle: '在 Apple 地图中步行导航',
     toastOpeningIngress: '正在打开 Ingress…',
-    fatalNoToken: '未配置 MapKit 令牌。请将 public/mapkit-token.example.js 复制为 public/mapkit-token.js 并粘贴 JWT。',
-    fatalAuth: '无法通过 MapKit 验证。',
-    missionMeta: (n, p, b) => `${n} 项任务 · ${p} 个据点 · 拼图 ${b}`,
-    disclaimer: '本网站由深圳 RES(蓝军)特工社区制作,作为佛山任务日的第三方辅助工具发布。非官方网站,与 Niantic Spatial 公司及 FSMD 主办方均无任何关联或背书。版权署名:任务集策划、命名与简介 © 佛山 MD 筹划组;任务图片及活动美术 by 特工 HTMSK;据点资料 © Niantic Spatial Inc.,依据 Ingress 服务条款使用。',
-    disclaimerShort: '非官方 · 由深圳 RES 制作 · 任务 © 佛山 MD 筹划组 · 美术 © 特工 HTMSK · 据点 © Niantic Spatial',
+    missionMeta: (n, p, b) => `${n} 项已收录任务 · ${p} 个路线点`,
+    disclaimer: 'Unofficial Zhuhai Mission Day map, adapted from the Shenzhen RES Foshan project. Locations, routes, descriptions and images come from the linked Google My Maps. No affiliation with Niantic or event organisers.',
+    disclaimerShort: 'Unofficial · adapted from Shenzhen RES · data: Zhuhai MD Google My Maps',
     coordChooserAria: '选择坐标系',
     coordChooserTitle: '在 Apple 地图中打开',
     coordChooserNote: '中国大陆的 Apple 地图采用 GCJ-02 坐标系,直接打开 WGS-84 坐标会出现约 50–500 米的偏移。若在中国大陆,请选择 GCJ-02;其他地区请选择 WGS-84。',
@@ -126,33 +118,31 @@ const I18N = {
     showWelcome: 'ℹ︎ イベント情報',
     showWelcomeAria: 'イベント情報を表示',
     welcomeAria: 'ようこそ',
-    welcomeTitle: 'Foshan ミッションデイ 2026 へようこそ',
-    welcomeLede: '2 つのミッションゾーンにまたがる 24 ミッション、フルバナーで歩けます。マップ上のミッションをタップしてポータルを確認し、ナビを開始できます。',
-    bannerCaption: '公式バナーマップ · Operation Foshan · Ingress ミッションデイ 2026',
+    welcomeTitle: 'Zhuhai ミッションデイ 2026 へようこそ',
+    welcomeLede: '収録された18ミッション・108地点。元のルート番号を保持しています。ポータル名と Ingress ID は提供されていません。',
+    bannerCaption: '公式バナーマップ · Operation Zhuhai · Ingress ミッションデイ 2026',
     contactSection: 'チャンネル・連絡先',
     blogsSection: 'ミッション解説',
     travelSection: '交通・宿泊',
     enterMap: 'マップを開く →',
     readBlog: '📖 ミッション解説を読む ↗',
     openMissionIngress: '⬢ Ingress でミッションを開く ↗',
-    footerHint: 'ミッションをタップして詳細を表示し、Apple マップで複数地点の徒歩ナビを開けます。',
-    detailHint: 'ポータルをタップして Apple マップで徒歩ルートを開きます。',
+    footerHint: 'ミッションを選択し、各地点への徒歩ルートを Apple マップで開けます。',
+    detailHint: 'ルート地点をタップして Apple マップで徒歩ルートを開きます。',
     viewArea: 'Apple マップでエリアを表示 ↗',
     openGuide: 'Apple マップでミッションガイドを開く ↗',
     missionPrefix: 'ミッション',
     portalCountAbbr: n => `${n}個`,
-    portalCountFull: n => `${n} ポータル`,
-    portalOf: (cur, total) => `ポータル ${cur} / ${total}`,
+    portalCountFull: n => `${n} ルート地点`,
+    portalOf: (cur, total) => `ルート地点 ${cur} / ${total}`,
     openInIngressAria: name => `${name} を Ingress で開く`,
     walkingAria: name => `Apple マップで ${name} までの徒歩ルート`,
     openInIngressTitle: 'Ingress で開く',
     walkingTitle: 'Apple マップで徒歩ルート',
     toastOpeningIngress: 'Ingress を開いています…',
-    fatalNoToken: 'MapKit トークンが未設定です。public/mapkit-token.example.js を public/mapkit-token.js にコピーして JWT を貼り付けてください。',
-    fatalAuth: 'MapKit の認証に失敗しました。',
-    missionMeta: (n, p, b) => `${n} ミッション · ${p} ポータル · バナー ${b}`,
-    disclaimer: '本サイトは深圳 RES（レジスタンス）のエージェント有志が Foshan Mission Day のサードパーティ補助ツールとして制作した非公式サイトです。Niantic Spatial 社および FSMD 主催者とは一切関係ありません。クレジット:ミッションセット企画・名称・説明 © 佛山 MD 筹划组 (Foshan MD 組織委員会);バナー画像・イベントアート by エージェント HTMSK;ポータルデータ © Niantic Spatial Inc.、Ingress 利用規約に基づき使用。',
-    disclaimerShort: '非公式 · 深圳 RES 制作 · ミッション © 佛山 MD 筹划组 · アート © エージェント HTMSK · ポータル © Niantic Spatial',
+    missionMeta: (n, p, b) => `${n} ミッション · ${p} ルート地点`,
+    disclaimer: 'Unofficial Zhuhai Mission Day map, adapted from the Shenzhen RES Foshan project. Locations, routes, descriptions and images come from the linked Google My Maps. No affiliation with Niantic or event organisers.',
+    disclaimerShort: 'Unofficial · adapted from Shenzhen RES · data: Zhuhai MD Google My Maps',
     coordChooserAria: '座標系を選択',
     coordChooserTitle: 'Apple マップで開く',
     coordChooserNote: '中国本土の Apple マップは GCJ-02 座標系を使用しているため、WGS-84 のまま開くとピンが約 50〜500m ずれます。中国本土なら GCJ-02、それ以外の地域なら WGS-84 を選んでください。',
@@ -234,7 +224,7 @@ const els = {
 // coordinate system. Reset every time the chooser opens.
 let pendingMapsRequest = null;
 
-// Apply i18n + wire the switcher before MapKit finishes loading, so the
+// Apply i18n and wire the switcher immediately so the
 // chrome is in the right language from the first paint.
 state.lang = initialLang();
 state.viewMode = initialViewMode();
@@ -247,7 +237,7 @@ if (document.readyState === 'loading') {
 // MapKit calls this once its script has loaded.
 window.initMapKit = () => {
   if (!window.MAPKIT_TOKEN || window.MAPKIT_TOKEN.startsWith('PASTE_')) {
-    showFatal(t().fatalNoToken);
+    showFatal('No MapKit token configured. Copy public/mapkit-token.example.js to public/mapkit-token.js and paste a token valid for this domain.');
     return;
   }
 
@@ -261,6 +251,16 @@ window.initMapKit = () => {
     showFatal(err.message);
   });
 };
+
+// Register the callback before requesting MapKit to avoid cached-script races.
+const mapkitScript = document.createElement('script');
+mapkitScript.src = 'https://cdn.apple-mapkit.com/mk/5.x.x/mapkit.js';
+mapkitScript.crossOrigin = 'anonymous';
+mapkitScript.async = true;
+mapkitScript.dataset.callback = 'initMapKit';
+mapkitScript.dataset.libraries = 'map,annotations,overlays,services,geojson';
+mapkitScript.onerror = () => showFatal('Could not load Apple MapKit. Check your connection and reload.');
+document.head.appendChild(mapkitScript);
 
 function bootstrapChrome() {
   applyI18n();
@@ -411,7 +411,7 @@ function setLang(lang) {
 function applyI18n() {
   const tr = t();
   document.documentElement.lang = tr.htmlLang;
-  document.title = `${state.data?.setName ?? 'MD 2026: Foshan'} — ${tr.pageTitleSuffix}`;
+  document.title = `${state.data?.setName ?? 'MD 2026: Zhuhai'} — ${tr.pageTitleSuffix}`;
   // Static elements marked with data-i18n / data-i18n-aria-label
   for (const el of document.querySelectorAll('[data-i18n]')) {
     const k = el.dataset.i18n;
@@ -467,10 +467,10 @@ async function bootstrap() {
   });
 
   // Hidden debug handle. Lets you poke at the live state / map from the
-  // browser console (e.g. `__fsmd.map.cameraDistance = 500`). Harmless in
+  // browser console (e.g. `__zhmd.map.cameraDistance = 500`). Harmless in
   // production; intentionally double-underscored to discourage app code
   // from depending on it.
-  if (typeof window !== 'undefined') window.__fsmd = state;
+  if (typeof window !== 'undefined') window.__zhmd = state;
 
   fitToBounds(state.data.bounds);
   buildMissionList();
@@ -520,9 +520,9 @@ function buildMissionGrid() {
     cell.setAttribute('aria-label', label);
     const picUrl = state.missionPictures[String(m.order)];
     const img = picUrl
-      ? `<img loading="lazy" src="${IMAGE_PROXY}${encodeURIComponent(picUrl)}" alt="">`
+      ? `<img loading="lazy" src="${escapeAttr(picUrl)}" alt="">`
       : '';
-    cell.innerHTML = img;
+    cell.innerHTML = img + `<span class="grid-label">#${m.order} · ${escapeHtml(missionLabel(m))}</span>`;
     cell.addEventListener('click', () => selectMission(m.order));
     els.grid.appendChild(cell);
   }
@@ -549,14 +549,8 @@ function missionFullName(m) {
 }
 
 function selectMission(order, opts = {}) {
-  // Clear MapKit's currently-selected annotation BEFORE removing it from
-  // the map. Synchronously removing the annotation that the user just
-  // tapped leaves MapKit holding a dangling reference and locks up
-  // pan/zoom gestures until the next page load (reproducible on Safari,
-  // Firefox and Chrome).
-  if (state.map && state.map.selectedAnnotation) {
-    state.map.selectedAnnotation = null;
-  }
+  // Deselect before removing annotations so MapKit releases the selected pin.
+  if (state.map?.selectedAnnotation) state.map.selectedAnnotation = null;
   state.selected = order;
   for (const li of els.list.children) {
     li.classList.toggle('active', li.dataset.order === String(order));
@@ -719,6 +713,10 @@ function renderMission(mission) {
         displayPriority: mapkit.Annotation.DisplayPriority.Required,
       },
     );
+    ann.addEventListener('select', () => {
+      state.map.selectedAnnotation = null;
+      openAppleMaps({ label: p.title, url: system => appleMapsPortalUrl(p, system) });
+    });
     return ann;
   });
 
@@ -736,12 +734,10 @@ function renderMission(mission) {
 function showDetailPanel(mission) {
   const tr = t();
   els.detailTitle.textContent = `${tr.missionPrefix} ${mission.order} · ${missionLabel(mission)}`;
-  // Mission banner image (the Niantic-issued mission "picture"). Routed
-  // through /api/portal-image so the lh3.googleusercontent.com hostname
-  // never appears in the page CSP and benefits from the same 30-day cache.
+  // Mission image supplied by the public source map.
   const picUrl = state.missionPictures[String(mission.order)];
   if (picUrl && els.detailPicture) {
-    els.detailPicture.src = IMAGE_PROXY + encodeURIComponent(picUrl);
+    els.detailPicture.src = picUrl;
     els.detailPicture.alt = missionFullName(mission);
     els.detailPicture.hidden = false;
   } else if (els.detailPicture) {
@@ -794,11 +790,12 @@ function showDetailPanel(mission) {
     els.openBlog.hidden = true;
     els.openBlog.removeAttribute('href');
   }
+  document.getElementById('detail-description').textContent = mission.description || '';
   els.detailList.innerHTML = '';
   for (const p of mission.portals) {
     const li = document.createElement('li');
     const img = p.imageUrl
-      ? `<img loading="lazy" src="${IMAGE_PROXY}${encodeURIComponent(p.imageUrl)}" alt="">`
+      ? `<img loading="lazy" src="${escapeAttr(p.imageUrl)}" alt="">`
       : `<span></span>`;
     const mapsHref    = appleMapsPortalUrl(p);
     const ingressHref = ingressPortalUrl(p);
@@ -811,9 +808,9 @@ function showDetailPanel(mission) {
          aria-label="${escapeAttr(tr.openInIngressAria(p.title))}" title="${escapeAttr(tr.openInIngressTitle)}">⬢</a>
       <a class="portal-nav portal-nav--maps" href="${mapsHref}" target="_blank" rel="noopener noreferrer"
          aria-label="${escapeAttr(tr.walkingAria(p.title))}" title="${escapeAttr(tr.walkingTitle)}">↗</a>`;
-    li.querySelector('.portal-nav--ingress').addEventListener('click', () => {
-      showToast(t().toastOpeningIngress);
-    });
+    const ingressLink = li.querySelector('.portal-nav--ingress');
+    if (!p.guid) ingressLink.remove();
+    else ingressLink.addEventListener('click', () => showToast(t().toastOpeningIngress));
     li.querySelector('.portal-nav--maps').addEventListener('click', e => {
       e.preventDefault();
       openAppleMaps({

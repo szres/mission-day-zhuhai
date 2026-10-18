@@ -1,137 +1,32 @@
-# MD 2026: Foshan — Mission Day Map
+# Zhuhai Mission Day 2026 map
 
-Interactive map for the 24-mission Foshan Mission Day banner, built on
-**MapKit JS** and deployed on **Cloudflare Pages + Pages Functions**.
+A local fork of [Shenzhen RES's Foshan map](https://github.com/szres/mission-day-foshan), adapted for [珠海MD2026 on Google My Maps](https://www.google.com/maps/d/viewer?mid=1BAjsSWdPTIntEWA9bBxv_xc7ftd2tAg).
 
-Live: <https://fsmd.szres.org>
+## Run
 
-Built by the Shenzhen RES (Resistance) agent community as a third-party
-companion to Mission Day Foshan. Unofficial — not affiliated with or endorsed
-by Niantic or the FSMD organisers.
+Requires Node.js, Python 3, Wrangler 4, and an Apple MapKit JS token valid for your serving domain.
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-
-## Layout
-
-```
-FS-MD.js                       source data (IIFE-wrapped MDUMMJSON literal)
-scripts/extract.mjs            FS-MD.js  →  public/missions.json
-public/
-  index.html                   shell
-  app.js                       MapKit init, mission rendering
-  style.css
-  missions.json                generated, committed for static serving
-  mapkit-token.js              your MapKit JS JWT (gitignored)
-  mapkit-token.example.js      template
-functions/
-  api/portal-image.js          proxy for lh3.googleusercontent.com thumbnails
+```sh
+npm run build
+npm run dev
 ```
 
-## MapKit JS token
+Before opening the site, copy `public/mapkit-token.example.js` to `public/mapkit-token.js` and set `window.MAPKIT_TOKEN` to your token. That file is gitignored. Generate the token in your Apple Developer Maps account with an origin matching the serving domain. The local token is intentionally excluded from Git; configure it separately on any new checkout.
 
-Apple's current Maps console issues long-lived, pre-signed JWTs — no .p8 key,
-no server-side signing required.
+The site uses Apple MapKit JS for the basemap, route overlays, and numbered annotations. The original `public/proxy-shim.js` and `functions/api/mk-proxy/[[path]].js` proxy are retained. `npm run dev` serves the site and Pages Functions locally. MapKit also requires an origin allowed by your token; the existing `*.szres.org` token requires a matching domain. Internet access is required for MapKit and mission images.
 
-1. Go to <https://developer.apple.com/account/> → **Maps** → **Tokens**.
-2. Click **+**, give it a description (e.g. `MD-FS`), set the **Domain** claim
-   to the host you'll serve from (a wildcard like `*.szres.org` is allowed).
-3. Copy the generated token string.
-4. Locally:
+## Source data
 
-   ```
-   cp public/mapkit-token.example.js public/mapkit-token.js
-   # paste your token into the MAPKIT_TOKEN string
-   ```
+`data/zhuhai-md.kml` is the public Google My Maps KML export downloaded on October 18, 2026. It contains 18 mission markers and 18 routes, with six vertices each. The importer matches each route to its nearby landmark marker (within 50 meters, with a unique match), keeps the original route numbers (01–36, with gaps), preserves route vertex order, and imports descriptions and images.
 
-The token's `origin` claim binds it to one host pattern, so it's safe to expose
-in client-side JS — Apple rejects requests whose `Origin` header doesn't match.
-When it expires, regenerate in the same console and update the file.
+These are the missions supplied in the map, not a confirmed complete banner. The KML does not provide portal names, portal GUIDs, objectives, or mission Ingress links. Route vertices are shown as numbered route stops; Ingress links are hidden when IDs are unavailable. Coordinates are treated as WGS-84, as exported by KML, without additional conversion on the web map. Apple Maps navigation offers WGS-84 or GCJ-02 for the destination environment. Routes are source polylines, not computed walking itineraries.
 
-### Domain requirement
+To refresh, replace `data/zhuhai-md.kml` with the Google My Maps KML export and run `npm run build`. The build is deterministic and offline. It generates `public/missions.json`, `public/mission-pictures.json`, and the local checklist files. `guides.json`, `blogs.json`, and `ingress-missions.json` are optional and keyed by the original route numbers.
 
-This token is bound to `*.szres.org`, so MapKit JS will reject the page when
-served from `localhost`, `*.pages.dev`, or any other host. Two options for
-local dev:
+## Publishing
 
-- **Custom domain on Pages.** Add e.g. `dev.szres.org` to your Pages project,
-  point a CNAME at it, run `npm run deploy` and use that URL.
-- **Local hosts override.** Put `127.0.0.1 fsmd.szres.org` in `/etc/hosts`,
-  serve over HTTPS (MapKit requires it on non-localhost), and open
-  `https://fsmd.szres.org:8788`. Easier to just deploy to a preview branch.
+`public/` contains the frontend. Deploy it with `functions/` to Cloudflare Pages to enable the MapKit proxy. The deployment target is the separate Cloudflare Pages project `zhmd`, with production branch `zhuhai-md`. Run `npm run deploy` after signing into Wrangler. The MapKit token requires a matching `*.szres.org` custom domain; the default `pages.dev` address is outside its allowed origin. Add canonical and social-preview URLs once the custom domain is active. This fork retains the original repository history on branch `zhuhai-md`; `upstream` points to the Foshan source repository. `origin` points to [szres/mission-day-zhuhai](https://github.com/szres/mission-day-zhuhai).
 
-## Cloudflare configuration
+## Attribution
 
-The only Cloudflare-side state left is the image-proxy Function, which has no
-secrets. Just:
-
-```
-npm install
-npm run deploy            # builds + uploads public/ and functions/
-```
-
-The first deploy creates the Pages project. Subsequent deploys are incremental.
-
-## Local development
-
-```
-npm run extract           # rebuild public/missions.json from FS-MD.js
-npm run dev               # wrangler pages dev → http://localhost:8788
-```
-
-(See the domain caveat above — `localhost` works for the Functions but MapKit
-will refuse to render until the page is served from `*.szres.org`.)
-
-## How it renders
-
-- **Overview** (`Show full banner`) — one muted polyline per mission and a
-  small numbered square at each mission's starting portal. Click a square to
-  zoom into that mission.
-- **Mission view** — bright route polyline plus a numbered circular pin at
-  every portal in order. First portal is green, last is red, intermediates
-  cyan. A detail panel lists the portals with thumbnails (proxied through
-  `/api/portal-image`).
-
-## Decoding FS-MD.js
-
-The source file is an IIFE wrapping a plain JSON literal:
-
-```js
-(() => {
-  const MDUMMJSON = { missionSetName: "MD 2026: Foshan", ... };
-})();
-```
-
-`scripts/extract.mjs` matches that literal with a regex and runs `JSON.parse`.
-If you receive an updated `FS-MD.js`, re-run `npm run extract` and redeploy.
-
-## Apple Maps deeplink
-
-Each mission's detail panel includes an **Open in Apple Maps** button that
-generates a `https://maps.apple.com/?daddr=...+to:...&dirflg=w` URL chaining
-the portals as walking waypoints. On iOS/macOS this universal link opens the
-native Maps app for turn-by-turn navigation; on other platforms it falls back
-to the Apple Maps web view.
-
-## Contributing
-
-Issues and PRs welcome. The site is intentionally small and dependency-free
-on the client (no build step, just static files in `public/`), so most
-changes are straightforward.
-
-If you adapt this codebase for a different Mission Day, the main things you'll
-need to swap are:
-
-- `FS-MD.js` — the source mission set
-- `mission-names.json` — overrides for the displayed mission names
-- `public/guides.json` — your Apple Maps Guide links (optional)
-- `public/blogs.json` — your mission blog posts (optional)
-- `public/banner-map.png`, `public/icon.svg`, `public/og-image.png` — branding
-- `public/mapkit-token.js` — your own MapKit JS JWT (see above)
-
-## License
-
-[MIT](LICENSE) — free to use, modify, and redistribute with attribution.
-
-Trademarks and game assets referenced (Ingress, Niantic, Mission Day, etc.)
-remain the property of their respective owners. Mission and portal names
-included in the source data come from the public Ingress mission-set export.
+MIT-licensed application code adapted from the Shenzhen RES Foshan project; see `LICENSE`. Apple Maps basemap and MapKit JS are provided by Apple. Mission locations, route data, descriptions and imagery come from the linked public Zhuhai MD map and remain their respective owners' material. This is an unofficial companion, unaffiliated with Niantic or the event organisers.

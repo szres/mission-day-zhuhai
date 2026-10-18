@@ -1,23 +1,22 @@
 {
-  "name": "fsmd",
+  "name": "zhuhai-md",
   "version": "0.1.0",
   "private": true,
   "type": "module",
-  "description": "MD 2026: Foshan Ingress mission-day map (MapKit JS + Cloudflare Pages).",
+  "description": "Zhuhai Mission Day 2026 map, adapted from the Foshan project.",
   "license": "MIT",
-  "homepage": "https://fsmd.szres.org",
+  "scripts": {
+    "extract": "python3 scripts/import-kml.py",
+    "checklist": "node scripts/generate-checklist.mjs",
+    "build": "npm run extract && npm run checklist",
+    "dev": "wrangler pages dev public",
+    "deploy": "npm run build && wrangler pages deploy public --project-name=zhmd --branch=zhuhai-md"
+  },
   "repository": {
     "type": "git",
-    "url": "https://github.com/szres/mission-day-foshan.git"
+    "url": "https://github.com/szres/mission-day-zhuhai.git"
   },
   "bugs": {
-    "url": "https://github.com/szres/mission-day-foshan/issues"
-  },
-  "scripts": {
-    "extract": "node scripts/extract.mjs",
-    "checklist": "node scripts/generate-checklist.mjs",
-    "build": "node scripts/extract.mjs && node scripts/generate-checklist.mjs",
-    "dev": "npx wrangler@latest pages dev public --compatibility-date=2025-06-01",
-    "deploy": "npm run build && npx wrangler@latest pages deploy public --project-name=fsmd"
+    "url": "https://github.com/szres/mission-day-zhuhai/issues"
   }
 }
