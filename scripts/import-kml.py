@@ -57,6 +57,44 @@ for route in sorted(routes, key=lambda r: int(text(r, 'k:name').split('-')[-1]))
                  for i, p in enumerate(points)]))
 if len(used) != len(markers) or not missions:
     raise ValueError('Not all mission markers have routes')
+# Keep route geometry independent of any reviewed portal replacements.
+(ROOT / 'data/routes-wgs84.json').write_text(json.dumps(
+    {str(m['order']): [{'lat': p['lat'], 'lng': p['lng']} for p in m['portals']] for m in missions},
+    ensure_ascii=False, indent=2) + '\n')
+overrides_path = ROOT / 'data/portal-overrides.json'
+if overrides_path.exists():
+    export = json.loads(overrides_path.read_text())
+    if export.get('coordinateSystem') != 'WGS-84' or export.get('reviewed') is not True:
+        raise ValueError('Portal overrides must be reviewed WGS-84 data from the exporter')
+    by_order = {m['order']: m for m in missions}
+    seen = set()
+    for replacement in export.get('missions', []):
+        order = replacement.get('order')
+        if order not in by_order or order in seen:
+            raise ValueError(f'Unknown or duplicate route override: {order}')
+        seen.add(order)
+        portals = replacement.get('portals')
+        if not isinstance(portals, list) or not portals:
+            raise ValueError(f'Route {order} has no exported portals')
+        guids = set()
+        clean = []
+        for i, p in enumerate(portals):
+            guid, title = p.get('guid'), p.get('title')
+            lat, lng, image = p.get('lat'), p.get('lng'), p.get('imageUrl')
+            if not isinstance(guid, str) or not re.fullmatch(r'[0-9a-f]{32}\.[0-9a-f]+', guid) or guid in guids:
+                raise ValueError(f'Route {order} has an invalid or repeated portal GUID')
+            if not isinstance(title, str) or not title.strip():
+                raise ValueError(f'Route {order} has an unnamed portal')
+            if not isinstance(lat, (int, float)) or not isinstance(lng, (int, float)) or not (22 < lat < 23 and 113 < lng < 114):
+                raise ValueError(f'Route {order} has invalid portal coordinates')
+            if image is not None and (not isinstance(image, str) or not image.startswith('https://lh3.googleusercontent.com/')):
+                raise ValueError(f'Route {order} has an unsupported portal image URL')
+            guids.add(guid)
+            clean.append(dict(order=i+1, guid=guid, title=title.strip(), lat=lat, lng=lng,
+                imageUrl=image, isStartPoint=i==0, isOrnamented=False, objective=None))
+        by_order[order]['portals'] = clean
+        by_order[order]['portalSource'] = 'Reviewed IITC proximity export'
+
 points = [p for m in missions for p in m['portals']]
 if not all(math.isfinite(p['lat']) and math.isfinite(p['lng']) and 22 < p['lat'] < 23 and 113 < p['lng'] < 114 for p in points):
     raise ValueError('Invalid Zhuhai coordinates')

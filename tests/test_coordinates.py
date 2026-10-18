@@ -34,9 +34,11 @@ class CoordinateTests(unittest.TestCase):
         self.assertEqual(data['coordinateSystem'], 'WGS-84')
         self.assertEqual(data['sourceCoordinateSystem'], 'GCJ-02')
         self.assertEqual(len(data['missions']), len(source))
+        geometry = json.loads((ROOT / 'data/routes-wgs84.json').read_text())
         for mission in data['missions']:
-            self.assertEqual(len(mission['portals']), len(source[mission['order']]))
-            for stop, raw in zip(mission['portals'], source[mission['order']]):
+            route_points = geometry[str(mission['order'])]
+            self.assertEqual(len(route_points), len(source[mission['order']]))
+            for stop, raw in zip(route_points, source[mission['order']]):
                 lat, lng = wgs84_to_gcj02(stop['lat'], stop['lng'])
                 self.assertAlmostEqual(lat, raw[0], places=7)
                 self.assertAlmostEqual(lng, raw[1], places=7)

@@ -30,3 +30,7 @@ To refresh, replace `data/zhuhai-md.kml` with the Google My Maps KML export and 
 ## Attribution
 
 MIT-licensed application code adapted from the Shenzhen RES Foshan project; see `LICENSE`. Apple Maps basemap and MapKit JS are provided by Apple. Mission locations, route data, descriptions and imagery come from the linked public Zhuhai MD map and remain their respective owners' material. This is an unofficial companion, unaffiliated with Niantic or the event organisers.
+
+## Intel portal exporter
+
+The [IITC userscript](https://zhmd.szres.org/plugins/zhuhai-portal-exporter.user.js) collects and reviews portal candidates along these routes. See [installation and export instructions](plugins/README.md). Copy its reviewed website export to `data/portal-overrides.json` and rebuild to replace route-stop placeholders with real portal data.
