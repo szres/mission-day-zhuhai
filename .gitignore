@@ -18,3 +18,6 @@ checklist.md
 # Third-party PDFs (e.g. the organisers' official mission-overview booklet).
 # Stays on disk for local use / private sharing; never published or committed.
 *.pdf
+
+# Python importer cache
+__pycache__/

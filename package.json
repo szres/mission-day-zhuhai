@@ -10,7 +10,8 @@
     "checklist": "node scripts/generate-checklist.mjs",
     "build": "npm run extract && npm run checklist",
     "dev": "wrangler pages dev public",
-    "deploy": "npm run build && wrangler pages deploy public --project-name=zhmd --branch=zhuhai-md"
+    "deploy": "npm run build && wrangler pages deploy public --project-name=zhmd --branch=zhuhai-md",
+    "test": "python3 -m unittest discover -s tests"
   },
   "repository": {
     "type": "git",

@@ -5,6 +5,7 @@ import math
 import re
 import xml.etree.ElementTree as ET
 from pathlib import Path
+from coordinates import gcj02_to_wgs84
 
 ROOT = Path(__file__).resolve().parent.parent
 NS = {'k': 'http://www.opengis.net/kml/2.2'}
@@ -32,8 +33,11 @@ for pm in root.findall('.//k:Placemark', NS):
 missions, pictures, used = [], {}, set()
 for route in sorted(routes, key=lambda r: int(text(r, 'k:name').split('-')[-1])):
     order = int(text(route, 'k:name').split('-')[-1])
-    points = coords(text(route, 'k:LineString/k:coordinates'))
-    ranked = sorted((min(distance(coords(text(m, 'k:Point/k:coordinates'))[0], p) for p in points), i)
+    source_points = coords(text(route, 'k:LineString/k:coordinates'))
+    # This export carries GCJ-02 values despite being serialized as KML.
+    # Match markers in the source system, then normalize once for MapKit.
+    points = [gcj02_to_wgs84(lat, lng) for lat, lng in source_points]
+    ranked = sorted((min(distance(coords(text(m, 'k:Point/k:coordinates'))[0], p) for p in source_points), i)
                     for i, m in enumerate(markers))
     gap, marker_index = ranked[0]
     if gap > 50 or marker_index in used or ranked[1][0] < 100:
@@ -59,7 +63,7 @@ if not all(math.isfinite(p['lat']) and math.isfinite(p['lng']) and 22 < p['lat']
 bounds = dict(minLat=min(p['lat'] for p in points), maxLat=max(p['lat'] for p in points),
               minLng=min(p['lng'] for p in points), maxLng=max(p['lng'] for p in points))
 write('missions.json', dict(setName='MD 2026: Zhuhai · 珠海', setDescription='珠海MD2026 · Google My Maps',
-    bannerLength=len(missions), sourceUrl=SOURCE, coordinateSystem='WGS-84',
+    bannerLength=len(missions), sourceUrl=SOURCE, sourceCoordinateSystem='GCJ-02', coordinateSystem='WGS-84',
     dataNote='Route vertices from Google My Maps; portal names and IDs are not supplied. Source route numbers are preserved; this is not a confirmed complete banner.',
     missions=missions, bounds=bounds, center=dict(lat=(bounds['minLat']+bounds['maxLat'])/2, lng=(bounds['minLng']+bounds['maxLng'])/2)))
 write('mission-pictures.json', pictures)
