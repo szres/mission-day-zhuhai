@@ -21,3 +21,6 @@ checklist.md
 
 # Python importer cache
 __pycache__/
+
+# Cached upstream OSM extracts
+.cache/

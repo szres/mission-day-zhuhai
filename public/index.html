@@ -67,6 +67,22 @@
   </aside>
 
   <main id="map" data-i18n-aria-label="mapAria" aria-label="Map"></main>
+  <div class="building-controls">
+    <label><input id="show-buildings" type="checkbox" checked><span data-i18n="buildingsLabel">Buildings</span></label>
+    <small id="building-layer-hint" aria-live="polite"></small>
+    <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener noreferrer">Buildings © OpenStreetMap contributors</a>
+  </div>
+  <dialog id="building-dialog" aria-labelledby="building-title">
+    <button id="building-close" class="building-close" type="button" aria-label="Close">×</button>
+    <p class="building-eyebrow" data-i18n="buildingPreviewLabel">BUILDING PREVIEW</p>
+    <h2 id="building-title"></h2>
+    <p id="building-height"></p>
+    <div id="building-preview"></div>
+    <p id="building-gesture-hint"></p>
+    <p id="building-model-note"></p>
+    <a id="building-source" target="_blank" rel="noopener noreferrer">© OpenStreetMap contributors ↗</a>
+  </dialog>
+
 
   <div id="welcome" class="modal" hidden aria-modal="true" role="dialog" data-i18n-aria-label="welcomeAria" aria-label="Welcome">
     <div class="modal-inner">

@@ -34,3 +34,11 @@ MIT-licensed application code adapted from the Shenzhen RES Foshan project; see 
 ## Intel portal exporter
 
 The [IITC userscript](https://zhmd.szres.org/plugins/zhuhai-portal-exporter.user.js) collects and reviews portal candidates along these routes. See [installation and export instructions](plugins/README.md). Copy its reviewed website export to `data/portal-overrides.json` and rebuild to replace route-stop placeholders with real portal data.
+
+## OSM building layer and 3D previews
+
+`public/buildings.geojson` is a locally hosted snapshot of building footprints and parts from OpenStreetMap around the mission route areas, in WGS-84. The default-on Buildings switch adds quiet slate fills and fine outlines to the dark Apple map at neighborhood zoom. Tap a building for its name, height, source link, and a rotatable 3D preview. Mission lines remain above the building layer. The map loads only visible footprints (up to 400 features); the Three.js preview module loads only when a building is selected.
+
+The previews are simplified footprint extrusions, not architectural models or Apple-rendered 3D buildings. Explicit OSM heights are retained; floor-count estimates use 3 metres per level and are labeled as estimates. Missing heights remain unknown in the data and use a clearly labeled illustrative 12 m preview. Courtyard holes and multipolygon buildings are preserved. Roof forms are not reconstructed. OSM coverage varies, and an invalid open outline is skipped rather than fabricated.
+
+Refresh the snapshot explicitly with `npm run osm -- --refresh` (network required). Normal site builds are offline and retain the committed snapshot. Raw extracts are cached under `.cache/osm/` and excluded from Git. The import reads small route bounding boxes from OSM's API; visitors make no OSM API requests. Building data is licensed under [ODbL 1.0](https://opendatacommons.org/licenses/odbl/1-0/) and attributed on the map and building previews as [© OpenStreetMap contributors](https://www.openstreetmap.org/copyright). The downloadable GeoJSON is the published OSM-derived dataset. Application code remains MIT. Locally vendored Three.js 0.180.0 is MIT-licensed; its license is in `public/vendor/three/LICENSE`.

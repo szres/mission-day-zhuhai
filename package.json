@@ -11,8 +11,9 @@
     "build": "npm run extract && npm run checklist && npm run plugin",
     "dev": "wrangler pages dev public",
     "deploy": "npm run build && wrangler pages deploy public --project-name=zhmd --branch=zhuhai-md",
-    "test": "python3 -m unittest discover -s tests && node --test tests/route-portal-core.test.cjs",
-    "plugin": "node scripts/build-plugin.mjs"
+    "test": "python3 -m unittest discover -s tests && node --test tests/*.test.cjs tests/*.test.mjs",
+    "plugin": "node scripts/build-plugin.mjs",
+    "osm": "python3 scripts/import-osm-buildings.py"
   },
   "repository": {
     "type": "git",

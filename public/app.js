@@ -1,3 +1,5 @@
+import { createBuildingLayer } from './buildings.js';
+
 // Zhuhai Mission Day map: source KML routes rendered with Apple MapKit JS.
 
 
@@ -22,6 +24,8 @@ const I18N = {
     showWelcome: 'ℹ︎ About this event',
     showWelcomeAria: 'About this event',
     welcomeAria: 'Welcome',
+    buildingsLabel: 'Buildings',
+    buildingPreviewLabel: 'BUILDING PREVIEW',
     welcomeTitle: 'Welcome to Zhuhai Mission Day 2026',
     welcomeLede: 'Explore the routes with reviewed portal names, photos and Ingress links. Original route numbers are preserved. These are nearby portal candidates, not a verified mission objective list.',
     bannerCaption: 'Official banner map · Operation Zhuhai · Ingress Mission Day 2026',
@@ -70,6 +74,8 @@ const I18N = {
     showWelcome: 'ℹ︎ 活动信息',
     showWelcomeAria: '查看活动信息',
     welcomeAria: '欢迎页',
+    buildingsLabel: '建筑',
+    buildingPreviewLabel: '建筑预览',
     welcomeTitle: '欢迎来到珠海任务日 2026',
     welcomeLede: '已导入审核后的据点名称、图片与 Ingress 链接，保留原始路线编号。这些是路线附近的候选据点，并非已确认的任务目标列表。',
     bannerCaption: '官方拼图地图 · Operation Zhuhai · Ingress 任务日 2026',
@@ -118,6 +124,8 @@ const I18N = {
     showWelcome: 'ℹ︎ イベント情報',
     showWelcomeAria: 'イベント情報を表示',
     welcomeAria: 'ようこそ',
+    buildingsLabel: '建物',
+    buildingPreviewLabel: '建物プレビュー',
     welcomeTitle: 'Zhuhai ミッションデイ 2026 へようこそ',
     welcomeLede: '確認済みのポータル名、写真、Ingress リンクを追加しました。元のルート番号を保持しています。ルート付近の候補であり、正式なミッション目標一覧ではありません。',
     bannerCaption: '公式バナーマップ · Operation Zhuhai · Ingress ミッションデイ 2026',
@@ -186,6 +194,7 @@ const state = {
   lang: 'en',  // overwritten on bootstrap from localStorage / browser
   /** @type {{overlays:any[], annotations:any[]}} */
   layers: { overlays: [], annotations: [] },
+  buildings: null,
   selected: null, // mission order (1-based) or 'all'
 };
 
@@ -490,6 +499,7 @@ async function bootstrap() {
   }
 
   selectMission('all');
+  state.buildings = await createBuildingLayer(state.map, () => state.layers.overlays);
 }
 
 function buildMissionList() {
