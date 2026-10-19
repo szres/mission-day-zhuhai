@@ -2,7 +2,7 @@ import { readFileSync, writeFileSync, mkdirSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
 const root = new URL('../', import.meta.url);
 const data = JSON.parse(readFileSync(new URL('public/missions.json', root)));
-const routes = data.missions.map(m => ({ order: m.order, title: m.title, displayName: m.displayName, description: m.description,
+const routes = data.missions.map(m => ({ order: m.order, sourceRouteId: m.sourceRouteId, title: m.title, displayName: m.displayName, description: m.description,
   points: m.portals.map(p => ({ lat: p.lat, lng: p.lng })) }));
 // Route geometry always comes from normalized source, not future portal overrides.
 const geometry = JSON.parse(readFileSync(new URL('data/routes-wgs84.json', root)));

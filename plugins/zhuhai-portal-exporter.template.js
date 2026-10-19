@@ -2,7 +2,7 @@
 // @id             iitc-plugin-zhuhai-route-portals@szres
 // @name           IITC plugin: Zhuhai MD route portal exporter
 // @namespace      https://github.com/szres/mission-day-zhuhai
-// @version        0.1.0
+// @version        0.1.1
 // @description    Collect and review portals along Zhuhai MD routes; export website and FSMD-style data.
 // @match          https://intel.ingress.com/*
 // @match          https://intel-x.ingress.com/*
@@ -173,7 +173,7 @@
         if (!portals.length) throw new Error(`Route #${route.order} has no selected portals. Collect portals or select another route.`);
         if (new Set(portals.map(p => p.guid)).size !== portals.length) throw new Error(`Route #${route.order} uses a portal more than once. Review the stop choices.`);
         if (portals.some(p => !p.title)) throw new Error(`Route #${route.order} has unnamed portals. Click Load selected details first.`);
-        missions.push({ order: route.order, title: route.title, displayName: route.displayName, description: route.description, portals: portals.map(tools.exportPortal) });
+        missions.push({ order: route.order, sourceRouteId: route.sourceRouteId, title: route.title, displayName: route.displayName, description: route.description, portals: portals.map(tools.exportPortal) });
       }
       const report = { exportedAt: new Date().toISOString(), coordinateSystem: 'WGS-84', reviewed: true,
         matchMode: options().mode, radiusMeters: options().radius, scan,
@@ -181,7 +181,7 @@
       if (format === 'fsmd') {
         const data = { missionSetName: 'MD 2026: Zhuhai', missionSetDescription: report.note,
           plannedBannerLength: missions.length, fileFormatVersion: 2, exportReport: report,
-          missions: missions.map(m => ({ sourceOrder: m.order, missionTitle: m.title, missionDescription: m.description,
+          missions: missions.map(m => ({ sourceOrder: m.order, sourceRouteId: m.sourceRouteId, missionTitle: m.title, missionDescription: m.description,
             portals: m.portals.map(p => ({ guid: p.guid, title: p.title, imageUrl: p.imageUrl,
               location: { latitude: p.lat, longitude: p.lng }, type: 'PORTAL', isStartPoint: p.isStartPoint,
               isOrnamented: false, objective: null })) })) };
@@ -231,7 +231,7 @@
       hooks.add('portalDetailLoaded', event => { if (event.success && event.details) { const p = tools.portal(event.guid, event.details); if (p) cache.set(p.guid, p); } });
       plugin.show = show; plugin.collect = collect; plugin.routes = routes;
     }
-    setup.info = { pluginId: 'zhuhai-route-portals', buildName: 'szres', dateTimeVersion: '20261018', script: { name: 'Zhuhai MD route portal exporter', version: '0.1.0', description: 'Review and export portals along Zhuhai MD routes.' } };
+    setup.info = { pluginId: 'zhuhai-route-portals', buildName: 'szres', dateTimeVersion: '20261018', script: { name: 'Zhuhai MD route portal exporter', version: '0.1.1', description: 'Review and export portals along Zhuhai MD routes.' } };
     (window.bootPlugins = window.bootPlugins || []).push(setup);
     if (window.iitcLoaded) setup();
   }

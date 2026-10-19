@@ -51,7 +51,7 @@ for route in sorted(routes, key=lambda r: int(text(r, 'k:name').split('-')[-1]))
     if image:
         pictures[str(order)] = image[1]
     missions.append(dict(order=order, title=title, displayName=label, description=description,
-        sourceRoute=text(route, 'k:name'), markerDistanceMeters=round(gap, 2),
+        sourceRoute=text(route, 'k:name'), sourceRouteId=text(route, 'k:ExtendedData/k:Data[@name="id"]/k:value'), markerDistanceMeters=round(gap, 2),
         portals=[dict(order=i+1, title=f'{label} · 路线点 {i+1}', lat=p[0], lng=p[1],
                       guid=None, imageUrl=None, isStartPoint=i==0, isOrnamented=False, objective=None)
                  for i, p in enumerate(points)]))
@@ -67,9 +67,15 @@ if overrides_path.exists():
     if export.get('coordinateSystem') != 'WGS-84' or export.get('reviewed') is not True:
         raise ValueError('Portal overrides must be reviewed WGS-84 data from the exporter')
     by_order = {m['order']: m for m in missions}
+    by_route_id = {m['sourceRouteId']: m for m in missions if m['sourceRouteId']}
     seen = set()
     for replacement in export.get('missions', []):
         order = replacement.get('order')
+        source_id = replacement.get('sourceRouteId')
+        if source_id:
+            if source_id not in by_route_id:
+                raise ValueError(f'Unknown source route ID in portal override: {source_id}')
+            order = by_route_id[source_id]['order']
         if order not in by_order or order in seen:
             raise ValueError(f'Unknown or duplicate route override: {order}')
         seen.add(order)

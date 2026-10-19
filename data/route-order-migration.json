@@ -1,0 +1,132 @@
+{
+  "updatedAt": "2026-10-19T03:38:31.541547+00:00",
+  "sourceUrl": "https://www.google.com/maps/d/viewer?mid=1BAjsSWdPTIntEWA9bBxv_xc7ftd2tAg",
+  "routes": [
+    {
+      "sourceRouteId": "16cdbb21-7be2-4ca9-a4b4-42d57e743838",
+      "previousOrder": 6,
+      "order": 1,
+      "displayName": "海滨泳场",
+      "portals": 7
+    },
+    {
+      "sourceRouteId": "97b56aea-d28f-4bf1-a903-b5a399135e93",
+      "previousOrder": 7,
+      "order": 2,
+      "displayName": "爱情邮局",
+      "portals": 6
+    },
+    {
+      "sourceRouteId": "5611eab5-68e3-418f-88e1-c7b690efd9a2",
+      "previousOrder": 9,
+      "order": 3,
+      "displayName": "珠海渔女",
+      "portals": 8
+    },
+    {
+      "sourceRouteId": "94e60ac4-65e5-42ed-93c0-9507a9cf05cc",
+      "previousOrder": 12,
+      "order": 4,
+      "displayName": "海滨公园",
+      "portals": 14
+    },
+    {
+      "sourceRouteId": "b965e996-2a32-4b39-b467-e56e74c8bff5",
+      "previousOrder": 14,
+      "order": 5,
+      "displayName": "城市阳台",
+      "portals": 9
+    },
+    {
+      "sourceRouteId": "55b4eccb-5d3e-4dfb-bbdd-21ef54f4ea35",
+      "previousOrder": 3,
+      "order": 6,
+      "displayName": "九洲城",
+      "portals": 8
+    },
+    {
+      "sourceRouteId": "1fe9a709-56a1-49d1-a155-eda3be519208",
+      "previousOrder": 26,
+      "order": 7,
+      "displayName": "情侣路",
+      "portals": 7
+    },
+    {
+      "sourceRouteId": "1f43fa1f-eb78-4e15-992a-17b9098313f0",
+      "previousOrder": 16,
+      "order": 8,
+      "displayName": "野狸岛",
+      "portals": 14
+    },
+    {
+      "sourceRouteId": "3f26bb6a-dadc-49ea-afe5-d07346ccdc27",
+      "previousOrder": 18,
+      "order": 9,
+      "displayName": "珠海大剧院",
+      "portals": 8
+    },
+    {
+      "sourceRouteId": "e4ab30b6-727c-4c00-b6b1-ab06b279627f",
+      "previousOrder": 20,
+      "order": 10,
+      "displayName": "珠海博物馆与城市规划展览馆",
+      "portals": 7
+    },
+    {
+      "sourceRouteId": "8b88989b-a1cc-4070-b5fc-a151e32bfb38",
+      "previousOrder": 22,
+      "order": 11,
+      "displayName": "海天公园",
+      "portals": 10
+    },
+    {
+      "sourceRouteId": "4d3bbd7d-5d0d-42e5-aa9d-4c98952bbc22",
+      "previousOrder": 1,
+      "order": 12,
+      "displayName": "白莲洞公园",
+      "portals": 15
+    },
+    {
+      "sourceRouteId": "646e7b22-a2d6-488a-9fb5-52cedcdda933",
+      "previousOrder": 35,
+      "order": 13,
+      "displayName": "圆明新园",
+      "portals": 8
+    },
+    {
+      "sourceRouteId": "a828a235-a313-4a63-bdfc-35d00039121c",
+      "previousOrder": 28,
+      "order": 14,
+      "displayName": "拱北口岸",
+      "portals": 7
+    },
+    {
+      "sourceRouteId": "e4bfb6e3-7875-423b-941b-b26437828e46",
+      "previousOrder": 29,
+      "order": 15,
+      "displayName": "湾仔旅游码头",
+      "portals": 6
+    },
+    {
+      "sourceRouteId": "eac3896e-7ba7-4503-bc93-f0148413be80",
+      "previousOrder": 32,
+      "order": 16,
+      "displayName": "励骏庞都广场",
+      "portals": 6
+    },
+    {
+      "sourceRouteId": "a1b08744-a446-4c4d-94e2-992f8d038727",
+      "previousOrder": 36,
+      "order": 17,
+      "displayName": "横琴芒洲湿地公园",
+      "portals": 6
+    },
+    {
+      "sourceRouteId": "7bd6e8ce-60ec-4381-88ea-6f8b25542ef1",
+      "previousOrder": 24,
+      "order": 18,
+      "displayName": "淇澳岛",
+      "portals": 6
+    }
+  ]
+}

@@ -27,9 +27,9 @@ npm run build
 npm test
 ```
 
-Reviewed missions replace the numbered placeholder stops with real portal names, GUIDs, WGS-84 coordinates, and images. Routes omitted from an export retain their placeholders. Existing route numbers are preserved. The importer rejects unreviewed exports, duplicate or malformed GUIDs, invalid coordinates, and unsupported image URLs. Builds retain the original route geometry in `data/routes-wgs84.json`, so future plugin builds do not accidentally use proximity candidates as source lines.
+Reviewed missions replace the numbered placeholder stops with real portal names, GUIDs, WGS-84 coordinates, and images. Routes omitted from an export retain their placeholders. Current Google map route numbers are preserved. Stable source route IDs keep portal data attached to the same routes after later renumbering. The importer rejects unreviewed exports, duplicate or malformed GUIDs, invalid coordinates, and unsupported image URLs. Builds retain the original route geometry in `data/routes-wgs84.json`, so future plugin builds do not accidentally use proximity candidates as source lines.
 
-`ZH-MD.js` follows FSMD's `const MDUMMJSON = {...}` wrapper and field structure, with `sourceOrder` added to retain the original nonconsecutive route numbers. `fileFormatVersion` is 2. Compatibility with other MDUMM editors has not been tested. Keep `sourceOrder` if adapting FSMD's sequential extractor.
+`ZH-MD.js` follows FSMD's `const MDUMMJSON = {...}` wrapper and field structure, with `sourceOrder` added to retain the current Google map route numbers. `fileFormatVersion` is 2. Compatibility with other MDUMM editors has not been tested. Keep `sourceOrder` if adapting FSMD's sequential extractor.
 
 ## Development
 

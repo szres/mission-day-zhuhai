@@ -9,10 +9,1221 @@
   "missions": [
     {
       "order": 1,
+      "title": "MD 2026: Zhuhai, 海滨泳场",
+      "displayName": "海滨泳场",
+      "description": "海滨泳场是珠海最具代表性的城市沙滩之一，也是情侣路上的浪漫地标。这里拥有细腻柔软的沙滩、开阔的海景与悠闲的滨海氛围，标志性的“爱情邮局”与海边灯塔相映成景，成为众多游客拍照打卡的热门地点。无论是清晨漫步海岸迎接晨曦，还是夜晚在海畔咖啡厅感受海风与灯火，这里都展现着珠海作为海滨旅游城市最惬意而迷人的一面。",
+      "sourceRoute": "路线--01",
+      "sourceRouteId": "16cdbb21-7be2-4ca9-a4b4-42d57e743838",
+      "markerDistanceMeters": 0.56,
+      "portals": [
+        {
+          "order": 1,
+          "guid": "ca602c39654f4278b336d7a5335e0a5b.16",
+          "title": "海滨泳场",
+          "lat": 22.258403,
+          "lng": 113.584755,
+          "imageUrl": "https://lh3.googleusercontent.com/KMBQ39sVywv-nLY416tmPsSjEblqyQQSZ-1es3zyZY5XgY17U5t7DciSZLNqyanG7NtlzMia_SA4W-uAi5wRKQPVl6iXLycUVnIS7niP68ELJA",
+          "isStartPoint": true,
+          "isOrnamented": false,
+          "objective": null
+        },
+        {
+          "order": 2,
+          "guid": "cdabd65a5a033ec4a29bf1729790a818.16",
+          "title": "板樟山及其周边生态保护区简介",
+          "lat": 22.258677,
+          "lng": 113.584794,
+          "imageUrl": "https://lh3.googleusercontent.com/M1i_g6JPHQ5OA-z7Hq3G3osKTDBKc3SuDwL6v40As3X3UgE6A-8fl95TshYQvjYFcDN_-Wnp-YgpfMdvt0LULMiGfA1MpX0vfEcR3JH6dE4c",
+          "isStartPoint": false,
+          "isOrnamented": false,
+          "objective": null
+        },
+        {
+          "order": 3,
+          "guid": "98644fbc329845cb9d627413426569ab.16",
+          "title": "海滨泳场喷水池",
+          "lat": 22.258177,
+          "lng": 113.584937,
+          "imageUrl": "https://lh3.googleusercontent.com/fxeY0gagu_3f8O66lArRaZcRZqyke2tBNMCx221eF2Fx0_cU6vmqX7wbFl7uMxnvAsLwT7IgghTXqz9UOoZs5-6xxi7Ym8y_nEFVOHHF7EA",
+          "isStartPoint": false,
+          "isOrnamented": false,
+          "objective": null
+        },
+        {
+          "order": 4,
+          "guid": "a78e60b2b0a4462993a5f9d66f9add5d.16",
+          "title": "街头雕塑",
+          "lat": 22.258011,
+          "lng": 113.58476,
+          "imageUrl": "https://lh3.googleusercontent.com/LE7IHIo_5liKg0uw6O0tIgdjbk7DO96DtWoNYad-txEfNcDPeQhzKP-tW2zz2aYbIjybRys8KouYgMkbX2uTgJj2HSW33QZY-U2TKuDw27rzpw",
+          "isStartPoint": false,
+          "isOrnamented": false,
+          "objective": null
+        },
+        {
+          "order": 5,
+          "guid": "a0ba9858db9b38bba833e3129f4f929d.16",
+          "title": "香洲区全域旅游导览图",
+          "lat": 22.257709,
+          "lng": 113.58496,
+          "imageUrl": "https://lh3.googleusercontent.com/I-YYNdJ7TgVzHqSg9QRqkbaEObOV-NuYtN67nYrC2eLLffEaWh4yOIOaqP0ey4LRgfxUar1DWcyqm-i0lAZPMJDJB1E7nGGHkPY5oLBD1Xcz",
+          "isStartPoint": false,
+          "isOrnamented": false,
+          "objective": null
+        },
+        {
+          "order": 6,
+          "guid": "8cb4ddea0a9f4090ad47322a1dcd2e11.16",
+          "title": "彩色大毛虫",
+          "lat": 22.257455,
+          "lng": 113.585175,
+          "imageUrl": "https://lh3.googleusercontent.com/kTxIjiQI5lKq0tqsZsqX6KZc52ddgytuzhxm0pDAkoV08_v_gO4Ez4vQCLZvoKKzHQu6WLbJTFaAlCa-vJOqPHrbFK8hzsdVommifYlSBmqt",
+          "isStartPoint": false,
+          "isOrnamented": false,
+          "objective": null
+        },
+        {
+          "order": 7,
+          "guid": "bb81acec2c673740924ba36daad18039.16",
+          "title": "我在珠海等你",
+          "lat": 22.256744,
+          "lng": 113.58575,
+          "imageUrl": "https://lh3.googleusercontent.com/WYa-d8Fs3j2oBioZFxcbI7AUG4XFp0wTNIrTRTAsMvfeRs1NNWQ-vTizi7EnGpwV14vFUwdvAVnCxb3BlqN8iTzMvEYi98bfgct0i4YJ0jtkIg",
+          "isStartPoint": false,
+          "isOrnamented": false,
+          "objective": null
+        }
+      ],
+      "portalSource": "Reviewed IITC proximity export"
+    },
+    {
+      "order": 2,
+      "title": "MD 2026: Zhuhai, 爱情邮局",
+      "displayName": "爱情邮局",
+      "description": "爱情邮局坐落于情侣路海滨泳场旁，是珠海极具浪漫氛围的地标之一。纯白色建筑与蔚蓝海岸相映成景，旁边矗立的灯塔也为这里增添了独特的海滨浪漫气息。这里不仅是游客拍照打卡的热门地点，更承载着许多人关于爱情与远方的美好寄托。你可以挑选一张明信片，盖上专属邮戳，让这一份来自珠海海岸的浪漫心意，随着海风寄向远方。",
+      "sourceRoute": "路线--02",
+      "sourceRouteId": "97b56aea-d28f-4bf1-a903-b5a399135e93",
+      "markerDistanceMeters": 0.93,
+      "portals": [
+        {
+          "order": 1,
+          "guid": "70a0768a282937c1aab2a35f1a25976a.16",
+          "title": "iYOHO",
+          "lat": 22.259378,
+          "lng": 113.585384,
+          "imageUrl": "https://lh3.googleusercontent.com/Gg4SAZS8S8YaDfmJ4lI6an8JA_gbb4cwJ2XoQP6Cn_Lw7Jibyn1uAgb5YTFPm_l9gm8UPm7_mQ1U08gUPdwQYvr3zjUd0a7BaPrWyeoWyZn4",
+          "isStartPoint": true,
+          "isOrnamented": false,
+          "objective": null
+        },
+        {
+          "order": 2,
+          "guid": "a4532631142f3a3bad4aada4792b540f.16",
+          "title": "愛情郵局",
+          "lat": 22.259758,
+          "lng": 113.585645,
+          "imageUrl": "https://lh3.googleusercontent.com/F_c4tSeFDugM3ClmptE_kNiIGE5WeM9WUznptDC5FcIVm6psniTALjuw13j1xMWPEU-JzSAqr9QFzee30TYBbThg0zcNjnPMdRMSSMSHyDf0Zg",
+          "isStartPoint": false,
+          "isOrnamented": false,
+          "objective": null
+        },
+        {
+          "order": 3,
+          "guid": "4a4e1b971b6a44b2b5c34b55d41c2366.16",
+          "title": "海滨泳场喷泉",
+          "lat": 22.260075,
+          "lng": 113.585792,
+          "imageUrl": "https://lh3.googleusercontent.com/qi2u0Ce87RjWEbVhUnpgqOaoPUZ4mraBD_NUJw-Zu-FEePwAZuAohdCHWu17R_MX2PmlQvhJS3tHOyKpir4DEA438F7cymqnrgNVFhWh9FWU",
+          "isStartPoint": false,
+          "isOrnamented": false,
+          "objective": null
+        },
+        {
+          "order": 4,
+          "guid": "3779d210bc2a4f8d85670bf24ab30e80.16",
+          "title": "灯塔",
+          "lat": 22.260175,
+          "lng": 113.586914,
+          "imageUrl": "https://lh3.googleusercontent.com/pDvIEZlUgK40KyURLVhtHUUSbiojGb4N2lGE5OEOm_hsJJsWjvaH8b2ksz7nf2y0satlrCKNfySAufj7a3NI3AJppo2wDa32osjFChKZ2n6ULw",
+          "isStartPoint": false,
+          "isOrnamented": false,
+          "objective": null
+        },
+        {
+          "order": 5,
+          "guid": "764411979ef14e8cbff58a10b4e39fee.16",
+          "title": "沙獅间驚呆了",
+          "lat": 22.260635,
+          "lng": 113.585571,
+          "imageUrl": "https://lh3.googleusercontent.com/fTHHFlkChdVQHi2P82NDXdcPzTv-UFLDcf8bPc6gzIMDbWF-aqYT2TucPc_8lGJf4tQ3NR2SXqR5AgGuNRKW_AR4tKQp91A7zPCy2a5pH_5g",
+          "isStartPoint": false,
+          "isOrnamented": false,
+          "objective": null
+        },
+        {
+          "order": 6,
+          "guid": "7b730b4eb5aa4f9fb5d45888208cbdc5.16",
+          "title": "鯊雕",
+          "lat": 22.260982,
+          "lng": 113.585626,
+          "imageUrl": "https://lh3.googleusercontent.com/cY-Rbih2eX8BMeUXF7R-DuKNcF1Lf-saMEM5phc35_L72j8ixnii84IxxpAAQvwyCxL2KuSiDru5C7XEFzXAEf9r9qE8MQHmy1v8Pa7chl3-PQ",
+          "isStartPoint": false,
+          "isOrnamented": false,
+          "objective": null
+        }
+      ],
+      "portalSource": "Reviewed IITC proximity export"
+    },
+    {
+      "order": 3,
+      "title": "MD 2026: Zhuhai, 珠海渔女",
+      "displayName": "珠海渔女",
+      "description": "珠海渔女矗立在香炉湾畔，是珠海城市精神的永恒象征。这座高 8.7 米的花岗岩雕像，刻画了一位双手高举璀璨明珠的龙女，象征着向世界奉献光明与财富。作为珠海最古老的地标之一，她不仅见证了这座城市从渔村到现代化特区的华丽蜕变，也守护着南海边无数关于爱与勇气的传说。",
+      "sourceRoute": "路线--03",
+      "sourceRouteId": "5611eab5-68e3-418f-88e1-c7b690efd9a2",
+      "markerDistanceMeters": 1.68,
+      "portals": [
+        {
+          "order": 1,
+          "guid": "16dbc29a5c5e40b3a3a03f34d31b0819.16",
+          "title": "特区魂",
+          "lat": 22.263959,
+          "lng": 113.588826,
+          "imageUrl": "https://lh3.googleusercontent.com/9yeZ7I1lDTsphOZZUEw3i0RRW0nBTjCzAa7hnJlP_j-8w780jFG9AJ5VRQN0UUJu9HaooT6dUxCiev44W_x1BZ4ytlGi8_gUIIJXCmClHRkW6Q",
+          "isStartPoint": true,
+          "isOrnamented": false,
+          "objective": null
+        },
+        {
+          "order": 2,
+          "guid": "c9d0da1cdc9440e9a0da7afcbc38e51e.16",
+          "title": "觀海",
+          "lat": 22.264356,
+          "lng": 113.588833,
+          "imageUrl": "https://lh3.googleusercontent.com/iQtiOtUb4GwhUtLptQLBruf0a3rwBMdjeDAA6ekLyCFOIjGepZ150iqIb84BhTg440FE0iZAU9dNQb9FOGCHM1as-CFLfh0RVnawZosgCPFw",
+          "isStartPoint": false,
+          "isOrnamented": false,
+          "objective": null
+        },
+        {
+          "order": 3,
+          "guid": "b3db8ed858a546e789c1679c3f5a3b57.16",
+          "title": "香炉湾警戒潮位警示标识",
+          "lat": 22.264686,
+          "lng": 113.583945,
+          "imageUrl": "https://lh3.googleusercontent.com/fll_z34BsYDJUToKBC8PopXaYGwvtaDRbDCPUU8yUMgBgaE3MPJmOrEwTfsQrZutJJZ1Wjx8yOdN-xGmwjU1IGf8V3GoHIdp_MQbIc88G_Q",
+          "isStartPoint": false,
+          "isOrnamented": false,
+          "objective": null
+        },
+        {
+          "order": 4,
+          "guid": "6b2e11bdfb1649ababeffccb22e21275.16",
+          "title": "珠海渔女石雕像介绍",
+          "lat": 22.264577,
+          "lng": 113.583305,
+          "imageUrl": "https://lh3.googleusercontent.com/QlCiWKkCFNAZEMhGCVZvw2u7pPAQ_hXqIyCafp5egHYR8QzV30drn23CxitUbYRM7AZZM8PeIaWeP0JIYPdakGEnhTfDraHJqo1XNFs8-bPY",
+          "isStartPoint": false,
+          "isOrnamented": false,
+          "objective": null
+        },
+        {
+          "order": 5,
+          "guid": "1f92972e9f124321bc2a9c6a4e817dfd.12",
+          "title": "珠海渔女",
+          "lat": 22.265392,
+          "lng": 113.583216,
+          "imageUrl": "https://lh3.googleusercontent.com/_Egf2CeiWzufTXT6cDldJ0xwQRsb_4dLkv5Veg4dwzOEbsd-XvXaaAk4fRsJlJ5MRkVOh0ei6oc3BriSJrJZe4GRmzUAgSQxDyI9uXgke5mg",
+          "isStartPoint": false,
+          "isOrnamented": false,
+          "objective": null
+        },
+        {
+          "order": 6,
+          "guid": "deb68fafca3f4a409850b150400af264.16",
+          "title": "珠海渔女",
+          "lat": 22.264483,
+          "lng": 113.583096,
+          "imageUrl": "https://lh3.googleusercontent.com/59x83MkelAItqH-y14tMB1cI102lbPN0FCwBCPnVdibnbF1C8pY3rXpV6wPtfcmYoPR-XNAVDKD38MwbrhW4Cn3gX7OrT-AAvvtnNisPzo8",
+          "isStartPoint": false,
+          "isOrnamented": false,
+          "objective": null
+        },
+        {
+          "order": 7,
+          "guid": "8f6902847d224c9ab3cae63aaee19519.16",
+          "title": "水车",
+          "lat": 22.263918,
+          "lng": 113.583045,
+          "imageUrl": "https://lh3.googleusercontent.com/jmM5U8HwKC_ezaGaxjdnAwodYDZo1amb2n4YCW6NHRyoKKUpqbx-5F6OdWBVOgfoNXvGmkxe7jWcPzigCbftTwK9z-7el1GjOtqeHVQDiZurtA",
+          "isStartPoint": false,
+          "isOrnamented": false,
+          "objective": null
+        },
+        {
+          "order": 8,
+          "guid": "9f23a74a13e649e3abe11e3de4a2f474.16",
+          "title": "你挑着担",
+          "lat": 22.263803,
+          "lng": 113.583212,
+          "imageUrl": "https://lh3.googleusercontent.com/Nu0xaeB6AnX956DwU9dqjFClqDE9tdcOHwOGGYPXkILeCQ8hfhmMEdYsTJuhk755CJVldLclDQtejul8G8ERnPvQj7XJqUPyNoCkPe9A1li4",
+          "isStartPoint": false,
+          "isOrnamented": false,
+          "objective": null
+        }
+      ],
+      "portalSource": "Reviewed IITC proximity export"
+    },
+    {
+      "order": 4,
+      "title": "MD 2026: Zhuhai, 海滨公园",
+      "displayName": "海滨公园",
+      "description": "海滨公园坐落于情侣路与石景山之间，是城市中心的一片天然绿肺。这里林木葱郁，开阔的草坪正对着碧波万顷的香炉湾。无论是放飞风筝、在树荫下野餐，还是漫步至湖边观赏黑天鹅，海滨公园以其静谧的自然景观，完美连接了繁华市区与浪漫海岸，是珠海慢生活的最佳注脚。",
+      "sourceRoute": "路线--04",
+      "sourceRouteId": "94e60ac4-65e5-42ed-93c0-9507a9cf05cc",
+      "markerDistanceMeters": 0.0,
+      "portals": [
+        {
+          "order": 1,
+          "guid": "250c8b50e3634195990431e56b007d90.16",
+          "title": "海滨公园石刻",
+          "lat": 22.262124,
+          "lng": 113.577072,
+          "imageUrl": "https://lh3.googleusercontent.com/YPiVNwLjh3sWOKRJXX_lRMclXskCl_p7gizoo_hqSBBSjjoZ_lvMFjD5oLhNfcIgSbaRuAdHCCK0daY-bh-5KJ4ZiFoJHjKmoZrJS5aExCM",
+          "isStartPoint": true,
+          "isOrnamented": false,
+          "objective": null
+        },
+        {
+          "order": 2,
+          "guid": "6626d59475b74bfa93df016425bdae8b.16",
+          "title": "海滨公园绿线界碑",
+          "lat": 22.26182,
+          "lng": 113.577079,
+          "imageUrl": "https://lh3.googleusercontent.com/Fg2SFmWP_PtUHEzEi0VX4RzogPCcDIUTd9tQs8MllWf6dLFL8GdcHq-xZeibQZPQT95bAHZlbdLzld6U4sXWFu3omVw0C5kPQpQ7n0DmmTc",
+          "isStartPoint": false,
+          "isOrnamented": false,
+          "objective": null
+        },
+        {
+          "order": 3,
+          "guid": "67fe004ed51d3e3a94a140c686e2adf3.16",
+          "title": "鸡公仔",
+          "lat": 22.262308,
+          "lng": 113.577499,
+          "imageUrl": "https://lh3.googleusercontent.com/MARwWnWkQTxAWzuar6azN0Wigosx9vF-Ztc4EjPoXyqe7VGYzH5MSVwKtSlQutL3sQlYkvhaerPieE8yxuxzHDuQlOLH7cKuW3n9F9NzY8m-",
+          "isStartPoint": false,
+          "isOrnamented": false,
+          "objective": null
+        },
+        {
+          "order": 4,
+          "guid": "a31ca3cdbf644dd5920a19f523deed57.16",
+          "title": "海滨公园游乐场",
+          "lat": 22.262077,
+          "lng": 113.577882,
+          "imageUrl": "https://lh3.googleusercontent.com/_yx2Kx-j-kv5z5EivbA6MOBm-_lWdHjFDfFqAI1uboJRC9G_819v1oYNFh6kxviK18mepZ6nPhjeojvsyWAgoMoM-PIyce2GSxB8R0nn9og",
+          "isStartPoint": false,
+          "isOrnamented": false,
+          "objective": null
+        },
+        {
+          "order": 5,
+          "guid": "ba89f87231f64830a27c5042abfe02cc.16",
+          "title": "啦啦啦",
+          "lat": 22.26153,
+          "lng": 113.578291,
+          "imageUrl": "https://lh3.googleusercontent.com/Y6hAAChPEcZl_rU-Kl9o6CVIQ1TWdkdiI9ch-WmUaojj5HPk-J04J5euVoByete1Xl_aicy1RE503-umPVsi7RJXmd5FCYuGhJ-7qB--4fEzxg",
+          "isStartPoint": false,
+          "isOrnamented": false,
+          "objective": null
+        },
+        {
+          "order": 6,
+          "guid": "ecf355fd859e3e129d655e7bb92380d2.16",
+          "title": "海滨公园欢迎您",
+          "lat": 22.261663,
+          "lng": 113.578552,
+          "imageUrl": "https://lh3.googleusercontent.com/5rQrJM8CtMhjSVLc5GbNheCw2_kFk-WAkYFwfIqjhcus1_LzQ98Qs8sVNRMJfSVMqL9mnzJWPAW0XB95PS2d2Y_Sk9KyarXisnPfoQvMBCWflQ",
+          "isStartPoint": false,
+          "isOrnamented": false,
+          "objective": null
+        },
+        {
+          "order": 7,
+          "guid": "cc1ddd32afcd4b29919724a0aa067464.16",
+          "title": "海滨公园木制凉亭",
+          "lat": 22.261471,
+          "lng": 113.578873,
+          "imageUrl": "https://lh3.googleusercontent.com/I9T2hBik8oGJ9cFP27zwqOp9CtggxCRUxjzCUhiuamftrzsLXhgk9BXl_V9PsO5c2KFMqcMbssnO79NbBxe0Ea21wNGCn0ZbPCTGjL5JipAk",
+          "isStartPoint": false,
+          "isOrnamented": false,
+          "objective": null
+        },
+        {
+          "order": 8,
+          "guid": "6909946713aa43349749852c89423c7f.16",
+          "title": "趴着的老虎",
+          "lat": 22.261719,
+          "lng": 113.579335,
+          "imageUrl": "https://lh3.googleusercontent.com/ndHQzjyt5uXbrDCtbh9xjz7zr3Z7zDifQT7x5f1wnByMOvFOR3E64oMvynkPAbh9qRnMInxeklEVFbH1xcBE5GYPc45ZAyf5FqGkmSH0CZx4zA",
+          "isStartPoint": false,
+          "isOrnamented": false,
+          "objective": null
+        },
+        {
+          "order": 9,
+          "guid": "31622817c9844deb87e822a92139a7f2.11",
+          "title": "Stone Carving\"Tiger\" in Haibin",
+          "lat": 22.261388,
+          "lng": 113.579444,
+          "imageUrl": "https://lh3.googleusercontent.com/53EBZM_NDNE036IDySi65SVjw-tUoecraYTWZJRpBKsx1czt8Jbf-oP1M2ZP1xkbOP_yA_cOWBZrxQBImYo2RALxrwkpAfqMrL6Lql-T8B5G",
+          "isStartPoint": false,
+          "isOrnamented": false,
+          "objective": null
+        },
+        {
+          "order": 10,
+          "guid": "5fc60129f9b64c9fb82e7892220bbffa.16",
+          "title": "友誼林石碑",
+          "lat": 22.261473,
+          "lng": 113.580137,
+          "imageUrl": "https://lh3.googleusercontent.com/5W5nWSvCs6Tmavartn2xBQA9DlJJUSdtRQfgmxgxax46LGAZ6Pmi8NDEm5Vp-1LGaOHSAks4_tUAPdjtlRG6nXGfRSqB9aPZyZljdgFfXixn",
+          "isStartPoint": false,
+          "isOrnamented": false,
+          "objective": null
+        },
+        {
+          "order": 11,
+          "guid": "4b2350e5e48046c294d933c663f2fa3a.16",
+          "title": "友谊亭",
+          "lat": 22.261797,
+          "lng": 113.579996,
+          "imageUrl": "https://lh3.googleusercontent.com/Z6Xf3tMj552Ai1NHHyn38P-NyTkkFEeYi4dUKerD57ayXeRZJTbCduyrPxU2S1Ufua3mCGb7UlH2JtEROMZcvAK1v7Fk55sZp2wk4z6iODY",
+          "isStartPoint": false,
+          "isOrnamented": false,
+          "objective": null
+        },
+        {
+          "order": 12,
+          "guid": "9362d7562d544389a06cc279beacb22d.16",
+          "title": "蓝风车",
+          "lat": 22.262463,
+          "lng": 113.580132,
+          "imageUrl": "https://lh3.googleusercontent.com/IF04keA9hlyWBlWo57ac3D2oRyd4eAkyxzh6DHMGpG-7sKXzEfaZ-mVAP-ApgQ3sKT-UpRiuT_ePLvVc1G5wOUtdsTkBnAuTai6tpvhkXjk",
+          "isStartPoint": false,
+          "isOrnamented": false,
+          "objective": null
+        },
+        {
+          "order": 13,
+          "guid": "d1b6ce0ea18c3139b0cf3256edd783fb.16",
+          "title": "东门处海滨公园无障碍游览路线图 Barrier free route map of Haibin Park",
+          "lat": 22.262745,
+          "lng": 113.580613,
+          "imageUrl": "https://lh3.googleusercontent.com/vq4AspgAsSXN1I_VwRQCQ_LWJqt8G7UpyWmg3GvI6E9JgWtA08cvy5Sh9o-VqHi3CwuIp8vkgSOqMFBF6ywDnJBEAS8VriVn7kqx8bn6u-A",
+          "isStartPoint": false,
+          "isOrnamented": false,
+          "objective": null
+        },
+        {
+          "order": 14,
+          "guid": "66c188123f43492a8f30ccee25fd4b9e.16",
+          "title": "海滨公园东门",
+          "lat": 22.263057,
+          "lng": 113.580352,
+          "imageUrl": "https://lh3.googleusercontent.com/QC4ECv4Ki3yOgAP7wM9iciD2y-nZfyikCJF01vA_gNRQkCduRZLufmzqWuJgmUc826_dL06IZJ9ld0eLnmGpAZuHKxyZ6c6ankPKwh9LkCwT",
+          "isStartPoint": false,
+          "isOrnamented": false,
+          "objective": null
+        }
+      ],
+      "portalSource": "Reviewed IITC proximity export"
+    },
+    {
+      "order": 5,
+      "title": "MD 2026: Zhuhai, 城市阳台",
+      "displayName": "城市阳台",
+      "description": "城市阳台是情侣路上的时尚新地标，通过巧妙的空中连廊将翠绿的石景山与蔚蓝的香炉湾沙滩缝合在一起。它打破了传统建筑的边界，构建出一个错落有致的多维公共空间。站在这里，你可以凭栏远眺日月贝与港珠澳大桥，在山海之间俯瞰这座滨海城市的繁华与浪漫。",
+      "sourceRoute": "路线--05",
+      "sourceRouteId": "b965e996-2a32-4b39-b467-e56e74c8bff5",
+      "markerDistanceMeters": 1.52,
+      "portals": [
+        {
+          "order": 1,
+          "guid": "dc0fd3dbdc6f482389d08a884db46c94.16",
+          "title": "景山公園導遊圖",
+          "lat": 22.265341,
+          "lng": 113.57664,
+          "imageUrl": "https://lh3.googleusercontent.com/NXdY8EJ4ks0dcJS5WEINAcYCQRGwIz76ZFUHmqiSzXLzueB5OtnFBGa3TST81zMnwxUx42SD7dNEPaPYV_GcOZPY9X6fnTg8CS79BZdb1gg",
+          "isStartPoint": true,
+          "isOrnamented": false,
+          "objective": null
+        },
+        {
+          "order": 2,
+          "guid": "851c64976bba332e8344e99e5c876373.16",
+          "title": "蒲公英少女",
+          "lat": 22.265432,
+          "lng": 113.576881,
+          "imageUrl": "https://lh3.googleusercontent.com/F3Cq20iV_pl5h5uYWri9VLgpS5csH5IJS4EgbqM1-NbwEmjohkedbRr3UpJZilaDr7McR76n6joL3PLmGIX_CI7CG3o00RtBSubYoaoLWtij",
+          "isStartPoint": false,
+          "isOrnamented": false,
+          "objective": null
+        },
+        {
+          "order": 3,
+          "guid": "c64c2e0ffcd5381599a48346951afcda.16",
+          "title": "彩虹热气球",
+          "lat": 22.265591,
+          "lng": 113.577506,
+          "imageUrl": "https://lh3.googleusercontent.com/joME0eChGbzli3LqmCk5H8V_F3LNflSW6TwEVJjm8GGz3WayrXO2i3Kgkv1vxoEKAhHLqbUsr-N4RHONDm4ULtnDvRZWbJ4CafOW0snlzQ-i",
+          "isStartPoint": false,
+          "isOrnamented": false,
+          "objective": null
+        },
+        {
+          "order": 4,
+          "guid": "11dba040f1a73d4495ce6a743529aced.16",
+          "title": "音乐能量广场",
+          "lat": 22.266148,
+          "lng": 113.577077,
+          "imageUrl": "https://lh3.googleusercontent.com/4aBbk8nmmsvLIw8toGg-D3CE8QXfppJzTr076i2LeqzgrS7XpX-62dX_XkCFViijn3EoGo0xvg6ZOdl7xr4LkSw3xgwMFjY7dRe5jtUZIkzf",
+          "isStartPoint": false,
+          "isOrnamented": false,
+          "objective": null
+        },
+        {
+          "order": 5,
+          "guid": "5c86593f9818310bb786137fac8572fe.16",
+          "title": "城市阳台人行道特色跳飞机格子",
+          "lat": 22.266745,
+          "lng": 113.576786,
+          "imageUrl": "https://lh3.googleusercontent.com/MB5VzSpq9TXWlEbMs9sH4z3J0CrX6V26y5aSAmqtj7jjvc-Y_uaV6JgBDPYutMa4B79u5AB4AuOI6KVD_m-aawMArrzStxuLfgHI_JC8FocMUg",
+          "isStartPoint": false,
+          "isOrnamented": false,
+          "objective": null
+        },
+        {
+          "order": 6,
+          "guid": "3ffb48957255378e8b8d52b3e2ede435.16",
+          "title": "兔儿公主",
+          "lat": 22.266971,
+          "lng": 113.577126,
+          "imageUrl": "https://lh3.googleusercontent.com/diteVNSARxR0VQX-ExaglYGFk4ClkDrKtecaww43eukyREqgyQ7UzmAmQ1nRjkKTqvaFZewyDaBgsYqYwFKuvW6ZF9d68IeTKDTKRS2OcYj_",
+          "isStartPoint": false,
+          "isOrnamented": false,
+          "objective": null
+        },
+        {
+          "order": 7,
+          "guid": "3f879fa513a04578b4884e511e9c7465.16",
+          "title": "EP Design Studio",
+          "lat": 22.266747,
+          "lng": 113.577284,
+          "imageUrl": "https://lh3.googleusercontent.com/sV_dJUT9NUUdYLQJ0mqUDG6YLi_giPO8WYqAAAuafZWS9XUWIzvbu4KSnk5_CFPhsbY7lFdlc8JHGRVtiNJCuOzEvpuBIHQ_x-CvU6Q-aHnZ",
+          "isStartPoint": false,
+          "isOrnamented": false,
+          "objective": null
+        },
+        {
+          "order": 8,
+          "guid": "55d143e322ed3364b6f86ade57697423.16",
+          "title": "城市阳台双叠桥",
+          "lat": 22.266563,
+          "lng": 113.577643,
+          "imageUrl": "https://lh3.googleusercontent.com/7enPrsZVbtMU-AlUPc6AVFskgaZU0T6JPRjMO9FfokvlsEUfRkKLxIwDZQop37KjoW1FOuHINrIZw2WKXnxoxg2E8hilIejM9LLhmeMGrFi3",
+          "isStartPoint": false,
+          "isOrnamented": false,
+          "objective": null
+        },
+        {
+          "order": 9,
+          "guid": "2ed7cc1fad4e390790895d2ceb7855bc.16",
+          "title": "森林夥伴",
+          "lat": 22.266837,
+          "lng": 113.57755,
+          "imageUrl": "https://lh3.googleusercontent.com/F-H3I9x5oE3FuOajC6ffPndt-M73nc8pNo_CzlPFMCvM0hei4fX3bqHlO_DS7GfXQ3Uvrnie0PsPf2bwsvGG166HVwmnVLgzwTN_lzgxzpbd",
+          "isStartPoint": false,
+          "isOrnamented": false,
+          "objective": null
+        }
+      ],
+      "portalSource": "Reviewed IITC proximity export"
+    },
+    {
+      "order": 6,
+      "title": "MD 2026: Zhuhai, 九洲城",
+      "displayName": "九洲城",
+      "description": "九洲城是一座极具特色的仿古建筑群，坐落于珠海市中心繁华地带。建筑以传统宫殿式风格为基调，红墙绿瓦、飞檐翘角，与周围现代都市景观形成鲜明对比，展现出独特的城市文化气质。这里曾是珠海博物馆旧址，承载着珠海早期城市文化记忆，也见证了这座海滨城市的发展变迁。在车水马龙之间，九洲城依然保留着一份古朴与庄重。",
+      "sourceRoute": "路线--06",
+      "sourceRouteId": "55b4eccb-5d3e-4dfb-bbdd-21ef54f4ea35",
+      "markerDistanceMeters": 0.3,
+      "portals": [
+        {
+          "order": 1,
+          "guid": "057492f27c7745308bb47c0e54e6ebf8.16",
+          "title": "頂你個肺",
+          "lat": 22.259676,
+          "lng": 113.57309,
+          "imageUrl": "https://lh3.googleusercontent.com/-saZv8-mpEUrEEdT4jKUrn_zkNM4xEBJOGcuDrqKRoICFdOgHFOtnOxCcU1rm4YebrfhVAJkwAgvtZhGuVEiY40Fk3Z-u9vsUDGsZbmeP1c",
+          "isStartPoint": true,
+          "isOrnamented": false,
+          "objective": null
+        },
+        {
+          "order": 2,
+          "guid": "dbf43a2b71e3485598a11048d8030e1a.16",
+          "title": "飞扬",
+          "lat": 22.259495,
+          "lng": 113.573393,
+          "imageUrl": "https://lh3.googleusercontent.com/icSLmHGPYXBzHfCiISfjPkK6n1bPD0-weHk9x4OVOwLitNjhQSA1k0KmfQeJvRjIDldP9HRBg1FMUXi678qi1z_5Z2bDbLisON3fnT07XXm0PQ",
+          "isStartPoint": false,
+          "isOrnamented": false,
+          "objective": null
+        },
+        {
+          "order": 3,
+          "guid": "2c277da38cc14388aea94a847ea5da39.16",
+          "title": "潮和軒",
+          "lat": 22.259878,
+          "lng": 113.573366,
+          "imageUrl": "https://lh3.googleusercontent.com/qHv0lJRQdmzJ8tdtSS80BRdCBOvud6WfXJgogE_7pTIucJS_2Pq_m-9NLJlq0jGQPw_NVLdjH62T-HnGAjk_nLYt20L79yZrAHt2SKLdgR3HIA",
+          "isStartPoint": false,
+          "isOrnamented": false,
+          "objective": null
+        },
+        {
+          "order": 4,
+          "guid": "6313d45589404866bd712ec884de160e.16",
+          "title": "一对小象",
+          "lat": 22.259677,
+          "lng": 113.57363,
+          "imageUrl": "https://lh3.googleusercontent.com/vINxHnmXbhMiGNNAHZIZhf_DcdxCXz1iQIRHJ87E4VlB_v95oiwh9w6GK7WeqG6MzeVXUh4wvAiuR7u-R5Qix-zREnZk2YvCQZZSA70_NOEL",
+          "isStartPoint": false,
+          "isOrnamented": false,
+          "objective": null
+        },
+        {
+          "order": 5,
+          "guid": "28393a4f04db44238205655f6ffeccb9.16",
+          "title": "小火車",
+          "lat": 22.259787,
+          "lng": 113.574028,
+          "imageUrl": "https://lh3.googleusercontent.com/ERkEK_8Bf7c7_mUkkrokOJOS99ONxm9DlhfK0R2Xh3jjko2XHFYHRyr6f4wNHb7CKA8Vi3w7sUNJW3RCVMLDEJGAUmTIThPrM7R0hnMn0q5E",
+          "isStartPoint": false,
+          "isOrnamented": false,
+          "objective": null
+        },
+        {
+          "order": 6,
+          "guid": "6480622ee6144dbb9e6f6b7028ad020b.16",
+          "title": "赤子之心",
+          "lat": 22.259756,
+          "lng": 113.574172,
+          "imageUrl": "https://lh3.googleusercontent.com/zHbIZY2-vyh4lmACSgbrFwlm8N62XyXlx4ZRYfAPvF2R4wPcRgsBP62RqtdLtIzV0bC-mA4WV5ukGofqMYnXrDFooS9zzO1x-yTWY0Y92UeN",
+          "isStartPoint": false,
+          "isOrnamented": false,
+          "objective": null
+        },
+        {
+          "order": 7,
+          "guid": "1f13d7278640486aad4ff1f139513711.16",
+          "title": "九洲城左獅",
+          "lat": 22.260185,
+          "lng": 113.574467,
+          "imageUrl": "https://lh3.googleusercontent.com/JtiCetdVVdUoxJNbKeByaH2tJsOufMfetwLgB7Tc_ckg84k_meUw0101LAk16_jEPcaJ9WADrlhwXDsOi2jtZpc79z8VisitUXfiy4OxPgkyYw",
+          "isStartPoint": false,
+          "isOrnamented": false,
+          "objective": null
+        },
+        {
+          "order": 8,
+          "guid": "52fda5d12aa4451aa624ad3528e53007.16",
+          "title": "珠海博物館",
+          "lat": 22.260323,
+          "lng": 113.574415,
+          "imageUrl": "https://lh3.googleusercontent.com/dNgduxAOcMtm2QYI_RxPAPux_xXQKPVPZ9HDm_WFN4r3jLtFkynwE0W38dTz8zgnaa7ITpdmgLtxb283TSYa3Yfcd6lhML8i_g8jOGYjJJbY",
+          "isStartPoint": false,
+          "isOrnamented": false,
+          "objective": null
+        }
+      ],
+      "portalSource": "Reviewed IITC proximity export"
+    },
+    {
+      "order": 7,
+      "title": "MD 2026: Zhuhai, 情侣路",
+      "displayName": "情侣路",
+      "description": "情侣路是珠海最具代表性的海滨大道，全长28公里，沿着南海海岸线延伸，拥有迷人的海景、成排的棕榈树步道，以及轻松惬意的滨海氛围。这里因浪漫的景色与珠海渔女等地标而闻名，是珠海最受欢迎的城市名片之一。",
+      "sourceRoute": "路线--07",
+      "sourceRouteId": "1fe9a709-56a1-49d1-a155-eda3be519208",
+      "markerDistanceMeters": 5.2,
+      "portals": [
+        {
+          "order": 1,
+          "guid": "f32bb03030db33ec89739d1ce5813cf5.16",
+          "title": "社会主义核心价值观",
+          "lat": 22.272879,
+          "lng": 113.57682,
+          "imageUrl": "https://lh3.googleusercontent.com/NM-DNLH_KsP8PvWGrfDwm9huCFZJKPTZalQGiMr6Lq5gGMzR6uoUsQGgi8Eq4i_1WiEfrMenMP1E6wdPUVMNMQgOYMoUyPv1CPVnLztIjyAx",
+          "isStartPoint": true,
+          "isOrnamented": false,
+          "objective": null
+        },
+        {
+          "order": 2,
+          "guid": "cdae046cbab04657ac77aea1440589ac.16",
+          "title": "香炉湾严格保护岸段起点",
+          "lat": 22.273668,
+          "lng": 113.577247,
+          "imageUrl": "https://lh3.googleusercontent.com/RAbSl1MvMuxjcEU074QI6om93UengcS4zm4Kt0AueVXh3NYPolkxN_ekvYZhwBeQj_jPGBFmt6YvAAZBnnIATSjeP4YziB7aSq8wV6Yq3X4",
+          "isStartPoint": false,
+          "isOrnamented": false,
+          "objective": null
+        },
+        {
+          "order": 3,
+          "guid": "8cf6f3c6e94e308a810032391a3a4433.16",
+          "title": "观海小凉亭",
+          "lat": 22.273937,
+          "lng": 113.57689,
+          "imageUrl": "https://lh3.googleusercontent.com/qiVc5YsQ48IGzVynHoOhTdbISBZq0jixM3_LShkzjcEINunym_ao4EeLKW1Lg8y22xTRUiEGxQ6VdtSAeG63_8VF0O2b11BlORxcLXuBWmvOcw",
+          "isStartPoint": false,
+          "isOrnamented": false,
+          "objective": null
+        },
+        {
+          "order": 4,
+          "guid": "9a507ebab9504b2d9da9daeb8c7102ba.11",
+          "title": "Hug",
+          "lat": 22.275526,
+          "lng": 113.576847,
+          "imageUrl": "https://lh3.googleusercontent.com/O2J4oxvF4k4gMzXVcix7i7bwZEMmknqRx_90EEyizYHE1vBrbKMrJBaQQM0t_70VU0MkzXNKHhTTX443E241rflzG3cPwaF5RYYRX6AZu-COsQ",
+          "isStartPoint": false,
+          "isOrnamented": false,
+          "objective": null
+        },
+        {
+          "order": 5,
+          "guid": "a1a0883d90b84617b29e47c155e44e90.16",
+          "title": "志明与春娇",
+          "lat": 22.276024,
+          "lng": 113.576872,
+          "imageUrl": "https://lh3.googleusercontent.com/T2e2fnsDXpcpCNpRr6z039t72duiOSBxkAaalofAIS4Ukz5UtrvY1Z9SxvO8duj_Dv4JYrnE7svAI9bZkk-47w29GinEe3gc8ZI5FWG7kq0",
+          "isStartPoint": false,
+          "isOrnamented": false,
+          "objective": null
+        },
+        {
+          "order": 6,
+          "guid": "09a6d700eef74338b4a07ad9d58654cc.16",
+          "title": "春娇与志明",
+          "lat": 22.276443,
+          "lng": 113.576931,
+          "imageUrl": "https://lh3.googleusercontent.com/3AUrebJGHSBfKN1y1Qjepzqh9iG4hOCNdsjxszw6T8VRrSasFNcPDTqZq0egpshydE9roYhrpf2YLxoVVw7xT4BKFIW3hQRg_YpLuXIUK4zckQ",
+          "isStartPoint": false,
+          "isOrnamented": false,
+          "objective": null
+        },
+        {
+          "order": 7,
+          "guid": "be649ed4145f3281b7726ab63ab23122.16",
+          "title": "广东万里碧道（情侣路段）",
+          "lat": 22.276739,
+          "lng": 113.576959,
+          "imageUrl": "https://lh3.googleusercontent.com/_1VadkWXvLGEw61hgA0eQO-2hDn56RIT529zyKF57qoMaJDD9OrzZ-VU9SVfkWDdyqEjUgvWdkuOytumAxlRbLyeka79KBcaL5R6SO8PJGpK",
+          "isStartPoint": false,
+          "isOrnamented": false,
+          "objective": null
+        }
+      ],
+      "portalSource": "Reviewed IITC proximity export"
+    },
+    {
+      "order": 8,
+      "title": "MD 2026: Zhuhai, 野狸岛",
+      "displayName": "野狸岛",
+      "description": "野狸岛是距离珠海市区最近的海岛，通过新海燕桥与情侣路相连。作为珠海大剧院的所在地，它完美融合了自然景观与现代艺术。漫步在环岛路，你可以一边领略壮阔的南中国海景，一边近距离感受“日月贝”的建筑之美，它是这座花园城市忙碌生活中的一片静谧绿洲。",
+      "sourceRoute": "路线--08",
+      "sourceRouteId": "1f43fa1f-eb78-4e15-992a-17b9098313f0",
+      "markerDistanceMeters": 3.2,
+      "portals": [
+        {
+          "order": 1,
+          "guid": "a2bec2e31e104254aa4f4cca23d087f4.11",
+          "title": "名亭公园 Mingting Park",
+          "lat": 22.278012,
+          "lng": 113.577047,
+          "imageUrl": "https://lh3.googleusercontent.com/HB1lkJHVYSf2ENb2AoLXtJf4jiTsXBi-8hr6Rygz_ONBXJQuQIP75bfjMaQy1RZ2-36Od6HNChxwehAiNYu20rqTq3GsH6OyVWEJQGFM_xA",
+          "isStartPoint": true,
+          "isOrnamented": false,
+          "objective": null
+        },
+        {
+          "order": 2,
+          "guid": "e9011f74261b3332bbb12d5708dc4569.16",
+          "title": "海燕桥",
+          "lat": 22.277892,
+          "lng": 113.577377,
+          "imageUrl": "https://lh3.googleusercontent.com/UEfg7kVKaP97mRQpZ-xJr0b7VO4dNoL9SFEkd06YtIS1ZlQJU8nuqDI3MSG5wU6yaNkrBNGgO52vCBFzOHAJ-R_2TpizbTKJt1aJkZ1nnWhP",
+          "isStartPoint": false,
+          "isOrnamented": false,
+          "objective": null
+        },
+        {
+          "order": 3,
+          "guid": "a1682079543d4ba58b40db880d1098b2.16",
+          "title": "偃鼠迎河",
+          "lat": 22.278154,
+          "lng": 113.577461,
+          "imageUrl": "https://lh3.googleusercontent.com/dgQIPvV07AGFw7OWCgFGKIAuJy12INSCEsiI38NieCEHDjmxU3gLmSn2dhSRYx84gLfg_BRNA5tGiJUu2mEJYKv7ME56Lsc890m_V6D5pIzPgA",
+          "isStartPoint": false,
+          "isOrnamented": false,
+          "objective": null
+        },
+        {
+          "order": 4,
+          "guid": "4d28cddbfa914415b570b1237a34471c.16",
+          "title": "名亭海燕庇护灵桥 Bridge Petrel Patronus",
+          "lat": 22.278237,
+          "lng": 113.578177,
+          "imageUrl": "https://lh3.googleusercontent.com/ID8GHCyVxpk91RH92IJV55kiwpq4u3JSuS7MjFif454uT06pAw-Ki4PwcSzi6lhFCOMxw_AlGYbHH4-JTDPAbkBBKF0hfnEO1CWBaLb1i7o",
+          "isStartPoint": false,
+          "isOrnamented": false,
+          "objective": null
+        },
+        {
+          "order": 5,
+          "guid": "337f85313f1e4f74942858524fefb313.16",
+          "title": "望月石兔",
+          "lat": 22.278359,
+          "lng": 113.578614,
+          "imageUrl": "https://lh3.googleusercontent.com/Z120d16HGxdsNB7aDdwQk6nNOMD7vIJjkOOvwj7he32ygOs0yE38yBbKnVndX3vOaofFz2DZyBR9DkifwhVdlPzlcIiwRzNlIL2cnjy3j1X2",
+          "isStartPoint": false,
+          "isOrnamented": false,
+          "objective": null
+        },
+        {
+          "order": 6,
+          "guid": "305717d446aa4532b2e549b85095fa5b.16",
+          "title": "桃花仙",
+          "lat": 22.278438,
+          "lng": 113.578895,
+          "imageUrl": "https://lh3.googleusercontent.com/ouE2FrwQ3SBxUV-OaRHyhVazULWXvgu6AqF4mcO8g_xUS7DIh-1OygN7OK7wWMOLXrP9oxtzhm8yYrUPX4r1fFzeUvoGdbfl6SgfWUxagA",
+          "isStartPoint": false,
+          "isOrnamented": false,
+          "objective": null
+        },
+        {
+          "order": 7,
+          "guid": "0b0328a4fa1b45a28f4a0d1f683ad03e.16",
+          "title": "画龙点睛 Ditto Eyes of Dragon",
+          "lat": 22.27858,
+          "lng": 113.579417,
+          "imageUrl": "https://lh3.googleusercontent.com/NcxIwDWeL4bjazs_iO22d4FkwlRtpNScE6GYn7a9pcLmDjTOFG9JqZRQ_XeNqUV1fHYe8eZaHdDWDpcEprQ93tfvC26fwWYe9bhRcA0MWT6lug",
+          "isStartPoint": false,
+          "isOrnamented": false,
+          "objective": null
+        },
+        {
+          "order": 8,
+          "guid": "435c75523b95418ba9ce23ade5944f0a.16",
+          "title": "塞翁石马",
+          "lat": 22.278609,
+          "lng": 113.579963,
+          "imageUrl": "https://lh3.googleusercontent.com/7FGwlamftXTTL4uLA_ONwRmRjJy0mPCElIWbPRv39uRw0XMkCiOGvPFamX2uytqcL-r0wq2pYFkbgIq4j61Vo6y0AQ-HZPgCH_CfY1a9mmc",
+          "isStartPoint": false,
+          "isOrnamented": false,
+          "objective": null
+        },
+        {
+          "order": 9,
+          "guid": "23046df26e5b3a14b2ae3808c4fdafed.16",
+          "title": "香洲蚝简介",
+          "lat": 22.278806,
+          "lng": 113.579956,
+          "imageUrl": "https://lh3.googleusercontent.com/nnyWn0BNjN7G5e7RUtVZ27voe3YjXte-AJYzpaAmpn1RJ4OeuqoBwGWrkDvIEc9xch-oyjMGf-wudO8e1h5rMSqQ5L8g8e_1b7lFzomyWNG7",
+          "isStartPoint": false,
+          "isOrnamented": false,
+          "objective": null
+        },
+        {
+          "order": 10,
+          "guid": "7b23b9ae591c4a6584ca70b1704b6ae3.11",
+          "title": "野狸岛",
+          "lat": 22.278691,
+          "lng": 113.580433,
+          "imageUrl": "https://lh3.googleusercontent.com/Woww00Qt3WhHMr4rVjGcO1FmDCUrqxo5pUB6QdU1Y_oZyZKJusFrwhYxuaSC9GmpMlaOo1NpSfktUt2JTIbV8gDq-knze2UV_EcUChuq_pns",
+          "isStartPoint": false,
+          "isOrnamented": false,
+          "objective": null
+        },
+        {
+          "order": 11,
+          "guid": "08065f524abe4441b01ba6a723eb630c.16",
+          "title": "野狸岛碑",
+          "lat": 22.278951,
+          "lng": 113.580513,
+          "imageUrl": "https://lh3.googleusercontent.com/mdvtDwgvI9x2iEbZ1kbB9lFLTMFBbjOs9vvQejoNgpv8x8bu2TYb98oZMxB2127s3e9tOc-YHgTJFzkF5kHyGUAEzN8gEiGV8a0_ff0e9js",
+          "isStartPoint": false,
+          "isOrnamented": false,
+          "objective": null
+        },
+        {
+          "order": 12,
+          "guid": "a2be1bcd5deb3b9f8aaa41b1b7da5450.16",
+          "title": "仙鹤戏水",
+          "lat": 22.279759,
+          "lng": 113.581092,
+          "imageUrl": "https://lh3.googleusercontent.com/11ar3CWvvx54L3ec8rVwZdaQJB09ecOnC6cER4CT5fGYHko36t4LnnvMTcwIrRKSqHXf-Hp32R_958WydMI8pEZ1rwxFdbD9ieZk4o0LZGGkcQ",
+          "isStartPoint": false,
+          "isOrnamented": false,
+          "objective": null
+        },
+        {
+          "order": 13,
+          "guid": "5ce81d803c1445bca6231094556075c5.16",
+          "title": "Crane Mural",
+          "lat": 22.28026,
+          "lng": 113.581878,
+          "imageUrl": "https://lh3.googleusercontent.com/LwLavMsbf4bY795NHwVRRCeUIJH4RMLwGkyjiLEamrNpoRnrvlD_aPcZs47KSa-3T7PE7d3agecOXnMz5jcUe4d2C_wdwx4HnFio4bPNTvw5",
+          "isStartPoint": false,
+          "isOrnamented": false,
+          "objective": null
+        },
+        {
+          "order": 14,
+          "guid": "688d878bc2f140a0a05d4e83157dd700.16",
+          "title": "野狸島宣傳欄",
+          "lat": 22.280041,
+          "lng": 113.5816,
+          "imageUrl": "https://lh3.googleusercontent.com/HUkHjsbOTaE5LGoHwwp1kYKtRrVhbN2QLuvvr4VoDk6o_z_yGOUJA-zP-ki0BlSSzHd2h5WZl49EZaOEVSkPtqlSOaq72VIj_asAUNCVxOd1",
+          "isStartPoint": false,
+          "isOrnamented": false,
+          "objective": null
+        }
+      ],
+      "portalSource": "Reviewed IITC proximity export"
+    },
+    {
+      "order": 9,
+      "title": "MD 2026: Zhuhai, Zhuhai 珠海大剧院",
+      "displayName": "珠海大剧院",
+      "description": "珠海大剧院是中国唯一建设在海岛上的大剧院，其独特的“日月贝”造型灵感源自名画《维纳斯的诞生》。一大一小两组建筑宛如从蓝色大海中升起的贝壳，不仅象征着珠海作为浪漫之城的艺术底蕴，也记录了这座特区向海而生的历史篇章。",
+      "sourceRoute": "路线--09",
+      "sourceRouteId": "3f26bb6a-dadc-49ea-afe5-d07346ccdc27",
+      "markerDistanceMeters": 0.0,
+      "portals": [
+        {
+          "order": 1,
+          "guid": "64984580c96946a0b73e93990bd61ab4.16",
+          "title": "看海",
+          "lat": 22.284948,
+          "lng": 113.586013,
+          "imageUrl": "https://lh3.googleusercontent.com/Q3yV866NVRpvlSgdShx3KszEzrGTTyAGNxAqxGE1TUJIKN769aV7naCQInLAJhZre8SheAfiU3Cvj2Vo1Q62TdQ-nX2CzCi-m82NYI6dhE3w",
+          "isStartPoint": true,
+          "isOrnamented": false,
+          "objective": null
+        },
+        {
+          "order": 2,
+          "guid": "5300783814ec4543a4c44047f9e1c2a9.16",
+          "title": "珠海大剧院裙楼",
+          "lat": 22.286421,
+          "lng": 113.584446,
+          "imageUrl": "https://lh3.googleusercontent.com/rWSRd_yDriBN_He3XgtKoMtEA4GL9K5H2VPTWeGmo7WyOGqMjnSCa_Y88b4obZqvBVHDmvdmLknXTSU6Z0IdnAqh0_qfDrSf99Ncs9eAZWIB",
+          "isStartPoint": false,
+          "isOrnamented": false,
+          "objective": null
+        },
+        {
+          "order": 3,
+          "guid": "2aae4273680f401ca13bbeea16c754c0.16",
+          "title": "珠海大剧院",
+          "lat": 22.286682,
+          "lng": 113.584049,
+          "imageUrl": "https://lh3.googleusercontent.com/qmxGwpB5MpWl9kOQtGNaUZSrvwGvl_ytlqqQln2W8QK48BFgkt8ww7l6pDXzaCODR_kJdCxOE5tMdwpIii-1PNfHYkyUuCm904kRb-Smivw",
+          "isStartPoint": false,
+          "isOrnamented": false,
+          "objective": null
+        },
+        {
+          "order": 4,
+          "guid": "c277dcc19f5743f08c64665e19c348ee.16",
+          "title": "鲸鱼宝宝雕塑",
+          "lat": 22.286013,
+          "lng": 113.584387,
+          "imageUrl": "https://lh3.googleusercontent.com/DY0GBOhWUSecSSQGkOlARS7sE4VZxFsK6PYU7m92zgFAx4Pa-j0Ft8eRUskQPgzbX6Q5JSHHngQSiIDgPiE5akpOsTV8C-0ytAMwgGZlWKA",
+          "isStartPoint": false,
+          "isOrnamented": false,
+          "objective": null
+        },
+        {
+          "order": 5,
+          "guid": "1dbfde5567cd4a75964fcac733a0bce8.16",
+          "title": "海贝邮局",
+          "lat": 22.285662,
+          "lng": 113.584686,
+          "imageUrl": "https://lh3.googleusercontent.com/hEpt2wNO7j0FUxxeyjf_EoMLjZtAj5IogifxMq5jAKmH09os8vy5qaOAR8gLDvPT2BBio4O5juCVTcRPBX1BIW9bDr1KsdBpNtMNPGVMkxhE",
+          "isStartPoint": false,
+          "isOrnamented": false,
+          "objective": null
+        },
+        {
+          "order": 6,
+          "guid": "b349b60cc5653e8f93599057416c2611.16",
+          "title": "白色小人雕塑",
+          "lat": 22.284973,
+          "lng": 113.584556,
+          "imageUrl": "https://lh3.googleusercontent.com/iWCu4xDvbu9Zvoeyg9lSKTFf4n7UjpCV2Wm311SKCbyz5nAl2ec8fhpEu5iUluZgBtVR0xY9N4GryBwSrQgUz07au1Iuwi8N2q3uKLG7IZXe",
+          "isStartPoint": false,
+          "isOrnamented": false,
+          "objective": null
+        },
+        {
+          "order": 7,
+          "guid": "e84fb1f89448341aa2c5c724240a89f2.16",
+          "title": "VEGAS",
+          "lat": 22.284344,
+          "lng": 113.584105,
+          "imageUrl": "https://lh3.googleusercontent.com/opKenRdeMJMvYo5Od1hPXWQ38b0RzfOuRbu-HSW2jbSQO833T7iXpt7KbvigULv4PgD3QJi3C4jVIwqLo0D7DUB_zpEMvKhJgj0gjWXOm2KL6Q",
+          "isStartPoint": false,
+          "isOrnamented": false,
+          "objective": null
+        },
+        {
+          "order": 8,
+          "guid": "e23f5f61d87c339f9a3177fb897f8345.16",
+          "title": "海韵城 Hi City",
+          "lat": 22.284096,
+          "lng": 113.584372,
+          "imageUrl": "https://lh3.googleusercontent.com/E9HbpBk9hQ1pmZGZLWWvjesviCAlQoIsYM1uvhp9G2q0GNPy_p71j30oTVBker0dJDy2d-M7D7Gt1Fh54IgT-F3hDZbxPFus17wEcoZ5IvJx",
+          "isStartPoint": false,
+          "isOrnamented": false,
+          "objective": null
+        }
+      ],
+      "portalSource": "Reviewed IITC proximity export"
+    },
+    {
+      "order": 10,
+      "title": "D 2026: Zhuhai,珠海博物馆与城市规划展览馆",
+      "displayName": "珠海博物馆与城市规划展览馆",
+      "description": "珠海博物馆与城市规划展览馆展示了珠海丰富的历史文化与城市发展蓝图。场馆位于情侣路附近，以现代化建筑和多媒体展览闻名，涵盖海洋文化、本地民俗以及城市建设等内容，让游客深入了解珠海的过去、现在与未来。",
+      "sourceRoute": "路线--10",
+      "sourceRouteId": "e4ab30b6-727c-4c00-b6b1-ab06b279627f",
+      "markerDistanceMeters": 1.13,
+      "portals": [
+        {
+          "order": 1,
+          "guid": "9145ba65e6f241f4aae16809ab7f3edc.16",
+          "title": "珠海博物馆",
+          "lat": 22.295589,
+          "lng": 113.57264,
+          "imageUrl": "https://lh3.googleusercontent.com/v4uleHKnYHEY7aZIFLb9B0j-ZJ2MZ4FTjMbF5Incvg9OPDDefs8kOtdcmmiS3HqPh8Ti8oe7F6D2j-OznEFQoK0Ato_JeA4-SuMRiwQqL-Onow",
+          "isStartPoint": true,
+          "isOrnamented": false,
+          "objective": null
+        },
+        {
+          "order": 2,
+          "guid": "2f81fb8e85d133c68f97c5ac81232b9c.16",
+          "title": "石溪",
+          "lat": 22.296087,
+          "lng": 113.572067,
+          "imageUrl": "https://lh3.googleusercontent.com/BduR8Xz_WigM0cJgfrJJN3CalNDW6DcJ9jTdryMasFbqSY5OyW3ot5-Wop0ykl3Wm9YAnXtDLfz50LuaWQwmE8TbziK4-b2M6za54w3AAafc",
+          "isStartPoint": false,
+          "isOrnamented": false,
+          "objective": null
+        },
+        {
+          "order": 3,
+          "guid": "10a1447794df361696319d55f446e58c.16",
+          "title": "珠海规划展览馆",
+          "lat": 22.296524,
+          "lng": 113.572769,
+          "imageUrl": "https://lh3.googleusercontent.com/3fw565SC5WrXhcjkYPzwT_i3_E_7TtMRMpfUV2P1D0qvja0AWJeipzhKsT-EhIV42p4hew96UvLPvipu3_G4s2tdlHaEFTzVQJrRMujYx7k",
+          "isStartPoint": false,
+          "isOrnamented": false,
+          "objective": null
+        },
+        {
+          "order": 4,
+          "guid": "9d9a51e408193919ae60e68a0459a95f.16",
+          "title": "海天优和汇",
+          "lat": 22.297766,
+          "lng": 113.572929,
+          "imageUrl": "https://lh3.googleusercontent.com/1lrpstKovKmmGs-OPZ0EUVw84WCJm6dist_5QRftwkY69Dn4C02Ej13XKMxjEoUJO3B5vCxsB45Kntg_W6zWm5qKYUZ7T2c1QhhxX0zCJOaC",
+          "isStartPoint": false,
+          "isOrnamented": false,
+          "objective": null
+        },
+        {
+          "order": 5,
+          "guid": "edb9909673fe3fc297b15bbf5f76d8a8.16",
+          "title": "11 号香山云道",
+          "lat": 22.297483,
+          "lng": 113.572876,
+          "imageUrl": "https://lh3.googleusercontent.com/sU0gDO7eh1anwcvNdTp1NKWYMl2Tk7T0088eW7yFTSibUTrMW8fu27WIDSBwce44HqGHzyX99hgPoIcRCf7qeX0kPnei0pepktBU8pJXxuQ",
+          "isStartPoint": false,
+          "isOrnamented": false,
+          "objective": null
+        },
+        {
+          "order": 6,
+          "guid": "4f199e76b308321987567ff8b8c56347.16",
+          "title": "林桃湘潇",
+          "lat": 22.297285,
+          "lng": 113.571655,
+          "imageUrl": "https://lh3.googleusercontent.com/ZEhVf5SG_v7L0FfkTbt_iKUckaKCoRXRqlq0gC0sLMRCElUDK8tkj3v9d9iqLpPJSFOi8wK1TO7LbKk_R42rzuXtcjFvbCMc6M0lbvEyXuo",
+          "isStartPoint": false,
+          "isOrnamented": false,
+          "objective": null
+        },
+        {
+          "order": 7,
+          "guid": "cc9e521bd79b386697c85843ae41f83d.16",
+          "title": "超大喷泉",
+          "lat": 22.296625,
+          "lng": 113.571289,
+          "imageUrl": "https://lh3.googleusercontent.com/uSQGPepMEIrYZYl1nf6OXrn_SzwEylPWsJ8SAOIDS0ehsm8qibf5u7g3VDEsZ7A1oMIl0h_NPYbn7GPfs1RH5Tcrvp5U9lZEqjLiRHBdQeJP",
+          "isStartPoint": false,
+          "isOrnamented": false,
+          "objective": null
+        }
+      ],
+      "portalSource": "Reviewed IITC proximity export"
+    },
+    {
+      "order": 11,
+      "title": "MD 2026: Zhuhai, 海天公园",
+      "displayName": "海天公园",
+      "description": "海天公园坐落于情侣北路与梅华东路的交汇处，是珠海拥抱山海的又一张绿色名片。公园内最引人瞩目的是那片广阔的中央大草坪与倾泻而下的华南最大人造瀑布。温室植物馆、古树园散落其间，与不远处的海天驿站、日月贝隔海相望。在这里，城市繁华与山海景观达成了完美的和解，是市民周末露营、亲近自然的绝佳去处。",
+      "sourceRoute": "路线--11",
+      "sourceRouteId": "8b88989b-a1cc-4070-b5fc-a151e32bfb38",
+      "markerDistanceMeters": 0.78,
+      "portals": [
+        {
+          "order": 1,
+          "guid": "9cb260df7ca84a9a828b5cc09f59106d.16",
+          "title": "海天公园",
+          "lat": 22.300708,
+          "lng": 113.573333,
+          "imageUrl": "https://lh3.googleusercontent.com/w-KWrgpOXo7ydgPS5ajzwwedQqDGK9esFR5SIGaVtBLEsYs7dbdMUs1AAZKS-GW5jdqWucHN3wubbzq_hiPIRH9xBN4c4Xtlc7oT9-5N_oQ",
+          "isStartPoint": true,
+          "isOrnamented": false,
+          "objective": null
+        },
+        {
+          "order": 2,
+          "guid": "d3b8959100693a48b6c9faffbc23435d.16",
+          "title": "香洲区全域旅游导览图",
+          "lat": 22.300888,
+          "lng": 113.573493,
+          "imageUrl": "https://lh3.googleusercontent.com/2VCNM2dALw0aLB2oNKDWLtkzLLh713OsmaEjHNXTaUnm1M7Xt-A11O4Q6l7PZ6Eyt6jJWANIdZCunESNaADBnyAD2s1-LpZl5y1jbU3wpFHQ",
+          "isStartPoint": false,
+          "isOrnamented": false,
+          "objective": null
+        },
+        {
+          "order": 3,
+          "guid": "f58982fd933e47b88e8a6a2fac79a887.16",
+          "title": "三个球",
+          "lat": 22.30132,
+          "lng": 113.573646,
+          "imageUrl": "https://lh3.googleusercontent.com/HrwVzEQbp-Wt7xG4oKaPauj5Rlp7OVhkGdHar3W4AKaJr2HXKazJyuquSaCT_dSM1qMSUB3k_ii2qSEe_iKOOsgbz9Ixm-6S1PDCY7lrBL2D",
+          "isStartPoint": false,
+          "isOrnamented": false,
+          "objective": null
+        },
+        {
+          "order": 4,
+          "guid": "69fd66da50313c42b00252cdf494dbe4.16",
+          "title": "捕魚铜像",
+          "lat": 22.301773,
+          "lng": 113.572891,
+          "imageUrl": "https://lh3.googleusercontent.com/ZJ1uCBbxSXEoLTv-UZ7tylE4ZwIsmSoJF-a2zCJRfckSp6R_6DUgm2cMRuz-SjigaWGcZUyBcEVuUiwtciJ0LM3ttr-iiOHe7Ep1lv4qQMBA",
+          "isStartPoint": false,
+          "isOrnamented": false,
+          "objective": null
+        },
+        {
+          "order": 5,
+          "guid": "edb70a471622478a89ba9fc926a96527.16",
+          "title": "海天公园喷泉",
+          "lat": 22.301618,
+          "lng": 113.573173,
+          "imageUrl": "https://lh3.googleusercontent.com/Nqpi3aq7IeaSMvnb2UC_XM3lF0j03ExVrfzdtXUVvPKzPAIileJQXIS58nmqyrGRB-7n_K1nIT9GXKD7HQSL6kgp8Lst4Z19TEoyE-Ir48s",
+          "isStartPoint": false,
+          "isOrnamented": false,
+          "objective": null
+        },
+        {
+          "order": 6,
+          "guid": "f65d2db9fdbc43db83f3600826920193.16",
+          "title": "打渔归来",
+          "lat": 22.301944,
+          "lng": 113.573181,
+          "imageUrl": "https://lh3.googleusercontent.com/H_NUKmKnPnu5sA1orsb1JrdBYd-SN5qgcdRAGC8wC4L7G1gTNrJh3S8m_qhTbdDwNFZq6rMdYabAsxOgk-uT3fqFq6G_fSltK7TiNL-i7H8Psw",
+          "isStartPoint": false,
+          "isOrnamented": false,
+          "objective": null
+        },
+        {
+          "order": 7,
+          "guid": "9afc7c04329842eb93853031b48492c4.16",
+          "title": "海蓝天蓝海天南 Nostalgic Blue",
+          "lat": 22.301708,
+          "lng": 113.573642,
+          "imageUrl": "https://lh3.googleusercontent.com/8QGGnzjI6KC1L6z3iSAbjInYc_bLYF8V2VH5k8Xg3kVoZxNZ3Hty407VqbU1a35FOdJe30FAdVfCNs4wafoVkVt2024mmyvcAHxuVRmiV3CXfw",
+          "isStartPoint": false,
+          "isOrnamented": false,
+          "objective": null
+        },
+        {
+          "order": 8,
+          "guid": "35809ada7f0b356c920ec3d0bb5a87b2.16",
+          "title": "生态家园 福",
+          "lat": 22.302364,
+          "lng": 113.573368,
+          "imageUrl": "https://lh3.googleusercontent.com/AxKsXvLCzYeCfbH4yYFCGuca6w-dx9hzRBJuv-4MW1Y35__8HNsYyMd771nZxmO1qWgLQ-5dVzYakb51pRRb6LAMi4PDszJTBWDSmxN42p1V",
+          "isStartPoint": false,
+          "isOrnamented": false,
+          "objective": null
+        },
+        {
+          "order": 9,
+          "guid": "c74f77edf25c4597a4c4924117e8dc43.16",
+          "title": "沙漠骆驼 Camel I Came",
+          "lat": 22.302134,
+          "lng": 113.573653,
+          "imageUrl": "https://lh3.googleusercontent.com/rMt9En8svq9j0oFUS9TdOX-Ba4kgiJGvmU05yg0yg36ygK7jP7cpHu294s5kMsE5w6adeHN2vzN8uMDSDi7HrQzbVFlmyLe__KnX4UlJHY8",
+          "isStartPoint": false,
+          "isOrnamented": false,
+          "objective": null
+        },
+        {
+          "order": 10,
+          "guid": "90b8df1e117f40b698b620247d3fa77b.16",
+          "title": "立体雕塑",
+          "lat": 22.302342,
+          "lng": 113.573943,
+          "imageUrl": "https://lh3.googleusercontent.com/hbdWTPqNBQ2nRQ_e3EODeMmqs0Q2W5mh90vWZfA9LnPJGfIM3P25tW9BOnVS3PQF1dudOT-GNVXCdFMTp2CCm0RM6R1TD2ThmIACD84C9mJTXw",
+          "isStartPoint": false,
+          "isOrnamented": false,
+          "objective": null
+        }
+      ],
+      "portalSource": "Reviewed IITC proximity export"
+    },
+    {
+      "order": 12,
       "title": "MD 2026: Zhuhai, 白莲洞公园",
       "displayName": "白莲洞公园",
       "description": "白莲洞又称“鲤鱼嘴”，是一处集奇石、古树与幽洞于一体的山水胜景。相传古时山泉潺潺，洞前常有白莲盛开，因此得名“白莲洞”。园内不仅保留了摩崖石刻等历史文化遗迹，也流传着“僧尼对弈”等民间传说，为景区增添了几分古朴而神秘的韵味。漫步其间，山林静谧、古意盎然，是珠海难得的城市山水文化空间。",
-      "sourceRoute": "路线-01",
+      "sourceRoute": "路线--12",
+      "sourceRouteId": "4d3bbd7d-5d0d-42e5-aa9d-4c98952bbc22",
       "markerDistanceMeters": 0.0,
       "portals": [
         {
@@ -184,1529 +1395,12 @@
       "portalSource": "Reviewed IITC proximity export"
     },
     {
-      "order": 3,
-      "title": "MD 2026: Zhuhai, 九洲城",
-      "displayName": "九洲城",
-      "description": "九洲城是一座极具特色的仿古建筑群，坐落于珠海市中心繁华地带。建筑以传统宫殿式风格为基调，红墙绿瓦、飞檐翘角，与周围现代都市景观形成鲜明对比，展现出独特的城市文化气质。这里曾是珠海博物馆旧址，承载着珠海早期城市文化记忆，也见证了这座海滨城市的发展变迁。在车水马龙之间，九洲城依然保留着一份古朴与庄重。",
-      "sourceRoute": "路线-03",
-      "markerDistanceMeters": 0.3,
-      "portals": [
-        {
-          "order": 1,
-          "guid": "057492f27c7745308bb47c0e54e6ebf8.16",
-          "title": "頂你個肺",
-          "lat": 22.259676,
-          "lng": 113.57309,
-          "imageUrl": "https://lh3.googleusercontent.com/-saZv8-mpEUrEEdT4jKUrn_zkNM4xEBJOGcuDrqKRoICFdOgHFOtnOxCcU1rm4YebrfhVAJkwAgvtZhGuVEiY40Fk3Z-u9vsUDGsZbmeP1c",
-          "isStartPoint": true,
-          "isOrnamented": false,
-          "objective": null
-        },
-        {
-          "order": 2,
-          "guid": "dbf43a2b71e3485598a11048d8030e1a.16",
-          "title": "飞扬",
-          "lat": 22.259495,
-          "lng": 113.573393,
-          "imageUrl": "https://lh3.googleusercontent.com/icSLmHGPYXBzHfCiISfjPkK6n1bPD0-weHk9x4OVOwLitNjhQSA1k0KmfQeJvRjIDldP9HRBg1FMUXi678qi1z_5Z2bDbLisON3fnT07XXm0PQ",
-          "isStartPoint": false,
-          "isOrnamented": false,
-          "objective": null
-        },
-        {
-          "order": 3,
-          "guid": "2c277da38cc14388aea94a847ea5da39.16",
-          "title": "潮和軒",
-          "lat": 22.259878,
-          "lng": 113.573366,
-          "imageUrl": "https://lh3.googleusercontent.com/qHv0lJRQdmzJ8tdtSS80BRdCBOvud6WfXJgogE_7pTIucJS_2Pq_m-9NLJlq0jGQPw_NVLdjH62T-HnGAjk_nLYt20L79yZrAHt2SKLdgR3HIA",
-          "isStartPoint": false,
-          "isOrnamented": false,
-          "objective": null
-        },
-        {
-          "order": 4,
-          "guid": "6313d45589404866bd712ec884de160e.16",
-          "title": "一对小象",
-          "lat": 22.259677,
-          "lng": 113.57363,
-          "imageUrl": "https://lh3.googleusercontent.com/vINxHnmXbhMiGNNAHZIZhf_DcdxCXz1iQIRHJ87E4VlB_v95oiwh9w6GK7WeqG6MzeVXUh4wvAiuR7u-R5Qix-zREnZk2YvCQZZSA70_NOEL",
-          "isStartPoint": false,
-          "isOrnamented": false,
-          "objective": null
-        },
-        {
-          "order": 5,
-          "guid": "28393a4f04db44238205655f6ffeccb9.16",
-          "title": "小火車",
-          "lat": 22.259787,
-          "lng": 113.574028,
-          "imageUrl": "https://lh3.googleusercontent.com/ERkEK_8Bf7c7_mUkkrokOJOS99ONxm9DlhfK0R2Xh3jjko2XHFYHRyr6f4wNHb7CKA8Vi3w7sUNJW3RCVMLDEJGAUmTIThPrM7R0hnMn0q5E",
-          "isStartPoint": false,
-          "isOrnamented": false,
-          "objective": null
-        },
-        {
-          "order": 6,
-          "guid": "6480622ee6144dbb9e6f6b7028ad020b.16",
-          "title": "赤子之心",
-          "lat": 22.259756,
-          "lng": 113.574172,
-          "imageUrl": "https://lh3.googleusercontent.com/zHbIZY2-vyh4lmACSgbrFwlm8N62XyXlx4ZRYfAPvF2R4wPcRgsBP62RqtdLtIzV0bC-mA4WV5ukGofqMYnXrDFooS9zzO1x-yTWY0Y92UeN",
-          "isStartPoint": false,
-          "isOrnamented": false,
-          "objective": null
-        },
-        {
-          "order": 7,
-          "guid": "1f13d7278640486aad4ff1f139513711.16",
-          "title": "九洲城左獅",
-          "lat": 22.260185,
-          "lng": 113.574467,
-          "imageUrl": "https://lh3.googleusercontent.com/JtiCetdVVdUoxJNbKeByaH2tJsOufMfetwLgB7Tc_ckg84k_meUw0101LAk16_jEPcaJ9WADrlhwXDsOi2jtZpc79z8VisitUXfiy4OxPgkyYw",
-          "isStartPoint": false,
-          "isOrnamented": false,
-          "objective": null
-        },
-        {
-          "order": 8,
-          "guid": "52fda5d12aa4451aa624ad3528e53007.16",
-          "title": "珠海博物館",
-          "lat": 22.260323,
-          "lng": 113.574415,
-          "imageUrl": "https://lh3.googleusercontent.com/dNgduxAOcMtm2QYI_RxPAPux_xXQKPVPZ9HDm_WFN4r3jLtFkynwE0W38dTz8zgnaa7ITpdmgLtxb283TSYa3Yfcd6lhML8i_g8jOGYjJJbY",
-          "isStartPoint": false,
-          "isOrnamented": false,
-          "objective": null
-        }
-      ],
-      "portalSource": "Reviewed IITC proximity export"
-    },
-    {
-      "order": 6,
-      "title": "MD 2026: Zhuhai, 海滨泳场",
-      "displayName": "海滨泳场",
-      "description": "海滨泳场是珠海最具代表性的城市沙滩之一，也是情侣路上的浪漫地标。这里拥有细腻柔软的沙滩、开阔的海景与悠闲的滨海氛围，标志性的“爱情邮局”与海边灯塔相映成景，成为众多游客拍照打卡的热门地点。无论是清晨漫步海岸迎接晨曦，还是夜晚在海畔咖啡厅感受海风与灯火，这里都展现着珠海作为海滨旅游城市最惬意而迷人的一面。",
-      "sourceRoute": "路线-06",
-      "markerDistanceMeters": 0.56,
-      "portals": [
-        {
-          "order": 1,
-          "guid": "ca602c39654f4278b336d7a5335e0a5b.16",
-          "title": "海滨泳场",
-          "lat": 22.258403,
-          "lng": 113.584755,
-          "imageUrl": "https://lh3.googleusercontent.com/KMBQ39sVywv-nLY416tmPsSjEblqyQQSZ-1es3zyZY5XgY17U5t7DciSZLNqyanG7NtlzMia_SA4W-uAi5wRKQPVl6iXLycUVnIS7niP68ELJA",
-          "isStartPoint": true,
-          "isOrnamented": false,
-          "objective": null
-        },
-        {
-          "order": 2,
-          "guid": "cdabd65a5a033ec4a29bf1729790a818.16",
-          "title": "板樟山及其周边生态保护区简介",
-          "lat": 22.258677,
-          "lng": 113.584794,
-          "imageUrl": "https://lh3.googleusercontent.com/M1i_g6JPHQ5OA-z7Hq3G3osKTDBKc3SuDwL6v40As3X3UgE6A-8fl95TshYQvjYFcDN_-Wnp-YgpfMdvt0LULMiGfA1MpX0vfEcR3JH6dE4c",
-          "isStartPoint": false,
-          "isOrnamented": false,
-          "objective": null
-        },
-        {
-          "order": 3,
-          "guid": "98644fbc329845cb9d627413426569ab.16",
-          "title": "海滨泳场喷水池",
-          "lat": 22.258177,
-          "lng": 113.584937,
-          "imageUrl": "https://lh3.googleusercontent.com/fxeY0gagu_3f8O66lArRaZcRZqyke2tBNMCx221eF2Fx0_cU6vmqX7wbFl7uMxnvAsLwT7IgghTXqz9UOoZs5-6xxi7Ym8y_nEFVOHHF7EA",
-          "isStartPoint": false,
-          "isOrnamented": false,
-          "objective": null
-        },
-        {
-          "order": 4,
-          "guid": "a78e60b2b0a4462993a5f9d66f9add5d.16",
-          "title": "街头雕塑",
-          "lat": 22.258011,
-          "lng": 113.58476,
-          "imageUrl": "https://lh3.googleusercontent.com/LE7IHIo_5liKg0uw6O0tIgdjbk7DO96DtWoNYad-txEfNcDPeQhzKP-tW2zz2aYbIjybRys8KouYgMkbX2uTgJj2HSW33QZY-U2TKuDw27rzpw",
-          "isStartPoint": false,
-          "isOrnamented": false,
-          "objective": null
-        },
-        {
-          "order": 5,
-          "guid": "a0ba9858db9b38bba833e3129f4f929d.16",
-          "title": "香洲区全域旅游导览图",
-          "lat": 22.257709,
-          "lng": 113.58496,
-          "imageUrl": "https://lh3.googleusercontent.com/I-YYNdJ7TgVzHqSg9QRqkbaEObOV-NuYtN67nYrC2eLLffEaWh4yOIOaqP0ey4LRgfxUar1DWcyqm-i0lAZPMJDJB1E7nGGHkPY5oLBD1Xcz",
-          "isStartPoint": false,
-          "isOrnamented": false,
-          "objective": null
-        },
-        {
-          "order": 6,
-          "guid": "8cb4ddea0a9f4090ad47322a1dcd2e11.16",
-          "title": "彩色大毛虫",
-          "lat": 22.257455,
-          "lng": 113.585175,
-          "imageUrl": "https://lh3.googleusercontent.com/kTxIjiQI5lKq0tqsZsqX6KZc52ddgytuzhxm0pDAkoV08_v_gO4Ez4vQCLZvoKKzHQu6WLbJTFaAlCa-vJOqPHrbFK8hzsdVommifYlSBmqt",
-          "isStartPoint": false,
-          "isOrnamented": false,
-          "objective": null
-        },
-        {
-          "order": 7,
-          "guid": "bb81acec2c673740924ba36daad18039.16",
-          "title": "我在珠海等你",
-          "lat": 22.256744,
-          "lng": 113.58575,
-          "imageUrl": "https://lh3.googleusercontent.com/WYa-d8Fs3j2oBioZFxcbI7AUG4XFp0wTNIrTRTAsMvfeRs1NNWQ-vTizi7EnGpwV14vFUwdvAVnCxb3BlqN8iTzMvEYi98bfgct0i4YJ0jtkIg",
-          "isStartPoint": false,
-          "isOrnamented": false,
-          "objective": null
-        }
-      ],
-      "portalSource": "Reviewed IITC proximity export"
-    },
-    {
-      "order": 7,
-      "title": "MD 2026: Zhuhai, 爱情邮局",
-      "displayName": "爱情邮局",
-      "description": "爱情邮局坐落于情侣路海滨泳场旁，是珠海极具浪漫氛围的地标之一。纯白色建筑与蔚蓝海岸相映成景，旁边矗立的灯塔也为这里增添了独特的海滨浪漫气息。这里不仅是游客拍照打卡的热门地点，更承载着许多人关于爱情与远方的美好寄托。你可以挑选一张明信片，盖上专属邮戳，让这一份来自珠海海岸的浪漫心意，随着海风寄向远方。",
-      "sourceRoute": "路线-07",
-      "markerDistanceMeters": 0.93,
-      "portals": [
-        {
-          "order": 1,
-          "guid": "70a0768a282937c1aab2a35f1a25976a.16",
-          "title": "iYOHO",
-          "lat": 22.259378,
-          "lng": 113.585384,
-          "imageUrl": "https://lh3.googleusercontent.com/Gg4SAZS8S8YaDfmJ4lI6an8JA_gbb4cwJ2XoQP6Cn_Lw7Jibyn1uAgb5YTFPm_l9gm8UPm7_mQ1U08gUPdwQYvr3zjUd0a7BaPrWyeoWyZn4",
-          "isStartPoint": true,
-          "isOrnamented": false,
-          "objective": null
-        },
-        {
-          "order": 2,
-          "guid": "a4532631142f3a3bad4aada4792b540f.16",
-          "title": "愛情郵局",
-          "lat": 22.259758,
-          "lng": 113.585645,
-          "imageUrl": "https://lh3.googleusercontent.com/F_c4tSeFDugM3ClmptE_kNiIGE5WeM9WUznptDC5FcIVm6psniTALjuw13j1xMWPEU-JzSAqr9QFzee30TYBbThg0zcNjnPMdRMSSMSHyDf0Zg",
-          "isStartPoint": false,
-          "isOrnamented": false,
-          "objective": null
-        },
-        {
-          "order": 3,
-          "guid": "4a4e1b971b6a44b2b5c34b55d41c2366.16",
-          "title": "海滨泳场喷泉",
-          "lat": 22.260075,
-          "lng": 113.585792,
-          "imageUrl": "https://lh3.googleusercontent.com/qi2u0Ce87RjWEbVhUnpgqOaoPUZ4mraBD_NUJw-Zu-FEePwAZuAohdCHWu17R_MX2PmlQvhJS3tHOyKpir4DEA438F7cymqnrgNVFhWh9FWU",
-          "isStartPoint": false,
-          "isOrnamented": false,
-          "objective": null
-        },
-        {
-          "order": 4,
-          "guid": "3779d210bc2a4f8d85670bf24ab30e80.16",
-          "title": "灯塔",
-          "lat": 22.260175,
-          "lng": 113.586914,
-          "imageUrl": "https://lh3.googleusercontent.com/pDvIEZlUgK40KyURLVhtHUUSbiojGb4N2lGE5OEOm_hsJJsWjvaH8b2ksz7nf2y0satlrCKNfySAufj7a3NI3AJppo2wDa32osjFChKZ2n6ULw",
-          "isStartPoint": false,
-          "isOrnamented": false,
-          "objective": null
-        },
-        {
-          "order": 5,
-          "guid": "764411979ef14e8cbff58a10b4e39fee.16",
-          "title": "沙獅间驚呆了",
-          "lat": 22.260635,
-          "lng": 113.585571,
-          "imageUrl": "https://lh3.googleusercontent.com/fTHHFlkChdVQHi2P82NDXdcPzTv-UFLDcf8bPc6gzIMDbWF-aqYT2TucPc_8lGJf4tQ3NR2SXqR5AgGuNRKW_AR4tKQp91A7zPCy2a5pH_5g",
-          "isStartPoint": false,
-          "isOrnamented": false,
-          "objective": null
-        },
-        {
-          "order": 6,
-          "guid": "7b730b4eb5aa4f9fb5d45888208cbdc5.16",
-          "title": "鯊雕",
-          "lat": 22.260982,
-          "lng": 113.585626,
-          "imageUrl": "https://lh3.googleusercontent.com/cY-Rbih2eX8BMeUXF7R-DuKNcF1Lf-saMEM5phc35_L72j8ixnii84IxxpAAQvwyCxL2KuSiDru5C7XEFzXAEf9r9qE8MQHmy1v8Pa7chl3-PQ",
-          "isStartPoint": false,
-          "isOrnamented": false,
-          "objective": null
-        }
-      ],
-      "portalSource": "Reviewed IITC proximity export"
-    },
-    {
-      "order": 9,
-      "title": "MD 2026: Zhuhai, 珠海渔女",
-      "displayName": "珠海渔女",
-      "description": "珠海渔女矗立在香炉湾畔，是珠海城市精神的永恒象征。这座高 8.7 米的花岗岩雕像，刻画了一位双手高举璀璨明珠的龙女，象征着向世界奉献光明与财富。作为珠海最古老的地标之一，她不仅见证了这座城市从渔村到现代化特区的华丽蜕变，也守护着南海边无数关于爱与勇气的传说。",
-      "sourceRoute": "路线-09",
-      "markerDistanceMeters": 1.68,
-      "portals": [
-        {
-          "order": 1,
-          "guid": "16dbc29a5c5e40b3a3a03f34d31b0819.16",
-          "title": "特区魂",
-          "lat": 22.263959,
-          "lng": 113.588826,
-          "imageUrl": "https://lh3.googleusercontent.com/9yeZ7I1lDTsphOZZUEw3i0RRW0nBTjCzAa7hnJlP_j-8w780jFG9AJ5VRQN0UUJu9HaooT6dUxCiev44W_x1BZ4ytlGi8_gUIIJXCmClHRkW6Q",
-          "isStartPoint": true,
-          "isOrnamented": false,
-          "objective": null
-        },
-        {
-          "order": 2,
-          "guid": "c9d0da1cdc9440e9a0da7afcbc38e51e.16",
-          "title": "觀海",
-          "lat": 22.264356,
-          "lng": 113.588833,
-          "imageUrl": "https://lh3.googleusercontent.com/iQtiOtUb4GwhUtLptQLBruf0a3rwBMdjeDAA6ekLyCFOIjGepZ150iqIb84BhTg440FE0iZAU9dNQb9FOGCHM1as-CFLfh0RVnawZosgCPFw",
-          "isStartPoint": false,
-          "isOrnamented": false,
-          "objective": null
-        },
-        {
-          "order": 3,
-          "guid": "b3db8ed858a546e789c1679c3f5a3b57.16",
-          "title": "香炉湾警戒潮位警示标识",
-          "lat": 22.264686,
-          "lng": 113.583945,
-          "imageUrl": "https://lh3.googleusercontent.com/fll_z34BsYDJUToKBC8PopXaYGwvtaDRbDCPUU8yUMgBgaE3MPJmOrEwTfsQrZutJJZ1Wjx8yOdN-xGmwjU1IGf8V3GoHIdp_MQbIc88G_Q",
-          "isStartPoint": false,
-          "isOrnamented": false,
-          "objective": null
-        },
-        {
-          "order": 4,
-          "guid": "6b2e11bdfb1649ababeffccb22e21275.16",
-          "title": "珠海渔女石雕像介绍",
-          "lat": 22.264577,
-          "lng": 113.583305,
-          "imageUrl": "https://lh3.googleusercontent.com/QlCiWKkCFNAZEMhGCVZvw2u7pPAQ_hXqIyCafp5egHYR8QzV30drn23CxitUbYRM7AZZM8PeIaWeP0JIYPdakGEnhTfDraHJqo1XNFs8-bPY",
-          "isStartPoint": false,
-          "isOrnamented": false,
-          "objective": null
-        },
-        {
-          "order": 5,
-          "guid": "1f92972e9f124321bc2a9c6a4e817dfd.12",
-          "title": "珠海渔女",
-          "lat": 22.265392,
-          "lng": 113.583216,
-          "imageUrl": "https://lh3.googleusercontent.com/_Egf2CeiWzufTXT6cDldJ0xwQRsb_4dLkv5Veg4dwzOEbsd-XvXaaAk4fRsJlJ5MRkVOh0ei6oc3BriSJrJZe4GRmzUAgSQxDyI9uXgke5mg",
-          "isStartPoint": false,
-          "isOrnamented": false,
-          "objective": null
-        },
-        {
-          "order": 6,
-          "guid": "deb68fafca3f4a409850b150400af264.16",
-          "title": "珠海渔女",
-          "lat": 22.264483,
-          "lng": 113.583096,
-          "imageUrl": "https://lh3.googleusercontent.com/59x83MkelAItqH-y14tMB1cI102lbPN0FCwBCPnVdibnbF1C8pY3rXpV6wPtfcmYoPR-XNAVDKD38MwbrhW4Cn3gX7OrT-AAvvtnNisPzo8",
-          "isStartPoint": false,
-          "isOrnamented": false,
-          "objective": null
-        },
-        {
-          "order": 7,
-          "guid": "8f6902847d224c9ab3cae63aaee19519.16",
-          "title": "水车",
-          "lat": 22.263918,
-          "lng": 113.583045,
-          "imageUrl": "https://lh3.googleusercontent.com/jmM5U8HwKC_ezaGaxjdnAwodYDZo1amb2n4YCW6NHRyoKKUpqbx-5F6OdWBVOgfoNXvGmkxe7jWcPzigCbftTwK9z-7el1GjOtqeHVQDiZurtA",
-          "isStartPoint": false,
-          "isOrnamented": false,
-          "objective": null
-        },
-        {
-          "order": 8,
-          "guid": "9f23a74a13e649e3abe11e3de4a2f474.16",
-          "title": "你挑着担",
-          "lat": 22.263803,
-          "lng": 113.583212,
-          "imageUrl": "https://lh3.googleusercontent.com/Nu0xaeB6AnX956DwU9dqjFClqDE9tdcOHwOGGYPXkILeCQ8hfhmMEdYsTJuhk755CJVldLclDQtejul8G8ERnPvQj7XJqUPyNoCkPe9A1li4",
-          "isStartPoint": false,
-          "isOrnamented": false,
-          "objective": null
-        }
-      ],
-      "portalSource": "Reviewed IITC proximity export"
-    },
-    {
-      "order": 12,
-      "title": "MD 2026: Zhuhai, 海滨公园",
-      "displayName": "海滨公园",
-      "description": "海滨公园坐落于情侣路与石景山之间，是城市中心的一片天然绿肺。这里林木葱郁，开阔的草坪正对着碧波万顷的香炉湾。无论是放飞风筝、在树荫下野餐，还是漫步至湖边观赏黑天鹅，海滨公园以其静谧的自然景观，完美连接了繁华市区与浪漫海岸，是珠海慢生活的最佳注脚。",
-      "sourceRoute": "路线-12",
-      "markerDistanceMeters": 0.0,
-      "portals": [
-        {
-          "order": 1,
-          "guid": "250c8b50e3634195990431e56b007d90.16",
-          "title": "海滨公园石刻",
-          "lat": 22.262124,
-          "lng": 113.577072,
-          "imageUrl": "https://lh3.googleusercontent.com/YPiVNwLjh3sWOKRJXX_lRMclXskCl_p7gizoo_hqSBBSjjoZ_lvMFjD5oLhNfcIgSbaRuAdHCCK0daY-bh-5KJ4ZiFoJHjKmoZrJS5aExCM",
-          "isStartPoint": true,
-          "isOrnamented": false,
-          "objective": null
-        },
-        {
-          "order": 2,
-          "guid": "6626d59475b74bfa93df016425bdae8b.16",
-          "title": "海滨公园绿线界碑",
-          "lat": 22.26182,
-          "lng": 113.577079,
-          "imageUrl": "https://lh3.googleusercontent.com/Fg2SFmWP_PtUHEzEi0VX4RzogPCcDIUTd9tQs8MllWf6dLFL8GdcHq-xZeibQZPQT95bAHZlbdLzld6U4sXWFu3omVw0C5kPQpQ7n0DmmTc",
-          "isStartPoint": false,
-          "isOrnamented": false,
-          "objective": null
-        },
-        {
-          "order": 3,
-          "guid": "67fe004ed51d3e3a94a140c686e2adf3.16",
-          "title": "鸡公仔",
-          "lat": 22.262308,
-          "lng": 113.577499,
-          "imageUrl": "https://lh3.googleusercontent.com/MARwWnWkQTxAWzuar6azN0Wigosx9vF-Ztc4EjPoXyqe7VGYzH5MSVwKtSlQutL3sQlYkvhaerPieE8yxuxzHDuQlOLH7cKuW3n9F9NzY8m-",
-          "isStartPoint": false,
-          "isOrnamented": false,
-          "objective": null
-        },
-        {
-          "order": 4,
-          "guid": "a31ca3cdbf644dd5920a19f523deed57.16",
-          "title": "海滨公园游乐场",
-          "lat": 22.262077,
-          "lng": 113.577882,
-          "imageUrl": "https://lh3.googleusercontent.com/_yx2Kx-j-kv5z5EivbA6MOBm-_lWdHjFDfFqAI1uboJRC9G_819v1oYNFh6kxviK18mepZ6nPhjeojvsyWAgoMoM-PIyce2GSxB8R0nn9og",
-          "isStartPoint": false,
-          "isOrnamented": false,
-          "objective": null
-        },
-        {
-          "order": 5,
-          "guid": "ba89f87231f64830a27c5042abfe02cc.16",
-          "title": "啦啦啦",
-          "lat": 22.26153,
-          "lng": 113.578291,
-          "imageUrl": "https://lh3.googleusercontent.com/Y6hAAChPEcZl_rU-Kl9o6CVIQ1TWdkdiI9ch-WmUaojj5HPk-J04J5euVoByete1Xl_aicy1RE503-umPVsi7RJXmd5FCYuGhJ-7qB--4fEzxg",
-          "isStartPoint": false,
-          "isOrnamented": false,
-          "objective": null
-        },
-        {
-          "order": 6,
-          "guid": "ecf355fd859e3e129d655e7bb92380d2.16",
-          "title": "海滨公园欢迎您",
-          "lat": 22.261663,
-          "lng": 113.578552,
-          "imageUrl": "https://lh3.googleusercontent.com/5rQrJM8CtMhjSVLc5GbNheCw2_kFk-WAkYFwfIqjhcus1_LzQ98Qs8sVNRMJfSVMqL9mnzJWPAW0XB95PS2d2Y_Sk9KyarXisnPfoQvMBCWflQ",
-          "isStartPoint": false,
-          "isOrnamented": false,
-          "objective": null
-        },
-        {
-          "order": 7,
-          "guid": "cc1ddd32afcd4b29919724a0aa067464.16",
-          "title": "海滨公园木制凉亭",
-          "lat": 22.261471,
-          "lng": 113.578873,
-          "imageUrl": "https://lh3.googleusercontent.com/I9T2hBik8oGJ9cFP27zwqOp9CtggxCRUxjzCUhiuamftrzsLXhgk9BXl_V9PsO5c2KFMqcMbssnO79NbBxe0Ea21wNGCn0ZbPCTGjL5JipAk",
-          "isStartPoint": false,
-          "isOrnamented": false,
-          "objective": null
-        },
-        {
-          "order": 8,
-          "guid": "6909946713aa43349749852c89423c7f.16",
-          "title": "趴着的老虎",
-          "lat": 22.261719,
-          "lng": 113.579335,
-          "imageUrl": "https://lh3.googleusercontent.com/ndHQzjyt5uXbrDCtbh9xjz7zr3Z7zDifQT7x5f1wnByMOvFOR3E64oMvynkPAbh9qRnMInxeklEVFbH1xcBE5GYPc45ZAyf5FqGkmSH0CZx4zA",
-          "isStartPoint": false,
-          "isOrnamented": false,
-          "objective": null
-        },
-        {
-          "order": 9,
-          "guid": "31622817c9844deb87e822a92139a7f2.11",
-          "title": "Stone Carving\"Tiger\" in Haibin",
-          "lat": 22.261388,
-          "lng": 113.579444,
-          "imageUrl": "https://lh3.googleusercontent.com/53EBZM_NDNE036IDySi65SVjw-tUoecraYTWZJRpBKsx1czt8Jbf-oP1M2ZP1xkbOP_yA_cOWBZrxQBImYo2RALxrwkpAfqMrL6Lql-T8B5G",
-          "isStartPoint": false,
-          "isOrnamented": false,
-          "objective": null
-        },
-        {
-          "order": 10,
-          "guid": "5fc60129f9b64c9fb82e7892220bbffa.16",
-          "title": "友誼林石碑",
-          "lat": 22.261473,
-          "lng": 113.580137,
-          "imageUrl": "https://lh3.googleusercontent.com/5W5nWSvCs6Tmavartn2xBQA9DlJJUSdtRQfgmxgxax46LGAZ6Pmi8NDEm5Vp-1LGaOHSAks4_tUAPdjtlRG6nXGfRSqB9aPZyZljdgFfXixn",
-          "isStartPoint": false,
-          "isOrnamented": false,
-          "objective": null
-        },
-        {
-          "order": 11,
-          "guid": "4b2350e5e48046c294d933c663f2fa3a.16",
-          "title": "友谊亭",
-          "lat": 22.261797,
-          "lng": 113.579996,
-          "imageUrl": "https://lh3.googleusercontent.com/Z6Xf3tMj552Ai1NHHyn38P-NyTkkFEeYi4dUKerD57ayXeRZJTbCduyrPxU2S1Ufua3mCGb7UlH2JtEROMZcvAK1v7Fk55sZp2wk4z6iODY",
-          "isStartPoint": false,
-          "isOrnamented": false,
-          "objective": null
-        },
-        {
-          "order": 12,
-          "guid": "9362d7562d544389a06cc279beacb22d.16",
-          "title": "蓝风车",
-          "lat": 22.262463,
-          "lng": 113.580132,
-          "imageUrl": "https://lh3.googleusercontent.com/IF04keA9hlyWBlWo57ac3D2oRyd4eAkyxzh6DHMGpG-7sKXzEfaZ-mVAP-ApgQ3sKT-UpRiuT_ePLvVc1G5wOUtdsTkBnAuTai6tpvhkXjk",
-          "isStartPoint": false,
-          "isOrnamented": false,
-          "objective": null
-        },
-        {
-          "order": 13,
-          "guid": "d1b6ce0ea18c3139b0cf3256edd783fb.16",
-          "title": "东门处海滨公园无障碍游览路线图 Barrier free route map of Haibin Park",
-          "lat": 22.262745,
-          "lng": 113.580613,
-          "imageUrl": "https://lh3.googleusercontent.com/vq4AspgAsSXN1I_VwRQCQ_LWJqt8G7UpyWmg3GvI6E9JgWtA08cvy5Sh9o-VqHi3CwuIp8vkgSOqMFBF6ywDnJBEAS8VriVn7kqx8bn6u-A",
-          "isStartPoint": false,
-          "isOrnamented": false,
-          "objective": null
-        },
-        {
-          "order": 14,
-          "guid": "66c188123f43492a8f30ccee25fd4b9e.16",
-          "title": "海滨公园东门",
-          "lat": 22.263057,
-          "lng": 113.580352,
-          "imageUrl": "https://lh3.googleusercontent.com/QC4ECv4Ki3yOgAP7wM9iciD2y-nZfyikCJF01vA_gNRQkCduRZLufmzqWuJgmUc826_dL06IZJ9ld0eLnmGpAZuHKxyZ6c6ankPKwh9LkCwT",
-          "isStartPoint": false,
-          "isOrnamented": false,
-          "objective": null
-        }
-      ],
-      "portalSource": "Reviewed IITC proximity export"
-    },
-    {
-      "order": 14,
-      "title": "MD 2026: Zhuhai, 城市阳台",
-      "displayName": "城市阳台",
-      "description": "城市阳台是情侣路上的时尚新地标，通过巧妙的空中连廊将翠绿的石景山与蔚蓝的香炉湾沙滩缝合在一起。它打破了传统建筑的边界，构建出一个错落有致的多维公共空间。站在这里，你可以凭栏远眺日月贝与港珠澳大桥，在山海之间俯瞰这座滨海城市的繁华与浪漫。",
-      "sourceRoute": "路线-14",
-      "markerDistanceMeters": 1.52,
-      "portals": [
-        {
-          "order": 1,
-          "guid": "dc0fd3dbdc6f482389d08a884db46c94.16",
-          "title": "景山公園導遊圖",
-          "lat": 22.265341,
-          "lng": 113.57664,
-          "imageUrl": "https://lh3.googleusercontent.com/NXdY8EJ4ks0dcJS5WEINAcYCQRGwIz76ZFUHmqiSzXLzueB5OtnFBGa3TST81zMnwxUx42SD7dNEPaPYV_GcOZPY9X6fnTg8CS79BZdb1gg",
-          "isStartPoint": true,
-          "isOrnamented": false,
-          "objective": null
-        },
-        {
-          "order": 2,
-          "guid": "851c64976bba332e8344e99e5c876373.16",
-          "title": "蒲公英少女",
-          "lat": 22.265432,
-          "lng": 113.576881,
-          "imageUrl": "https://lh3.googleusercontent.com/F3Cq20iV_pl5h5uYWri9VLgpS5csH5IJS4EgbqM1-NbwEmjohkedbRr3UpJZilaDr7McR76n6joL3PLmGIX_CI7CG3o00RtBSubYoaoLWtij",
-          "isStartPoint": false,
-          "isOrnamented": false,
-          "objective": null
-        },
-        {
-          "order": 3,
-          "guid": "c64c2e0ffcd5381599a48346951afcda.16",
-          "title": "彩虹热气球",
-          "lat": 22.265591,
-          "lng": 113.577506,
-          "imageUrl": "https://lh3.googleusercontent.com/joME0eChGbzli3LqmCk5H8V_F3LNflSW6TwEVJjm8GGz3WayrXO2i3Kgkv1vxoEKAhHLqbUsr-N4RHONDm4ULtnDvRZWbJ4CafOW0snlzQ-i",
-          "isStartPoint": false,
-          "isOrnamented": false,
-          "objective": null
-        },
-        {
-          "order": 4,
-          "guid": "11dba040f1a73d4495ce6a743529aced.16",
-          "title": "音乐能量广场",
-          "lat": 22.266148,
-          "lng": 113.577077,
-          "imageUrl": "https://lh3.googleusercontent.com/4aBbk8nmmsvLIw8toGg-D3CE8QXfppJzTr076i2LeqzgrS7XpX-62dX_XkCFViijn3EoGo0xvg6ZOdl7xr4LkSw3xgwMFjY7dRe5jtUZIkzf",
-          "isStartPoint": false,
-          "isOrnamented": false,
-          "objective": null
-        },
-        {
-          "order": 5,
-          "guid": "5c86593f9818310bb786137fac8572fe.16",
-          "title": "城市阳台人行道特色跳飞机格子",
-          "lat": 22.266745,
-          "lng": 113.576786,
-          "imageUrl": "https://lh3.googleusercontent.com/MB5VzSpq9TXWlEbMs9sH4z3J0CrX6V26y5aSAmqtj7jjvc-Y_uaV6JgBDPYutMa4B79u5AB4AuOI6KVD_m-aawMArrzStxuLfgHI_JC8FocMUg",
-          "isStartPoint": false,
-          "isOrnamented": false,
-          "objective": null
-        },
-        {
-          "order": 6,
-          "guid": "3ffb48957255378e8b8d52b3e2ede435.16",
-          "title": "兔儿公主",
-          "lat": 22.266971,
-          "lng": 113.577126,
-          "imageUrl": "https://lh3.googleusercontent.com/diteVNSARxR0VQX-ExaglYGFk4ClkDrKtecaww43eukyREqgyQ7UzmAmQ1nRjkKTqvaFZewyDaBgsYqYwFKuvW6ZF9d68IeTKDTKRS2OcYj_",
-          "isStartPoint": false,
-          "isOrnamented": false,
-          "objective": null
-        },
-        {
-          "order": 7,
-          "guid": "3f879fa513a04578b4884e511e9c7465.16",
-          "title": "EP Design Studio",
-          "lat": 22.266747,
-          "lng": 113.577284,
-          "imageUrl": "https://lh3.googleusercontent.com/sV_dJUT9NUUdYLQJ0mqUDG6YLi_giPO8WYqAAAuafZWS9XUWIzvbu4KSnk5_CFPhsbY7lFdlc8JHGRVtiNJCuOzEvpuBIHQ_x-CvU6Q-aHnZ",
-          "isStartPoint": false,
-          "isOrnamented": false,
-          "objective": null
-        },
-        {
-          "order": 8,
-          "guid": "55d143e322ed3364b6f86ade57697423.16",
-          "title": "城市阳台双叠桥",
-          "lat": 22.266563,
-          "lng": 113.577643,
-          "imageUrl": "https://lh3.googleusercontent.com/7enPrsZVbtMU-AlUPc6AVFskgaZU0T6JPRjMO9FfokvlsEUfRkKLxIwDZQop37KjoW1FOuHINrIZw2WKXnxoxg2E8hilIejM9LLhmeMGrFi3",
-          "isStartPoint": false,
-          "isOrnamented": false,
-          "objective": null
-        },
-        {
-          "order": 9,
-          "guid": "2ed7cc1fad4e390790895d2ceb7855bc.16",
-          "title": "森林夥伴",
-          "lat": 22.266837,
-          "lng": 113.57755,
-          "imageUrl": "https://lh3.googleusercontent.com/F-H3I9x5oE3FuOajC6ffPndt-M73nc8pNo_CzlPFMCvM0hei4fX3bqHlO_DS7GfXQ3Uvrnie0PsPf2bwsvGG166HVwmnVLgzwTN_lzgxzpbd",
-          "isStartPoint": false,
-          "isOrnamented": false,
-          "objective": null
-        }
-      ],
-      "portalSource": "Reviewed IITC proximity export"
-    },
-    {
-      "order": 16,
-      "title": "MD 2026: Zhuhai, 野狸岛",
-      "displayName": "野狸岛",
-      "description": "野狸岛是距离珠海市区最近的海岛，通过新海燕桥与情侣路相连。作为珠海大剧院的所在地，它完美融合了自然景观与现代艺术。漫步在环岛路，你可以一边领略壮阔的南中国海景，一边近距离感受“日月贝”的建筑之美，它是这座花园城市忙碌生活中的一片静谧绿洲。",
-      "sourceRoute": "路线-16",
-      "markerDistanceMeters": 3.2,
-      "portals": [
-        {
-          "order": 1,
-          "guid": "a2bec2e31e104254aa4f4cca23d087f4.11",
-          "title": "名亭公园 Mingting Park",
-          "lat": 22.278012,
-          "lng": 113.577047,
-          "imageUrl": "https://lh3.googleusercontent.com/HB1lkJHVYSf2ENb2AoLXtJf4jiTsXBi-8hr6Rygz_ONBXJQuQIP75bfjMaQy1RZ2-36Od6HNChxwehAiNYu20rqTq3GsH6OyVWEJQGFM_xA",
-          "isStartPoint": true,
-          "isOrnamented": false,
-          "objective": null
-        },
-        {
-          "order": 2,
-          "guid": "e9011f74261b3332bbb12d5708dc4569.16",
-          "title": "海燕桥",
-          "lat": 22.277892,
-          "lng": 113.577377,
-          "imageUrl": "https://lh3.googleusercontent.com/UEfg7kVKaP97mRQpZ-xJr0b7VO4dNoL9SFEkd06YtIS1ZlQJU8nuqDI3MSG5wU6yaNkrBNGgO52vCBFzOHAJ-R_2TpizbTKJt1aJkZ1nnWhP",
-          "isStartPoint": false,
-          "isOrnamented": false,
-          "objective": null
-        },
-        {
-          "order": 3,
-          "guid": "a1682079543d4ba58b40db880d1098b2.16",
-          "title": "偃鼠迎河",
-          "lat": 22.278154,
-          "lng": 113.577461,
-          "imageUrl": "https://lh3.googleusercontent.com/dgQIPvV07AGFw7OWCgFGKIAuJy12INSCEsiI38NieCEHDjmxU3gLmSn2dhSRYx84gLfg_BRNA5tGiJUu2mEJYKv7ME56Lsc890m_V6D5pIzPgA",
-          "isStartPoint": false,
-          "isOrnamented": false,
-          "objective": null
-        },
-        {
-          "order": 4,
-          "guid": "4d28cddbfa914415b570b1237a34471c.16",
-          "title": "名亭海燕庇护灵桥 Bridge Petrel Patronus",
-          "lat": 22.278237,
-          "lng": 113.578177,
-          "imageUrl": "https://lh3.googleusercontent.com/ID8GHCyVxpk91RH92IJV55kiwpq4u3JSuS7MjFif454uT06pAw-Ki4PwcSzi6lhFCOMxw_AlGYbHH4-JTDPAbkBBKF0hfnEO1CWBaLb1i7o",
-          "isStartPoint": false,
-          "isOrnamented": false,
-          "objective": null
-        },
-        {
-          "order": 5,
-          "guid": "337f85313f1e4f74942858524fefb313.16",
-          "title": "望月石兔",
-          "lat": 22.278359,
-          "lng": 113.578614,
-          "imageUrl": "https://lh3.googleusercontent.com/Z120d16HGxdsNB7aDdwQk6nNOMD7vIJjkOOvwj7he32ygOs0yE38yBbKnVndX3vOaofFz2DZyBR9DkifwhVdlPzlcIiwRzNlIL2cnjy3j1X2",
-          "isStartPoint": false,
-          "isOrnamented": false,
-          "objective": null
-        },
-        {
-          "order": 6,
-          "guid": "305717d446aa4532b2e549b85095fa5b.16",
-          "title": "桃花仙",
-          "lat": 22.278438,
-          "lng": 113.578895,
-          "imageUrl": "https://lh3.googleusercontent.com/ouE2FrwQ3SBxUV-OaRHyhVazULWXvgu6AqF4mcO8g_xUS7DIh-1OygN7OK7wWMOLXrP9oxtzhm8yYrUPX4r1fFzeUvoGdbfl6SgfWUxagA",
-          "isStartPoint": false,
-          "isOrnamented": false,
-          "objective": null
-        },
-        {
-          "order": 7,
-          "guid": "0b0328a4fa1b45a28f4a0d1f683ad03e.16",
-          "title": "画龙点睛 Ditto Eyes of Dragon",
-          "lat": 22.27858,
-          "lng": 113.579417,
-          "imageUrl": "https://lh3.googleusercontent.com/NcxIwDWeL4bjazs_iO22d4FkwlRtpNScE6GYn7a9pcLmDjTOFG9JqZRQ_XeNqUV1fHYe8eZaHdDWDpcEprQ93tfvC26fwWYe9bhRcA0MWT6lug",
-          "isStartPoint": false,
-          "isOrnamented": false,
-          "objective": null
-        },
-        {
-          "order": 8,
-          "guid": "435c75523b95418ba9ce23ade5944f0a.16",
-          "title": "塞翁石马",
-          "lat": 22.278609,
-          "lng": 113.579963,
-          "imageUrl": "https://lh3.googleusercontent.com/7FGwlamftXTTL4uLA_ONwRmRjJy0mPCElIWbPRv39uRw0XMkCiOGvPFamX2uytqcL-r0wq2pYFkbgIq4j61Vo6y0AQ-HZPgCH_CfY1a9mmc",
-          "isStartPoint": false,
-          "isOrnamented": false,
-          "objective": null
-        },
-        {
-          "order": 9,
-          "guid": "23046df26e5b3a14b2ae3808c4fdafed.16",
-          "title": "香洲蚝简介",
-          "lat": 22.278806,
-          "lng": 113.579956,
-          "imageUrl": "https://lh3.googleusercontent.com/nnyWn0BNjN7G5e7RUtVZ27voe3YjXte-AJYzpaAmpn1RJ4OeuqoBwGWrkDvIEc9xch-oyjMGf-wudO8e1h5rMSqQ5L8g8e_1b7lFzomyWNG7",
-          "isStartPoint": false,
-          "isOrnamented": false,
-          "objective": null
-        },
-        {
-          "order": 10,
-          "guid": "7b23b9ae591c4a6584ca70b1704b6ae3.11",
-          "title": "野狸岛",
-          "lat": 22.278691,
-          "lng": 113.580433,
-          "imageUrl": "https://lh3.googleusercontent.com/Woww00Qt3WhHMr4rVjGcO1FmDCUrqxo5pUB6QdU1Y_oZyZKJusFrwhYxuaSC9GmpMlaOo1NpSfktUt2JTIbV8gDq-knze2UV_EcUChuq_pns",
-          "isStartPoint": false,
-          "isOrnamented": false,
-          "objective": null
-        },
-        {
-          "order": 11,
-          "guid": "08065f524abe4441b01ba6a723eb630c.16",
-          "title": "野狸岛碑",
-          "lat": 22.278951,
-          "lng": 113.580513,
-          "imageUrl": "https://lh3.googleusercontent.com/mdvtDwgvI9x2iEbZ1kbB9lFLTMFBbjOs9vvQejoNgpv8x8bu2TYb98oZMxB2127s3e9tOc-YHgTJFzkF5kHyGUAEzN8gEiGV8a0_ff0e9js",
-          "isStartPoint": false,
-          "isOrnamented": false,
-          "objective": null
-        },
-        {
-          "order": 12,
-          "guid": "a2be1bcd5deb3b9f8aaa41b1b7da5450.16",
-          "title": "仙鹤戏水",
-          "lat": 22.279759,
-          "lng": 113.581092,
-          "imageUrl": "https://lh3.googleusercontent.com/11ar3CWvvx54L3ec8rVwZdaQJB09ecOnC6cER4CT5fGYHko36t4LnnvMTcwIrRKSqHXf-Hp32R_958WydMI8pEZ1rwxFdbD9ieZk4o0LZGGkcQ",
-          "isStartPoint": false,
-          "isOrnamented": false,
-          "objective": null
-        },
-        {
-          "order": 13,
-          "guid": "5ce81d803c1445bca6231094556075c5.16",
-          "title": "Crane Mural",
-          "lat": 22.28026,
-          "lng": 113.581878,
-          "imageUrl": "https://lh3.googleusercontent.com/LwLavMsbf4bY795NHwVRRCeUIJH4RMLwGkyjiLEamrNpoRnrvlD_aPcZs47KSa-3T7PE7d3agecOXnMz5jcUe4d2C_wdwx4HnFio4bPNTvw5",
-          "isStartPoint": false,
-          "isOrnamented": false,
-          "objective": null
-        },
-        {
-          "order": 14,
-          "guid": "688d878bc2f140a0a05d4e83157dd700.16",
-          "title": "野狸島宣傳欄",
-          "lat": 22.280041,
-          "lng": 113.5816,
-          "imageUrl": "https://lh3.googleusercontent.com/HUkHjsbOTaE5LGoHwwp1kYKtRrVhbN2QLuvvr4VoDk6o_z_yGOUJA-zP-ki0BlSSzHd2h5WZl49EZaOEVSkPtqlSOaq72VIj_asAUNCVxOd1",
-          "isStartPoint": false,
-          "isOrnamented": false,
-          "objective": null
-        }
-      ],
-      "portalSource": "Reviewed IITC proximity export"
-    },
-    {
-      "order": 18,
-      "title": "MD 2026: Zhuhai, Zhuhai 珠海大剧院",
-      "displayName": "珠海大剧院",
-      "description": "珠海大剧院是中国唯一建设在海岛上的大剧院，其独特的“日月贝”造型灵感源自名画《维纳斯的诞生》。一大一小两组建筑宛如从蓝色大海中升起的贝壳，不仅象征着珠海作为浪漫之城的艺术底蕴，也记录了这座特区向海而生的历史篇章。",
-      "sourceRoute": "路线-18",
-      "markerDistanceMeters": 0.0,
-      "portals": [
-        {
-          "order": 1,
-          "guid": "64984580c96946a0b73e93990bd61ab4.16",
-          "title": "看海",
-          "lat": 22.284948,
-          "lng": 113.586013,
-          "imageUrl": "https://lh3.googleusercontent.com/Q3yV866NVRpvlSgdShx3KszEzrGTTyAGNxAqxGE1TUJIKN769aV7naCQInLAJhZre8SheAfiU3Cvj2Vo1Q62TdQ-nX2CzCi-m82NYI6dhE3w",
-          "isStartPoint": true,
-          "isOrnamented": false,
-          "objective": null
-        },
-        {
-          "order": 2,
-          "guid": "5300783814ec4543a4c44047f9e1c2a9.16",
-          "title": "珠海大剧院裙楼",
-          "lat": 22.286421,
-          "lng": 113.584446,
-          "imageUrl": "https://lh3.googleusercontent.com/rWSRd_yDriBN_He3XgtKoMtEA4GL9K5H2VPTWeGmo7WyOGqMjnSCa_Y88b4obZqvBVHDmvdmLknXTSU6Z0IdnAqh0_qfDrSf99Ncs9eAZWIB",
-          "isStartPoint": false,
-          "isOrnamented": false,
-          "objective": null
-        },
-        {
-          "order": 3,
-          "guid": "2aae4273680f401ca13bbeea16c754c0.16",
-          "title": "珠海大剧院",
-          "lat": 22.286682,
-          "lng": 113.584049,
-          "imageUrl": "https://lh3.googleusercontent.com/qmxGwpB5MpWl9kOQtGNaUZSrvwGvl_ytlqqQln2W8QK48BFgkt8ww7l6pDXzaCODR_kJdCxOE5tMdwpIii-1PNfHYkyUuCm904kRb-Smivw",
-          "isStartPoint": false,
-          "isOrnamented": false,
-          "objective": null
-        },
-        {
-          "order": 4,
-          "guid": "c277dcc19f5743f08c64665e19c348ee.16",
-          "title": "鲸鱼宝宝雕塑",
-          "lat": 22.286013,
-          "lng": 113.584387,
-          "imageUrl": "https://lh3.googleusercontent.com/DY0GBOhWUSecSSQGkOlARS7sE4VZxFsK6PYU7m92zgFAx4Pa-j0Ft8eRUskQPgzbX6Q5JSHHngQSiIDgPiE5akpOsTV8C-0ytAMwgGZlWKA",
-          "isStartPoint": false,
-          "isOrnamented": false,
-          "objective": null
-        },
-        {
-          "order": 5,
-          "guid": "1dbfde5567cd4a75964fcac733a0bce8.16",
-          "title": "海贝邮局",
-          "lat": 22.285662,
-          "lng": 113.584686,
-          "imageUrl": "https://lh3.googleusercontent.com/hEpt2wNO7j0FUxxeyjf_EoMLjZtAj5IogifxMq5jAKmH09os8vy5qaOAR8gLDvPT2BBio4O5juCVTcRPBX1BIW9bDr1KsdBpNtMNPGVMkxhE",
-          "isStartPoint": false,
-          "isOrnamented": false,
-          "objective": null
-        },
-        {
-          "order": 6,
-          "guid": "b349b60cc5653e8f93599057416c2611.16",
-          "title": "白色小人雕塑",
-          "lat": 22.284973,
-          "lng": 113.584556,
-          "imageUrl": "https://lh3.googleusercontent.com/iWCu4xDvbu9Zvoeyg9lSKTFf4n7UjpCV2Wm311SKCbyz5nAl2ec8fhpEu5iUluZgBtVR0xY9N4GryBwSrQgUz07au1Iuwi8N2q3uKLG7IZXe",
-          "isStartPoint": false,
-          "isOrnamented": false,
-          "objective": null
-        },
-        {
-          "order": 7,
-          "guid": "e84fb1f89448341aa2c5c724240a89f2.16",
-          "title": "VEGAS",
-          "lat": 22.284344,
-          "lng": 113.584105,
-          "imageUrl": "https://lh3.googleusercontent.com/opKenRdeMJMvYo5Od1hPXWQ38b0RzfOuRbu-HSW2jbSQO833T7iXpt7KbvigULv4PgD3QJi3C4jVIwqLo0D7DUB_zpEMvKhJgj0gjWXOm2KL6Q",
-          "isStartPoint": false,
-          "isOrnamented": false,
-          "objective": null
-        },
-        {
-          "order": 8,
-          "guid": "e23f5f61d87c339f9a3177fb897f8345.16",
-          "title": "海韵城 Hi City",
-          "lat": 22.284096,
-          "lng": 113.584372,
-          "imageUrl": "https://lh3.googleusercontent.com/E9HbpBk9hQ1pmZGZLWWvjesviCAlQoIsYM1uvhp9G2q0GNPy_p71j30oTVBker0dJDy2d-M7D7Gt1Fh54IgT-F3hDZbxPFus17wEcoZ5IvJx",
-          "isStartPoint": false,
-          "isOrnamented": false,
-          "objective": null
-        }
-      ],
-      "portalSource": "Reviewed IITC proximity export"
-    },
-    {
-      "order": 20,
-      "title": "D 2026: Zhuhai,珠海博物馆与城市规划展览馆",
-      "displayName": "珠海博物馆与城市规划展览馆",
-      "description": "珠海博物馆与城市规划展览馆展示了珠海丰富的历史文化与城市发展蓝图。场馆位于情侣路附近，以现代化建筑和多媒体展览闻名，涵盖海洋文化、本地民俗以及城市建设等内容，让游客深入了解珠海的过去、现在与未来。",
-      "sourceRoute": "路线-20",
-      "markerDistanceMeters": 1.13,
-      "portals": [
-        {
-          "order": 1,
-          "guid": "9145ba65e6f241f4aae16809ab7f3edc.16",
-          "title": "珠海博物馆",
-          "lat": 22.295589,
-          "lng": 113.57264,
-          "imageUrl": "https://lh3.googleusercontent.com/v4uleHKnYHEY7aZIFLb9B0j-ZJ2MZ4FTjMbF5Incvg9OPDDefs8kOtdcmmiS3HqPh8Ti8oe7F6D2j-OznEFQoK0Ato_JeA4-SuMRiwQqL-Onow",
-          "isStartPoint": true,
-          "isOrnamented": false,
-          "objective": null
-        },
-        {
-          "order": 2,
-          "guid": "2f81fb8e85d133c68f97c5ac81232b9c.16",
-          "title": "石溪",
-          "lat": 22.296087,
-          "lng": 113.572067,
-          "imageUrl": "https://lh3.googleusercontent.com/BduR8Xz_WigM0cJgfrJJN3CalNDW6DcJ9jTdryMasFbqSY5OyW3ot5-Wop0ykl3Wm9YAnXtDLfz50LuaWQwmE8TbziK4-b2M6za54w3AAafc",
-          "isStartPoint": false,
-          "isOrnamented": false,
-          "objective": null
-        },
-        {
-          "order": 3,
-          "guid": "10a1447794df361696319d55f446e58c.16",
-          "title": "珠海规划展览馆",
-          "lat": 22.296524,
-          "lng": 113.572769,
-          "imageUrl": "https://lh3.googleusercontent.com/3fw565SC5WrXhcjkYPzwT_i3_E_7TtMRMpfUV2P1D0qvja0AWJeipzhKsT-EhIV42p4hew96UvLPvipu3_G4s2tdlHaEFTzVQJrRMujYx7k",
-          "isStartPoint": false,
-          "isOrnamented": false,
-          "objective": null
-        },
-        {
-          "order": 4,
-          "guid": "9d9a51e408193919ae60e68a0459a95f.16",
-          "title": "海天优和汇",
-          "lat": 22.297766,
-          "lng": 113.572929,
-          "imageUrl": "https://lh3.googleusercontent.com/1lrpstKovKmmGs-OPZ0EUVw84WCJm6dist_5QRftwkY69Dn4C02Ej13XKMxjEoUJO3B5vCxsB45Kntg_W6zWm5qKYUZ7T2c1QhhxX0zCJOaC",
-          "isStartPoint": false,
-          "isOrnamented": false,
-          "objective": null
-        },
-        {
-          "order": 5,
-          "guid": "edb9909673fe3fc297b15bbf5f76d8a8.16",
-          "title": "11 号香山云道",
-          "lat": 22.297483,
-          "lng": 113.572876,
-          "imageUrl": "https://lh3.googleusercontent.com/sU0gDO7eh1anwcvNdTp1NKWYMl2Tk7T0088eW7yFTSibUTrMW8fu27WIDSBwce44HqGHzyX99hgPoIcRCf7qeX0kPnei0pepktBU8pJXxuQ",
-          "isStartPoint": false,
-          "isOrnamented": false,
-          "objective": null
-        },
-        {
-          "order": 6,
-          "guid": "4f199e76b308321987567ff8b8c56347.16",
-          "title": "林桃湘潇",
-          "lat": 22.297285,
-          "lng": 113.571655,
-          "imageUrl": "https://lh3.googleusercontent.com/ZEhVf5SG_v7L0FfkTbt_iKUckaKCoRXRqlq0gC0sLMRCElUDK8tkj3v9d9iqLpPJSFOi8wK1TO7LbKk_R42rzuXtcjFvbCMc6M0lbvEyXuo",
-          "isStartPoint": false,
-          "isOrnamented": false,
-          "objective": null
-        },
-        {
-          "order": 7,
-          "guid": "cc9e521bd79b386697c85843ae41f83d.16",
-          "title": "超大喷泉",
-          "lat": 22.296625,
-          "lng": 113.571289,
-          "imageUrl": "https://lh3.googleusercontent.com/uSQGPepMEIrYZYl1nf6OXrn_SzwEylPWsJ8SAOIDS0ehsm8qibf5u7g3VDEsZ7A1oMIl0h_NPYbn7GPfs1RH5Tcrvp5U9lZEqjLiRHBdQeJP",
-          "isStartPoint": false,
-          "isOrnamented": false,
-          "objective": null
-        }
-      ],
-      "portalSource": "Reviewed IITC proximity export"
-    },
-    {
-      "order": 22,
-      "title": "MD 2026: Zhuhai, 海天公园",
-      "displayName": "海天公园",
-      "description": "海天公园坐落于情侣北路与梅华东路的交汇处，是珠海拥抱山海的又一张绿色名片。公园内最引人瞩目的是那片广阔的中央大草坪与倾泻而下的华南最大人造瀑布。温室植物馆、古树园散落其间，与不远处的海天驿站、日月贝隔海相望。在这里，城市繁华与山海景观达成了完美的和解，是市民周末露营、亲近自然的绝佳去处。",
-      "sourceRoute": "路线-22",
-      "markerDistanceMeters": 0.78,
-      "portals": [
-        {
-          "order": 1,
-          "guid": "9cb260df7ca84a9a828b5cc09f59106d.16",
-          "title": "海天公园",
-          "lat": 22.300708,
-          "lng": 113.573333,
-          "imageUrl": "https://lh3.googleusercontent.com/w-KWrgpOXo7ydgPS5ajzwwedQqDGK9esFR5SIGaVtBLEsYs7dbdMUs1AAZKS-GW5jdqWucHN3wubbzq_hiPIRH9xBN4c4Xtlc7oT9-5N_oQ",
-          "isStartPoint": true,
-          "isOrnamented": false,
-          "objective": null
-        },
-        {
-          "order": 2,
-          "guid": "d3b8959100693a48b6c9faffbc23435d.16",
-          "title": "香洲区全域旅游导览图",
-          "lat": 22.300888,
-          "lng": 113.573493,
-          "imageUrl": "https://lh3.googleusercontent.com/2VCNM2dALw0aLB2oNKDWLtkzLLh713OsmaEjHNXTaUnm1M7Xt-A11O4Q6l7PZ6Eyt6jJWANIdZCunESNaADBnyAD2s1-LpZl5y1jbU3wpFHQ",
-          "isStartPoint": false,
-          "isOrnamented": false,
-          "objective": null
-        },
-        {
-          "order": 3,
-          "guid": "f58982fd933e47b88e8a6a2fac79a887.16",
-          "title": "三个球",
-          "lat": 22.30132,
-          "lng": 113.573646,
-          "imageUrl": "https://lh3.googleusercontent.com/HrwVzEQbp-Wt7xG4oKaPauj5Rlp7OVhkGdHar3W4AKaJr2HXKazJyuquSaCT_dSM1qMSUB3k_ii2qSEe_iKOOsgbz9Ixm-6S1PDCY7lrBL2D",
-          "isStartPoint": false,
-          "isOrnamented": false,
-          "objective": null
-        },
-        {
-          "order": 4,
-          "guid": "69fd66da50313c42b00252cdf494dbe4.16",
-          "title": "捕魚铜像",
-          "lat": 22.301773,
-          "lng": 113.572891,
-          "imageUrl": "https://lh3.googleusercontent.com/ZJ1uCBbxSXEoLTv-UZ7tylE4ZwIsmSoJF-a2zCJRfckSp6R_6DUgm2cMRuz-SjigaWGcZUyBcEVuUiwtciJ0LM3ttr-iiOHe7Ep1lv4qQMBA",
-          "isStartPoint": false,
-          "isOrnamented": false,
-          "objective": null
-        },
-        {
-          "order": 5,
-          "guid": "edb70a471622478a89ba9fc926a96527.16",
-          "title": "海天公园喷泉",
-          "lat": 22.301618,
-          "lng": 113.573173,
-          "imageUrl": "https://lh3.googleusercontent.com/Nqpi3aq7IeaSMvnb2UC_XM3lF0j03ExVrfzdtXUVvPKzPAIileJQXIS58nmqyrGRB-7n_K1nIT9GXKD7HQSL6kgp8Lst4Z19TEoyE-Ir48s",
-          "isStartPoint": false,
-          "isOrnamented": false,
-          "objective": null
-        },
-        {
-          "order": 6,
-          "guid": "f65d2db9fdbc43db83f3600826920193.16",
-          "title": "打渔归来",
-          "lat": 22.301944,
-          "lng": 113.573181,
-          "imageUrl": "https://lh3.googleusercontent.com/H_NUKmKnPnu5sA1orsb1JrdBYd-SN5qgcdRAGC8wC4L7G1gTNrJh3S8m_qhTbdDwNFZq6rMdYabAsxOgk-uT3fqFq6G_fSltK7TiNL-i7H8Psw",
-          "isStartPoint": false,
-          "isOrnamented": false,
-          "objective": null
-        },
-        {
-          "order": 7,
-          "guid": "9afc7c04329842eb93853031b48492c4.16",
-          "title": "海蓝天蓝海天南 Nostalgic Blue",
-          "lat": 22.301708,
-          "lng": 113.573642,
-          "imageUrl": "https://lh3.googleusercontent.com/8QGGnzjI6KC1L6z3iSAbjInYc_bLYF8V2VH5k8Xg3kVoZxNZ3Hty407VqbU1a35FOdJe30FAdVfCNs4wafoVkVt2024mmyvcAHxuVRmiV3CXfw",
-          "isStartPoint": false,
-          "isOrnamented": false,
-          "objective": null
-        },
-        {
-          "order": 8,
-          "guid": "35809ada7f0b356c920ec3d0bb5a87b2.16",
-          "title": "生态家园 福",
-          "lat": 22.302364,
-          "lng": 113.573368,
-          "imageUrl": "https://lh3.googleusercontent.com/AxKsXvLCzYeCfbH4yYFCGuca6w-dx9hzRBJuv-4MW1Y35__8HNsYyMd771nZxmO1qWgLQ-5dVzYakb51pRRb6LAMi4PDszJTBWDSmxN42p1V",
-          "isStartPoint": false,
-          "isOrnamented": false,
-          "objective": null
-        },
-        {
-          "order": 9,
-          "guid": "c74f77edf25c4597a4c4924117e8dc43.16",
-          "title": "沙漠骆驼 Camel I Came",
-          "lat": 22.302134,
-          "lng": 113.573653,
-          "imageUrl": "https://lh3.googleusercontent.com/rMt9En8svq9j0oFUS9TdOX-Ba4kgiJGvmU05yg0yg36ygK7jP7cpHu294s5kMsE5w6adeHN2vzN8uMDSDi7HrQzbVFlmyLe__KnX4UlJHY8",
-          "isStartPoint": false,
-          "isOrnamented": false,
-          "objective": null
-        },
-        {
-          "order": 10,
-          "guid": "90b8df1e117f40b698b620247d3fa77b.16",
-          "title": "立体雕塑",
-          "lat": 22.302342,
-          "lng": 113.573943,
-          "imageUrl": "https://lh3.googleusercontent.com/hbdWTPqNBQ2nRQ_e3EODeMmqs0Q2W5mh90vWZfA9LnPJGfIM3P25tW9BOnVS3PQF1dudOT-GNVXCdFMTp2CCm0RM6R1TD2ThmIACD84C9mJTXw",
-          "isStartPoint": false,
-          "isOrnamented": false,
-          "objective": null
-        }
-      ],
-      "portalSource": "Reviewed IITC proximity export"
-    },
-    {
-      "order": 24,
-      "title": "MD 2026: Zhuhai, 淇澳岛",
-      "displayName": "淇澳岛",
-      "description": "淇澳岛位于珠海市东北部，通过淇澳大桥与市区相连，是一座兼具深厚历史底蕴与迷人海岛风光的生态之岛。岛上拥有大片茂密的红树林湿地保护区，白鹭飞掠，生机盎然。漫步在古朴的白石街上，两旁的青砖老屋诉说着当年岛上居民奋勇抵抗外敌的英雄历史。这里远离城市喧嚣，将自然生态与人文历史完美交融，是探寻珠海古村落文化与享受慢活时光的绝佳去处。",
-      "sourceRoute": "路线-24",
-      "markerDistanceMeters": 0.0,
-      "portals": [
-        {
-          "order": 1,
-          "guid": "27bd348cc5b14ed7a29a80083962ca29.16",
-          "title": "渔夫像",
-          "lat": 22.398824,
-          "lng": 113.644439,
-          "imageUrl": "https://lh3.googleusercontent.com/VMrJFgtkkGaY0RMLES-zsj6IFVcCRMjrDIg19ZTa8OdtWWfQJb5_rLIgtBlWFFWCqCRiHe8ZufoQY4bn7PvhQ1hKKYLYqYPVX62ijeC4x2t-",
-          "isStartPoint": true,
-          "isOrnamented": false,
-          "objective": null
-        },
-        {
-          "order": 2,
-          "guid": "91785eefa8b0428fb63b252e2b10645d.16",
-          "title": "高香炉",
-          "lat": 22.399694,
-          "lng": 113.644241,
-          "imageUrl": "https://lh3.googleusercontent.com/lizlxUMDyv8K4CYM4W_Yid5Q9tAavjJ4Xv1PTOBZUcdWY_q_IcGCRaB4ZHuvBpik2Nrd_q3P2f8ixRpcfhg0bIs2UCOwJxxIPk30C3MvwcZe",
-          "isStartPoint": false,
-          "isOrnamented": false,
-          "objective": null
-        },
-        {
-          "order": 3,
-          "guid": "1c23192aa8434e5ea9c2dea6f693e380.16",
-          "title": "啟航",
-          "lat": 22.400824,
-          "lng": 113.64615,
-          "imageUrl": "https://lh3.googleusercontent.com/HFU4NKfOu6b_xV7lyLhrb-Olg4UK9XpP91aCYJXV04nc2FQfwz5643HepPve0210lwSM1xuBwkVDxcDp0d7m8FlH6MlznG1pYNTc5q1nOwc",
-          "isStartPoint": false,
-          "isOrnamented": false,
-          "objective": null
-        },
-        {
-          "order": 4,
-          "guid": "bffbcdbefbf74feab2ea4386ff97fda1.16",
-          "title": "上帝之门",
-          "lat": 22.401308,
-          "lng": 113.646433,
-          "imageUrl": "https://lh3.googleusercontent.com/E7YJCXUljZuun04JeLOScMNrdac-8nA446NE5kZpJEylwEFKIalfLTrnqvp0nVuy_XCpAC_Flyae1AzGeLSkhGmqsL5aXo3CMmpe-izTHBR3",
-          "isStartPoint": false,
-          "isOrnamented": false,
-          "objective": null
-        },
-        {
-          "order": 5,
-          "guid": "281a1501e4aa425697ecf5d84844e63d.16",
-          "title": "大海的爱",
-          "lat": 22.400983,
-          "lng": 113.646515,
-          "imageUrl": "https://lh3.googleusercontent.com/KVsNeHBKu272EaE6xDLJK86Oo-rkS2GsM70BzEcd_3G0NZdqRCpTaBRC6dMSReeSGVp1ZmuUFOIGtYEK05KNOUltttSGu8KgphTH7nxTRb4j",
-          "isStartPoint": false,
-          "isOrnamented": false,
-          "objective": null
-        },
-        {
-          "order": 6,
-          "guid": "6f2ace7485414292869ed2e153f243b4.16",
-          "title": "爱情中转站",
-          "lat": 22.400708,
-          "lng": 113.646755,
-          "imageUrl": "https://lh3.googleusercontent.com/4Aw7gWW7NNnTzMDQ-x7XrDXl-8_6-Cqxgi3KAqmQbPUTqrxXdRy1tNRtlWSlQ0O9u4uJvOIM8EHJQrbJYR771uaDKgGS9Z4re7jtvUSd-sqs6g",
-          "isStartPoint": false,
-          "isOrnamented": false,
-          "objective": null
-        }
-      ],
-      "portalSource": "Reviewed IITC proximity export"
-    },
-    {
-      "order": 26,
-      "title": "MD 2026: Zhuhai, 情侣路",
-      "displayName": "情侣路",
-      "description": "情侣路是珠海最具代表性的海滨大道，全长28公里，沿着南海海岸线延伸，拥有迷人的海景、成排的棕榈树步道，以及轻松惬意的滨海氛围。这里因浪漫的景色与珠海渔女等地标而闻名，是珠海最受欢迎的城市名片之一。",
-      "sourceRoute": "路线-26",
-      "markerDistanceMeters": 5.2,
-      "portals": [
-        {
-          "order": 1,
-          "guid": "f32bb03030db33ec89739d1ce5813cf5.16",
-          "title": "社会主义核心价值观",
-          "lat": 22.272879,
-          "lng": 113.57682,
-          "imageUrl": "https://lh3.googleusercontent.com/NM-DNLH_KsP8PvWGrfDwm9huCFZJKPTZalQGiMr6Lq5gGMzR6uoUsQGgi8Eq4i_1WiEfrMenMP1E6wdPUVMNMQgOYMoUyPv1CPVnLztIjyAx",
-          "isStartPoint": true,
-          "isOrnamented": false,
-          "objective": null
-        },
-        {
-          "order": 2,
-          "guid": "cdae046cbab04657ac77aea1440589ac.16",
-          "title": "香炉湾严格保护岸段起点",
-          "lat": 22.273668,
-          "lng": 113.577247,
-          "imageUrl": "https://lh3.googleusercontent.com/RAbSl1MvMuxjcEU074QI6om93UengcS4zm4Kt0AueVXh3NYPolkxN_ekvYZhwBeQj_jPGBFmt6YvAAZBnnIATSjeP4YziB7aSq8wV6Yq3X4",
-          "isStartPoint": false,
-          "isOrnamented": false,
-          "objective": null
-        },
-        {
-          "order": 3,
-          "guid": "8cf6f3c6e94e308a810032391a3a4433.16",
-          "title": "观海小凉亭",
-          "lat": 22.273937,
-          "lng": 113.57689,
-          "imageUrl": "https://lh3.googleusercontent.com/qiVc5YsQ48IGzVynHoOhTdbISBZq0jixM3_LShkzjcEINunym_ao4EeLKW1Lg8y22xTRUiEGxQ6VdtSAeG63_8VF0O2b11BlORxcLXuBWmvOcw",
-          "isStartPoint": false,
-          "isOrnamented": false,
-          "objective": null
-        },
-        {
-          "order": 4,
-          "guid": "9a507ebab9504b2d9da9daeb8c7102ba.11",
-          "title": "Hug",
-          "lat": 22.275526,
-          "lng": 113.576847,
-          "imageUrl": "https://lh3.googleusercontent.com/O2J4oxvF4k4gMzXVcix7i7bwZEMmknqRx_90EEyizYHE1vBrbKMrJBaQQM0t_70VU0MkzXNKHhTTX443E241rflzG3cPwaF5RYYRX6AZu-COsQ",
-          "isStartPoint": false,
-          "isOrnamented": false,
-          "objective": null
-        },
-        {
-          "order": 5,
-          "guid": "a1a0883d90b84617b29e47c155e44e90.16",
-          "title": "志明与春娇",
-          "lat": 22.276024,
-          "lng": 113.576872,
-          "imageUrl": "https://lh3.googleusercontent.com/T2e2fnsDXpcpCNpRr6z039t72duiOSBxkAaalofAIS4Ukz5UtrvY1Z9SxvO8duj_Dv4JYrnE7svAI9bZkk-47w29GinEe3gc8ZI5FWG7kq0",
-          "isStartPoint": false,
-          "isOrnamented": false,
-          "objective": null
-        },
-        {
-          "order": 6,
-          "guid": "09a6d700eef74338b4a07ad9d58654cc.16",
-          "title": "春娇与志明",
-          "lat": 22.276443,
-          "lng": 113.576931,
-          "imageUrl": "https://lh3.googleusercontent.com/3AUrebJGHSBfKN1y1Qjepzqh9iG4hOCNdsjxszw6T8VRrSasFNcPDTqZq0egpshydE9roYhrpf2YLxoVVw7xT4BKFIW3hQRg_YpLuXIUK4zckQ",
-          "isStartPoint": false,
-          "isOrnamented": false,
-          "objective": null
-        },
-        {
-          "order": 7,
-          "guid": "be649ed4145f3281b7726ab63ab23122.16",
-          "title": "广东万里碧道（情侣路段）",
-          "lat": 22.276739,
-          "lng": 113.576959,
-          "imageUrl": "https://lh3.googleusercontent.com/_1VadkWXvLGEw61hgA0eQO-2hDn56RIT529zyKF57qoMaJDD9OrzZ-VU9SVfkWDdyqEjUgvWdkuOytumAxlRbLyeka79KBcaL5R6SO8PJGpK",
-          "isStartPoint": false,
-          "isOrnamented": false,
-          "objective": null
-        }
-      ],
-      "portalSource": "Reviewed IITC proximity export"
-    },
-    {
-      "order": 28,
-      "title": "MD 2026: Zhuhai, 拱北口岸",
-      "displayName": "拱北口岸",
-      "description": "拱北口岸位于珠海的最南端，是连接珠海与澳门最重要的陆路通道，也是中国出入境客流量最大的口岸之一。巨大的岭南风格建筑群与繁华的口岸广场交织，见证了每天数以万计的人流在双城之间往来穿梭。这里不仅是地理上的分界线，更是粤澳深度融合、文化交流与商贸往来的繁荣见证。",
-      "sourceRoute": "路线-28",
-      "markerDistanceMeters": 0.0,
-      "portals": [
-        {
-          "order": 1,
-          "guid": "822b19c01cf74bc8873c919c8b2e94e5.16",
-          "title": "吉祥三寶",
-          "lat": 22.221469,
-          "lng": 113.54811,
-          "imageUrl": "https://lh3.googleusercontent.com/YnrUPrVdI1cvM7enzLx-KE6XWlKm6EAoUKhbJXa2jSP-glC28xo422WOzQF-1cxt-gBC7Pz4pjBbQZ2rCSc5tNvDy9ZgA7YkKPO9Xx606ric",
-          "isStartPoint": true,
-          "isOrnamented": false,
-          "objective": null
-        },
-        {
-          "order": 2,
-          "guid": "fa8520063f17416089eea91f3ed814b2.16",
-          "title": "通大客运站",
-          "lat": 22.220935,
-          "lng": 113.547849,
-          "imageUrl": "https://lh3.googleusercontent.com/u4OAM9HstdO5gkeiwP9SYppQDXE8lg5B-yecEy1dWzQx3hSrKGC7Aa2bGYRLySfUFkoXePRRFvj5JL2aPJ1Xg-p4qHfoHWgPsMVznK1AOXk",
-          "isStartPoint": false,
-          "isOrnamented": false,
-          "objective": null
-        },
-        {
-          "order": 3,
-          "guid": "8ed2f12b28cd4573a49022c8d9454512.16",
-          "title": "拱北口岸喷泉瀑布",
-          "lat": 22.220586,
-          "lng": 113.548191,
-          "imageUrl": "https://lh3.googleusercontent.com/NTNLzdHlyqsbppO5beoqFCytnuiAgi3dcK4vQXPiO9XniPuAxQ7Qd6v69TEjARQrc4NxWDvRKztYcO4ZPPScEzJDqhVe-o1QkhcqFxtq2Ks",
-          "isStartPoint": false,
-          "isOrnamented": false,
-          "objective": null
-        },
-        {
-          "order": 4,
-          "guid": "9436994453324ea18205a0e0da55e141.16",
-          "title": "珠海經濟特區好",
-          "lat": 22.220632,
-          "lng": 113.548542,
-          "imageUrl": "https://lh3.googleusercontent.com/dh7GuNQ8_MCZxjQaQnAtotO__GVKdHO8EVrf-1x3u3DKo20tkBKZCscVzpHS8dL2_iEwiAzX1LOF-EQxnFdljWI2wriwYARAMjvxfmwbqxw",
-          "isStartPoint": false,
-          "isOrnamented": false,
-          "objective": null
-        },
-        {
-          "order": 5,
-          "guid": "5aef6870d59b4a239207dac57a377426.11",
-          "title": "拱北口岸",
-          "lat": 22.219633,
-          "lng": 113.548758,
-          "imageUrl": "https://lh3.googleusercontent.com/-jauydqJ8bPBdl0620ta_ZRc4wooMvEmB0Foa1_M9hwvgIvVJ4eESTpFkPaqrZHn2BoqxM1bEHnetXgMkaAniRtFvNqMb6ECt0NaBQVXub1v",
-          "isStartPoint": false,
-          "isOrnamented": false,
-          "objective": null
-        },
-        {
-          "order": 6,
-          "guid": "d0d244b8d6ac353da5ed75b1710ae4d8.16",
-          "title": "珠海歡迎你",
-          "lat": 22.219482,
-          "lng": 113.548446,
-          "imageUrl": "https://lh3.googleusercontent.com/MsofNlzE0qOkHd25Q7Tihn0DcGaFD5b_rnnTMYDiCQv3kYd83dO67KrhqFIIa4gMBUE7MO6AkNuB7xDHublgMr72iVrYFg3h-e8fh8IsGKpJ",
-          "isStartPoint": false,
-          "isOrnamented": false,
-          "objective": null
-        },
-        {
-          "order": 7,
-          "guid": "ba7490536a934a868fb2b874c772492b.16",
-          "title": "天梯",
-          "lat": 22.219203,
-          "lng": 113.548893,
-          "imageUrl": "https://lh3.googleusercontent.com/3Fn3T4Sf3gkhtWeCJMajaxbyn2KayhiBc_KHHgyX3frC2qgZsyu8ghtTWmRXFftvMatMU3aOHxuo8uPYtidU2IQsRoDf4a6UkzFfMwUY5J66",
-          "isStartPoint": false,
-          "isOrnamented": false,
-          "objective": null
-        }
-      ],
-      "portalSource": "Reviewed IITC proximity export"
-    },
-    {
-      "order": 29,
-      "title": "MD 2026: Zhuhai, 湾仔旅游码头",
-      "displayName": "湾仔旅游码头",
-      "description": "湾仔旅游码头是珠海最具特色的海上旅游门户，与澳门隔海相望，近在咫尺。作为“澳门环岛游”的起航点，这里见证了双城融合的独特视角。从这里登船出发，你可以近距离观赏澳门塔、大三巴及葡京酒店等标志性建筑，在海浪的起伏中，领略珠澳两地交相辉映的繁华胜景与别样风情。",
-      "sourceRoute": "路线-29",
-      "markerDistanceMeters": 0.0,
-      "portals": [
-        {
-          "order": 1,
-          "guid": "17bbd746c3e148dc84e47293a4bfbff0.16",
-          "title": "许愿树",
-          "lat": 22.194619,
-          "lng": 113.527796,
-          "imageUrl": "https://lh3.googleusercontent.com/_BQ88te7ZliyK-sLXns9cJVfmyZTHfwmpqR7SNaTZ5taCIS4Agjo08-l4-i9geW_PTpX61biIK0D_0oeDX8iMYBmuMEjwiqTw41bbijw3ryi",
-          "isStartPoint": true,
-          "isOrnamented": false,
-          "objective": null
-        },
-        {
-          "order": 2,
-          "guid": "41e1d9bb2e7d4e5c8803f29aa58657d8.16",
-          "title": "湾仔海鲜街",
-          "lat": 22.194533,
-          "lng": 113.527251,
-          "imageUrl": "https://lh3.googleusercontent.com/s6fyJKVj1KN0SZJyOTzP-gIJf_r6B1v7voh0XiHuzrr1PSTQ6CqQYRFlRzbCtUJesdPSPo-veKbvclBnM9b9PLDAPMdrYzoEBaCPGZXNhDGn",
-          "isStartPoint": false,
-          "isOrnamented": false,
-          "objective": null
-        },
-        {
-          "order": 3,
-          "guid": "cf31198b578f469abf83eb6bcabf4c86.16",
-          "title": "塔式喷水池",
-          "lat": 22.193128,
-          "lng": 113.527017,
-          "imageUrl": "https://lh3.googleusercontent.com/9qessVraFdSFp4hG-YYVZ6BisS7XVBLwoA-CgQK_XPFm2BfZYergO0ECGqGTEJPhn7t8IvRAdDa7cg7fGcvr5ZWnX2CeOTomLptPtcfYgp8z",
-          "isStartPoint": false,
-          "isOrnamented": false,
-          "objective": null
-        },
-        {
-          "order": 4,
-          "guid": "36d2a976d1e64f81aac0312b11f96b5b.16",
-          "title": "华发四季半岛喷水池",
-          "lat": 22.192559,
-          "lng": 113.526905,
-          "imageUrl": "https://lh3.googleusercontent.com/qlGt1euUB2DlS-a3AqesTHMwBDne_MQ7E9Uc6V5ug-XBUMlkwZDm5sejNJYhE7Lk2Px7tr3ylUisWJ_SS3RMd8qGoHqRyIC7Lyhwa2jQxryj",
-          "isStartPoint": false,
-          "isOrnamented": false,
-          "objective": null
-        },
-        {
-          "order": 5,
-          "guid": "1bbbb8d2e3c04f52a88f1acb35f9ae2a.16",
-          "title": "湾仔旅游码头",
-          "lat": 22.193239,
-          "lng": 113.5282,
-          "imageUrl": "https://lh3.googleusercontent.com/SGwaAHwyeCwI7TPQ5tDbQEUmhUfi2wCEGf1YCE77TjEcTQBP80h2t_nmSjfV8imxrCQvokRIEwz-p4wj5-dvc3a-amWbQKKvqrIFr-IDLdc",
-          "isStartPoint": false,
-          "isOrnamented": false,
-          "objective": null
-        },
-        {
-          "order": 6,
-          "guid": "6fdb857339d74acbbea91225bb3118a2.11",
-          "title": "Wanzai Tourist Port",
-          "lat": 22.193715,
-          "lng": 113.5283,
-          "imageUrl": "https://lh3.googleusercontent.com/7mOZUV_G7WpAWvwivCy_t4q-oL7iYREPkt9_n0MUKncVqNLfY0tGKoesF6fZQwaCh0sY8hmNnI8cYbZbg5Hcz4K_GZ0EhanLqVxq7WAS9NNJ",
-          "isStartPoint": false,
-          "isOrnamented": false,
-          "objective": null
-        }
-      ],
-      "portalSource": "Reviewed IITC proximity export"
-    },
-    {
-      "order": 32,
-      "title": "MD 2026: Zhuhai, 励骏庞都广场",
-      "displayName": "励骏庞都广场",
-      "description": "励骏庞都广场坐落于横琴口岸正对面，是一座充满异国情调的葡式风格建筑群。它由大师手笔设计，完美复刻了17世纪葡萄牙曼努埃尔风格的细腻与宏大。米黄色的外墙、精致的雕刻与雄伟的拱门，在夜幕低垂、华灯初上时，仿佛让人一瞬间穿越到了欧洲古堡。作为横琴的潮流地标，它不仅是极具张力的“出片圣地”，更是中西文化在粤澳深度合作区交融共生的华丽缩影。",
-      "sourceRoute": "路线-32",
-      "markerDistanceMeters": 0.52,
-      "portals": [
-        {
-          "order": 1,
-          "guid": "e67a68f298453fd4a75b0fd6800fb016.16",
-          "title": "励骏庞都东拱门",
-          "lat": 22.140445,
-          "lng": 113.538642,
-          "imageUrl": "https://lh3.googleusercontent.com/20TFR0UgzjItwt6W6zbPGfBsEoI_bhCw5wQENZVClYIYerdsZUiCjf0wVgECvtfpy-U8Q3_DiDZx4M0N7U5oyLlu-W7ITC37WMTfkKRLGQ-w",
-          "isStartPoint": true,
-          "isOrnamented": false,
-          "objective": null
-        },
-        {
-          "order": 2,
-          "guid": "202fa2f61f9c4d8296e7d8b426001446.16",
-          "title": "咯咯哒幸运鸡 Rooster of Barcelos",
-          "lat": 22.1405,
-          "lng": 113.538139,
-          "imageUrl": "https://lh3.googleusercontent.com/hmFRUSr-Ba9Qaw2oA6ek7Q994GWYQmdn7-6_u2X7Uue5kVRV6HBgZv4qXgzUsZx22Y_2jazmn7at-reVzCJgt-RnW2OPOJo6vnMQKTwP05D06g",
-          "isStartPoint": false,
-          "isOrnamented": false,
-          "objective": null
-        },
-        {
-          "order": 3,
-          "guid": "e30daa53fb1144ef8796a29e2af3b5a4.16",
-          "title": "龐都廣場",
-          "lat": 22.140731,
-          "lng": 113.537658,
-          "imageUrl": "https://lh3.googleusercontent.com/MJRx1VU-sZOQ4XIdQwVBJVkOapP7g5Inh21StX0qeLV22Jqe-1FmzxZrn3XRYWak0XG0be7raCK6fdpr484UuaK7ytTi-uuOwBKbYOvAiJ-o8g",
-          "isStartPoint": false,
-          "isOrnamented": false,
-          "objective": null
-        },
-        {
-          "order": 4,
-          "guid": "dcfa49afc22239559e0ab4204b4f3a5d.16",
-          "title": "层叠喷泉池",
-          "lat": 22.141552,
-          "lng": 113.537389,
-          "imageUrl": "https://lh3.googleusercontent.com/ElSKLRBURK_BWXgsWAPhutIvx3fGzIFWa0StWEY-Klk61HqR0Bj0xMSrHmaKa1IX1c0yeTDfSUhCH7Jb_d3IXKXFQCYlgV0eF5vjGonP2K0",
-          "isStartPoint": false,
-          "isOrnamented": false,
-          "objective": null
-        },
-        {
-          "order": 5,
-          "guid": "d27180aafd3033658eac3d33db49cf15.16",
-          "title": "励骏庞都西拱门",
-          "lat": 22.140754,
-          "lng": 113.536849,
-          "imageUrl": "https://lh3.googleusercontent.com/l_ULgdl_lFzUTJPkwL_tDb10GJdmCu9PyeE8ewgZ16PZvYYPVSN7rVFNBmvsIVjCYKocVkzKisQDVm4XvqWozavm-GA4W-3EcfeuZGleAjM",
-          "isStartPoint": false,
-          "isOrnamented": false,
-          "objective": null
-        },
-        {
-          "order": 6,
-          "guid": "56f563b365f0459792b0824edd7e1ba1.16",
-          "title": "马柱",
-          "lat": 22.139864,
-          "lng": 113.536581,
-          "imageUrl": "https://lh3.googleusercontent.com/nwCJWgxyFrWFkRsLppVd70wfhdiNrp0hDoSEFN0vM4GbLYItDpk0LmP4Fe0xOvxK0MMeYELjoujdN9DpCT4B6aDQtGa3lnr3WkuASr9OzoI",
-          "isStartPoint": false,
-          "isOrnamented": false,
-          "objective": null
-        }
-      ],
-      "portalSource": "Reviewed IITC proximity export"
-    },
-    {
-      "order": 35,
+      "order": 13,
       "title": "MD 2026: Zhuhai, 圆明新园",
       "displayName": "圆明新园",
       "description": "圆明新园以北京圆明园被焚毁前的建筑为蓝本，按 1:1 比例精选复建了四十景中的十八景。它将古典皇家建筑群、江南园林景观与西洋建筑风格完美融合。在这里，你可以漫步于红墙金瓦间，沉浸式感受清朝鼎盛时期的辉煌气象与历史余晖。",
-      "sourceRoute": "路线-35",
+      "sourceRoute": "路线--13",
+      "sourceRouteId": "646e7b22-a2d6-488a-9fb5-52cedcdda933",
       "markerDistanceMeters": 0.91,
       "portals": [
         {
@@ -1801,11 +1495,257 @@
       "portalSource": "Reviewed IITC proximity export"
     },
     {
-      "order": 36,
+      "order": 14,
+      "title": "MD 2026: Zhuhai, 拱北口岸",
+      "displayName": "拱北口岸",
+      "description": "拱北口岸位于珠海的最南端，是连接珠海与澳门最重要的陆路通道，也是中国出入境客流量最大的口岸之一。巨大的岭南风格建筑群与繁华的口岸广场交织，见证了每天数以万计的人流在双城之间往来穿梭。这里不仅是地理上的分界线，更是粤澳深度融合、文化交流与商贸往来的繁荣见证。",
+      "sourceRoute": "路线--14",
+      "sourceRouteId": "a828a235-a313-4a63-bdfc-35d00039121c",
+      "markerDistanceMeters": 0.0,
+      "portals": [
+        {
+          "order": 1,
+          "guid": "822b19c01cf74bc8873c919c8b2e94e5.16",
+          "title": "吉祥三寶",
+          "lat": 22.221469,
+          "lng": 113.54811,
+          "imageUrl": "https://lh3.googleusercontent.com/YnrUPrVdI1cvM7enzLx-KE6XWlKm6EAoUKhbJXa2jSP-glC28xo422WOzQF-1cxt-gBC7Pz4pjBbQZ2rCSc5tNvDy9ZgA7YkKPO9Xx606ric",
+          "isStartPoint": true,
+          "isOrnamented": false,
+          "objective": null
+        },
+        {
+          "order": 2,
+          "guid": "fa8520063f17416089eea91f3ed814b2.16",
+          "title": "通大客运站",
+          "lat": 22.220935,
+          "lng": 113.547849,
+          "imageUrl": "https://lh3.googleusercontent.com/u4OAM9HstdO5gkeiwP9SYppQDXE8lg5B-yecEy1dWzQx3hSrKGC7Aa2bGYRLySfUFkoXePRRFvj5JL2aPJ1Xg-p4qHfoHWgPsMVznK1AOXk",
+          "isStartPoint": false,
+          "isOrnamented": false,
+          "objective": null
+        },
+        {
+          "order": 3,
+          "guid": "8ed2f12b28cd4573a49022c8d9454512.16",
+          "title": "拱北口岸喷泉瀑布",
+          "lat": 22.220586,
+          "lng": 113.548191,
+          "imageUrl": "https://lh3.googleusercontent.com/NTNLzdHlyqsbppO5beoqFCytnuiAgi3dcK4vQXPiO9XniPuAxQ7Qd6v69TEjARQrc4NxWDvRKztYcO4ZPPScEzJDqhVe-o1QkhcqFxtq2Ks",
+          "isStartPoint": false,
+          "isOrnamented": false,
+          "objective": null
+        },
+        {
+          "order": 4,
+          "guid": "9436994453324ea18205a0e0da55e141.16",
+          "title": "珠海經濟特區好",
+          "lat": 22.220632,
+          "lng": 113.548542,
+          "imageUrl": "https://lh3.googleusercontent.com/dh7GuNQ8_MCZxjQaQnAtotO__GVKdHO8EVrf-1x3u3DKo20tkBKZCscVzpHS8dL2_iEwiAzX1LOF-EQxnFdljWI2wriwYARAMjvxfmwbqxw",
+          "isStartPoint": false,
+          "isOrnamented": false,
+          "objective": null
+        },
+        {
+          "order": 5,
+          "guid": "5aef6870d59b4a239207dac57a377426.11",
+          "title": "拱北口岸",
+          "lat": 22.219633,
+          "lng": 113.548758,
+          "imageUrl": "https://lh3.googleusercontent.com/-jauydqJ8bPBdl0620ta_ZRc4wooMvEmB0Foa1_M9hwvgIvVJ4eESTpFkPaqrZHn2BoqxM1bEHnetXgMkaAniRtFvNqMb6ECt0NaBQVXub1v",
+          "isStartPoint": false,
+          "isOrnamented": false,
+          "objective": null
+        },
+        {
+          "order": 6,
+          "guid": "d0d244b8d6ac353da5ed75b1710ae4d8.16",
+          "title": "珠海歡迎你",
+          "lat": 22.219482,
+          "lng": 113.548446,
+          "imageUrl": "https://lh3.googleusercontent.com/MsofNlzE0qOkHd25Q7Tihn0DcGaFD5b_rnnTMYDiCQv3kYd83dO67KrhqFIIa4gMBUE7MO6AkNuB7xDHublgMr72iVrYFg3h-e8fh8IsGKpJ",
+          "isStartPoint": false,
+          "isOrnamented": false,
+          "objective": null
+        },
+        {
+          "order": 7,
+          "guid": "ba7490536a934a868fb2b874c772492b.16",
+          "title": "天梯",
+          "lat": 22.219203,
+          "lng": 113.548893,
+          "imageUrl": "https://lh3.googleusercontent.com/3Fn3T4Sf3gkhtWeCJMajaxbyn2KayhiBc_KHHgyX3frC2qgZsyu8ghtTWmRXFftvMatMU3aOHxuo8uPYtidU2IQsRoDf4a6UkzFfMwUY5J66",
+          "isStartPoint": false,
+          "isOrnamented": false,
+          "objective": null
+        }
+      ],
+      "portalSource": "Reviewed IITC proximity export"
+    },
+    {
+      "order": 15,
+      "title": "MD 2026: Zhuhai, 湾仔旅游码头",
+      "displayName": "湾仔旅游码头",
+      "description": "湾仔旅游码头是珠海最具特色的海上旅游门户，与澳门隔海相望，近在咫尺。作为“澳门环岛游”的起航点，这里见证了双城融合的独特视角。从这里登船出发，你可以近距离观赏澳门塔、大三巴及葡京酒店等标志性建筑，在海浪的起伏中，领略珠澳两地交相辉映的繁华胜景与别样风情。",
+      "sourceRoute": "路线--15",
+      "sourceRouteId": "e4bfb6e3-7875-423b-941b-b26437828e46",
+      "markerDistanceMeters": 0.0,
+      "portals": [
+        {
+          "order": 1,
+          "guid": "17bbd746c3e148dc84e47293a4bfbff0.16",
+          "title": "许愿树",
+          "lat": 22.194619,
+          "lng": 113.527796,
+          "imageUrl": "https://lh3.googleusercontent.com/_BQ88te7ZliyK-sLXns9cJVfmyZTHfwmpqR7SNaTZ5taCIS4Agjo08-l4-i9geW_PTpX61biIK0D_0oeDX8iMYBmuMEjwiqTw41bbijw3ryi",
+          "isStartPoint": true,
+          "isOrnamented": false,
+          "objective": null
+        },
+        {
+          "order": 2,
+          "guid": "41e1d9bb2e7d4e5c8803f29aa58657d8.16",
+          "title": "湾仔海鲜街",
+          "lat": 22.194533,
+          "lng": 113.527251,
+          "imageUrl": "https://lh3.googleusercontent.com/s6fyJKVj1KN0SZJyOTzP-gIJf_r6B1v7voh0XiHuzrr1PSTQ6CqQYRFlRzbCtUJesdPSPo-veKbvclBnM9b9PLDAPMdrYzoEBaCPGZXNhDGn",
+          "isStartPoint": false,
+          "isOrnamented": false,
+          "objective": null
+        },
+        {
+          "order": 3,
+          "guid": "cf31198b578f469abf83eb6bcabf4c86.16",
+          "title": "塔式喷水池",
+          "lat": 22.193128,
+          "lng": 113.527017,
+          "imageUrl": "https://lh3.googleusercontent.com/9qessVraFdSFp4hG-YYVZ6BisS7XVBLwoA-CgQK_XPFm2BfZYergO0ECGqGTEJPhn7t8IvRAdDa7cg7fGcvr5ZWnX2CeOTomLptPtcfYgp8z",
+          "isStartPoint": false,
+          "isOrnamented": false,
+          "objective": null
+        },
+        {
+          "order": 4,
+          "guid": "36d2a976d1e64f81aac0312b11f96b5b.16",
+          "title": "华发四季半岛喷水池",
+          "lat": 22.192559,
+          "lng": 113.526905,
+          "imageUrl": "https://lh3.googleusercontent.com/qlGt1euUB2DlS-a3AqesTHMwBDne_MQ7E9Uc6V5ug-XBUMlkwZDm5sejNJYhE7Lk2Px7tr3ylUisWJ_SS3RMd8qGoHqRyIC7Lyhwa2jQxryj",
+          "isStartPoint": false,
+          "isOrnamented": false,
+          "objective": null
+        },
+        {
+          "order": 5,
+          "guid": "1bbbb8d2e3c04f52a88f1acb35f9ae2a.16",
+          "title": "湾仔旅游码头",
+          "lat": 22.193239,
+          "lng": 113.5282,
+          "imageUrl": "https://lh3.googleusercontent.com/SGwaAHwyeCwI7TPQ5tDbQEUmhUfi2wCEGf1YCE77TjEcTQBP80h2t_nmSjfV8imxrCQvokRIEwz-p4wj5-dvc3a-amWbQKKvqrIFr-IDLdc",
+          "isStartPoint": false,
+          "isOrnamented": false,
+          "objective": null
+        },
+        {
+          "order": 6,
+          "guid": "6fdb857339d74acbbea91225bb3118a2.11",
+          "title": "Wanzai Tourist Port",
+          "lat": 22.193715,
+          "lng": 113.5283,
+          "imageUrl": "https://lh3.googleusercontent.com/7mOZUV_G7WpAWvwivCy_t4q-oL7iYREPkt9_n0MUKncVqNLfY0tGKoesF6fZQwaCh0sY8hmNnI8cYbZbg5Hcz4K_GZ0EhanLqVxq7WAS9NNJ",
+          "isStartPoint": false,
+          "isOrnamented": false,
+          "objective": null
+        }
+      ],
+      "portalSource": "Reviewed IITC proximity export"
+    },
+    {
+      "order": 16,
+      "title": "MD 2026: Zhuhai, 励骏庞都广场",
+      "displayName": "励骏庞都广场",
+      "description": "励骏庞都广场坐落于横琴口岸正对面，是一座充满异国情调的葡式风格建筑群。它由大师手笔设计，完美复刻了17世纪葡萄牙曼努埃尔风格的细腻与宏大。米黄色的外墙、精致的雕刻与雄伟的拱门，在夜幕低垂、华灯初上时，仿佛让人一瞬间穿越到了欧洲古堡。作为横琴的潮流地标，它不仅是极具张力的“出片圣地”，更是中西文化在粤澳深度合作区交融共生的华丽缩影。",
+      "sourceRoute": "路线--16",
+      "sourceRouteId": "eac3896e-7ba7-4503-bc93-f0148413be80",
+      "markerDistanceMeters": 0.52,
+      "portals": [
+        {
+          "order": 1,
+          "guid": "e67a68f298453fd4a75b0fd6800fb016.16",
+          "title": "励骏庞都东拱门",
+          "lat": 22.140445,
+          "lng": 113.538642,
+          "imageUrl": "https://lh3.googleusercontent.com/20TFR0UgzjItwt6W6zbPGfBsEoI_bhCw5wQENZVClYIYerdsZUiCjf0wVgECvtfpy-U8Q3_DiDZx4M0N7U5oyLlu-W7ITC37WMTfkKRLGQ-w",
+          "isStartPoint": true,
+          "isOrnamented": false,
+          "objective": null
+        },
+        {
+          "order": 2,
+          "guid": "202fa2f61f9c4d8296e7d8b426001446.16",
+          "title": "咯咯哒幸运鸡 Rooster of Barcelos",
+          "lat": 22.1405,
+          "lng": 113.538139,
+          "imageUrl": "https://lh3.googleusercontent.com/hmFRUSr-Ba9Qaw2oA6ek7Q994GWYQmdn7-6_u2X7Uue5kVRV6HBgZv4qXgzUsZx22Y_2jazmn7at-reVzCJgt-RnW2OPOJo6vnMQKTwP05D06g",
+          "isStartPoint": false,
+          "isOrnamented": false,
+          "objective": null
+        },
+        {
+          "order": 3,
+          "guid": "e30daa53fb1144ef8796a29e2af3b5a4.16",
+          "title": "龐都廣場",
+          "lat": 22.140731,
+          "lng": 113.537658,
+          "imageUrl": "https://lh3.googleusercontent.com/MJRx1VU-sZOQ4XIdQwVBJVkOapP7g5Inh21StX0qeLV22Jqe-1FmzxZrn3XRYWak0XG0be7raCK6fdpr484UuaK7ytTi-uuOwBKbYOvAiJ-o8g",
+          "isStartPoint": false,
+          "isOrnamented": false,
+          "objective": null
+        },
+        {
+          "order": 4,
+          "guid": "dcfa49afc22239559e0ab4204b4f3a5d.16",
+          "title": "层叠喷泉池",
+          "lat": 22.141552,
+          "lng": 113.537389,
+          "imageUrl": "https://lh3.googleusercontent.com/ElSKLRBURK_BWXgsWAPhutIvx3fGzIFWa0StWEY-Klk61HqR0Bj0xMSrHmaKa1IX1c0yeTDfSUhCH7Jb_d3IXKXFQCYlgV0eF5vjGonP2K0",
+          "isStartPoint": false,
+          "isOrnamented": false,
+          "objective": null
+        },
+        {
+          "order": 5,
+          "guid": "d27180aafd3033658eac3d33db49cf15.16",
+          "title": "励骏庞都西拱门",
+          "lat": 22.140754,
+          "lng": 113.536849,
+          "imageUrl": "https://lh3.googleusercontent.com/l_ULgdl_lFzUTJPkwL_tDb10GJdmCu9PyeE8ewgZ16PZvYYPVSN7rVFNBmvsIVjCYKocVkzKisQDVm4XvqWozavm-GA4W-3EcfeuZGleAjM",
+          "isStartPoint": false,
+          "isOrnamented": false,
+          "objective": null
+        },
+        {
+          "order": 6,
+          "guid": "56f563b365f0459792b0824edd7e1ba1.16",
+          "title": "马柱",
+          "lat": 22.139864,
+          "lng": 113.536581,
+          "imageUrl": "https://lh3.googleusercontent.com/nwCJWgxyFrWFkRsLppVd70wfhdiNrp0hDoSEFN0vM4GbLYItDpk0LmP4Fe0xOvxK0MMeYELjoujdN9DpCT4B6aDQtGa3lnr3WkuASr9OzoI",
+          "isStartPoint": false,
+          "isOrnamented": false,
+          "objective": null
+        }
+      ],
+      "portalSource": "Reviewed IITC proximity export"
+    },
+    {
+      "order": 17,
       "title": "MD 2026: Zhuhai, 横琴芒洲湿地公园",
       "displayName": "横琴芒洲湿地公园",
       "description": "芒洲湿地公园坐落于横琴岛西北角，是喧嚣都市边缘的一片纯净原野。这里通过红树林修复与生态栖息地的营造，筑起了一座候鸟迁徙的“中转站”。漫步于蜿蜒的水上栈道，穿行在随风摇曳的芦苇荡间，你能近距离观察湿地生态的勃勃生机，在落日余晖中感受横琴岛人与自然和谐共生的宁静之美。",
-      "sourceRoute": "路线-36",
+      "sourceRoute": "路线--17",
+      "sourceRouteId": "a1b08744-a446-4c4d-94e2-992f8d038727",
       "markerDistanceMeters": 28.58,
       "portals": [
         {
@@ -1870,6 +1810,84 @@
           "lat": 22.16063,
           "lng": 113.438374,
           "imageUrl": "https://lh3.googleusercontent.com/UlyBOa6ZUHqqRnNIwMRs7KX7rAIwogaZLdX1AN1rx_KLf9ZoHbuvkgGmSbfDT8Pj2Vk85SGu-htIXzkJkVBfYrwzvNMPfCX9GekwPIZhjmIQ",
+          "isStartPoint": false,
+          "isOrnamented": false,
+          "objective": null
+        }
+      ],
+      "portalSource": "Reviewed IITC proximity export"
+    },
+    {
+      "order": 18,
+      "title": "MD 2026: Zhuhai, 淇澳岛",
+      "displayName": "淇澳岛",
+      "description": "淇澳岛位于珠海市东北部，通过淇澳大桥与市区相连，是一座兼具深厚历史底蕴与迷人海岛风光的生态之岛。岛上拥有大片茂密的红树林湿地保护区，白鹭飞掠，生机盎然。漫步在古朴的白石街上，两旁的青砖老屋诉说着当年岛上居民奋勇抵抗外敌的英雄历史。这里远离城市喧嚣，将自然生态与人文历史完美交融，是探寻珠海古村落文化与享受慢活时光的绝佳去处。",
+      "sourceRoute": "路线--18",
+      "sourceRouteId": "7bd6e8ce-60ec-4381-88ea-6f8b25542ef1",
+      "markerDistanceMeters": 0.0,
+      "portals": [
+        {
+          "order": 1,
+          "guid": "27bd348cc5b14ed7a29a80083962ca29.16",
+          "title": "渔夫像",
+          "lat": 22.398824,
+          "lng": 113.644439,
+          "imageUrl": "https://lh3.googleusercontent.com/VMrJFgtkkGaY0RMLES-zsj6IFVcCRMjrDIg19ZTa8OdtWWfQJb5_rLIgtBlWFFWCqCRiHe8ZufoQY4bn7PvhQ1hKKYLYqYPVX62ijeC4x2t-",
+          "isStartPoint": true,
+          "isOrnamented": false,
+          "objective": null
+        },
+        {
+          "order": 2,
+          "guid": "91785eefa8b0428fb63b252e2b10645d.16",
+          "title": "高香炉",
+          "lat": 22.399694,
+          "lng": 113.644241,
+          "imageUrl": "https://lh3.googleusercontent.com/lizlxUMDyv8K4CYM4W_Yid5Q9tAavjJ4Xv1PTOBZUcdWY_q_IcGCRaB4ZHuvBpik2Nrd_q3P2f8ixRpcfhg0bIs2UCOwJxxIPk30C3MvwcZe",
+          "isStartPoint": false,
+          "isOrnamented": false,
+          "objective": null
+        },
+        {
+          "order": 3,
+          "guid": "1c23192aa8434e5ea9c2dea6f693e380.16",
+          "title": "啟航",
+          "lat": 22.400824,
+          "lng": 113.64615,
+          "imageUrl": "https://lh3.googleusercontent.com/HFU4NKfOu6b_xV7lyLhrb-Olg4UK9XpP91aCYJXV04nc2FQfwz5643HepPve0210lwSM1xuBwkVDxcDp0d7m8FlH6MlznG1pYNTc5q1nOwc",
+          "isStartPoint": false,
+          "isOrnamented": false,
+          "objective": null
+        },
+        {
+          "order": 4,
+          "guid": "bffbcdbefbf74feab2ea4386ff97fda1.16",
+          "title": "上帝之门",
+          "lat": 22.401308,
+          "lng": 113.646433,
+          "imageUrl": "https://lh3.googleusercontent.com/E7YJCXUljZuun04JeLOScMNrdac-8nA446NE5kZpJEylwEFKIalfLTrnqvp0nVuy_XCpAC_Flyae1AzGeLSkhGmqsL5aXo3CMmpe-izTHBR3",
+          "isStartPoint": false,
+          "isOrnamented": false,
+          "objective": null
+        },
+        {
+          "order": 5,
+          "guid": "281a1501e4aa425697ecf5d84844e63d.16",
+          "title": "大海的爱",
+          "lat": 22.400983,
+          "lng": 113.646515,
+          "imageUrl": "https://lh3.googleusercontent.com/KVsNeHBKu272EaE6xDLJK86Oo-rkS2GsM70BzEcd_3G0NZdqRCpTaBRC6dMSReeSGVp1ZmuUFOIGtYEK05KNOUltttSGu8KgphTH7nxTRb4j",
+          "isStartPoint": false,
+          "isOrnamented": false,
+          "objective": null
+        },
+        {
+          "order": 6,
+          "guid": "6f2ace7485414292869ed2e153f243b4.16",
+          "title": "爱情中转站",
+          "lat": 22.400708,
+          "lng": 113.646755,
+          "imageUrl": "https://lh3.googleusercontent.com/4Aw7gWW7NNnTzMDQ-x7XrDXl-8_6-Cqxgi3KAqmQbPUTqrxXdRy1tNRtlWSlQ0O9u4uJvOIM8EHJQrbJYR771uaDKgGS9Z4re7jtvUSd-sqs6g",
           "isStartPoint": false,
           "isOrnamented": false,
           "objective": null
