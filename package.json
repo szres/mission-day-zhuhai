@@ -8,7 +8,7 @@
   "scripts": {
     "extract": "python3 scripts/import-kml.py",
     "checklist": "node scripts/generate-checklist.mjs",
-    "build": "npm run extract && npm run checklist && npm run plugin",
+    "build": "npm run extract && npm run checklist && npm run plugin && node scripts/version-assets.mjs",
     "dev": "wrangler pages dev public",
     "deploy": "npm run build && wrangler pages deploy public --project-name=zhmd --branch=zhuhai-md",
     "test": "python3 -m unittest discover -s tests && node --test tests/*.test.cjs tests/*.test.mjs",

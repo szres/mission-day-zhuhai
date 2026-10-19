@@ -1,4 +1,4 @@
-import { createBuildingLayer } from './buildings.js';
+import { createBuildingLayer } from './buildings.js?v=8a1993eecf94';
 
 // Zhuhai Mission Day map: source KML routes rendered with Apple MapKit JS.
 
