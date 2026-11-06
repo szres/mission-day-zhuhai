@@ -33,7 +33,13 @@ def image_type(data):
 
 
 def main():
-    document = ET.fromstring(read_url(MAP_URL))
+    missions = json.loads((ROOT / 'public/missions.json').read_text())['missions']
+    links_path = ROOT / 'data/mission-links.json'
+    intel = {}
+    if links_path.exists():
+        intel = {m['sourceRouteId']: m for m in json.loads(links_path.read_text())['missions']}
+    needs_map = any(not intel.get(m['sourceRouteId'], {}).get('imageUrl') for m in missions)
+    document = ET.fromstring(read_url(MAP_URL)) if needs_map else ET.Element('kml')
     markers, routes = [], {}
     for pm in document.findall('.//k:Placemark', NS):
         value = pm.findtext('k:Point/k:coordinates', default='', namespaces=NS).strip()
@@ -45,11 +51,6 @@ def main():
         if value:
             ident = pm.findtext('k:ExtendedData/k:Data[@name="id"]/k:value', namespaces=NS).strip()
             routes[ident] = [tuple(map(float, point.split(',')[:2])) for point in value]
-    missions = json.loads((ROOT / 'public/missions.json').read_text())['missions']
-    links_path = ROOT / 'data/mission-links.json'
-    intel = {}
-    if links_path.exists():
-        intel = {m['sourceRouteId']: m for m in json.loads(links_path.read_text())['missions']}
     folder = ROOT / 'public/mission-images'
     folder.mkdir(exist_ok=True)
     assets = {}
@@ -76,10 +77,7 @@ def main():
         print(f'#{mission["order"]} {mission["displayName"]}: {len(data)} bytes ({source})', flush=True)
     manifest = {'refreshedAt': datetime.datetime.now(datetime.timezone.utc).isoformat(), 'images': assets}
     (ROOT / 'data/mission-assets.json').write_text(json.dumps(manifest, ensure_ascii=False, indent=2)+'\n')
-    referenced = {Path(a['path']).name for a in assets.values()}
-    for old in folder.iterdir():
-        if old.name not in referenced and old.suffix in ('.png', '.jpg', '.webp'):
-            old.unlink()
+    # Keep previous content-addressed files available for pages open during deployment.
     print(f'Cached {len(assets)} mission images locally.')
 
 

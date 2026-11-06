@@ -1,131 +1,131 @@
 {
-  "refreshedAt": "2026-11-06T08:07:32.561218+00:00",
+  "refreshedAt": "2026-11-06T08:23:04.794290+00:00",
   "images": {
     "16cdbb21-7be2-4ca9-a4b4-42d57e743838": {
-      "path": "/mission-images/16cdbb21-7be2-4ca9-a4b4-42d57e743838-ae1af8196a75.png",
-      "sourceType": "google-mymaps",
+      "path": "/mission-images/16cdbb21-7be2-4ca9-a4b4-42d57e743838-244f4ce4631c.png",
+      "sourceType": "intel",
       "contentType": "image/png",
-      "bytes": 344135,
-      "sha256": "ae1af8196a7555a691b9850ab51541e8a350a517741eb70819dcae84619e9ae8"
+      "bytes": 353384,
+      "sha256": "244f4ce4631c95357e5484de6d7982bc8514802b241690cfa7561d6454b6445f"
     },
     "97b56aea-d28f-4bf1-a903-b5a399135e93": {
-      "path": "/mission-images/97b56aea-d28f-4bf1-a903-b5a399135e93-e60f57870ac0.png",
-      "sourceType": "google-mymaps",
+      "path": "/mission-images/97b56aea-d28f-4bf1-a903-b5a399135e93-4cd9f88775a5.png",
+      "sourceType": "intel",
       "contentType": "image/png",
-      "bytes": 255805,
-      "sha256": "e60f57870ac0b8cf1dc438f7d4891082b50cbd3df4a8b2b26052d0848483b7be"
+      "bytes": 298499,
+      "sha256": "4cd9f88775a53fcc95904de335552c4f270d3f8d8416ac20e7601200869a7897"
     },
     "5611eab5-68e3-418f-88e1-c7b690efd9a2": {
-      "path": "/mission-images/5611eab5-68e3-418f-88e1-c7b690efd9a2-7aad3428af1b.png",
-      "sourceType": "google-mymaps",
+      "path": "/mission-images/5611eab5-68e3-418f-88e1-c7b690efd9a2-c3f86a2fed48.png",
+      "sourceType": "intel",
       "contentType": "image/png",
-      "bytes": 270953,
-      "sha256": "7aad3428af1b4893efb103509e642c9b9ce7fe8158789a3a15cf1dede002c70a"
+      "bytes": 273002,
+      "sha256": "c3f86a2fed488967841fa6fd5496d15e31bc620122b8c072f8c556c7c2bf17dc"
     },
     "94e60ac4-65e5-42ed-93c0-9507a9cf05cc": {
-      "path": "/mission-images/94e60ac4-65e5-42ed-93c0-9507a9cf05cc-e803edaa5393.png",
-      "sourceType": "google-mymaps",
+      "path": "/mission-images/94e60ac4-65e5-42ed-93c0-9507a9cf05cc-8770f16ae863.png",
+      "sourceType": "intel",
       "contentType": "image/png",
-      "bytes": 410043,
-      "sha256": "e803edaa5393bd4e92d3e2a70d1909024daad50897a9d8ef8d918affe8d0c55c"
+      "bytes": 467560,
+      "sha256": "8770f16ae8631aed9e5b4e52579402533ae19b3a7f464e38e180922a379c3fdf"
     },
     "b965e996-2a32-4b39-b467-e56e74c8bff5": {
-      "path": "/mission-images/b965e996-2a32-4b39-b467-e56e74c8bff5-d80dfd0586ac.png",
-      "sourceType": "google-mymaps",
+      "path": "/mission-images/b965e996-2a32-4b39-b467-e56e74c8bff5-a0271839d597.png",
+      "sourceType": "intel",
       "contentType": "image/png",
-      "bytes": 422900,
-      "sha256": "d80dfd0586aca877173f7f3d4070bcdbffa66033e07d6dfddc6f6362c4ea6d01"
+      "bytes": 429479,
+      "sha256": "a0271839d597bf40f03f9d49ca045d64a0b64c9cde680f172a9037e9b36083c1"
     },
     "55b4eccb-5d3e-4dfb-bbdd-21ef54f4ea35": {
-      "path": "/mission-images/55b4eccb-5d3e-4dfb-bbdd-21ef54f4ea35-38eb684cfe88.png",
-      "sourceType": "google-mymaps",
+      "path": "/mission-images/55b4eccb-5d3e-4dfb-bbdd-21ef54f4ea35-21c89d6f19af.png",
+      "sourceType": "intel",
       "contentType": "image/png",
-      "bytes": 293585,
-      "sha256": "38eb684cfe88c29036a361958d81d78f7a4aef3aea1115c64eda7b4612ace6a9"
+      "bytes": 302880,
+      "sha256": "21c89d6f19afc544d152a1cbfc824dd309ffec39a9992d92ef7ae3d6f3f31c77"
     },
     "1fe9a709-56a1-49d1-a155-eda3be519208": {
-      "path": "/mission-images/1fe9a709-56a1-49d1-a155-eda3be519208-ada4a0c30aec.png",
-      "sourceType": "google-mymaps",
+      "path": "/mission-images/1fe9a709-56a1-49d1-a155-eda3be519208-3500503f8ec1.png",
+      "sourceType": "intel",
       "contentType": "image/png",
-      "bytes": 290167,
-      "sha256": "ada4a0c30aecfc0c6b0bf998bcc828f68fc9a800e44bd2cc044a5b2cececdcde"
+      "bytes": 302521,
+      "sha256": "3500503f8ec1ad039e4a26f91c95f22f962b536ea19c4845befe3726941cba65"
     },
     "1f43fa1f-eb78-4e15-992a-17b9098313f0": {
-      "path": "/mission-images/1f43fa1f-eb78-4e15-992a-17b9098313f0-e4ffa5663273.png",
-      "sourceType": "google-mymaps",
+      "path": "/mission-images/1f43fa1f-eb78-4e15-992a-17b9098313f0-e1eb55a35e07.png",
+      "sourceType": "intel",
       "contentType": "image/png",
-      "bytes": 428525,
-      "sha256": "e4ffa5663273a0e11cd810a13f28b4a23386dd65a438c87e5da0a5540e17ebc4"
+      "bytes": 491131,
+      "sha256": "e1eb55a35e07aaf0b1ac2a09e4c6f95b1e3ee6467c85dad907d3289cedccccc5"
     },
     "3f26bb6a-dadc-49ea-afe5-d07346ccdc27": {
-      "path": "/mission-images/3f26bb6a-dadc-49ea-afe5-d07346ccdc27-5a22e40cbbac.png",
-      "sourceType": "google-mymaps",
+      "path": "/mission-images/3f26bb6a-dadc-49ea-afe5-d07346ccdc27-bd1793c64a7a.png",
+      "sourceType": "intel",
       "contentType": "image/png",
-      "bytes": 302681,
-      "sha256": "5a22e40cbbacea1f32a8d5e5a7cb55b561a98ea4f2a0f0adfad7e936ab06626c"
+      "bytes": 317786,
+      "sha256": "bd1793c64a7a08711826b2bd402ab81c84efa516ba44f31add79ad2b73d286e5"
     },
     "e4ab30b6-727c-4c00-b6b1-ab06b279627f": {
-      "path": "/mission-images/e4ab30b6-727c-4c00-b6b1-ab06b279627f-50874c12eb10.png",
-      "sourceType": "google-mymaps",
+      "path": "/mission-images/e4ab30b6-727c-4c00-b6b1-ab06b279627f-cd848f989292.png",
+      "sourceType": "intel",
       "contentType": "image/png",
-      "bytes": 367083,
-      "sha256": "50874c12eb1069f705b2315380aabed0453b52447172e443c8dadb3a59c75f1f"
+      "bytes": 375789,
+      "sha256": "cd848f989292694c98dc85b32def5d0ed3d2f89f5ae62347af185eb9bbc88d6f"
     },
     "8b88989b-a1cc-4070-b5fc-a151e32bfb38": {
-      "path": "/mission-images/8b88989b-a1cc-4070-b5fc-a151e32bfb38-0e82bc15dd21.png",
-      "sourceType": "google-mymaps",
+      "path": "/mission-images/8b88989b-a1cc-4070-b5fc-a151e32bfb38-49b504085bd2.png",
+      "sourceType": "intel",
       "contentType": "image/png",
-      "bytes": 278829,
-      "sha256": "0e82bc15dd21aa27172f104cd3426ee8b573a7dcec8022b0135e55376f80faf3"
+      "bytes": 322585,
+      "sha256": "49b504085bd222be82a27fe217934788b36860ea6859ad17cb2c4d2a50d37992"
     },
     "4d3bbd7d-5d0d-42e5-aa9d-4c98952bbc22": {
-      "path": "/mission-images/4d3bbd7d-5d0d-42e5-aa9d-4c98952bbc22-c4c1328387a6.png",
-      "sourceType": "google-mymaps",
+      "path": "/mission-images/4d3bbd7d-5d0d-42e5-aa9d-4c98952bbc22-362db7146c51.png",
+      "sourceType": "intel",
       "contentType": "image/png",
-      "bytes": 400567,
-      "sha256": "c4c1328387a60d1c331749ced4a40e3897ea41ccb92ef811f6824ed17bb89ba8"
+      "bytes": 409726,
+      "sha256": "362db7146c51f2b87d97a60d4d8e7f8ae2f6bb789362896888f916ceb4a41aab"
     },
     "646e7b22-a2d6-488a-9fb5-52cedcdda933": {
-      "path": "/mission-images/646e7b22-a2d6-488a-9fb5-52cedcdda933-23d9519c0398.png",
-      "sourceType": "google-mymaps",
+      "path": "/mission-images/646e7b22-a2d6-488a-9fb5-52cedcdda933-f2aa5776555e.png",
+      "sourceType": "intel",
       "contentType": "image/png",
-      "bytes": 445157,
-      "sha256": "23d9519c039816248cbe97a6d82f96ddbfc5d041f398c2afc6e2a74ea0594e87"
+      "bytes": 451633,
+      "sha256": "f2aa5776555ef19a4d6ff8b9948e53d4215c6641db395b72954c30845cc5a0fc"
     },
     "a828a235-a313-4a63-bdfc-35d00039121c": {
-      "path": "/mission-images/a828a235-a313-4a63-bdfc-35d00039121c-c45975557c33.png",
-      "sourceType": "google-mymaps",
+      "path": "/mission-images/a828a235-a313-4a63-bdfc-35d00039121c-131745f5dd29.png",
+      "sourceType": "intel",
       "contentType": "image/png",
-      "bytes": 320909,
-      "sha256": "c45975557c33e169ae7fef33d2e0e5747c50f897cee278cb53870b6239382906"
+      "bytes": 373568,
+      "sha256": "131745f5dd29cdb798ef7662c2c70561d4b7694fae0ba197e3ace118b4c71147"
     },
     "e4bfb6e3-7875-423b-941b-b26437828e46": {
-      "path": "/mission-images/e4bfb6e3-7875-423b-941b-b26437828e46-1b680e680c13.png",
-      "sourceType": "google-mymaps",
+      "path": "/mission-images/e4bfb6e3-7875-423b-941b-b26437828e46-cfe804fba990.png",
+      "sourceType": "intel",
       "contentType": "image/png",
-      "bytes": 343927,
-      "sha256": "1b680e680c13c0324396c0e66ed0d5d28c9750ae8340d334bbe56dec4d6af86b"
+      "bytes": 394386,
+      "sha256": "cfe804fba99071197d80fa07c5af0f30d80dddb648ac37189b96f3970deef932"
     },
     "eac3896e-7ba7-4503-bc93-f0148413be80": {
-      "path": "/mission-images/eac3896e-7ba7-4503-bc93-f0148413be80-cac6a31414b4.png",
-      "sourceType": "google-mymaps",
+      "path": "/mission-images/eac3896e-7ba7-4503-bc93-f0148413be80-8c7ed599de8f.png",
+      "sourceType": "intel",
       "contentType": "image/png",
-      "bytes": 403465,
-      "sha256": "cac6a31414b4ed10912754db1eb7820b3540c33523a7520e33898b1a4b2aa10f"
+      "bytes": 412403,
+      "sha256": "8c7ed599de8f9848d860a24bd7c4a03cd4ec533f602b93a262810794ea67d9b0"
     },
     "a1b08744-a446-4c4d-94e2-992f8d038727": {
-      "path": "/mission-images/a1b08744-a446-4c4d-94e2-992f8d038727-e9433be42c1b.png",
-      "sourceType": "google-mymaps",
+      "path": "/mission-images/a1b08744-a446-4c4d-94e2-992f8d038727-399faf1e306b.png",
+      "sourceType": "intel",
       "contentType": "image/png",
-      "bytes": 365089,
-      "sha256": "e9433be42c1b0c4805b6843126cb1305f0fa03b56359298b1e3bdc937dd5074a"
+      "bytes": 420710,
+      "sha256": "399faf1e306b93a6c7ccb43ab81fe59fd37e13535eef7c8d8029785dfb382ffb"
     },
     "7bd6e8ce-60ec-4381-88ea-6f8b25542ef1": {
-      "path": "/mission-images/7bd6e8ce-60ec-4381-88ea-6f8b25542ef1-cfa2256bbf98.png",
-      "sourceType": "google-mymaps",
+      "path": "/mission-images/7bd6e8ce-60ec-4381-88ea-6f8b25542ef1-d3d157f10a70.png",
+      "sourceType": "intel",
       "contentType": "image/png",
-      "bytes": 434767,
-      "sha256": "cfa2256bbf98883acdaa3fedf457680a26d506569e0c2163e88329e971d30477"
+      "bytes": 439945,
+      "sha256": "d3d157f10a707f6e929be920c6f8a71f6cf035f685c8f39280c3dcd636823b23"
     }
   }
 }
