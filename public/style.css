@@ -430,7 +430,7 @@ body {
 .blog-pin:hover { filter: brightness(1.08); }
 .blog-pin:active{ transform: translateY(1px); }
 
-/* ---------- Welcome modal ---------- */
+/* ---------- Coordinate chooser modal ---------- */
 body.modal-open { overflow: hidden; }
 .modal {
   position: fixed; inset: 0;

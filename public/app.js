@@ -1,4 +1,4 @@
-import { createBuildingLayer } from './buildings.js?v=0a81bc29205f';
+import { createBuildingLayer } from './buildings.js?v=a9746b0a1dff';
 
 // Zhuhai Mission Day map: source KML routes rendered with Apple MapKit JS.
 
@@ -21,18 +21,12 @@ const I18N = {
     collapseAria: 'Collapse panel to see the map',
     expandAria: 'Expand panel to see the mission details',
     showAll: 'Show all routes',
-    showWelcome: 'ℹ︎ About this event',
-    showWelcomeAria: 'About this event',
-    welcomeAria: 'Welcome',
     buildingsLabel: 'Raised buildings',
     buildingPreviewLabel: 'BUILDING PREVIEW',
-    welcomeTitle: 'Welcome to Zhuhai Mission Day 2026',
-    welcomeLede: 'Explore the routes with reviewed portal names, photos and Ingress links. Original route numbers are preserved. These are nearby portal candidates, not a verified mission objective list.',
     bannerCaption: 'Official banner map · Operation Zhuhai · Ingress Mission Day 2026',
     contactSection: 'Channels & contact',
     blogsSection: 'Mission stories',
     travelSection: 'Travel & accommodation',
-    enterMap: 'Enter the map →',
     readBlog: '📖 Read mission blog ↗',
     openMissionIngress: '⬢ Open mission in Ingress ↗',
     detailHint: 'Tap any portal to plan walking directions in Apple Maps.',
@@ -71,18 +65,12 @@ const I18N = {
     collapseAria: '收起面板,显示完整地图',
     expandAria: '展开面板,查看任务详情',
     showAll: '显示完整路线',
-    showWelcome: 'ℹ︎ 活动信息',
-    showWelcomeAria: '查看活动信息',
-    welcomeAria: '欢迎页',
     buildingsLabel: '立体建筑',
     buildingPreviewLabel: '建筑预览',
-    welcomeTitle: '欢迎来到珠海任务日 2026',
-    welcomeLede: '已导入审核后的据点名称、图片与 Ingress 链接，保留原始路线编号。这些是路线附近的候选据点，并非已确认的任务目标列表。',
     bannerCaption: '官方拼图地图 · Operation Zhuhai · Ingress 任务日 2026',
     contactSection: '通讯与联系',
     blogsSection: '任务故事',
     travelSection: '交通与住宿',
-    enterMap: '进入地图 →',
     readBlog: '📖 阅读任务介绍 ↗',
     openMissionIngress: '⬢ 在 Ingress 中打开任务 ↗',
     footerHint: '点击任务查看路线，并在 Apple 地图中导航至单个据点。',
@@ -121,18 +109,12 @@ const I18N = {
     collapseAria: 'パネルを折りたたんでマップを表示',
     expandAria: 'パネルを展開してミッション詳細を表示',
     showAll: 'バナー全体を表示',
-    showWelcome: 'ℹ︎ イベント情報',
-    showWelcomeAria: 'イベント情報を表示',
-    welcomeAria: 'ようこそ',
     buildingsLabel: '立体建物',
     buildingPreviewLabel: '建物プレビュー',
-    welcomeTitle: 'Zhuhai ミッションデイ 2026 へようこそ',
-    welcomeLede: '確認済みのポータル名、写真、Ingress リンクを追加しました。元のルート番号を保持しています。ルート付近の候補であり、正式なミッション目標一覧ではありません。',
     bannerCaption: '公式バナーマップ · Operation Zhuhai · Ingress ミッションデイ 2026',
     contactSection: 'チャンネル・連絡先',
     blogsSection: 'ミッション解説',
     travelSection: '交通・宿泊',
-    enterMap: 'マップを開く →',
     readBlog: '📖 ミッション解説を読む ↗',
     openMissionIngress: '⬢ Ingress でミッションを開く ↗',
     footerHint: 'ミッションを選択し、各地点への徒歩ルートを Apple マップで開けます。',
@@ -215,11 +197,6 @@ const els = {
   openMissionIngress: document.getElementById('open-mission-ingress'),
   openBlog:    document.getElementById('open-blog'),
   detailPicture: document.getElementById('detail-picture'),
-  welcome:     document.getElementById('welcome'),
-  welcomeBlogs:document.getElementById('welcome-blogs'),
-  showWelcome: document.getElementById('show-welcome'),
-  welcomeEnter:document.getElementById('welcome-enter'),
-  welcomeClose:document.getElementById('welcome-close'),
   coordChooser:document.getElementById('coord-chooser'),
   coordTarget: document.getElementById('coord-chooser-target'),
   coordWgs84:  document.getElementById('coord-choose-wgs84'),
@@ -286,21 +263,6 @@ function bootstrapChrome() {
       if (btn.dataset.lang) setLang(btn.dataset.lang);
       return;
     }
-    if (target.closest('#show-welcome')) {
-      e.preventDefault();
-      openWelcome();
-      return;
-    }
-    if (target.closest('#welcome-close, #welcome-enter')) {
-      e.preventDefault();
-      closeWelcome();
-      return;
-    }
-    // Backdrop click on the modal itself (not its inner content)
-    if (target.id === 'welcome') {
-      closeWelcome();
-      return;
-    }
     // Mobile bottom-sheet collapse / expand
     if (target.closest('#detail-handle')) {
       e.preventDefault();
@@ -317,89 +279,8 @@ function bootstrapChrome() {
   document.addEventListener('keydown', e => {
     if (e.key !== 'Escape') return;
     if (els.coordChooser && !els.coordChooser.hidden) { closeCoordChooser(); return; }
-    if (els.welcome && !els.welcome.hidden) closeWelcome();
   });
 
-  // Auto-open on first visit
-  let seen = false;
-  try { seen = !!localStorage.getItem('welcomeSeen'); } catch {}
-  if (!seen) openWelcome();
-}
-
-function openWelcome() {
-  const w = els.welcome || document.getElementById('welcome');
-  if (!w) return;
-  renderWelcomeBlogs();
-  w.hidden = false;
-  document.body.classList.add('modal-open');
-}
-
-function closeWelcome() {
-  const w = els.welcome || document.getElementById('welcome');
-  if (!w) return;
-  w.hidden = true;
-  document.body.classList.remove('modal-open');
-  try { localStorage.setItem('welcomeSeen', '1'); } catch {}
-}
-
-function renderWelcomeBlogs() {
-  if (!els.welcomeBlogs) return;
-  els.welcomeBlogs.innerHTML = '';
-  const lang = state.lang === 'zh' ? 'zh' : 'en'; // JP falls back to EN
-  // Group blogs by url so two-mission posts render once
-  const seen = new Map();
-  for (const [order, blog] of Object.entries(state.blogs)) {
-    if (typeof blog !== 'object' || !blog) continue;
-    const url = blog[`url_${lang}`] || blog.url_en;
-    const title = blog[`title_${lang}`] || blog.title_en;
-    if (!url || !title) continue;
-    if (!seen.has(url)) seen.set(url, { title, orders: [], date: blog.date });
-    seen.get(url).orders.push(Number(order));
-  }
-  // Order by date (oldest first), then by first mission number.
-  const entries = [...seen.entries()].sort((a, b) => {
-    const da = a[1].date || '9999-99';
-    const db = b[1].date || '9999-99';
-    if (da !== db) return da < db ? -1 : 1;
-    return Math.min(...a[1].orders) - Math.min(...b[1].orders);
-  });
-  for (const [url, info] of entries) {
-    const li = document.createElement('li');
-    const ordersTxt = info.orders.sort((a,b)=>a-b).map(o => `#${o}`).join(' · ');
-    const dateBadge = info.date
-      ? `<span class="blog-date">${escapeHtml(formatBlogDate(info.date))}</span>`
-      : '';
-    li.innerHTML = `<a href="${url}" target="_blank" rel="noopener noreferrer">
-      <span class="blog-orders">${ordersTxt}</span>
-      <span class="blog-title">${escapeHtml(info.title)} ↗</span>
-      ${dateBadge}
-    </a>`;
-    els.welcomeBlogs.appendChild(li);
-  }
-  if (entries.length === 0) {
-    const li = document.createElement('li');
-    li.className = 'blog-empty';
-    li.textContent = '—';
-    els.welcomeBlogs.appendChild(li);
-  }
-}
-
-function formatBlogDate(iso) {
-  // "2026-03" or "2026-03-15" → localised "Mar 2026" / "2026 年 3 月" / "2026 年 3 月"
-  const m = /^(\d{4})-(\d{2})(?:-(\d{2}))?$/.exec(iso);
-  if (!m) return iso;
-  const year = m[1];
-  const month = parseInt(m[2], 10);
-  const day = m[3] ? parseInt(m[3], 10) : null;
-  const lang = state.lang;
-  if (lang === 'zh') {
-    return day ? `${year} 年 ${month} 月 ${day} 日` : `${year} 年 ${month} 月`;
-  }
-  if (lang === 'ja') {
-    return day ? `${year} 年 ${month} 月 ${day} 日` : `${year} 年 ${month} 月`;
-  }
-  const monthNames = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
-  return day ? `${monthNames[month - 1]} ${day}, ${year}` : `${monthNames[month - 1]} ${year}`;
 }
 
 function setLang(lang) {
@@ -460,7 +341,6 @@ async function bootstrap() {
   state.blogs = sanitizeBlogs(blogsRaw);
   state.ingressMissions = sanitizeIngressMissions(ingressRaw);
   state.missionPictures = sanitizeMissionPictures(picturesRaw);
-  renderWelcomeBlogs();
 
   els.setTitle.textContent = state.data.setName;
   applyI18n();  // refresh meta + title now that data is available

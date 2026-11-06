@@ -1,5 +1,5 @@
-import * as THREE from './vendor/three/three.module.min.js?v=0a81bc29205f';
-import { localFootprint } from './building-geometry.js?v=0a81bc29205f';
+import * as THREE from './vendor/three/three.module.min.js?v=a9746b0a1dff';
+import { localFootprint } from './building-geometry.js?v=a9746b0a1dff';
 
 export function createBuildingPreview(container, feature) {
   const renderer = new THREE.WebGLRenderer({ antialias: true, alpha: true });

@@ -25,11 +25,11 @@
   <meta name="twitter:title" content="MD 2026: Zhuhai — Mission Day Map">
   <meta name="twitter:description" content="Interactive map for Ingress Mission Day 2026 in Zhuhai: 18 mapped missions, 152 portal entries, source routes and Apple Maps directions.">
 
-  <link rel="stylesheet" href="/style.css?v=0a81bc29205f">
+  <link rel="stylesheet" href="/style.css?v=a9746b0a1dff">
   <!-- Load the proxy before MapKit; app.js registers its callback and loads the SDK. -->
-  <script src="/proxy-shim.js?v=0a81bc29205f"></script>
+  <script src="/proxy-shim.js?v=a9746b0a1dff"></script>
   <!-- Public origin-restricted FSMD token, served locally to avoid cross-site 403s. -->
-  <script src="/mapkit-config.js?v=0a81bc29205f"></script>
+  <script src="/mapkit-config.js?v=a9746b0a1dff"></script>
 </head>
 <body>
   <aside id="sidebar">
@@ -54,7 +54,6 @@
                 data-i18n-aria-label="viewGridAria" aria-label="Grid view"
                 title="Grid view">▦</button>
       </div>
-      <button id="show-welcome" type="button" class="link-btn" data-i18n="showWelcome" data-i18n-aria-label="showWelcomeAria" aria-label="About this event">ℹ︎ About this event</button>
     </div>
 
     <ol id="mission-list" data-i18n-aria-label="missionsAria" aria-label="Missions"></ol>
@@ -83,20 +82,6 @@
     <a id="building-source" target="_blank" rel="noopener noreferrer">© OpenStreetMap contributors ↗</a>
   </dialog>
 
-
-  <div id="welcome" class="modal" hidden aria-modal="true" role="dialog" data-i18n-aria-label="welcomeAria" aria-label="Welcome">
-    <div class="modal-inner">
-      <button type="button" id="welcome-close" class="modal-close" data-i18n-aria-label="closeAria" aria-label="Close">×</button>
-      <h2 id="welcome-title" data-i18n="welcomeTitle">Welcome to ZHMD 2026</h2>
-      <p class="welcome-lede" id="welcome-lede" data-i18n="welcomeLede">Explore the 18 missions supplied in the Zhuhai MD source map.</p>
-
-      <p>保留原始路线编号；据点名称、图片和 Ingress 链接来自审核后的 IITC 导出。</p>
-      <p><a href="https://www.google.com/maps/d/viewer?mid=1BAjsSWdPTIntEWA9bBxv_xc7ftd2tAg" target="_blank" rel="noopener noreferrer">珠海MD2026 · Google My Maps ↗</a></p>
-      <ul id="welcome-blogs" class="link-list" hidden></ul>
-      <button type="button" id="welcome-enter" class="btn-primary" data-i18n="enterMap">Enter the map →</button>
-      <p class="disclaimer" data-i18n="disclaimer">Built by Shenzhen RES (Resistance) agents as a third-party companion to Mission Day Zhuhai. Not an official site — not affiliated with or endorsed by Niantic or the ZHMD organisers.</p>
-    </div>
-  </div>
 
   <!-- Coordinate-system chooser. Shown when the user taps an Open-in-Apple-Maps
        button so they can pick between raw WGS-84 (correct globally, off in
@@ -150,6 +135,6 @@
     <ol id="detail-portals"></ol>
   </aside>
 
-  <script type="module" src="/app.js?v=0a81bc29205f"></script>
+  <script type="module" src="/app.js?v=a9746b0a1dff"></script>
 </body>
 </html>

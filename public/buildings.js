@@ -1,4 +1,4 @@
-import { buildingsInRegion, featurePolygons, raisedBuildingSurfaces } from './building-geometry.js?v=0a81bc29205f';
+import { buildingsInRegion, featurePolygons, raisedBuildingSurfaces } from './building-geometry.js?v=a9746b0a1dff';
 
 export async function createBuildingLayer(map, routeOverlays) {
   const toggle=document.getElementById('show-buildings');
@@ -60,7 +60,7 @@ export async function createBuildingLayer(map, routeOverlays) {
     const source=document.getElementById('building-source');source.href=`https://www.openstreetmap.org/${p.osmId}`;
     if(!dialog.open)dialog.showModal();
     try{
-      const {createBuildingPreview}=await import('./building-viewer.js?v=0a81bc29205f');
+      const {createBuildingPreview}=await import('./building-viewer.js?v=a9746b0a1dff');
       if(id!==requestId||!dialog.open)return;
       disposePreview=createBuildingPreview(viewport,feature);
     }catch{if(id===requestId&&dialog.open)viewport.textContent=t.preview;}
