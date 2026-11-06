@@ -34,3 +34,24 @@ Reviewed missions replace the numbered placeholder stops with real portal names,
 ## Development
 
 Edit `plugins/zhuhai-portal-exporter.template.js` and `plugins/route-portal-core.cjs`, then run `npm run build`. The generated installable userscript is committed for static hosting. `npm test` checks matching geometry and the website import. Browser interaction checks use mocked IITC APIs; an authenticated Intel session is needed for end-to-end map loading.
+
+## Mission deeplinks (v0.2.0)
+
+The **Mission deeplink / 任务链接** section works independently of portal scanning. The plugin embeds the website's known portal GUIDs, queries Intel for nearby missions and portal-associated missions, and reads actual mission GUIDs. It uses the IITC Missions plugin when enabled and otherwise calls the same authenticated Intel endpoints through IITC. Name matches are suggested only when unambiguous; review all assignments. Regional and portal lists can be limited by Intel and may omit missions.
+
+1. Update/install the userscript and reload Intel.
+2. Select a route or all routes, then click **查找 Mission / Find missions**.
+3. Review the mission title for each route. A mission link has the form `https://link.ingress.com/mission/<32-hex GUID>.1c`; portal GUIDs are never used as mission IDs.
+4. To specify a link manually, select one route, paste the deeplink, and click **读取链接到当前路线**. The plugin loads its real title and artwork from Intel before assigning it.
+5. Tick the review checkbox, then click **导出 Mission 链接**. The `mission-links.json` file contains stable route IDs, mission GUIDs, deeplinks, titles and image URLs. You may export a single route if not all routes are found. Assignments persist in this browser's local storage.
+
+Website import:
+
+```sh
+python3 scripts/import-mission-links.py /path/to/mission-links.json
+npm run mission-images
+npm run build
+npm test
+```
+
+The import merges partial exports by stable source route ID and rejects duplicate mission assignments, malformed links, and unreviewed data. Mission artwork is downloaded once and served locally. Downloaded image URLs are never treated as mission IDs. The plugin does not send exports to this website automatically.

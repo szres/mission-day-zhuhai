@@ -101,6 +101,42 @@ if overrides_path.exists():
         by_order[order]['portals'] = clean
         by_order[order]['portalSource'] = 'Reviewed IITC proximity export'
 
+# Optional official mission deeplinks exported by the IITC plugin.
+links = {}
+links_path = ROOT / 'data/mission-links.json'
+if links_path.exists():
+    imported = json.loads(links_path.read_text())
+    if imported.get('reviewed') is not True:
+        raise ValueError('Mission links must be reviewed before import')
+    by_id = {m['sourceRouteId']: m for m in missions}
+    seen_guids = set()
+    for item in imported.get('missions', []):
+        ident = item.get('sourceRouteId')
+        guid = item.get('missionGuid')
+        if ident not in by_id or not isinstance(guid, str) or not re.fullmatch(r'[0-9a-f]{32}\.1c', guid):
+            raise ValueError('Unknown source route or invalid mission GUID')
+        order = str(by_id[ident]['order'])
+        if order in links or guid in seen_guids:
+            raise ValueError('Duplicate route or mission GUID in mission links')
+        seen_guids.add(guid)
+        links[order] = 'https://link.ingress.com/mission/' + guid
+        image = item.get('imageUrl')
+        if image:
+            if not isinstance(image, str) or not image.startswith('https://lh3.googleusercontent.com/'):
+                raise ValueError('Unsupported mission image URL')
+            pictures[order] = image
+assets_path = ROOT / 'data/mission-assets.json'
+if assets_path.exists():
+    assets = json.loads(assets_path.read_text()).get('images', {})
+    for mission in missions:
+        asset = assets.get(mission['sourceRouteId'])
+        if asset:
+            path = asset.get('path', '')
+            if not re.fullmatch(r'/mission-images/[0-9a-f-]+\.(?:png|jpg|webp)', path) or not (ROOT / 'public' / path.lstrip('/')).is_file():
+                raise ValueError('Missing or invalid cached mission image')
+            pictures[str(mission['order'])] = path
+write('ingress-missions.json', links)
+
 points = [p for m in missions for p in m['portals']]
 if not all(math.isfinite(p['lat']) and math.isfinite(p['lng']) and 22 < p['lat'] < 23 and 113 < p['lng'] < 114 for p in points):
     raise ValueError('Invalid Zhuhai coordinates')

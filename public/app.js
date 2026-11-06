@@ -1,4 +1,4 @@
-import { createBuildingLayer } from './buildings.js?v=8a1993eecf94';
+import { createBuildingLayer } from './buildings.js?v=0a81bc29205f';
 
 // Zhuhai Mission Day map: source KML routes rendered with Apple MapKit JS.
 
@@ -530,7 +530,7 @@ function buildMissionGrid() {
     cell.setAttribute('aria-label', label);
     const picUrl = state.missionPictures[String(m.order)];
     const img = picUrl
-      ? `<img loading="lazy" src="${escapeAttr(picUrl)}" alt="">`
+      ? `<img loading="lazy" src="${escapeAttr(imageSource(picUrl))}" alt="">`
       : '';
     cell.innerHTML = img + `<span class="grid-label">#${m.order} · ${escapeHtml(missionLabel(m))}</span>`;
     cell.addEventListener('click', () => selectMission(m.order));
@@ -747,7 +747,7 @@ function showDetailPanel(mission) {
   // Mission image supplied by the public source map.
   const picUrl = state.missionPictures[String(mission.order)];
   if (picUrl && els.detailPicture) {
-    els.detailPicture.src = picUrl;
+    els.detailPicture.src = imageSource(picUrl);
     els.detailPicture.alt = missionFullName(mission);
     els.detailPicture.hidden = false;
   } else if (els.detailPicture) {
@@ -805,7 +805,7 @@ function showDetailPanel(mission) {
   for (const p of mission.portals) {
     const li = document.createElement('li');
     const img = p.imageUrl
-      ? `<img loading="lazy" src="${escapeAttr(p.imageUrl)}" alt="">`
+      ? `<img loading="lazy" src="${escapeAttr(imageSource(p.imageUrl))}" alt="">`
       : `<span></span>`;
     const mapsHref    = appleMapsPortalUrl(p);
     const ingressHref = ingressPortalUrl(p);
@@ -999,13 +999,17 @@ function sanitizeIngressMissions(raw) {
   return out;
 }
 
+function imageSource(url) {
+  return url.startsWith('/mission-images/') ? url : '/api/portal-image?u=' + encodeURIComponent(url);
+}
+
 function sanitizeMissionPictures(raw) {
   const out = {};
   if (!raw || typeof raw !== 'object') return out;
   for (const [k, v] of Object.entries(raw)) {
     if (k.startsWith('_')) continue;
     if (typeof v !== 'string') continue;
-    if (!/^https:\/\/lh3\.googleusercontent\.com\//.test(v)) continue;
+    if (!/^https:\/\/lh3\.googleusercontent\.com\//.test(v) && !/^\/mission-images\/[0-9a-f-]+\.(png|jpg|webp)$/.test(v)) continue;
     out[k] = v;
   }
   return out;

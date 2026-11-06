@@ -1,0 +1,131 @@
+{
+  "refreshedAt": "2026-11-06T08:07:32.561218+00:00",
+  "images": {
+    "16cdbb21-7be2-4ca9-a4b4-42d57e743838": {
+      "path": "/mission-images/16cdbb21-7be2-4ca9-a4b4-42d57e743838-ae1af8196a75.png",
+      "sourceType": "google-mymaps",
+      "contentType": "image/png",
+      "bytes": 344135,
+      "sha256": "ae1af8196a7555a691b9850ab51541e8a350a517741eb70819dcae84619e9ae8"
+    },
+    "97b56aea-d28f-4bf1-a903-b5a399135e93": {
+      "path": "/mission-images/97b56aea-d28f-4bf1-a903-b5a399135e93-e60f57870ac0.png",
+      "sourceType": "google-mymaps",
+      "contentType": "image/png",
+      "bytes": 255805,
+      "sha256": "e60f57870ac0b8cf1dc438f7d4891082b50cbd3df4a8b2b26052d0848483b7be"
+    },
+    "5611eab5-68e3-418f-88e1-c7b690efd9a2": {
+      "path": "/mission-images/5611eab5-68e3-418f-88e1-c7b690efd9a2-7aad3428af1b.png",
+      "sourceType": "google-mymaps",
+      "contentType": "image/png",
+      "bytes": 270953,
+      "sha256": "7aad3428af1b4893efb103509e642c9b9ce7fe8158789a3a15cf1dede002c70a"
+    },
+    "94e60ac4-65e5-42ed-93c0-9507a9cf05cc": {
+      "path": "/mission-images/94e60ac4-65e5-42ed-93c0-9507a9cf05cc-e803edaa5393.png",
+      "sourceType": "google-mymaps",
+      "contentType": "image/png",
+      "bytes": 410043,
+      "sha256": "e803edaa5393bd4e92d3e2a70d1909024daad50897a9d8ef8d918affe8d0c55c"
+    },
+    "b965e996-2a32-4b39-b467-e56e74c8bff5": {
+      "path": "/mission-images/b965e996-2a32-4b39-b467-e56e74c8bff5-d80dfd0586ac.png",
+      "sourceType": "google-mymaps",
+      "contentType": "image/png",
+      "bytes": 422900,
+      "sha256": "d80dfd0586aca877173f7f3d4070bcdbffa66033e07d6dfddc6f6362c4ea6d01"
+    },
+    "55b4eccb-5d3e-4dfb-bbdd-21ef54f4ea35": {
+      "path": "/mission-images/55b4eccb-5d3e-4dfb-bbdd-21ef54f4ea35-38eb684cfe88.png",
+      "sourceType": "google-mymaps",
+      "contentType": "image/png",
+      "bytes": 293585,
+      "sha256": "38eb684cfe88c29036a361958d81d78f7a4aef3aea1115c64eda7b4612ace6a9"
+    },
+    "1fe9a709-56a1-49d1-a155-eda3be519208": {
+      "path": "/mission-images/1fe9a709-56a1-49d1-a155-eda3be519208-ada4a0c30aec.png",
+      "sourceType": "google-mymaps",
+      "contentType": "image/png",
+      "bytes": 290167,
+      "sha256": "ada4a0c30aecfc0c6b0bf998bcc828f68fc9a800e44bd2cc044a5b2cececdcde"
+    },
+    "1f43fa1f-eb78-4e15-992a-17b9098313f0": {
+      "path": "/mission-images/1f43fa1f-eb78-4e15-992a-17b9098313f0-e4ffa5663273.png",
+      "sourceType": "google-mymaps",
+      "contentType": "image/png",
+      "bytes": 428525,
+      "sha256": "e4ffa5663273a0e11cd810a13f28b4a23386dd65a438c87e5da0a5540e17ebc4"
+    },
+    "3f26bb6a-dadc-49ea-afe5-d07346ccdc27": {
+      "path": "/mission-images/3f26bb6a-dadc-49ea-afe5-d07346ccdc27-5a22e40cbbac.png",
+      "sourceType": "google-mymaps",
+      "contentType": "image/png",
+      "bytes": 302681,
+      "sha256": "5a22e40cbbacea1f32a8d5e5a7cb55b561a98ea4f2a0f0adfad7e936ab06626c"
+    },
+    "e4ab30b6-727c-4c00-b6b1-ab06b279627f": {
+      "path": "/mission-images/e4ab30b6-727c-4c00-b6b1-ab06b279627f-50874c12eb10.png",
+      "sourceType": "google-mymaps",
+      "contentType": "image/png",
+      "bytes": 367083,
+      "sha256": "50874c12eb1069f705b2315380aabed0453b52447172e443c8dadb3a59c75f1f"
+    },
+    "8b88989b-a1cc-4070-b5fc-a151e32bfb38": {
+      "path": "/mission-images/8b88989b-a1cc-4070-b5fc-a151e32bfb38-0e82bc15dd21.png",
+      "sourceType": "google-mymaps",
+      "contentType": "image/png",
+      "bytes": 278829,
+      "sha256": "0e82bc15dd21aa27172f104cd3426ee8b573a7dcec8022b0135e55376f80faf3"
+    },
+    "4d3bbd7d-5d0d-42e5-aa9d-4c98952bbc22": {
+      "path": "/mission-images/4d3bbd7d-5d0d-42e5-aa9d-4c98952bbc22-c4c1328387a6.png",
+      "sourceType": "google-mymaps",
+      "contentType": "image/png",
+      "bytes": 400567,
+      "sha256": "c4c1328387a60d1c331749ced4a40e3897ea41ccb92ef811f6824ed17bb89ba8"
+    },
+    "646e7b22-a2d6-488a-9fb5-52cedcdda933": {
+      "path": "/mission-images/646e7b22-a2d6-488a-9fb5-52cedcdda933-23d9519c0398.png",
+      "sourceType": "google-mymaps",
+      "contentType": "image/png",
+      "bytes": 445157,
+      "sha256": "23d9519c039816248cbe97a6d82f96ddbfc5d041f398c2afc6e2a74ea0594e87"
+    },
+    "a828a235-a313-4a63-bdfc-35d00039121c": {
+      "path": "/mission-images/a828a235-a313-4a63-bdfc-35d00039121c-c45975557c33.png",
+      "sourceType": "google-mymaps",
+      "contentType": "image/png",
+      "bytes": 320909,
+      "sha256": "c45975557c33e169ae7fef33d2e0e5747c50f897cee278cb53870b6239382906"
+    },
+    "e4bfb6e3-7875-423b-941b-b26437828e46": {
+      "path": "/mission-images/e4bfb6e3-7875-423b-941b-b26437828e46-1b680e680c13.png",
+      "sourceType": "google-mymaps",
+      "contentType": "image/png",
+      "bytes": 343927,
+      "sha256": "1b680e680c13c0324396c0e66ed0d5d28c9750ae8340d334bbe56dec4d6af86b"
+    },
+    "eac3896e-7ba7-4503-bc93-f0148413be80": {
+      "path": "/mission-images/eac3896e-7ba7-4503-bc93-f0148413be80-cac6a31414b4.png",
+      "sourceType": "google-mymaps",
+      "contentType": "image/png",
+      "bytes": 403465,
+      "sha256": "cac6a31414b4ed10912754db1eb7820b3540c33523a7520e33898b1a4b2aa10f"
+    },
+    "a1b08744-a446-4c4d-94e2-992f8d038727": {
+      "path": "/mission-images/a1b08744-a446-4c4d-94e2-992f8d038727-e9433be42c1b.png",
+      "sourceType": "google-mymaps",
+      "contentType": "image/png",
+      "bytes": 365089,
+      "sha256": "e9433be42c1b0c4805b6843126cb1305f0fa03b56359298b1e3bdc937dd5074a"
+    },
+    "7bd6e8ce-60ec-4381-88ea-6f8b25542ef1": {
+      "path": "/mission-images/7bd6e8ce-60ec-4381-88ea-6f8b25542ef1-cfa2256bbf98.png",
+      "sourceType": "google-mymaps",
+      "contentType": "image/png",
+      "bytes": 434767,
+      "sha256": "cfa2256bbf98883acdaa3fedf457680a26d506569e0c2163e88329e971d30477"
+    }
+  }
+}

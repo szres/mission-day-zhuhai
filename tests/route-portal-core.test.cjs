@@ -27,3 +27,19 @@ test('IITC E6 coordinates, GUID, title and image normalize without coordinate co
   assert.equal(tools.portal('guid',{}),null);
   assert.equal(tools.exportPortal(portal('x',a.lat,a.lng),0).objective,null);
 });
+test('mission GUID parsing accepts mission links and rejects portal IDs or unrelated hosts', () => {
+  const guid='233a30e104d64df4b5293bab1e801408.1c';
+  assert.equal(tools.missionGuid('https://link.ingress.com/mission/'+guid),guid);
+  assert.equal(tools.missionGuid('https://intel.ingress.com/mission/'+guid+'?foo=bar'),guid);
+  assert.equal(tools.missionGuid(guid),guid);
+  assert.equal(tools.missionGuid('https://example.com/mission/'+guid),null);
+  assert.equal(tools.missionGuid('233a30e104d64df4b5293bab1e801408.16'),null);
+});
+test('mission candidates use actual titles and waypoint overlap without fabricating GUIDs', () => {
+  const route={displayName:'海滨泳场',portalGuids:['portal-a']};
+  const m=tools.missionInfo({guid:'233a30e104d64df4b5293bab1e801408.1c',title:'MD 2026: Zhuhai, 海滨泳场',image:'https://lh3.googleusercontent.com/x',waypoints:[{guid:'portal-a'}]});
+  assert.ok(m);assert.equal(m.imageUrl,'https://lh3.googleusercontent.com/x');
+  const choices=tools.missionChoices(route,[m,{guid:'other',title:'Other mission',portalGuids:[]}]);
+  assert.equal(choices.length,1);assert.equal(choices[0].nameMatch,true);assert.equal(choices[0].overlap,1);
+  assert.deepEqual(tools.missionInfo(m).portalGuids,['portal-a']);
+});

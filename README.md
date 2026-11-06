@@ -50,3 +50,9 @@ Frontend JS imports, the app entry point, and CSS are versioned together during 
 ## Corrected route order
 
 The updated Google map numbers the 18 routes consecutively. `data/route-order-migration.json` records the old-to-new mapping. All 152 reviewed portals retain their names, GUIDs, coordinates and within-route order. Portal overrides are now associated with the stable Google source route ID so future renumbering does not attach portals to the wrong mission. The original `data/ZH-MD.js` remains an archive of the user's initial export and retains its historical numbers; current website data comes from the migrated overrides and updated KML. IITC exporter 0.1.1 includes the corrected numbering and stable source route IDs.
+
+## Mission artwork reliability
+
+Mission artwork is cached as verified image files under `public/mission-images/`, with content hashes in the filenames. `data/mission-assets.json` maps the images to stable route IDs, so reordering missions does not change their artwork. The website serves these locally; visitors no longer request expiring Google My Maps `umsh` image URLs. `npm run mission-images` explicitly refreshes the files from a fresh Google map export, or from the official Intel image URL after mission links have been imported. Normal builds remain offline. Portal photos use the existing same-origin image proxy.
+
+The IITC exporter 0.2.0 also supports mission deeplink discovery, manual assignment of an existing `link.ingress.com/mission/… .1c` URL, and reviewed mission-link exports. See the plugin instructions above before importing the exported file with `scripts/import-mission-links.py`.

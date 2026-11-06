@@ -13,7 +13,8 @@
     "deploy": "npm run build && wrangler pages deploy public --project-name=zhmd --branch=zhuhai-md",
     "test": "python3 -m unittest discover -s tests && node --test tests/*.test.cjs tests/*.test.mjs",
     "plugin": "node scripts/build-plugin.mjs",
-    "osm": "python3 scripts/import-osm-buildings.py"
+    "osm": "python3 scripts/import-osm-buildings.py",
+    "mission-images": "python3 scripts/cache-mission-images.py"
   },
   "repository": {
     "type": "git",

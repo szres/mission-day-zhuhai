@@ -54,6 +54,31 @@ function createRoutePortalTools() {
     return { order: i+1, guid: p.guid, title: p.title, lat: p.lat, lng: p.lng,
       imageUrl: p.imageUrl || null, isStartPoint: i === 0, isOrnamented: false, objective: null };
   }
-  return { distance, project, corridor, stops, scanPoints, portal, exportPortal };
+  function missionGuid(value) {
+    if (typeof value !== 'string') return null;
+    const raw=value.trim().toLowerCase();
+    if (/^[0-9a-f]{32}\.1c$/.test(raw)) return raw;
+    try {
+      const url=new URL(raw);
+      if(url.protocol!=='https:'||!['link.ingress.com','intel.ingress.com','intel-x.ingress.com'].includes(url.hostname))return null;
+      return url.pathname.match(/^\/mission\/([0-9a-f]{32}\.1c)\/?$/)?.[1]||null;
+    }catch{return null;}
+  }
+  function missionInfo(raw) {
+    if (!raw || !missionGuid(raw.guid)) return null;
+    return { guid:missionGuid(raw.guid), title:typeof raw.title==='string'?raw.title:'',
+      imageUrl:typeof (raw.imageUrl||raw.image)==='string'&&(raw.imageUrl||raw.image).startsWith('https://lh3.googleusercontent.com/')?(raw.imageUrl||raw.image):null,
+      portalGuids:raw.waypoints?(raw.waypoints||[]).map(w=>w.guid||w.portal?.guid).filter(Boolean):(raw.portalGuids||[]).filter(g=>typeof g==='string') };
+  }
+  function missionChoices(route, missions) {
+    const normalize=s=>String(s||'').normalize('NFKC').toLowerCase().replace(/[\s,，:：·_—–-]/g,'');
+    const label=normalize(route.displayName), known=new Set(route.portalGuids||[]);
+    return missions.map(m=>{
+      const title=normalize(m.title),nameMatch=Boolean(label&&title.includes(label));
+      const overlap=(m.portalGuids||[]).filter(g=>known.has(g)).length;
+      return {...m,nameMatch,overlap,score:(nameMatch?100:0)+overlap*10};
+    }).filter(m=>m.nameMatch||m.overlap).sort((a,b)=>b.score-a.score||a.title.localeCompare(b.title)||a.guid.localeCompare(b.guid));
+  }
+  return { distance, project, corridor, stops, scanPoints, portal, exportPortal, missionGuid, missionInfo, missionChoices };
 }
 module.exports = createRoutePortalTools;

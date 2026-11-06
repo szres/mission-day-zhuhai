@@ -2,7 +2,7 @@
 // @id             iitc-plugin-zhuhai-route-portals@szres
 // @name           IITC plugin: Zhuhai MD route portal exporter
 // @namespace      https://github.com/szres/mission-day-zhuhai
-// @version        0.1.1
+// @version        0.2.0
 // @description    Collect and review portals along Zhuhai MD routes; export website and FSMD-style data.
 // @match          https://intel.ingress.com/*
 // @match          https://intel-x.ingress.com/*
@@ -21,6 +21,8 @@
     const plugin = window.plugin.zhuhaiRoutePortals = {};
     const cache = new Map();
     const selections = new Map();
+    const missionCache=new Map(),missionSelections=new Map();let missionReview;
+    try{const saved=JSON.parse(localStorage.getItem('zhmd-mission-links-v1')||'{}');for(const m of saved.missions||[])rememberMission(m);for(const [id,guid] of saved.selections||[])if(typeof id==='string'&&tools.missionGuid(guid))missionSelections.set(id,guid);}catch{}
     let panel, status, review, layer, running = false, cancelled = false, scan = null;
     const hooks = { add: (name, fn) => window.addHook(name, fn), remove: (name, fn) => window.removeHook(name, fn) };
     const map = () => window.map || window.IITC?.map?.instance;
@@ -104,7 +106,7 @@
         total += currentSelection(route).length;
       }
       message(`${cache.size} portals collected · ${total} selected · ${missing} empty corridors/stops. ${scan ? `Scan: ${scan.completed}/${scan.total}, ${scan.timeouts} timed out.` : 'Scan or pan at zoom 17+ to load portals.'}`);
-      draw();
+      draw();renderMissions();
     }
     function resetReviewed() { panel.querySelector('[name=reviewed]').checked = false; }
     async function refreshAt(point) {
@@ -188,6 +190,112 @@
         download('ZH-MD.js', `(() => {\n  const MDUMMJSON = ${JSON.stringify(data, null, 2)};\n})();\n`, 'text/javascript');
       } else download('portal-overrides.json', JSON.stringify({ ...report, missions }, null, 2));
     }
+    function rememberMission(raw) {
+      const mission=tools.missionInfo(raw);if(!mission)return;
+      const previous=missionCache.get(mission.guid);
+      missionCache.set(mission.guid,{...previous,...mission,
+        imageUrl:mission.imageUrl||previous?.imageUrl||null,
+        portalGuids:mission.portalGuids.length?mission.portalGuids:previous?.portalGuids||[]});
+    }
+    function persistMissions(){
+      try{localStorage.setItem('zhmd-mission-links-v1',JSON.stringify({missions:[...missionCache.values()],selections:[...missionSelections]}));}catch{}
+    }
+    function missionApi(method,args){
+      return new Promise((resolve,reject)=>{
+        let timer=setTimeout(()=>reject(new Error('Mission request timed out')),20000);
+        const done=value=>{clearTimeout(timer);resolve(value);};
+        const fail=()=>{clearTimeout(timer);reject(new Error('Intel could not load mission data. Check your login and retry.'));};
+        const api=window.plugin.missions;
+        if(api&&typeof api[method]==='function'){
+          try{api[method](...args,done,fail);}catch(e){clearTimeout(timer);reject(e);}return;
+        }
+        if(typeof window.postAjax!=='function'){clearTimeout(timer);reject(new Error('IITC mission API unavailable.'));return;}
+        let endpoint,payload;
+        if(method==='loadMission'){endpoint='getMissionDetails';payload={guid:args[0]};}
+        else if(method==='loadPortalMissions'){endpoint='getTopMissionsForPortal';payload={guid:args[0]};}
+        else {endpoint='getTopMissionsInBounds';const b=args[0];payload={northE6:Math.round(b.getNorth()*1e6),southE6:Math.round(b.getSouth()*1e6),westE6:Math.round(b.getWest()*1e6),eastE6:Math.round(b.getEast()*1e6)};}
+        try{window.postAjax(endpoint,payload,response=>{
+          if(!Array.isArray(response?.result)){fail();return;}
+          const data=response.result;
+          if(method==='loadMission')done({guid:data[0],title:data[1],image:data[10],waypoints:(data[9]||[]).map(w=>({guid:w[1]}))});
+          else done(data.map(m=>({guid:m[0],title:m[1],image:m[2]})));
+        },fail);}catch(e){clearTimeout(timer);reject(e);}
+      });
+    }
+    function chooseMission(route){
+      const selected=missionSelections.get(route.sourceRouteId);
+      return selected?missionCache.get(selected):null;
+    }
+    function suggestMission(route){
+      if(missionSelections.has(route.sourceRouteId))return;
+      const choices=tools.missionChoices(route,[...missionCache.values()]);
+      // Only unambiguous title matches are preselected; the user still reviews.
+      const named=choices.filter(m=>m.nameMatch);
+      if(named.length===1)missionSelections.set(route.sourceRouteId,named[0].guid);
+    }
+    function renderMissions(){
+      if(!missionReview)return;missionReview.replaceChildren();
+      for(const route of selectedRoutes()){
+        suggestMission(route);
+        const box=node('div',undefined,missionReview);node('strong',`#${route.order} · ${route.displayName}`,box);
+        const select=node('select',undefined,box);select.style.width='100%';select.dataset.routeId=route.sourceRouteId;
+        node('option','未匹配 / Unmatched',select).value='';
+        const choices=tools.missionChoices(route,[...missionCache.values()]);
+        const selected=chooseMission(route);
+        if(selected&&!choices.some(m=>m.guid===selected.guid))choices.unshift(selected);
+        for(const m of choices)node('option',`${m.title||m.guid}${m.overlap?` · ${m.overlap} shared portals`:''}`,select).value=m.guid;
+        select.value=selected?.guid||'';
+        select.onchange=()=>{missionSelections.set(route.sourceRouteId,select.value);resetReviewed();persistMissions();renderMissions();};
+        if(selected){const link=node('a',selected.title||selected.guid,box);link.href='https://link.ingress.com/mission/'+selected.guid;link.target='_blank';link.rel='noopener noreferrer';}
+      }
+    }
+    async function findMissions(){
+      if(running)return;running=true;cancelled=false;resetReviewed();let failed=0;
+      try{
+        for(const route of selectedRoutes()){
+          if(cancelled)break;
+          message(`查找 Mission #${route.order} · ${route.displayName}…`);
+          try{
+            const lat=route.points.map(p=>p.lat),lng=route.points.map(p=>p.lng);
+            const bounds={getNorth:()=>Math.max(...lat)+.001,getSouth:()=>Math.min(...lat)-.001,getWest:()=>Math.min(...lng)-.001,getEast:()=>Math.max(...lng)+.001};
+            // IITC's plugin expects a Leaflet bounds object when available.
+            const area=window.L?.latLngBounds?window.L.latLngBounds([bounds.getSouth(),bounds.getWest()],[bounds.getNorth(),bounds.getEast()]):bounds;
+            for(const m of await missionApi('loadMissionsInBounds',[area]))rememberMission(m);
+          }catch{failed++;}
+          suggestMission(route);
+          for(const guid of route.portalGuids||[]){
+            if(cancelled||chooseMission(route))break;
+            try{for(const m of await missionApi('loadPortalMissions',[guid]))rememberMission(m);}catch{failed++;}
+            suggestMission(route);await sleep(800);
+          }
+          const chosen=chooseMission(route);
+          if(chosen){try{rememberMission(await missionApi('loadMission',[chosen.guid]));}catch{failed++;}}
+          renderMissions();persistMissions();await sleep(1000);
+        }
+      }finally{running=false;renderMissions();message(`Mission 查找完成：${selectedRoutes().filter(chooseMission).length}/${selectedRoutes().length} 已匹配，${failed} 次请求失败。请核对任务标题后导出。`);}
+    }
+    async function attachMission(){
+      if(running)return;
+      const chosen=selectedRoutes();if(chosen.length!==1)throw new Error('请先在顶部选择一条路线，再粘贴任务链接。');
+      const guid=tools.missionGuid(panel.querySelector('[name=mission-link]').value);
+      if(!guid)throw new Error('请输入 https://link.ingress.com/mission/<GUID>.1c 格式的任务链接。');
+      running=true;resetReviewed();
+      try{rememberMission(await missionApi('loadMission',[guid]));if(!missionCache.has(guid))throw new Error('Invalid mission response');missionSelections.set(chosen[0].sourceRouteId,guid);persistMissions();renderMissions();message('任务链接已读取，请核对标题与路线。');}
+      finally{running=false;}
+    }
+    function exportMissionLinks(){
+      if(running)throw new Error('请等待采集完成或先停止。');
+      if(!panel.querySelector('[name=reviewed]').checked)throw new Error('请核对 Mission 匹配并勾选审核确认。');
+      const used=new Set();
+      const missions=selectedRoutes().map(route=>{
+        const m=chooseMission(route);if(!m)throw new Error(`路线 #${route.order} 尚未匹配 Mission。可以先选择单条路线导出。`);
+        if(used.has(m.guid))throw new Error('同一 Mission 被分配到多条路线，请重新核对。');used.add(m.guid);
+        return {order:route.order,sourceRouteId:route.sourceRouteId,displayName:route.displayName,
+          missionGuid:m.guid,missionUrl:'https://link.ingress.com/mission/'+m.guid,title:m.title,imageUrl:m.imageUrl};
+      });
+      download('mission-links.json',JSON.stringify({kind:'mission-links',reviewed:true,exportedAt:new Date().toISOString(),missions},null,2));
+    }
+
     function show() {
       if (panel) { panel.hidden = !panel.hidden; return; }
       panel = node('section', undefined, document.body); panel.id = 'zhmd-exporter';
@@ -210,10 +318,18 @@
       button('Load selected details', loadDetails, actions);
       button('Hide', () => { panel.hidden = true; }, actions);
       status = node('p', '', panel); status.setAttribute('role', 'status');
+      const missionSection=node('details',undefined,panel);missionSection.open=true;
+      node('summary','Mission deeplink / 任务链接',missionSection);
+      node('p','读取真实 Mission GUID；自动建议需核对。无需重新扫描 Portal。',missionSection);
+      button('查找 Mission / Find missions',findMissions,missionSection);
+      const missionInput=node('input',undefined,missionSection);missionInput.name='mission-link';missionInput.type='url';missionInput.placeholder='https://link.ingress.com/mission/… .1c';missionInput.style.width='95%';
+      button('读取链接到当前路线',attachMission,missionSection);
+      missionReview=node('div',undefined,missionSection);missionReview.className='zhmd-review';
+      button('导出 Mission 链接',exportMissionLinks,missionSection);
       review = node('div', undefined, panel); review.className = 'zhmd-review';
       const checked = node('label', undefined, panel);
       const checkbox = node('input', undefined, checked); checkbox.type = 'checkbox'; checkbox.name = 'reviewed';
-      checked.append(' I reviewed these candidate portals and their order.');
+      checked.append(' I reviewed the portal order and/or mission-link assignments. / 已核对据点顺序或任务链接。');
       const exports = node('div', undefined, panel);
       button('Export website overrides', () => exportData('website'), exports);
       button('Export FSMD-style JS', () => exportData('fsmd'), exports);
@@ -229,9 +345,12 @@
       }
       hooks.add('mapDataRefreshEnd', collect);
       hooks.add('portalDetailLoaded', event => { if (event.success && event.details) { const p = tools.portal(event.guid, event.details); if (p) cache.set(p.guid, p); } });
+      hooks.add('plugin-missions-loaded-mission',event=>{rememberMission(event.mission);if(panel)resetReviewed();persistMissions();renderMissions();});
+      hooks.add('plugin-missions-on-portal-loaded',event=>{for(const m of event.missions||[])rememberMission(m);if(panel)resetReviewed();renderMissions();});
+      const existing=window.plugin.missions?.cacheByMissionGuid||{};for(const item of Object.values(existing))if(item?.data)rememberMission(item.data);
       plugin.show = show; plugin.collect = collect; plugin.routes = routes;
     }
-    setup.info = { pluginId: 'zhuhai-route-portals', buildName: 'szres', dateTimeVersion: '20261018', script: { name: 'Zhuhai MD route portal exporter', version: '0.1.1', description: 'Review and export portals along Zhuhai MD routes.' } };
+    setup.info = { pluginId: 'zhuhai-route-portals', buildName: 'szres', dateTimeVersion: '20261106', script: { name: 'Zhuhai MD route portal exporter', version: '0.2.0', description: 'Review and export portals along Zhuhai MD routes.' } };
     (window.bootPlugins = window.bootPlugins || []).push(setup);
     if (window.iitcLoaded) setup();
   }
